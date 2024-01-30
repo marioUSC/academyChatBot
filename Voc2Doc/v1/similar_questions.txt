@@ -1,0 +1,15 @@
+Correct room to return the gateway <p>Hi, I&#39;m wondering if this is the correct place to return the gateway?</p>
+<p><img src="/redirect/s3?bucket=uploads&amp;prefix=paste%2Fky7yf4kejiayz%2F5915de890feef2d0c5e63d0df8a9bf94288bb0afd4be04a52321c2014dec95e0%2F2302af54634af427a94e47a9f260ece.jpg" alt="2302af54634af427a94e47a9f260ece.jpgNaN" height="480" /><br />Or if I want to return the gateway to the University, where do I go to?<br />Much appreciated!</p> The building should be PHE, but Professor Goodney seems not in his office this morning. You can try to return to CS front desk at SAL. But for returning at SAL, you may need to contact Professor Goodney first.
+
+
+==========
+Returning Gateway For returning the gateway, the professor said that we can drop it to another professor&#39;s office. May I ask where and when we can return the gateway? <md>Please send an email to the proefessor to ask about it.</md>
+
+
+==========
+How to submit the final project materials <p>For submitting the final project materials?</p>
+<p>for the node-red, can we export the entire flow in json format?</p>
+<p>for the AWS lambda function I think we can copy them to a py file, but what about the other AWS components such as the API Gateway and the DynamoDB setup? I am not sure how should we explain them in the readme file</p> <md>Please put as much as you can in your slides and video. Taking screenshots is enough.</md>
+
+
+==========

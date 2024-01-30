@@ -1,0 +1,29 @@
+Unable to connect to Node-RED <md>I have successfully installed Node-RED as a custom app on Gateway. However, I cannot reach port 1880 (port of Node-RED) on Gateway. I have been refreshing and waiting for half an hour. 
+
+![IMG_6902.PNG](/redirect/s3?bucket=uploads&prefix=paste%2Fl7dlqs1firl1vh%2Feacf41e9ad8e0d0833d3ad30bbc4e354a02452bb532be43e7eab66aa66486b4a%2FIMG_6902.PNG)
+
+Did anyone meet the same issue?
+
+Thank you fro your reply.</md> You might need to enable Node-red Setting Via LAN under Administration-&gt;Access Configuration.
+
+
+==========
+Dot-AT-Firmware Build Error <p>After we imported the Dot-AT-Firmware project, added the library to the project, and started to build the project, we encountered this problem:</p>
+<p><img src="/redirect/s3?bucket=uploads&amp;prefix=paste%2Fl7dlquwqoo2203%2F02dc27e875da788fa71ace065bc395e502a56193ab54170255821dbd3cd2048e%2Fimage.png" alt="image.pngNaN" /></p>
+<p>We have checked the mbed_app.json file and are not sure how we can address this problem. Could anyone help with this problem?</p>
+<p>Thanks for your help.</p> <p>Hi, we met this same problem as you mentioned. We solved it by doing the following:</p>
+<p>In step 14 of the instruction, when adding the library, use version 4.2.1 instead of choosing the master branch, because the master branch keeps changing.</p> <md>Nice try! We are just required to use the compiled AT firmware to do the lab, but it's a good experience to try to compile it by yourself.</md>
+
+
+==========
+Gateway Node-RED &#34;ENOENT, no such file or directory&#34; for AWS IoT certification file <md>Hi, has anyone encountered this kind of issue when sending data to AWS IoT Core via Node-RED on Gateway?
+![image.png](/redirect/s3?bucket=uploads&prefix=paste%2Fl7dlqs1firl1vh%2Fee8436231d406b4e8046d667933632720f98ab51b05078a61b415c82466efa1c%2Fimage.png)
+
+![image.png](/redirect/s3?bucket=uploads&prefix=paste%2Fl7dlqs1firl1vh%2F2b5160de83665e636955cf79c59e0b48f3f1952405e99f71bf47cbabec6ea048%2Fimage.png)
+
+The http request node in Node-RED cannot read my TLS certification files which I downloaded from AWS. I'm sure they exist in this path, but it just cannot read in. (I've tried changing the slash to '/' or '\\\\')
+
+Thanks for any help.</md> <md>You are able to ssh to the Gateway (where the NodeRed is running) from your laptop. Upload the certicicates to the Gateway and put the paths of the certificates uploaded to the Gateway instead.</md>
+
+
+==========
