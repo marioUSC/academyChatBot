@@ -1,0 +1,23 @@
+# e_TA backend
+## File sturcture
+
+backend/
+│
+├── env/                 # environment setting 
+│   ├──          
+│   ├── requirements.txt 
+│   └── ...              
+│
+├── controller/          
+│   ├── handleQuery.py   # call relative service 
+│   └── service/    
+│       ├── embedding/   # embedding model 
+│       │    ├── src/            # data needed for embedding model 
+│       │    ├── getAnswer.py    # get similar Q&A from database
+│       │    └── voc2Doc.py      # model training
+│       └── LLM/         # LLM API
+│            ├── gpt.py          # call GPT 
+│            └── llama2.py       # call llama2
+│
+├── app.py               # main file, run this to start server
+└── README.md
