@@ -1,0 +1,226 @@
+Traceback (most recent call last):
+  File "/home/mario/DirectResearch/backend/app.py", line 1, in <module>
+    from flask import Flask, request, jsonify
+ModuleNotFoundError: No module named 'flask'
+ * Serving Flask app 'app'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 127-802-004
+127.0.0.1 - - [09/Feb/2024 14:16:53] "POST /test HTTP/1.1" 200 -
+127.0.0.1 - - [09/Feb/2024 14:17:05] "POST /test HTTP/1.1" 200 -
+127.0.0.1 - - [09/Feb/2024 14:17:06] "POST /test HTTP/1.1" 200 -
+127.0.0.1 - - [09/Feb/2024 14:17:34] "POST /test HTTP/1.1" 200 -
+127.0.0.1 - - [09/Feb/2024 14:18:32] "[31m[1mPOST /test HTTP/1.1[0m" 400 -
+127.0.0.1 - - [09/Feb/2024 14:20:00] "[31m[1mPOST /test HTTP/1.1[0m" 400 -
+127.0.0.1 - - [09/Feb/2024 14:22:50] "POST /test HTTP/1.1" 200 -
+127.0.0.1 - - [09/Feb/2024 14:29:29] "[35m[1mPOST /ask HTTP/1.1[0m" 500 -
+Traceback (most recent call last):
+  File "/home/mario/miniconda3/envs/DirRes/lib/python3.12/site-packages/flask/app.py", line 2552, in __call__
+    return self.wsgi_app(environ, start_response)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mario/miniconda3/envs/DirRes/lib/python3.12/site-packages/flask/app.py", line 2532, in wsgi_app
+    response = self.handle_exception(e)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mario/miniconda3/envs/DirRes/lib/python3.12/site-packages/flask/app.py", line 2529, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mario/miniconda3/envs/DirRes/lib/python3.12/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mario/miniconda3/envs/DirRes/lib/python3.12/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mario/miniconda3/envs/DirRes/lib/python3.12/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mario/DirectResearch/backend/app.py", line 24, in answer_question
+    answer = handleQuery(question)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mario/DirectResearch/backend/controller/handleQuery.py", line 22, in handleQuery
+    result = query_GPT(final_prompt)
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mario/DirectResearch/backend/controller/service/LLM/gpt.py", line 5, in query_GPT
+    client = OpenAI()
+             ^^^^^^^^
+  File "/home/mario/miniconda3/envs/DirRes/lib/python3.12/site-packages/openai/_client.py", line 98, in __init__
+    raise OpenAIError(
+openai.OpenAIError: The api_key client option must be set either by passing api_key to the client or by setting the OPENAI_API_KEY environment variable
+127.0.0.1 - - [09/Feb/2024 14:33:56] "[35m[1mPOST /ask HTTP/1.1[0m" 500 -
+Traceback (most recent call last):
+  File "/home/mario/miniconda3/envs/DirRes/lib/python3.12/site-packages/flask/app.py", line 2552, in __call__
+    return self.wsgi_app(environ, start_response)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mario/miniconda3/envs/DirRes/lib/python3.12/site-packages/flask/app.py", line 2532, in wsgi_app
+    response = self.handle_exception(e)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mario/miniconda3/envs/DirRes/lib/python3.12/site-packages/flask/app.py", line 2529, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mario/miniconda3/envs/DirRes/lib/python3.12/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mario/miniconda3/envs/DirRes/lib/python3.12/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mario/miniconda3/envs/DirRes/lib/python3.12/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mario/DirectResearch/backend/app.py", line 24, in answer_question
+    answer = handleQuery(question)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mario/DirectResearch/backend/controller/handleQuery.py", line 22, in handleQuery
+    result = query_GPT(final_prompt)
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mario/DirectResearch/backend/controller/service/LLM/gpt.py", line 5, in query_GPT
+    client = OpenAI()
+             ^^^^^^^^
+  File "/home/mario/miniconda3/envs/DirRes/lib/python3.12/site-packages/openai/_client.py", line 98, in __init__
+    raise OpenAIError(
+openai.OpenAIError: The api_key client option must be set either by passing api_key to the client or by setting the OPENAI_API_KEY environment variable
+127.0.0.1 - - [09/Feb/2024 14:36:35] "[35m[1mPOST /ask HTTP/1.1[0m" 500 -
+Traceback (most recent call last):
+  File "/home/mario/miniconda3/envs/DirRes/lib/python3.12/site-packages/flask/app.py", line 2552, in __call__
+    return self.wsgi_app(environ, start_response)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mario/miniconda3/envs/DirRes/lib/python3.12/site-packages/flask/app.py", line 2532, in wsgi_app
+    response = self.handle_exception(e)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mario/miniconda3/envs/DirRes/lib/python3.12/site-packages/flask/app.py", line 2529, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mario/miniconda3/envs/DirRes/lib/python3.12/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mario/miniconda3/envs/DirRes/lib/python3.12/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mario/miniconda3/envs/DirRes/lib/python3.12/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mario/DirectResearch/backend/app.py", line 24, in answer_question
+    answer = handleQuery(question)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mario/DirectResearch/backend/controller/handleQuery.py", line 22, in handleQuery
+    result = query_GPT(final_prompt)
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mario/DirectResearch/backend/controller/service/LLM/gpt.py", line 5, in query_GPT
+    client = OpenAI()
+             ^^^^^^^^
+  File "/home/mario/miniconda3/envs/DirRes/lib/python3.12/site-packages/openai/_client.py", line 98, in __init__
+    raise OpenAIError(
+openai.OpenAIError: The api_key client option must be set either by passing api_key to the client or by setting the OPENAI_API_KEY environment variable
+127.0.0.1 - - [09/Feb/2024 14:36:40] "[35m[1mPOST /ask HTTP/1.1[0m" 500 -
+Traceback (most recent call last):
+  File "/home/mario/miniconda3/envs/DirRes/lib/python3.12/site-packages/flask/app.py", line 2552, in __call__
+    return self.wsgi_app(environ, start_response)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mario/miniconda3/envs/DirRes/lib/python3.12/site-packages/flask/app.py", line 2532, in wsgi_app
+    response = self.handle_exception(e)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mario/miniconda3/envs/DirRes/lib/python3.12/site-packages/flask/app.py", line 2529, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mario/miniconda3/envs/DirRes/lib/python3.12/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mario/miniconda3/envs/DirRes/lib/python3.12/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mario/miniconda3/envs/DirRes/lib/python3.12/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mario/DirectResearch/backend/app.py", line 24, in answer_question
+    answer = handleQuery(question)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mario/DirectResearch/backend/controller/handleQuery.py", line 22, in handleQuery
+    result = query_GPT(final_prompt)
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mario/DirectResearch/backend/controller/service/LLM/gpt.py", line 5, in query_GPT
+    client = OpenAI()
+             ^^^^^^^^
+  File "/home/mario/miniconda3/envs/DirRes/lib/python3.12/site-packages/openai/_client.py", line 98, in __init__
+    raise OpenAIError(
+openai.OpenAIError: The api_key client option must be set either by passing api_key to the client or by setting the OPENAI_API_KEY environment variable
+127.0.0.1 - - [09/Feb/2024 14:37:25] "[35m[1mPOST /ask HTTP/1.1[0m" 500 -
+Traceback (most recent call last):
+  File "/home/mario/miniconda3/envs/DirRes/lib/python3.12/site-packages/flask/app.py", line 2552, in __call__
+    return self.wsgi_app(environ, start_response)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mario/miniconda3/envs/DirRes/lib/python3.12/site-packages/flask/app.py", line 2532, in wsgi_app
+    response = self.handle_exception(e)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mario/miniconda3/envs/DirRes/lib/python3.12/site-packages/flask/app.py", line 2529, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mario/miniconda3/envs/DirRes/lib/python3.12/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mario/miniconda3/envs/DirRes/lib/python3.12/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mario/miniconda3/envs/DirRes/lib/python3.12/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mario/DirectResearch/backend/app.py", line 24, in answer_question
+    answer = handleQuery(question)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mario/DirectResearch/backend/controller/handleQuery.py", line 22, in handleQuery
+    result = query_GPT(final_prompt)
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mario/DirectResearch/backend/controller/service/LLM/gpt.py", line 5, in query_GPT
+    client = OpenAI()
+             ^^^^^^^^
+  File "/home/mario/miniconda3/envs/DirRes/lib/python3.12/site-packages/openai/_client.py", line 98, in __init__
+    raise OpenAIError(
+openai.OpenAIError: The api_key client option must be set either by passing api_key to the client or by setting the OPENAI_API_KEY environment variable
+127.0.0.1 - - [09/Feb/2024 16:14:31] "[33mGET / HTTP/1.1[0m" 404 -
+127.0.0.1 - - [09/Feb/2024 17:57:13] code 400, message Bad request version ('À\x14À')
+127.0.0.1 - - [09/Feb/2024 17:57:13] "[31m[1m\x16\x03\x01\x00{\x01\x00\x00w\x03\x03\x83ÉE\x07Ä\x1aÐ]\x83÷\x8c\x84\x1f\x02¦\x9dM3~-kB*ÀÊX\x14äÎ\x93s)\x00\x00\x1aÀ/À+À\x11À\x07À\x13À\x09À\x14À[0m" 400 -
+127.0.0.1 - - [09/Feb/2024 17:57:14] code 400, message Bad request version ('À\x14À')
+127.0.0.1 - - [09/Feb/2024 17:57:14] "[31m[1m\x16\x03\x01\x00{\x01\x00\x00w\x03\x03g\x98\x8d\x84Ú\x07\x1bº÷¹U¬\x9dýÕ]GÅ\x15í©\x1d8K±\x89ÛÎ\x0f\x882+\x00\x00\x1aÀ/À+À\x11À\x07À\x13À\x09À\x14À[0m" 400 -
+127.0.0.1 - - [09/Feb/2024 17:57:14] "[33mGET / HTTP/1.1[0m" 404 -
+127.0.0.1 - - [09/Feb/2024 19:17:09] "[33mGET /v2/ HTTP/1.1[0m" 404 -
+127.0.0.1 - - [10/Feb/2024 00:22:31] code 400, message Bad request version ('À\x14À')
+127.0.0.1 - - [10/Feb/2024 00:22:31] "[31m[1m\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03\x88·i\x04ù]\x8c±\x92\x7fÍH'ù\x91\x10¡\x95À\x1cD\x1d¼OË6T²ÝE¿l Õ¹ö\x17Ji¯ÅÙÖS@\x1ckÁ ¬\x1a,è\x02eð\x7f!ÉàS±}¶\x95\x00&Ì¨Ì©À/À0À+À,À\x13À\x09À\x14À[0m" 400 -
+127.0.0.1 - - [10/Feb/2024 00:22:34] "[33mGET / HTTP/1.1[0m" 404 -
+127.0.0.1 - - [10/Feb/2024 00:22:37] "[33mGET / HTTP/1.1[0m" 404 -
+127.0.0.1 - - [10/Feb/2024 00:22:38] code 505, message Invalid HTTP version (2.0)
+127.0.0.1 - - [10/Feb/2024 00:22:38] "[35m[1mPRI * HTTP/2.0[0m" 505 -
+127.0.0.1 - - [10/Feb/2024 08:39:38] code 400, message Bad request version ('À\x14À')
+127.0.0.1 - - [10/Feb/2024 08:39:38] "[31m[1m\x16\x03\x01\x00{\x01\x00\x00w\x03\x03Ä9y\x88ºQV\x80®\x99>Î\\o\x0d\x9fR\x86Ñ\x90\x92ì\x97\x95}²ìá¬>­\x81\x00\x00\x1aÀ/À+À\x11À\x07À\x13À\x09À\x14À[0m" 400 -
+127.0.0.1 - - [10/Feb/2024 08:39:38] code 400, message Bad request version ('À\x14À')
+127.0.0.1 - - [10/Feb/2024 08:39:38] "[31m[1m\x16\x03\x01\x00{\x01\x00\x00w\x03\x03"5lG=\x90x\x19§2¯HØ7Ö=×t\x97\x8e\x1c-"êÐl\x7f¿,\x0cº\x02\x00\x00\x1aÀ/À+À\x11À\x07À\x13À\x09À\x14À[0m" 400 -
+127.0.0.1 - - [10/Feb/2024 08:39:39] "[33mGET / HTTP/1.1[0m" 404 -
+127.0.0.1 - - [10/Feb/2024 16:18:12] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00{\x01\x00\x00w\x03\x034¬ªÄÝ\x02ö7\x8d@\x05ï?J\x8e50\x93Ðç·þº\x8eÆx8]ð§æÉ\x00\x00\x1aÀ/À+À\x11À\x07À\x13À')
+127.0.0.1 - - [10/Feb/2024 16:18:12] "[31m[1m\x16\x03\x01\x00{\x01\x00\x00w\x03\x034¬ªÄÝ\x02ö7\x8d@\x05ï?J\x8e50\x93Ðç·þº\x8eÆx8]ð§æÉ\x00\x00\x1aÀ/À+À\x11À\x07À\x13À\x09À\x14À[0m" 400 -
+127.0.0.1 - - [10/Feb/2024 16:18:13] code 400, message Bad request version ('À\x14À')
+127.0.0.1 - - [10/Feb/2024 16:18:13] "[31m[1m\x16\x03\x01\x00{\x01\x00\x00w\x03\x03\x9e\x1b \x93Ûþ¦7\x94ÙJP\x8f\x1cº\x915\x8f\x8c\x87\x98§zë¨\x0dÝ\x99ñ\x19~ÿ\x00\x00\x1aÀ/À+À\x11À\x07À\x13À\x09À\x14À[0m" 400 -
+127.0.0.1 - - [10/Feb/2024 16:18:13] "[33mGET / HTTP/1.1[0m" 404 -
+127.0.0.1 - - [10/Feb/2024 17:49:38] "[33mGET / HTTP/1.1[0m" 404 -
+127.0.0.1 - - [10/Feb/2024 17:55:44] code 400, message Bad request version ('À\x14À')
+127.0.0.1 - - [10/Feb/2024 17:55:44] "[31m[1m\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03\x99\x80\x88Øk$¸áOÝîæ\x92"\x858!ùo·\x88;\x9e\x9a\x82k|ðxÕ\x12Æ §#0_ç\x0dç%Â:µ|\x81\x82\x00U¥-AÂ)Ã\x17?9ì\x13A¥rè¥\x00&Ì¨Ì©À/À0À+À,À\x13À\x09À\x14À[0m" 400 -
+127.0.0.1 - - [10/Feb/2024 17:55:47] "[33mGET / HTTP/1.1[0m" 404 -
+127.0.0.1 - - [10/Feb/2024 17:55:51] "[33mGET / HTTP/1.1[0m" 404 -
+127.0.0.1 - - [10/Feb/2024 17:55:51] code 505, message Invalid HTTP version (2.0)
+127.0.0.1 - - [10/Feb/2024 17:55:51] "[35m[1mPRI * HTTP/2.0[0m" 505 -
+127.0.0.1 - - [10/Feb/2024 18:41:04] code 400, message Bad request version ('À\x14À')
+127.0.0.1 - - [10/Feb/2024 18:41:04] "[31m[1m\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03õ0P\x7fBÐ\x0dÖ.\x00E1LÝÉR<³gh¶bý4\x88\x11'\x91\x1e\x9eóv Mâ&*t\x9d|À\x97'ÊÕÉí\x80½\x9f±·«X<iÚ\x940·½¹<«\x9f\x00&Ì¨Ì©À/À0À+À,À\x13À\x09À\x14À[0m" 400 -
+127.0.0.1 - - [10/Feb/2024 18:41:07] "[33mGET / HTTP/1.1[0m" 404 -
+127.0.0.1 - - [10/Feb/2024 18:41:10] "[33mGET / HTTP/1.1[0m" 404 -
+127.0.0.1 - - [10/Feb/2024 18:41:10] code 505, message Invalid HTTP version (2.0)
+127.0.0.1 - - [10/Feb/2024 18:41:10] "[35m[1mPRI * HTTP/2.0[0m" 505 -
+127.0.0.1 - - [10/Feb/2024 19:58:14] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x01ü\x01\x00\x01ø\x03\x03-¦Dõý-\x90ª_\x98ù')
+127.0.0.1 - - [10/Feb/2024 19:58:14] "[31m[1m\x16\x03\x01\x01ü\x01\x00\x01ø\x03\x03-¦Dõý-\x90ª_\x98ù\x1e\x00\x9e\x842è\x04Ï\x05\x93È¡¤+YíôIåÍ\x03\x00\x01<Ì\x14Ì\x13Ì\x15À0À,À(À$À\x14À[0m" 400 -
+127.0.0.1 - - [10/Feb/2024 20:02:22] code 400, message Bad request version ('\x00\x9eÌ¨Ìª\x003\x00=\x00\x16À')
+127.0.0.1 - - [10/Feb/2024 20:02:22] "[31m[1m\x16\x03\x01\x01\x17\x01\x00\x01\x13\x03\x03UÄÌ\x13%óÉ\x97\x0b\x96\x9aì\x82\x8d\x88.l\x81\x8e§/ÿ\x05Å`AÍbwû¨\x82 êj\x1eà_ZI|µ\x8e\x80¯\x80Ê·\x8bÕ%B\x87ÂÁh\x97~âIÅ\x7fsTµ\x004Ì¨Ì©À/À0À+À,À\x09\x00\x9eÌ¨Ìª\x003\x00=\x00\x16À[0m" 400 -
+127.0.0.1 - - [10/Feb/2024 20:02:33] "[33mGET / HTTP/1.1[0m" 404 -
+127.0.0.1 - - [10/Feb/2024 20:02:33] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+127.0.0.1 - - [10/Feb/2024 20:02:34] "[33mGET /robots.txt HTTP/1.1[0m" 404 -
+127.0.0.1 - - [10/Feb/2024 20:02:34] "[33mGET /sitemap.xml HTTP/1.1[0m" 404 -
+127.0.0.1 - - [10/Feb/2024 20:11:51] "[33mGET / HTTP/1.0[0m" 404 -
+127.0.0.1 - - [10/Feb/2024 21:53:21] "[33mGET / HTTP/1.1[0m" 404 -
+127.0.0.1 - - [10/Feb/2024 22:23:48] "POST /test HTTP/1.1" 200 -
