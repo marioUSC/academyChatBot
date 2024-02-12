@@ -1,0 +1,12 @@
+question hw The question mention ip address block What mean How answer question To answer simply interference first case two aps use channel In second case interference Is Thank IP address block range IP address assigned host For example router home typically allocate device It covered right way
+
+
+==========
+Optimal Address Allocation Suppose IP address bit network portion Assume need divide subnets support host In case network portion require bit host portion also require bit There still bit available What optimal way handle bit I consider scalarbility host size subnet subnet size question mention anything scalarbility I think optimal solution use bit host id rest bit subnet id So minimum wastage IP address IPs used subnet remaining subnets assigned organization later
+
+
+==========
+Chapter Problem When calculating necessary length subnets including address needed network address broadcast Basically need add number address supported subnet Also I attempted problem I ran IP address I needed round amount interface supported next power power Is another address block I use I give subnets receive block necessary number address The professor sent email regarding problem He said scenario borrow address used network used used But wo case final exam Start Block Divide two size steal one bit The author decided assign second block subnet take block divide two ie steal another bit host get author decided assign second block subnet CThe remaining block divided assigned subnet D interface equivalent block assigned interface subnet E equivalent block assigned interface subnet F equivalent The remaining address block assigned subnet B mean subnet B got block represented assumption Author You could come different assignment still valid The important thing realize assignment choose MUST NOT result duplicate IP safe healthy Dear
+
+
+==========

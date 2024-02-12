@@ -21,3 +21,17 @@ backend/
 │
 ├── app.py               # main file, run this to start server
 └── README.md
+# Devops
+## Run conda envirment before run the program
+```
+conda activate DirRes #Mario's env
+```
+## Running backend program on the backend(always run)
+```
+nohup your_program > output.log 2>&1 &
+```
+## Check the PID of the program occupying the certain port
+```
+lsof -i :PORT
+```
+
