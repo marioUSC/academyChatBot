@@ -3,7 +3,7 @@ from gensim.models.doc2vec import Doc2Vec, TaggedDocument
 from nltk.tokenize import word_tokenize
 
 # Read data from preprocessed JSON file
-with open('EE450_Piazza.json', 'r', encoding='utf-8') as file:
+with open('preprocessed_qa.json', 'r', encoding='utf-8') as file:
     preprocessed_data = json.load(file)
 
 # Prepare data for Doc2Vec
@@ -16,7 +16,7 @@ for tag, text in preprocessed_data.items():
 
 # Parameters for the Doc2Vec model
 max_epochs = 100
-vec_size = 100
+vec_size = 256
 alpha = 0.025
 
 # Initialize and train the Doc2Vec model

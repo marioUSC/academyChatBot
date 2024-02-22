@@ -1,6 +1,8 @@
 from flask import Flask, request, jsonify
+from flask_cors import CORS
 from controller.handleQuery import handleQuery
 app = Flask(__name__)
+CORS(app)
 
 @app.route('/test', methods=['POST'])
 def test_answer_question():

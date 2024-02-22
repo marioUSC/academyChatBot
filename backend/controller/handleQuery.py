@@ -3,6 +3,7 @@ from .service.LLM.llama2 import query_llama2
 from .service.embedding.getAnswer import find_similar_questions
 
 def handleQuery(question):
+    
     # Base prompt with instructions for the model
     base_prompt = """Please carefully review the provided Q&A pairs to identify and extract \
                 knowledge that is directly relevant to the new question. Focus exclusively on the \
