@@ -1,6 +1,6 @@
-from .service.LLM.gpt import query_GPT
-from .service.LLM.llama2 import query_llama2
-from .service.embedding.getAnswer import find_similar_questions
+from eTA.service.LLM.gpt import query_GPT
+from eTA.service.LLM.llama2 import query_llama2
+from eTA.service.embedding.getAnswer import find_similar_questions
 
 def handleQuery(question):
     

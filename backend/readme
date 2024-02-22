@@ -2,24 +2,34 @@
 ## File sturcture
 
 backend/
-│
-├── env/                 # environment setting 
-│   ├──          
-│   ├── requirements.txt 
-│   └── ...              
-│
-├── controller/          
-│   ├── handleQuery.py   # call relative service 
+├── README.md
+├── setup.py 
+├── eTA/
+│   │
+│   ├── app.py                  # main file, run this to start server
+│   │
+│   ├── env/                    # environment setting 
+│   │   ├──          
+│   │   ├── requirements.txt 
+│   │   └── ...              
+│   │
+│   ├── controller/
+│   │   ├── __init__.py           
+│   │   └── handleQuery.py       # Getting response from embedding and LLM 
+│   │  
 │   └── service/    
-│       ├── embedding/   # embedding model 
-│       │    ├── src/            # data needed for embedding model 
-│       │    ├── getAnswer.py    # get similar Q&A from database
-│       │    └── voc2Doc.py      # model training
-│       └── LLM/         # LLM API
+│       ├── embedding/           # embedding model 
+│       │   ├── __init__.py  
+│       │   ├── src/             # data needed for embedding model 
+│       │   ├── getAnswer.py     # get similar Q&A from database
+│       │   └── voc2Doc.py       # model training
+│       │
+│       └── LLM/                 # LLM API
+│            ├── __init__.py
 │            ├── gpt.py          # call GPT 
 │            └── llama2.py       # call llama2
-│
-├── app.py               # main file, run this to start server
+│    
+│                                
 └── README.md
 # Devops
 ## Run conda envirment before run the program
