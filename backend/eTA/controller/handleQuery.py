@@ -21,7 +21,7 @@ def handleQuery(question):
 
     final_prompt = base_prompt + question_prompt + knowledge_prompt 
     result = query_GPT(final_prompt)
-    print(result)
+    print('update111:' + result)
     return result
 
 if __name__ == '__main__':

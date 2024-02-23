@@ -13,21 +13,21 @@ import nltk
 
 def preprocess_text(text):
     # Remove HTML tags
-    # text = BeautifulSoup(text, 'html.parser').get_text()
+    text = BeautifulSoup(text, 'html.parser').get_text()
     
-    # # Tokenize
-    # words = word_tokenize(text)
+    # Tokenize
+    words = word_tokenize(text)
     
-    # # Lowercase and remove punctuation/numbers and stop words
-    # # words = [word.lower() for word in words if word.isalpha()]
-    # stop_words = set(stopwords.words('english'))
-    # words = [w for w in words if not w in stop_words]
+    # Lowercase and remove punctuation/numbers and stop words
+    # words = [word.lower() for word in words if word.isalpha()]
+    stop_words = set(stopwords.words('english'))
+    words = [w for w in words if not w in stop_words]
     
-    # # Lemmatize
-    # lemmatizer = WordNetLemmatizer()
-    # lemmatized = [lemmatizer.lemmatize(w) for w in words]
+    # Lemmatize
+    lemmatizer = WordNetLemmatizer()
+    lemmatized = [lemmatizer.lemmatize(w) for w in words]
     
-    # return ' '.join(lemmatized)
+    return ' '.join(lemmatized)
     return text
 
 def preprocess_qa_pairs(input_file, output_file):
@@ -39,7 +39,7 @@ def preprocess_qa_pairs(input_file, output_file):
     index = 0
     for key, value in data.items():
         # Combine subject, content, and answers
-        combined_text = value['detail']['subject'] + ' ' + value['detail']['content']
+        combined_text = 'question:' + value['detail']['subject'] + ' ' + value['detail']['content'] + 'Answer: '
         for answer in value['answers'].values():
             combined_text += ' ' + answer
         

@@ -4,25 +4,27 @@ from gensim.models.doc2vec import Doc2Vec, TaggedDocument
 from nltk.tokenize import word_tokenize
 from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
-from bs4 import BeautifulSoup
+from bs4 import BeautifulSoup, MarkupResemblesLocatorWarning
 import nltk
-
+import warnings
 # nltk.download('punkt')
 # nltk.download('stopwords')
 # nltk.download('wordnet')
 
 def preprocess_text(text):
+    warnings.filterwarnings("ignore", category=MarkupResemblesLocatorWarning)
     text = BeautifulSoup(text, 'html.parser').get_text()
+    return text
+    # words = word_tokenize(text)
     
-    words = word_tokenize(text)
+    # stop_words = set(stopwords.words('english'))
+    # words = [w for w in words if not w in stop_words]
     
-    stop_words = set(stopwords.words('english'))
-    words = [w for w in words if w.isalpha() and not w in stop_words]
+    # lemmatizer = WordNetLemmatizer()
+    # lemmatized = [lemmatizer.lemmatize(w) for w in words]
     
-    lemmatizer = WordNetLemmatizer()
-    lemmatized = [lemmatizer.lemmatize(w) for w in words]
-    
-    return ' '.join(lemmatized)
+    # return ' '.join(lemmatized)
+
 
 def preprocess_qa_pairs(input_file, output_file):
     with open(input_file, 'r', encoding='utf-8') as file:
@@ -31,14 +33,14 @@ def preprocess_qa_pairs(input_file, output_file):
     preprocessed_data = {}
     
     for index, item in enumerate(data):
-        combined_text = item['detail']['subject'] + ' ' + item['detail']['content']
+        combined_text = 'Question: ' + item['detail']['subject'] + ' ' + item['detail']['content'] + ' Answer: '
         for answer in item['answers']:
             combined_text += ' ' + answer['content']
         
-        # preprocessed_text = preprocess_text(combined_text)
-        # preprocessed_data[str(index)] = preprocessed_text
+        preprocessed_text = preprocess_text(combined_text)
+        preprocessed_data[str(index)] = preprocessed_text
         
-        preprocessed_data[str(index)] = combined_text
+        # preprocessed_data[str(index)] = combined_text
     with open(output_file, 'w', encoding='utf-8') as file:
         json.dump(preprocessed_data, file, ensure_ascii=False, indent=4)
 
