@@ -1,0 +1,12 @@
+Lab 2 commands I wanted to try the second lab but I was not able to find the commands for Mac OS.I saw the lab has commands for windows which don't work on Mac and I also did not find any helpful results on the web.Can anyone help me out. I feel as I am missing something very obvious. <a href="/redirect/s3?bucket=uploads&amp;prefix=paste%2Fksnna29yi7o6fa%2F477dc971f42d7870067fa699d3e2cebe87a838d34b0deacd00023715bdd43d3f%2FLab1_MacOS_steps.docx" target="_blank" rel="noopener noreferrer">Lab1_MacOS_steps.docx</a> I think the command “sudo ipconfig set en0 DHCP” can also do this thing.If we use macos to do this lab, what kind of screenshot should we submit?
+
+
+==========
+Thank you Dear Professor Ali and TAs,Thank you very much for a wonderful course. Professor Ali is definitely one of the most knowledgeable professors who is good at giving lectures. I learnt tons of knowledge regarding the computer network which is indeed important for us software engineers.Just a quick question: Is it possible to see the answers for the final because there are some questions that are definitely I would really like to know what the answer is. For example, some multiple questions I feel like there are multiple answers but we are allowed to choose only one.Thanks again. re: mc single vs multiple @502 You will all have a chance to look at your paper and solutions. I will broadcast the date when I am done grading. Be patient Dear. I am watching the World Cup and I will start grading after the games are over. It will take me "at least" a week to finish.Stay safe and healthy
+
+
+==========
+Project feedback In my project feedback it shows thatserverEE: invalid Argument Just one second before my project score was quite impressive, but the next second it was dropped and showed that there was a problem with the serverEE, which was confusing. Could the teaching fellows explain in detail what was going on? The current project score is the correct one. There was an issue in D2L because of the extra credit scores due to which the scores were not displayed correctly. The comment mentioned should give some idea on which file/code is not running. The first thing you should do is to download the test cases used by TAs(uploaded to D2L) and try testing your code by yourself. If it seems to be working fine when you test on your end then you can join the office hours of your assigned TA and discuss with them about your issues
+
+
+==========
