@@ -6,7 +6,8 @@ nohup: ignoring input
 [33mPress CTRL+C to quit[0m
  * Restarting with stat
  * Debugger is active!
- * Debugger PIN: 848-885-417
-127.0.0.1 - - [22/Feb/2024 18:40:43] "POST /test HTTP/1.1" 200 -
-127.0.0.1 - - [22/Feb/2024 18:40:44] "POST /test HTTP/1.1" 200 -
-127.0.0.1 - - [22/Feb/2024 18:40:51] "POST /ask HTTP/1.1" 200 -
+ * Debugger PIN: 225-076-614
+ * Detected change in '/home/mario/DirectResearch/backend/eTA/controller/handleQuery.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 225-076-614
