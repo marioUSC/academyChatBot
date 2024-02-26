@@ -1,6 +1,6 @@
 from flask import Flask, request, jsonify
 from flask_cors import CORS
-from controller.handleQuery import handleQuery
+from controller.handleQuery import handleQuery, llamaQuery
 app = Flask(__name__)
 CORS(app)
 
@@ -24,9 +24,11 @@ def answer_question():
     questionPrompt = "Question: {}".format(question)
 
     answer = handleQuery(question)
+    answer_llamaIndex = llamaQuery(question)
+    return jsonify({"question": question, "answer": answer, "llamaIndexAnswer": answer_llamaIndex})
 
-    
-    return jsonify({"question": question, "answer": answer})
+# piazza
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    # app.run(debug=True, host='0.0.0.0', port=5000)
+    app.run(debug=True, port=5000)
