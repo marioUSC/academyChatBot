@@ -23,3 +23,343 @@ nohup: ignoring input
 127.0.0.1 - - [26/Feb/2024 15:17:24] "POST /ask HTTP/1.1" 200 -
 127.0.0.1 - - [26/Feb/2024 15:18:40] "POST /ask HTTP/1.1" 200 -
 127.0.0.1 - - [26/Feb/2024 15:24:10] "POST /ask HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2024 19:19:25] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x01ü\x01\x00\x01ø\x03\x03')
+127.0.0.1 - - [26/Feb/2024 19:19:25] "[31m[1m\x16\x03\x01\x01ü\x01\x00\x01ø\x03\x03\x1fPT\x9f\x98º³\x14Ú&\x06"\x81Lõ\x97ûÆ\x8aþ<H¢¸qïGs%\x8dµü\x00\x01<Ì\x14Ì\x13Ì\x15À0À,À(À$À\x14À[0m" 400 -
+127.0.0.1 - - [26/Feb/2024 20:11:56] "[33mGET / HTTP/1.1[0m" 404 -
+127.0.0.1 - - [26/Feb/2024 20:11:56] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+127.0.0.1 - - [26/Feb/2024 20:13:04] "POST /ask HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2024 20:22:19] "[33mGET / HTTP/1.1[0m" 404 -
+127.0.0.1 - - [26/Feb/2024 20:45:19] "OPTIONS /test HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2024 20:45:19] "POST /test HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2024 20:55:41] "OPTIONS /test HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2024 20:55:41] "OPTIONS /test HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2024 20:55:41] "POST /test HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2024 20:55:41] "POST /test HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2024 21:41:02] "OPTIONS /ask HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2024 21:41:12] "OPTIONS /ask HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2024 21:41:12] "POST /ask HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2024 21:41:18] "POST /ask HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2024 21:45:54] "OPTIONS /ask HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2024 21:46:02] "POST /ask HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2024 21:47:54] "POST /ask HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2024 21:48:16] "POST /ask HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2024 21:50:43] "OPTIONS /ask HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2024 21:50:53] "POST /ask HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2024 21:57:52] "OPTIONS /ask HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2024 21:58:00] "POST /ask HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2024 22:14:42] "OPTIONS /ask HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2024 22:14:52] "POST /ask HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2024 22:25:20] "[33mGET / HTTP/1.1[0m" 404 -
+127.0.0.1 - - [26/Feb/2024 23:07:23] "OPTIONS /ask HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2024 23:07:36] "OPTIONS /ask HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2024 23:07:41] "POST /ask HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2024 23:07:56] "POST /ask HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2024 23:09:39] "OPTIONS /ask HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2024 23:09:44] "POST /ask HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2024 23:23:37] "POST /ask HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2024 23:24:00] "POST /ask HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2024 23:30:38] "POST /ask HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2024 23:31:37] "POST /ask HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2024 23:32:21] "POST /ask HTTP/1.1" 200 -
+127.0.0.1 - - [26/Feb/2024 23:35:15] "POST /ask HTTP/1.1" 200 -
+127.0.0.1 - - [27/Feb/2024 00:49:59] code 400, message Bad request syntax ('JDWP-Handshake')
+127.0.0.1 - - [27/Feb/2024 00:49:59] "[31m[1mJDWP-Handshake[0m" 400 -
+127.0.0.1 - - [27/Feb/2024 00:53:16] "[33mGET / HTTP/1.0[0m" 404 -
+127.0.0.1 - - [27/Feb/2024 01:55:36] "[33mGET / HTTP/1.1[0m" 404 -
+127.0.0.1 - - [27/Feb/2024 01:55:37] code 400, message Bad request version ('©÷\x03¨J2P@UÆUpoÉ¡HMqÃ÷>Aåa\x94ò\x8d')
+127.0.0.1 - - [27/Feb/2024 01:55:37] "[31m[1m\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03ýB9¾\x7f¹lá?6õ4©Ä¯ø\x85n\x0c\x95\x83ã\x0f£rP´CJA;° ©÷\x03¨J2P@UÆUpoÉ¡HMqÃ÷>Aåa\x94ò\x8d[0m" 400 -
+127.0.0.1 - - [27/Feb/2024 01:55:38] code 400, message Bad HTTP/0.9 request type ('t3')
+127.0.0.1 - - [27/Feb/2024 01:55:38] "[31m[1mt3 12.1.2[0m" 400 -
+127.0.0.1 - - [27/Feb/2024 01:55:51] "[33mGET / HTTP/1.1[0m" 404 -
+127.0.0.1 - - [27/Feb/2024 01:55:51] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+127.0.0.1 - - [27/Feb/2024 01:55:52] "[33mGET /sitemap.xml HTTP/1.1[0m" 404 -
+127.0.0.1 - - [27/Feb/2024 01:55:53] "[33mGET /robots.txt HTTP/1.1[0m" 404 -
+127.0.0.1 - - [27/Feb/2024 01:58:33] code 400, message Bad request version ('À\x14À')
+127.0.0.1 - - [27/Feb/2024 01:58:33] "[31m[1m\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03-X\x0dx´Úë\x14\x10$JC\x80\x9aZG\x1bf+\x85iÜt\x07UÓ\x09VE8P. T-$Ós,\x838ª³;\x81*öuÜYTê\x8f\x11\x15J÷¯æç½\x00«­\x84\x00&Ì¨Ì©À/À0À+À,À\x13À\x09À\x14À[0m" 400 -
+127.0.0.1 - - [27/Feb/2024 01:58:36] "[33mGET / HTTP/1.1[0m" 404 -
+127.0.0.1 - - [27/Feb/2024 01:58:40] "[33mGET / HTTP/1.1[0m" 404 -
+127.0.0.1 - - [27/Feb/2024 01:58:40] code 505, message Invalid HTTP version (2.0)
+127.0.0.1 - - [27/Feb/2024 01:58:40] "[35m[1mPRI * HTTP/2.0[0m" 505 -
+127.0.0.1 - - [27/Feb/2024 02:26:22] "[33mGET / HTTP/1.1[0m" 404 -
+127.0.0.1 - - [27/Feb/2024 07:19:03] code 400, message Bad request version ('À\x14À')
+127.0.0.1 - - [27/Feb/2024 07:19:03] "[31m[1m\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03Ú/÷gôR8\x8f\x94<Ð2øì\x17-8L\x16|\x1bz\x95ÜÉ\x8ai\x9fÂ8t\x87 É9¸éØ\x8d\x9d ËbôH\x8f#\x8aX*¦ÀB\x08\x19\x05@s¿_\x00$Ë\x07&\x00&Ì¨Ì©À/À0À+À,À\x13À\x09À\x14À[0m" 400 -
+127.0.0.1 - - [27/Feb/2024 07:19:06] "[33mGET / HTTP/1.1[0m" 404 -
+127.0.0.1 - - [27/Feb/2024 07:19:09] "[33mGET / HTTP/1.1[0m" 404 -
+127.0.0.1 - - [27/Feb/2024 07:19:09] code 505, message Invalid HTTP version (2.0)
+127.0.0.1 - - [27/Feb/2024 07:19:09] "[35m[1mPRI * HTTP/2.0[0m" 505 -
+127.0.0.1 - - [27/Feb/2024 08:51:16] "OPTIONS /ask HTTP/1.1" 200 -
+127.0.0.1 - - [27/Feb/2024 08:51:22] "POST /ask HTTP/1.1" 200 -
+127.0.0.1 - - [27/Feb/2024 09:01:25] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+127.0.0.1 - - [27/Feb/2024 09:01:25] "[31m[1m\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr[0m" 400 -
+127.0.0.1 - - [27/Feb/2024 09:05:38] code 400, message Bad request syntax ('JDWP-Handshake')
+127.0.0.1 - - [27/Feb/2024 09:05:38] "[31m[1mJDWP-Handshake[0m" 400 -
+127.0.0.1 - - [27/Feb/2024 11:07:08] "POST /ask HTTP/1.1" 200 -
+127.0.0.1 - - [27/Feb/2024 11:37:37] "OPTIONS /ask HTTP/1.1" 200 -
+127.0.0.1 - - [27/Feb/2024 11:37:45] "POST /ask HTTP/1.1" 200 -
+127.0.0.1 - - [27/Feb/2024 11:41:52] "OPTIONS /ask HTTP/1.1" 200 -
+127.0.0.1 - - [27/Feb/2024 11:41:57] "POST /ask HTTP/1.1" 200 -
+127.0.0.1 - - [27/Feb/2024 11:42:26] "OPTIONS /ask HTTP/1.1" 200 -
+127.0.0.1 - - [27/Feb/2024 11:42:31] "POST /ask HTTP/1.1" 200 -
+127.0.0.1 - - [27/Feb/2024 12:04:23] "[33mGET / HTTP/1.0[0m" 404 -
+127.0.0.1 - - [27/Feb/2024 14:13:45] "[33mGET /v2/ HTTP/1.1[0m" 404 -
+127.0.0.1 - - [27/Feb/2024 14:21:06] "[33mGET / HTTP/1.1[0m" 404 -
+127.0.0.1 - - [27/Feb/2024 15:49:54] code 400, message Bad request syntax ('JDWP-Handshake')
+127.0.0.1 - - [27/Feb/2024 15:49:54] "[31m[1mJDWP-Handshake[0m" 400 -
+127.0.0.1 - - [27/Feb/2024 18:18:54] "[33mGET / HTTP/1.1[0m" 404 -
+127.0.0.1 - - [27/Feb/2024 18:18:54] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+127.0.0.1 - - [27/Feb/2024 18:46:12] "[33mGET / HTTP/1.1[0m" 404 -
+127.0.0.1 - - [27/Feb/2024 19:40:11] "[33mGET / HTTP/1.1[0m" 404 -
+127.0.0.1 - - [27/Feb/2024 20:19:28] code 400, message Bad request version ('À#À¬À®À+À')
+127.0.0.1 - - [27/Feb/2024 20:19:28] "[31m[1m\x16\x03\x03\x01\x9d\x01\x00\x01\x99\x03\x03þõmþi«Bµ(#\x97ÿðæk==RÍ©ª\x08!çJécý}äì\x8e ô\x97\x97âêNÙ %¯(yÙÑÃu3«\x88\x8dÁHC}}ª{mça±q\x00\x8cºº\x00\x16\x003\x00gÀ\x9eÀ¢\x00\x9e\x009\x00kÀ\x9fÀ£\x00\x9f\x00E\x00¾\x00\x88\x00Ä\x00\x9aÀ\x08À\x09À#À¬À®À+À[0m" 400 -
+127.0.0.1 - - [27/Feb/2024 20:19:28] code 400, message Bad request version ('À\x9c\x00<\x00/\x00')
+127.0.0.1 - - [27/Feb/2024 20:19:28] "[31m[1m\x16\x03\x03\x01\x9d\x01\x00\x01\x99\x03\x03\x8fl»\x8côRÁè'H°xÏù\x9aÚ\x85U¦d\x9bÑ\x8f<\x10¾\x1c\x1b\x81\x1b\x8a\x94 \x9b­\x0eÝX)Ap\x1cÿ\x82\x01\x88_ÉóÈ\x0d$ÕÓzÒÔQ¢Ffô£ô\x8f\x00\x8cªª\x00\x05\x00\x04\x00\x07\x00À\x00\x84\x00º\x00A\x00\x9dÀ¡À\x9d\x00=\x005\x00\x9cÀ À\x9c\x00<\x00/\x00[0m" 400 -
+127.0.0.1 - - [27/Feb/2024 20:19:29] code 400, message Bad request version ('®?¿HHÊXRRÀßÉ+»\x10Í\x03\x89[\x18cÐHÈ\x16à\x16Ê&\x81A#\x00HêêÀ\x12À\x07Ì\x14\x13\x01\x13\x02Ì©ÀsÀrÀ,À¯À\xadÀ$À')
+127.0.0.1 - - [27/Feb/2024 20:19:29] "[31m[1m\x16\x03\x03\x01Y\x01\x00\x01U\x03\x03|3qÏ\x87\x93 E\x8f±\x8dãô\x1e\x8eÀ|\x89à\x9e4Í\x97TË´fS\x9c;\x12\x06 ®?¿HHÊXRRÀßÉ+»\x10Í\x03\x89[\x18cÐHÈ\x16à\x16Ê&\x81A#\x00HêêÀ\x12À\x07Ì\x14\x13\x01\x13\x02Ì©ÀsÀrÀ,À¯À­À$À[0m" 400 -
+127.0.0.1 - - [27/Feb/2024 20:19:29] code 400, message Bad request version ("e}\x00FÚÚÀ\x13À'À/À\x14À(À0À`ÀaÀvÀwÌ¨\x13\x05\x13\x04\x13\x03Ì\x13À\x11\x00")
+127.0.0.1 - - [27/Feb/2024 20:19:29] "[31m[1m\x16\x03\x03\x01K\x01\x00\x01G\x03\x03Üþæín?\x0b\x01#+vÑWc\x82I\x92Ç\x1a\x95\x97îÉ~T\x83¯\x98%\x8a\x8a~ C\x0d5Æ\x03ûB\x9f\x1c¦÷:VAñ×v\x9b\x17ÿ\x97\x9c¶P@\x96E\x84b\x0de}\x00FÚÚÀ\x13À'À/À\x14À(À0À`ÀaÀvÀwÌ¨\x13\x05\x13\x04\x13\x03Ì\x13À\x11\x00[0m" 400 -
+127.0.0.1 - - [27/Feb/2024 20:19:30] code 400, message Bad request version (".rÜQ{í\x96:\x00\x8aÀ\x12À\x13À\x07À'Ì\x14À/\x13\x01À\x14\x13\x02À(Ì©À0ÀsÀ`ÀrÀaÀ,ÀvÀ¯ÀwÀ\xadÌ¨À$\x13\x05À")
+127.0.0.1 - - [27/Feb/2024 20:19:30] "[31m[1m\x16\x03\x03\x01t\x01\x00\x01p\x03\x03A£¬ï&Ùl<ç×u:Õêº&7dé»|6m;+\x0e×\x1bÌåJÉ òì\x9aÆþ¶\x95¡\x85ÖfiZ%u2ç\x15á¥$HÏ\x1f.rÜQ{í\x96:\x00\x8aÀ\x12À\x13À\x07À'Ì\x14À/\x13\x01À\x14\x13\x02À(Ì©À0ÀsÀ`ÀrÀaÀ,ÀvÀ¯ÀwÀ­Ì¨À$\x13\x05À[0m" 400 -
+127.0.0.1 - - [27/Feb/2024 20:19:31] code 400, message Bad request version ('À#À¬À®À+À')
+127.0.0.1 - - [27/Feb/2024 20:19:31] "[31m[1m\x16\x03\x02\x01\x9d\x01\x00\x01\x99\x03\x02äÅÜY\x82htgðµµâ\x07g/õ\x0e\x0dXB0Ä{ß(û\x18\x01T¦\x90² àµn\x83Y÷[¯Ý\x0eäyÇU¹áï\x82"VO\x86ØQ\x0dZ\x04qA`ä®\x00\x8c\x1a\x1a\x00\x16\x003\x00gÀ\x9eÀ¢\x00\x9e\x009\x00kÀ\x9fÀ£\x00\x9f\x00E\x00¾\x00\x88\x00Ä\x00\x9aÀ\x08À\x09À#À¬À®À+À[0m" 400 -
+127.0.0.1 - - [27/Feb/2024 20:19:31] code 400, message Bad request version ('\x90Hó0¨¾\x14\x80$ð3ºtSÎËB')
+127.0.0.1 - - [27/Feb/2024 20:19:31] "[31m[1m\x16\x03\x01\x01ª\x01\x00\x01¦\x03\x03\x00s\x88¡´\x9b5\x0c©\x04( \x90Hó0¨¾\x14\x80$ð3ºtSÎËB[0m" 400 -
+127.0.0.1 - - [27/Feb/2024 20:19:32] code 400, message Bad request version ('À\x9c\x00<\x00/\x00')
+127.0.0.1 - - [27/Feb/2024 20:19:32] "[31m[1m\x16\x03\x01\x01ª\x01\x00\x01¦\x03\x03ð^º\x91uÅ#\x1b:\\î?v\x85+\x87dþ\x91,¤\x0c@\x8e¼\x18¼\x94w\x9b\x80\x9f 8ñ<þ5t2°õ&\x9bÊV\x819\x06÷lÿ\x97':0¯ñ8I/k2IÂ\x00\x8cºº\x00\x05\x00\x04\x00\x07\x00À\x00\x84\x00º\x00A\x00\x9dÀ¡À\x9d\x00=\x005\x00\x9cÀ À\x9c\x00<\x00/\x00[0m" 400 -
+127.0.0.1 - - [27/Feb/2024 20:19:32] code 400, message Bad request version ('À#À¬À®À+À')
+127.0.0.1 - - [27/Feb/2024 20:19:32] "[31m[1m\x16\x03\x01\x01 \x01\x00\x01\x9c\x03\x03°pÒð\x00i¯\x12:$\x8a»X¹þô ¯l÷o\x0fp=\x85\x91NL»p\x8d$ \x81?Â\x11ñM×¿s\x19l\x17¶\x04\x87PiÅ@T J}ÂóÎ_¶Y\x9c\x01£\x00\x82ºº\x00\x16\x003\x00gÀ\x9eÀ¢\x00\x9e\x009\x00kÀ\x9fÀ£\x00\x9f\x00E\x00¾\x00\x88\x00Ä\x00\x9aÀ\x08À\x09À#À¬À®À+À[0m" 400 -
+127.0.0.1 - - [27/Feb/2024 20:19:33] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x01\x8f\x01\x00\x01\x8b\x03\x03.»6xfQ5æ¼>úÑÃö/\x82\x89¥ßU\x1aºZ¬UqËw÷¼MB')
+127.0.0.1 - - [27/Feb/2024 20:19:33] "[31m[1m\x16\x03\x01\x01\x8f\x01\x00\x01\x8b\x03\x03.»6xfQ5æ¼>úÑÃö/\x82\x89¥ßU\x1aºZ¬UqËw÷¼MB Þ#Í\x8b[0m" 400 -
+127.0.0.1 - - [27/Feb/2024 23:31:08] "[33mGET / HTTP/1.1[0m" 404 -
+127.0.0.1 - - [28/Feb/2024 00:33:01] code 400, message Bad request syntax ('\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03Ü°iLó2=÷ºNÓ\x0f\x04\x11\x99\\Ë@\x83½&Ë!ñ+×Tm\x99æ\x1a')
+127.0.0.1 - - [28/Feb/2024 00:33:01] "[31m[1m\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03Ü°iLó2=÷ºNÓ\x0f\x04\x11\x99\\Ë@\x83½&Ë!ñ+×Tm\x99æ\x1a[0m" 400 -
+127.0.0.1 - - [28/Feb/2024 00:33:04] "[33mGET / HTTP/1.1[0m" 404 -
+127.0.0.1 - - [28/Feb/2024 00:33:09] "[33mGET / HTTP/1.1[0m" 404 -
+127.0.0.1 - - [28/Feb/2024 00:33:09] code 505, message Invalid HTTP version (2.0)
+127.0.0.1 - - [28/Feb/2024 00:33:09] "[35m[1mPRI * HTTP/2.0[0m" 505 -
+127.0.0.1 - - [28/Feb/2024 03:51:48] "[33mGET /.env HTTP/1.1[0m" 404 -
+127.0.0.1 - - [28/Feb/2024 04:22:45] "[33mGET / HTTP/1.1[0m" 404 -
+127.0.0.1 - - [28/Feb/2024 06:05:10] "[33mGET / HTTP/1.1[0m" 404 -
+127.0.0.1 - - [28/Feb/2024 06:22:01] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+127.0.0.1 - - [28/Feb/2024 06:22:01] "[31m[1m\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr[0m" 400 -
+127.0.0.1 - - [28/Feb/2024 06:48:57] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+127.0.0.1 - - [28/Feb/2024 09:52:53] "[33mGET / HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Feb/2024 09:52:54] code 400, message Bad request version ('RTSP/1.0')
+127.0.0.1 - - [28/Feb/2024 09:52:54] "[31m[1mOPTIONS / RTSP/1.0[0m" 400 -
+127.0.0.1 - - [28/Feb/2024 09:52:59] code 400, message Bad HTTP/0.9 request type ('\x00')
+127.0.0.1 - - [28/Feb/2024 09:52:59] "[31m[1m\x00\x1e\x00\x06\x01\x00\x00\x01\x00\x00\x00\x00\x00\x00\x07version\x04bind\x00\x00\x10\x00\x03[0m" 400 -
+127.0.0.1 - - [28/Feb/2024 09:53:04] code 400, message Bad request version ('0.12\x00')
+127.0.0.1 - - [28/Feb/2024 09:53:04] "[31m[1m\x00\x00\x00¤ÿSMBr\x00\x00\x00\x00\x08\x01@\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00@\x06\x00\x00\x01\x00\x00\x81\x00\x02PC NETWORK PROGRAM 1.0\x00\x02MICROSOFT NETWORKS 1.03\x00\x02MICROSOFT NETWORKS 3.0\x00\x02LANMAN1.0\x00\x02LM1.2X002\x00\x02Samba\x00\x02NT LANMAN 1.0\x00\x02NT LM 0.12\x00[0m" 400 -
+127.0.0.1 - - [28/Feb/2024 09:53:09] code 400, message Bad request version ('GetClassName\x00\x00\x00\x02\x04\x00\x00\x00\x00\x01\x00')
+127.0.0.1 - - [28/Feb/2024 09:53:09] "[31m[1m\x00\x00\x00\x1f\x00\x00\x00\x00\x00\x00\x00\x0cGetClassName\x00\x00\x00\x02\x04\x00\x00\x00\x00\x01\x00[0m" 400 -
+127.0.0.1 - - [28/Feb/2024 09:53:10] "[33mOPTIONS / HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Feb/2024 09:53:15] code 400, message Bad request version ('\x00\x01\x97|\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00')
+127.0.0.1 - - [28/Feb/2024 09:53:15] "[31m[1m\x80\x00\x00(rþ\x1d\x13\x00\x00\x00\x00\x00\x00\x00\x02\x00\x01\x86 \x00\x01\x97|\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00[0m" 400 -
+127.0.0.1 - - [28/Feb/2024 09:53:15] code 400, message Bad request syntax ('HELP')
+127.0.0.1 - - [28/Feb/2024 09:53:15] "[31m[1mHELP[0m" 400 -
+127.0.0.1 - - [28/Feb/2024 09:53:15] code 400, message Bad request syntax ('\x16\x03\x00\x00S\x01\x00\x00O\x03\x00?G×÷º,îê²`~ó\x00ý\x82{¹Õ\x96Èw\x9bæÄÛ<=Ûoï\x10n\x00\x00(\x00\x16\x00\x13\x00')
+127.0.0.1 - - [28/Feb/2024 09:53:15] "[31m[1m\x16\x03\x00\x00S\x01\x00\x00O\x03\x00?G×÷º,îê²`~ó\x00ý\x82{¹Õ\x96Èw\x9bæÄÛ<=Ûoï\x10n\x00\x00(\x00\x16\x00\x13\x00[0m" 400 -
+127.0.0.1 - - [28/Feb/2024 09:53:16] code 400, message Bad request version ('\x00/\x00')
+127.0.0.1 - - [28/Feb/2024 09:53:16] "[31m[1m\x16\x03\x00\x00i\x01\x00\x00e\x03\x03U\x1c§ärandom1random2random3random4\x00\x00\x0c\x00/\x00[0m" 400 -
+127.0.0.1 - - [28/Feb/2024 09:53:16] code 400, message Bad request syntax ('\x00\x00\x00qj\x81n0\x81k¡\x03\x02\x01\x05¢\x03\x02\x01')
+127.0.0.1 - - [28/Feb/2024 09:53:16] "[31m[1m\x00\x00\x00qj\x81n0\x81k¡\x03\x02\x01\x05¢\x03\x02\x01[0m" 400 -
+127.0.0.1 - - [28/Feb/2024 09:53:21] code 400, message Bad HTTP/0.9 request type ('l\x00')
+127.0.0.1 - - [28/Feb/2024 09:53:21] "[31m[1ml\x00\x0b\x00\x00\x00\x00\x00\x00\x00\x00\x00[0m" 400 -
+127.0.0.1 - - [28/Feb/2024 09:53:21] code 400, message Bad request version ('SIP/2.0')
+127.0.0.1 - - [28/Feb/2024 09:53:21] "[31m[1mOPTIONS sip:nm SIP/2.0[0m" 400 -
+127.0.0.1 - - [28/Feb/2024 09:53:23] "[33mGET /v2/_catalog HTTP/1.1[0m" 404 -
+127.0.0.1 - - [28/Feb/2024 11:00:35] "[33mGET / HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Feb/2024 11:12:57] "[33mGET / HTTP/1.1[0m" 404 -
+127.0.0.1 - - [28/Feb/2024 16:14:26] "[33mGET /cgi-bin/authLogin.cgi HTTP/1.1[0m" 404 -
+127.0.0.1 - - [28/Feb/2024 16:57:19] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+127.0.0.1 - - [28/Feb/2024 16:57:19] "[31m[1m\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr[0m" 400 -
+127.0.0.1 - - [28/Feb/2024 17:34:19] code 400, message Bad request version ('À\x14À')
+127.0.0.1 - - [28/Feb/2024 17:34:19] "[31m[1m\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03\x16MÍëb\x9c¼£\x94Åh¬\x8d\x9aòÈ¬ßXe\x7fe\x8b\x00Ì{|Ý\x1cd¢\x1a j/Mf\x9d\x00l\x96ìÕ¡9]=Ù«d?ÓÂ\x1cÎáýkíjÑ\x85\x9aL4\x00&Ì¨Ì©À/À0À+À,À\x13À\x09À\x14À[0m" 400 -
+127.0.0.1 - - [28/Feb/2024 17:34:22] "[33mGET / HTTP/1.1[0m" 404 -
+127.0.0.1 - - [28/Feb/2024 17:34:25] "[33mGET / HTTP/1.1[0m" 404 -
+127.0.0.1 - - [28/Feb/2024 17:34:25] code 505, message Invalid HTTP version (2.0)
+127.0.0.1 - - [28/Feb/2024 17:34:25] "[35m[1mPRI * HTTP/2.0[0m" 505 -
+127.0.0.1 - - [28/Feb/2024 19:39:01] "[33mGET / HTTP/1.1[0m" 404 -
+127.0.0.1 - - [29/Feb/2024 01:03:20] "[33mGET / HTTP/1.1[0m" 404 -
+127.0.0.1 - - [29/Feb/2024 01:03:20] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+127.0.0.1 - - [29/Feb/2024 05:21:44] "[33mGET / HTTP/1.1[0m" 404 -
+127.0.0.1 - - [29/Feb/2024 05:38:23] "[33mCONNECT api.ipify.org:443 HTTP/1.1[0m" 404 -
+127.0.0.1 - - [29/Feb/2024 07:34:08] code 400, message Bad request version ('À\x14À')
+127.0.0.1 - - [29/Feb/2024 07:34:08] "[31m[1m\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03Û<b\x16þÑÕ\x04ü¼«´j\x15ñõ\x90Ü\x82H3F¯ËðkßK\x02­´l X¶?þGÓÞLÁo®\x15 zÜOç#\x05ßÞä\x7f*\x1f\x1fõ¨ã\x1c\x10¡\x00&Ì¨Ì©À/À0À+À,À\x13À\x09À\x14À[0m" 400 -
+127.0.0.1 - - [29/Feb/2024 07:44:38] "[33mGET / HTTP/1.1[0m" 404 -
+127.0.0.1 - - [29/Feb/2024 07:45:06] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+127.0.0.1 - - [29/Feb/2024 09:27:47] code 400, message Bad request version ('À\x14À')
+127.0.0.1 - - [29/Feb/2024 09:27:47] "[31m[1m\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03öúÓ^v3êÜe\x94Ã\x9ba~ÇÂ,\x81:¶0[\x1d>\x13lÀæ×0\x80å ÀY1±_Å\x84*~\x01C\x99£åêå\x88\x95@Lm6\x06hD\x8f#\x9c÷Ä\x04Ä\x00&Ì¨Ì©À/À0À+À,À\x13À\x09À\x14À[0m" 400 -
+127.0.0.1 - - [29/Feb/2024 09:36:31] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+127.0.0.1 - - [29/Feb/2024 09:36:31] "[31m[1m\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr[0m" 400 -
+127.0.0.1 - - [29/Feb/2024 09:38:19] "[33mGET / HTTP/1.1[0m" 404 -
+127.0.0.1 - - [29/Feb/2024 09:38:48] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+127.0.0.1 - - [29/Feb/2024 10:58:24] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03\x99ËcÐöÅÓ«ìJâ')
+127.0.0.1 - - [29/Feb/2024 10:58:24] "[31m[1m\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03\x99ËcÐöÅÓ«ìJâ\x85¾\x83(áiºDHç[0m" 400 -
+127.0.0.1 - - [29/Feb/2024 10:58:27] "[33mGET / HTTP/1.1[0m" 404 -
+127.0.0.1 - - [29/Feb/2024 10:58:30] "[33mGET / HTTP/1.1[0m" 404 -
+127.0.0.1 - - [29/Feb/2024 10:58:31] code 505, message Invalid HTTP version (2.0)
+127.0.0.1 - - [29/Feb/2024 10:58:31] "[35m[1mPRI * HTTP/2.0[0m" 505 -
+127.0.0.1 - - [29/Feb/2024 11:44:42] "[33mGET / HTTP/1.1[0m" 404 -
+127.0.0.1 - - [29/Feb/2024 12:34:53] "[33mGET / HTTP/1.1[0m" 404 -
+127.0.0.1 - - [29/Feb/2024 14:21:59] "[33mGET / HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Feb/2024 14:47:43] "[33mGET / HTTP/1.1[0m" 404 -
+127.0.0.1 - - [29/Feb/2024 16:02:52] "[33mGET / HTTP/1.1[0m" 404 -
+127.0.0.1 - - [29/Feb/2024 16:04:06] code 400, message Bad request syntax ('\x03\x00\x00\x13\x0eà\x00\x00\x00\x00\x00\x01\x00\x08\x00\x03\x00\x00\x00')
+127.0.0.1 - - [29/Feb/2024 16:04:06] "[31m[1m\x03\x00\x00\x13\x0eà\x00\x00\x00\x00\x00\x01\x00\x08\x00\x03\x00\x00\x00[0m" 400 -
+127.0.0.1 - - [29/Feb/2024 16:52:34] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03ÖíÚ\x96')
+127.0.0.1 - - [29/Feb/2024 16:52:34] "[31m[1m\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03ÖíÚ\x96 _Ã'ÓYç)ë\x04[{\x8cÈ\x9d\x06¯´\x81/»´aÛz\x9bÚ[0m" 400 -
+127.0.0.1 - - [29/Feb/2024 16:52:37] "[33mGET / HTTP/1.1[0m" 404 -
+127.0.0.1 - - [29/Feb/2024 16:52:40] "[33mGET / HTTP/1.1[0m" 404 -
+127.0.0.1 - - [29/Feb/2024 16:52:41] code 505, message Invalid HTTP version (2.0)
+127.0.0.1 - - [29/Feb/2024 16:52:41] "[35m[1mPRI * HTTP/2.0[0m" 505 -
+127.0.0.1 - - [29/Feb/2024 18:02:27] "[33mGET / HTTP/1.1[0m" 404 -
+127.0.0.1 - - [29/Feb/2024 19:36:05] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+127.0.0.1 - - [29/Feb/2024 19:36:05] "[31m[1m\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr[0m" 400 -
+127.0.0.1 - - [29/Feb/2024 22:31:44] "[33mGET / HTTP/1.1[0m" 404 -
+127.0.0.1 - - [29/Feb/2024 22:31:44] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+127.0.0.1 - - [29/Feb/2024 22:31:45] "[33mGET /HNAP1 HTTP/1.1[0m" 404 -
+127.0.0.1 - - [29/Feb/2024 22:31:45] "[33mPOST /onvif/device_service HTTP/1.1[0m" 404 -
+127.0.0.1 - - [29/Feb/2024 22:31:45] "[33mGET /PSIA/index HTTP/1.1[0m" 404 -
+127.0.0.1 - - [29/Feb/2024 23:54:22] "[33mGET / HTTP/1.1[0m" 404 -
+127.0.0.1 - - [01/Mar/2024 01:46:43] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+127.0.0.1 - - [01/Mar/2024 01:46:43] "[31m[1m\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr[0m" 400 -
+127.0.0.1 - - [01/Mar/2024 02:30:19] code 400, message Bad request version ('À\x13À')
+127.0.0.1 - - [01/Mar/2024 02:30:19] "[31m[1m\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03D|\x11æ|<4Y n\x89\x1cÀJ£¤j\x8f\x89ÀCuùo\\lõ\x80x\x86Æê J;\x9f\x1aÍë(¯½òéÙlÕb'ç>ûÁX6X\x91DuH¥ÂÓLÇ\x00&À+À/À,À0Ì©Ì¨À\x09À\x13À[0m" 400 -
+127.0.0.1 - - [01/Mar/2024 02:30:19] code 400, message Bad request version ('À(À$À\x14À')
+127.0.0.1 - - [01/Mar/2024 02:30:19] "[31m[1m\x16\x03\x01\x00Ê\x01\x00\x00Æ\x03\x03\x97÷S\x0c=aSw$?hNÁ¼Ô\x1aù·\x1f!á®?\x16Yó-5\x91[>\x9d\x00\x00hÌ\x14Ì\x13À/À+À0À,À\x11À\x07À'À#À\x13À\x09À(À$À\x14À[0m" 400 -
+127.0.0.1 - - [01/Mar/2024 02:35:09] "[33mGET / HTTP/1.1[0m" 404 -
+127.0.0.1 - - [01/Mar/2024 02:53:29] "[33mGET / HTTP/1.1[0m" 404 -
+127.0.0.1 - - [01/Mar/2024 03:27:35] "[33mGET / HTTP/1.1[0m" 404 -
+127.0.0.1 - - [01/Mar/2024 05:05:00] "[33mGET / HTTP/1.1[0m" 404 -
+127.0.0.1 - - [01/Mar/2024 06:55:40] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+127.0.0.1 - - [01/Mar/2024 06:55:40] "[31m[1m\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr[0m" 400 -
+127.0.0.1 - - [01/Mar/2024 10:32:29] code 400, message Bad request version ('À\x14À')
+127.0.0.1 - - [01/Mar/2024 10:32:29] "[31m[1m\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03\x12\x8bÎeÙM\x1a¼÷¯\x81îJq\x9fø7,\x9a\x83òìåCë\x0e\x986É\x01H= Wú%\x956X«Î²dlbþ©£)\x07éÒü2\x91Ç$5\x1eM\x0fB2!|\x00&Ì¨Ì©À/À0À+À,À\x13À\x09À\x14À[0m" 400 -
+127.0.0.1 - - [01/Mar/2024 10:32:32] "[33mGET / HTTP/1.1[0m" 404 -
+127.0.0.1 - - [01/Mar/2024 10:32:35] "[33mGET / HTTP/1.1[0m" 404 -
+127.0.0.1 - - [01/Mar/2024 10:32:35] code 505, message Invalid HTTP version (2.0)
+127.0.0.1 - - [01/Mar/2024 10:32:35] "[35m[1mPRI * HTTP/2.0[0m" 505 -
+127.0.0.1 - - [01/Mar/2024 11:31:42] "[33mGET / HTTP/1.1[0m" 404 -
+127.0.0.1 - - [01/Mar/2024 12:32:48] code 400, message Bad request version ('\x02')
+127.0.0.1 - - [01/Mar/2024 12:32:48] "[31m[1m\x16\x03\x01\x00ê\x01\x00\x00æ\x03\x03eÀF\x82/KüÄ(qB÷¦:É\x8ag}\x83\x96#¿i\x84\x17}$\x8dúMÍ\x10 \x06GÚú\x1d±\x16cö\x13C\x1fø\x17\x1f\x02[0m" 400 -
+127.0.0.1 - - [01/Mar/2024 12:32:49] "[33mGET / HTTP/1.1[0m" 404 -
+127.0.0.1 - - [01/Mar/2024 12:32:49] "[33mGET / HTTP/1.1[0m" 404 -
+127.0.0.1 - - [01/Mar/2024 12:32:50] "[33mGET /server HTTP/1.1[0m" 404 -
+127.0.0.1 - - [01/Mar/2024 12:32:50] "[33mGET /version HTTP/1.1[0m" 404 -
+127.0.0.1 - - [01/Mar/2024 12:32:51] "[33mGET /.vscode/sftp.json HTTP/1.1[0m" 404 -
+127.0.0.1 - - [01/Mar/2024 12:32:51] "[33mGET /about HTTP/1.1[0m" 404 -
+127.0.0.1 - - [01/Mar/2024 12:32:52] "[33mGET /debug/default/view?panel=config HTTP/1.1[0m" 404 -
+127.0.0.1 - - [01/Mar/2024 12:32:52] "[33mGET /v2/_catalog HTTP/1.1[0m" 404 -
+127.0.0.1 - - [01/Mar/2024 12:32:53] "[33mGET /ecp/Current/exporttool/microsoft.exchange.ediscovery.exporttool.application HTTP/1.1[0m" 404 -
+127.0.0.1 - - [01/Mar/2024 12:32:53] "[33mGET /server-status HTTP/1.1[0m" 404 -
+127.0.0.1 - - [01/Mar/2024 12:32:54] "[33mGET /_all_dbs HTTP/1.1[0m" 404 -
+127.0.0.1 - - [01/Mar/2024 12:32:54] "[33mGET /.DS_Store HTTP/1.1[0m" 404 -
+127.0.0.1 - - [01/Mar/2024 12:32:54] "[33mGET /.env HTTP/1.1[0m" 404 -
+127.0.0.1 - - [01/Mar/2024 12:32:55] "[33mGET /.git/config HTTP/1.1[0m" 404 -
+127.0.0.1 - - [01/Mar/2024 12:32:56] "[33mGET /s/1323e25343e2138313e2830313/_/;/META-INF/maven/com.atlassian.jira/jira-webapp-dist/pom.properties HTTP/1.1[0m" 404 -
+127.0.0.1 - - [01/Mar/2024 12:32:56] "[33mGET /config.json HTTP/1.1[0m" 404 -
+127.0.0.1 - - [01/Mar/2024 12:32:56] "[33mGET /telescope/requests HTTP/1.1[0m" 404 -
+127.0.0.1 - - [01/Mar/2024 12:32:57] "[33mGET /?rest_route=/wp/v2/users/ HTTP/1.1[0m" 404 -
+127.0.0.1 - - [01/Mar/2024 12:49:15] "[33mGET / HTTP/1.0[0m" 404 -
+127.0.0.1 - - [01/Mar/2024 13:58:35] code 400, message Bad request syntax ('JDWP-Handshake')
+127.0.0.1 - - [01/Mar/2024 13:58:35] "[31m[1mJDWP-Handshake[0m" 400 -
+ * Detected change in '/home/mario/DirectResearch/backend/eTA/service/embedding/sBert.py', reloading
+Similarity Score: 0.2793, Index: 349
+Similarity Score: 0.2768, Index: 63
+Similarity Score: 0.2512, Index: 440
+Similarity Score: 0.4973, Index: 333
+Similarity Score: 0.4659, Index: 173
+Similarity Score: 0.4571, Index: 131
+Similarity Score: 0.7829, Index: 71
+Similarity Score: 0.4527, Index: 206
+Similarity Score: 0.3773, Index: 207
+Similarity Score: 0.7618, Index: 71
+Similarity Score: 0.4451, Index: 206
+Similarity Score: 0.3912, Index: 207
+Similarity Score: 0.7769, Index: 71
+Similarity Score: 0.4625, Index: 206
+Similarity Score: 0.3662, Index: 207
+Similarity Score: 0.4301, Index: 212
+Similarity Score: 0.3910, Index: 64
+Similarity Score: 0.3632, Index: 312
+Similarity Score: 0.5203, Index: 390
+Similarity Score: 0.4968, Index: 416
+Similarity Score: 0.4899, Index: 410
+Similarity Score: 0.5203, Index: 390
+Similarity Score: 0.4968, Index: 416
+Similarity Score: 0.4899, Index: 410
+Similarity Score: 0.5203, Index: 390
+Similarity Score: 0.4968, Index: 416
+Similarity Score: 0.4899, Index: 410
+Similarity Score: 0.4301, Index: 212
+Similarity Score: 0.3910, Index: 64
+Similarity Score: 0.3632, Index: 312
+Similarity Score: 0.5237, Index: 390
+Similarity Score: 0.5047, Index: 378
+Similarity Score: 0.4887, Index: 416
+Similarity Score: 0.5203, Index: 390
+Similarity Score: 0.4968, Index: 416
+Similarity Score: 0.4899, Index: 410
+Similarity Score: 0.5203, Index: 390
+Similarity Score: 0.4968, Index: 416
+Similarity Score: 0.4899, Index: 410
+Similarity Score: 0.5203, Index: 390
+Similarity Score: 0.4968, Index: 416
+Similarity Score: 0.4899, Index: 410
+Similarity Score: 0.5203, Index: 390
+Similarity Score: 0.4968, Index: 416
+Similarity Score: 0.4899, Index: 410
+Similarity Score: 0.5203, Index: 390
+Similarity Score: 0.4968, Index: 416
+Similarity Score: 0.4899, Index: 410
+Similarity Score: 0.4220, Index: 212
+Similarity Score: 0.3817, Index: 64
+Similarity Score: 0.3612, Index: 312
+Similarity Score: 0.3120, Index: 337
+Similarity Score: 0.3014, Index: 172
+Similarity Score: 0.2778, Index: 283
+Similarity Score: 0.2912, Index: 64
+Similarity Score: 0.2486, Index: 21
+Similarity Score: 0.2278, Index: 13
+Similarity Score: 0.5044, Index: 64
+Similarity Score: 0.4072, Index: 187
+Similarity Score: 0.3863, Index: 235
+Similarity Score: 0.3786, Index: 359
+Similarity Score: 0.3571, Index: 325
+Similarity Score: 0.3497, Index: 180
+Similarity Score: 0.5840, Index: 312
+Similarity Score: 0.5810, Index: 212
+Similarity Score: 0.4596, Index: 180
+Similarity Score: 0.3765, Index: 63
+Similarity Score: 0.3634, Index: 450
+Similarity Score: 0.3479, Index: 188
+Similarity Score: 0.5840, Index: 312
+Similarity Score: 0.5810, Index: 212
+Similarity Score: 0.4596, Index: 180
+Similarity Score: 0.4918, Index: 333
+Similarity Score: 0.4700, Index: 131
+Similarity Score: 0.4634, Index: 173
+Similarity Score: 0.5653, Index: 333
+Similarity Score: 0.5276, Index: 173
+Similarity Score: 0.5119, Index: 131
+Similarity Score: 0.5353, Index: 212
+Similarity Score: 0.5223, Index: 312
+Similarity Score: 0.4303, Index: 180
+Similarity Score: 0.2912, Index: 64
+Similarity Score: 0.2486, Index: 21
+Similarity Score: 0.2278, Index: 13
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 225-076-614
+127.0.0.1 - - [01/Mar/2024 16:27:47] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+127.0.0.1 - - [01/Mar/2024 16:27:47] "[31m[1m\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr[0m" 400 -
+ * Detected change in '/home/mario/DirectResearch/backend/eTA/service/embedding/sBert.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 225-076-614
+127.0.0.1 - - [01/Mar/2024 17:03:00] "[33mGET / HTTP/1.1[0m" 404 -
+127.0.0.1 - - [01/Mar/2024 17:03:01] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+ * Detected change in '/home/mario/DirectResearch/backend/eTA/service/embedding/sBert.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 225-076-614
