@@ -55,3 +55,4 @@ def encode_text(data, courseID, fileID):
 
     # Store the encoded embeddings and original texts in DynamoDB and return the status
     return store_items_to_cloud(courseID, original_text, embeddings_str_list, fileID)
+

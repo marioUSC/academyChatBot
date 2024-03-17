@@ -1,7 +1,7 @@
 from flask import Flask, request, jsonify
 from flask_cors import CORS
 from eTA.controller.handleQuery import handleQuery, llamaQuery
-from eTA.controller.handleDatabase import handleUpload, handleScan
+from eTA.controller.handleDatabase import (handleUpload, handleScan, handleItemSearch)
 
 app = Flask(__name__)
 CORS(app)
@@ -20,33 +20,37 @@ def test_answer_question():
 
 @app.route('/ask', methods=['POST'])
 def answer_question():
-    data = request.get_json()  
-    question = data.get('question')
 
-    questionPrompt = "Question: {}".format(question)
+    if request.is_json:
 
-    answer = handleQuery(question)
-    answer_llamaIndex = llamaQuery(question)
-    return jsonify({"question": question, "answer": answer, "llamaIndexAnswer": answer_llamaIndex})
+        data = request.get_json()  
+        question = data.get('question')
+        courseID = data.get('courseID')
+        questionPrompt = "Question: {}".format(question)
+
+        answer = handleQuery(question, courseID)
+        answer_llamaIndex = llamaQuery(question)
+        return jsonify({"question": question, "answer": answer, "llamaIndexAnswer": answer_llamaIndex})
+    else:
+        return jsonify({"error": "Request must be JSON"}), 400
 
 # Handle new upload from user
 @app.route('/upload-json', methods=['POST'])
 def upload_json():
 
-    courseID = request.headers.get('courseID')
-    fileID = request.headers.get('fileID', 'default')
-    if courseID:
-        print(f"Received custom header courseID with value: {courseID}")
-    else:
-        return "Custom header courseID not found", 400
-
     if request.is_json:
         data = request.get_json()
-        message = handleUpload(data, courseID, fileID)  
+        courseID = data.get('courseID')
+        fileID = data.get('fileID', 'default')
+        content = data.get('content')
+
+        if content is None or courseID is None:
+            return jsonify({"error": "Request must be contain content to upload"}), 404
+
+        message = handleUpload(content, courseID, fileID)  
         
         return jsonify({
-            "message": message,
-            "custom_header": courseID
+            "message": message
         }), 200
 
     else:
@@ -54,22 +58,47 @@ def upload_json():
 
 @app.route('/readDB', methods=['GET'])
 def read_from_database():
-    courseID = request.headers.get('courseID')
-    # start_key = request.headers.get('startKey', None)
-    read_number = int(request.headers.get('readLimit', '2'))
-
-    if not courseID:
-        return jsonify({
-            "message": 'courseID not found'
-        }), 400
-
-
     if request.is_json:
-        start_key = request.get_json()
+        data = request.get_json()
+
+        courseID = data.get('courseID')
+        hasStartKey = data.get('hasStartKey')
+        read_number = int(data.get('readLimit', '2'))
+        if hasStartKey:
+            start_key = data.get('startKey')
+        else:
+            start_key = None
+
         result = handleScan(courseID, start_key, read_number)
-    return result, 200
+        return jsonify({
+            "message": result['message'],
+            "result": result
+        }), 200
+    else:
+        return jsonify({"error": "Request must be JSON"}), 400
+
+
+@app.route('/itemQuery', methods=['GET'])
+def querySingalItem():
+    if request.is_json:
+        data = request.get_json()
+        courseID = data.get('courseID')
+        primary_key = data.get('primary_key')
+
+        # missing required field
+        if courseID is None or primary_key is None:
+            return jsonify({
+                "message": "Error: 'courseID' and 'primary_key' are required in JSON data."
+            }), 400
+        
+        query_item = handleItemSearch(courseID, primary_key)
+        return jsonify({
+                'message': query_item['message'],
+                'status': query_item['status'],
+                'data': query_item['data']
+            }), 200
 
 
 if __name__ == '__main__':
-    # app.run(debug=True, host='0.0.0.0', port=5000)
-    app.run(debug=True, port=5000)
+    app.run(debug=True, host='0.0.0.0', port=5000)
+    # app.run(debug=True, port=5000)

@@ -1,5 +1,7 @@
 import boto3
 import json
+import time
+
 dynamodb = boto3.resource('dynamodb')
 def create_new_table(name):
     table = dynamodb.create_table(
@@ -114,13 +116,98 @@ def scan_items(table_name, start_key=None, limit=2):
     result = {
         'returned_count': len(items),
         'startKey': start_key,
-        'items': items
+        'items': items,
+        'message': 'scan successful',
+        'status': 200
     }
-    result_json = json.dumps(result, default=str)
-    # print(result_json)
-    return result_json
+
+    return result
+
+def get_and_print_item(table_name, primary_key):
+    table = dynamodb.Table(table_name)
+    try:
+        response = table.get_item(
+            Key=primary_key
+        )
+        item = response.get('Item', None)
+        if item:
+            data = item
+            message = 'Item found'
+            status = 200
+        else:
+            data = 'None'
+            message = 'Item not exist'
+            status = 404
+        
+        result = {
+            'status': status,
+            'message': message, 
+            'data' : data
+        }
+        # result = json.dumps(result, default=str)
+        return result
+        
+    except Exception as e:
+        print("Error getting item:", e)
+        result = {
+            'status': 500,
+            'message': 'Exception catached', 
+            'data' : 'None'
+        }
+        # result = json.dumps(result, default=str)
+        return result
+
+def delete_item(table_name, primary_key):
+    table = dynamodb.Table(table_name)
+    try:
+        response = table.delete_item(
+            Key=primary_key
+        )
+        result = {
+            'status': 200,
+            'message': 'Deleted successfully', 
+            'data' : 'None'
+        }
+        return result
+    except Exception as e:
+        result = {
+            'status': 400,
+            'message': 'Exception catached when deleting the item', 
+            'data' : 'None'
+        }
+        return result
+
+def scan_all_items(table_name):
+    dynamodb = boto3.resource('dynamodb')
+    table = dynamodb.Table(table_name)
+
+    scan_kwargs = {}
+    items = []
+
+    while True:
+        response = table.scan(**scan_kwargs)
+        items.extend(response['Items'])
+
+        if 'LastEvaluatedKey' not in response:
+            break  
+
+        scan_kwargs['ExclusiveStartKey'] = response['LastEvaluatedKey']
+        # break
+
+    return items
 
 def main():
+    # delete_item("EE450", {'ID' : "-3723379543205394297", 'CreatedTime' : '2024-03-04T14:23:53.473595' })
+    # get_and_print_item("EE450", {'ID' : "-3723379543205394297", 'CreatedTime' : '2024-03-04T14:23:53.473595' })
+    start_time = time.time()
+    result = scan_all_items("EE450")
+    end_time = time.time()
+
+    # 计算持续时间
+    duration = end_time - start_time
+    print(result[0:1])
+    print(f"Total items retrieved: {len(result)}")
+    print(f"Total time taken: {duration} seconds")
     return
 
 if __name__ == '__main__':

@@ -7,7 +7,7 @@ import os
 # This function calls the embedding model to retrieve the most similar QA pairs.
 # It then forwards these pairs to the LLM (Large Language Model) for summarization.
 # After receiving the summarized response, it returns the reply to the user.
-def handleQuery(question):
+def handleQuery(question, table_name):
     
     # Base prompt with instructions for the model
     base_prompt = """Please carefully review the provided Q&A pairs to identify and extract \
@@ -18,7 +18,7 @@ def handleQuery(question):
                 the most relevant information found within the provided Q&A pairs. \n"""
 
     # Get the most silimar QA pairs from embedding model
-    knowledge = find_similar_questions(question)
+    knowledge = find_similar_questions(question, table_name, 5)
 
     # Concatenate the base prompt with the specific question and the context
     knowledge_prompt = f" Q&A pairs knowledge base:  : {knowledge}"
