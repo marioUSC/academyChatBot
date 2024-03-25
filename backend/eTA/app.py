@@ -1,7 +1,9 @@
 from flask import Flask, request, jsonify
 from flask_cors import CORS
 from eTA.controller.handleQuery import handleQuery, llamaQuery
-from eTA.controller.handleDatabase import (handleUpload, handleScan, handleItemSearch)
+from eTA.controller.handleDatabase import (
+    handleUpload, handleScan, handleItemSearch, handleDelete
+)
 
 app = Flask(__name__)
 CORS(app)
@@ -56,7 +58,7 @@ def upload_json():
     else:
         return jsonify({"error": "Request must be JSON"}), 400
 
-@app.route('/readDB', methods=['GET'])
+@app.route('/readDB', methods=['POST'])
 def read_from_database():
     if request.is_json:
         data = request.get_json()
@@ -78,7 +80,7 @@ def read_from_database():
         return jsonify({"error": "Request must be JSON"}), 400
 
 
-@app.route('/itemQuery', methods=['GET'])
+@app.route('/itemQuery', methods=['POST'])
 def querySingalItem():
     if request.is_json:
         data = request.get_json()
@@ -98,6 +100,25 @@ def querySingalItem():
                 'data': query_item['data']
             }), 200
 
+@app.route('/itemDelete', methods=['POST'])
+def deleteSingleItem():
+    if request.is_json:
+        data = request.get_json()
+        courseID = data.get('courseID')
+        primary_key = data.get('primary_key')
+
+        # missing required field
+        if courseID is None or primary_key is None:
+            return jsonify({
+                "message": "Error: 'courseID' and 'primary_key' are required in JSON data."
+            }), 400
+        
+        query_item = handleDelete(courseID, primary_key)
+        return jsonify({
+                'message': query_item['message'],
+                'status': query_item['status'],
+                'data': query_item['data']
+            }), 200
 
 if __name__ == '__main__':
     app.run(debug=True, host='0.0.0.0', port=5000)

@@ -8,5 +8,125 @@ nohup: ignoring input
 [33mPress CTRL+C to quit[0m
  * Restarting with stat
  * Debugger is active!
- * Debugger PIN: 357-161-390
-104.32.165.129 - - [16/Mar/2024 19:42:16] "POST /ask HTTP/1.1" 200 -
+ * Debugger PIN: 171-744-172
+104.32.165.129 - - [24/Mar/2024 14:09:23] "GET /readDB HTTP/1.1" 200 -
+104.32.165.129 - - [24/Mar/2024 14:11:17] "GET /readDB HTTP/1.1" 200 -
+198.235.24.71 - - [24/Mar/2024 16:35:35] "[33mGET / HTTP/1.0[0m" 404 -
+71.6.134.232 - - [24/Mar/2024 16:48:41] code 400, message Bad request version ('À\x14À')
+71.6.134.232 - - [24/Mar/2024 16:48:41] "[31m[1m\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03Ä\x17\x19\x8cÕ-þ-\x83\x1fÝ\x80ïk\x1dê_Ú\x8ds\x96XQ\x8eóãkö*ó\x87> û\x16\x82\x06ö ¿\x192À\x95q3MdLõ Fº#÷jÈÃ\x06D\x8by³úu\x00&Ì¨Ì©À/À0À+À,À\x13À\x09À\x14À[0m" 400 -
+71.6.134.232 - - [24/Mar/2024 17:12:46] "[33mGET / HTTP/1.1[0m" 404 -
+71.6.134.232 - - [24/Mar/2024 17:13:16] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+80.66.88.204 - - [24/Mar/2024 22:25:36] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+80.66.88.204 - - [24/Mar/2024 22:25:36] "[31m[1m\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr[0m" 400 -
+205.210.31.24 - - [24/Mar/2024 22:54:47] "[33mGET / HTTP/1.1[0m" 404 -
+167.248.133.51 - - [25/Mar/2024 03:17:14] code 400, message Bad request version ('À\x14À')
+167.248.133.51 - - [25/Mar/2024 03:17:14] "[31m[1m\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03¨u\x14¥`Õ|]0I\x1amÐú\x08»Fçå\x9aðþX¶¢~jP1{»> \x05"é_\x02~¤\x11\x09ÝT\x92'Zzùê;±\x0bft®öà£5ôýSÌÚ\x00&Ì¨Ì©À/À0À+À,À\x13À\x09À\x14À[0m" 400 -
+167.248.133.51 - - [25/Mar/2024 03:17:18] "[33mGET / HTTP/1.1[0m" 404 -
+167.248.133.51 - - [25/Mar/2024 03:17:21] "[33mGET / HTTP/1.1[0m" 404 -
+167.248.133.51 - - [25/Mar/2024 03:17:21] code 505, message Invalid HTTP version (2.0)
+167.248.133.51 - - [25/Mar/2024 03:17:21] "[35m[1mPRI * HTTP/2.0[0m" 505 -
+185.224.128.17 - - [25/Mar/2024 03:29:25] "[33mCONNECT example.com:80 HTTP/1.1[0m" 404 -
+185.224.128.17 - - [25/Mar/2024 03:29:40] code 400, message Bad request syntax ('\x05\x01\x00')
+185.224.128.17 - - [25/Mar/2024 03:29:40] "[31m[1m\x05\x01\x00[0m" 400 -
+185.224.128.17 - - [25/Mar/2024 03:29:40] code 400, message Bad request syntax ('\x04\x01\x00P\x00\x00\x00\x01\x00example.com\x00')
+185.224.128.17 - - [25/Mar/2024 03:29:40] "[31m[1m\x04\x01\x00P\x00\x00\x00\x01\x00example.com\x00[0m" 400 -
+87.236.176.124 - - [25/Mar/2024 05:25:14] "[33mGET / HTTP/1.1[0m" 404 -
+91.92.245.67 - - [25/Mar/2024 06:43:55] "[33mCONNECT api.ipify.org:443 HTTP/1.1[0m" 404 -
+35.165.245.249 - - [25/Mar/2024 07:07:24] "[33mGET / HTTP/1.1[0m" 404 -
+162.243.136.51 - - [25/Mar/2024 11:25:45] "[33mGET /v2/ HTTP/1.1[0m" 404 -
+207.151.52.218 - - [25/Mar/2024 13:38:50] "GET /readDB HTTP/1.1" 200 -
+ * Detected change in '/home/mario/DirectResearch/backend/eTA/controller/handleDatabase.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 171-744-172
+ * Detected change in '/home/mario/DirectResearch/backend/eTA/app.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 171-744-172
+104.32.165.129 - - [25/Mar/2024 14:10:33] "GET /readDB HTTP/1.1" 200 -
+104.32.165.129 - - [25/Mar/2024 14:10:38] "GET /itemQuery HTTP/1.1" 200 -
+104.32.165.129 - - [25/Mar/2024 14:11:58] "GET /itemDelete HTTP/1.1" 200 -
+104.32.165.129 - - [25/Mar/2024 14:12:18] "GET /itemDelete HTTP/1.1" 200 -
+ * Detected change in '/home/mario/DirectResearch/backend/eTA/app.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 171-744-172
+104.32.165.129 - - [25/Mar/2024 14:13:17] "GET /itemDelete HTTP/1.1" 200 -
+207.151.52.218 - - [25/Mar/2024 14:13:37] "OPTIONS /readDB HTTP/1.1" 200 -
+207.151.52.218 - - [25/Mar/2024 14:13:37] "OPTIONS /readDB HTTP/1.1" 200 -
+207.151.52.218 - - [25/Mar/2024 14:13:37] "[31m[1mPOST /readDB HTTP/1.1[0m" 405 -
+207.151.52.218 - - [25/Mar/2024 14:13:37] "[31m[1mPOST /readDB HTTP/1.1[0m" 405 -
+104.32.165.129 - - [25/Mar/2024 14:13:37] "GET /itemQuery HTTP/1.1" 200 -
+207.151.52.218 - - [25/Mar/2024 14:14:14] "GET /readDB HTTP/1.1" 200 -
+207.151.52.218 - - [25/Mar/2024 14:14:18] "[31m[1mPOST /readDB HTTP/1.1[0m" 405 -
+207.151.52.218 - - [25/Mar/2024 14:22:03] "OPTIONS /readDB?${queryParam} HTTP/1.1" 200 -
+207.151.52.218 - - [25/Mar/2024 14:22:03] "OPTIONS /readDB?${queryParam} HTTP/1.1" 200 -
+207.151.52.218 - - [25/Mar/2024 14:22:03] "[31m[1mGET /readDB?${queryParam} HTTP/1.1[0m" 400 -
+207.151.52.218 - - [25/Mar/2024 14:22:03] "[31m[1mGET /readDB?${queryParam} HTTP/1.1[0m" 400 -
+207.151.52.218 - - [25/Mar/2024 14:22:44] "OPTIONS /readDB?${queryParam} HTTP/1.1" 200 -
+207.151.52.218 - - [25/Mar/2024 14:22:44] "OPTIONS /readDB?${queryParam} HTTP/1.1" 200 -
+207.151.52.218 - - [25/Mar/2024 14:22:44] "[31m[1mGET /readDB?${queryParam} HTTP/1.1[0m" 400 -
+207.151.52.218 - - [25/Mar/2024 14:22:44] "[31m[1mGET /readDB?${queryParam} HTTP/1.1[0m" 400 -
+207.151.52.218 - - [25/Mar/2024 14:23:26] "OPTIONS /readDB?[object%20Object] HTTP/1.1" 200 -
+207.151.52.218 - - [25/Mar/2024 14:23:26] "OPTIONS /readDB?[object%20Object] HTTP/1.1" 200 -
+207.151.52.218 - - [25/Mar/2024 14:23:26] "[31m[1mGET /readDB?[object%20Object] HTTP/1.1[0m" 400 -
+207.151.52.218 - - [25/Mar/2024 14:23:26] "[31m[1mGET /readDB?[object%20Object] HTTP/1.1[0m" 400 -
+207.151.52.218 - - [25/Mar/2024 14:23:28] "[31m[1mGET /readDB?[object%20Object] HTTP/1.1[0m" 400 -
+207.151.52.218 - - [25/Mar/2024 14:23:28] "[31m[1mGET /readDB?[object%20Object] HTTP/1.1[0m" 400 -
+207.151.52.218 - - [25/Mar/2024 14:25:03] "OPTIONS /readDB?hasStartKey=false&startKey=null&courseID=EE450&readLimit=100 HTTP/1.1" 200 -
+207.151.52.218 - - [25/Mar/2024 14:25:03] "OPTIONS /readDB?hasStartKey=false&startKey=null&courseID=EE450&readLimit=100 HTTP/1.1" 200 -
+207.151.52.218 - - [25/Mar/2024 14:25:03] "[31m[1mGET /readDB?hasStartKey=false&startKey=null&courseID=EE450&readLimit=100 HTTP/1.1[0m" 400 -
+207.151.52.218 - - [25/Mar/2024 14:25:03] "[31m[1mGET /readDB?hasStartKey=false&startKey=null&courseID=EE450&readLimit=100 HTTP/1.1[0m" 400 -
+207.151.52.218 - - [25/Mar/2024 14:25:33] "OPTIONS /readDB?hasStartKey=false&startKey=null&courseID=EE450&readLimit=100 HTTP/1.1" 200 -
+207.151.52.218 - - [25/Mar/2024 14:25:33] "OPTIONS /readDB?hasStartKey=false&startKey=null&courseID=EE450&readLimit=100 HTTP/1.1" 200 -
+207.151.52.218 - - [25/Mar/2024 14:25:33] "[31m[1mGET /readDB?hasStartKey=false&startKey=null&courseID=EE450&readLimit=100 HTTP/1.1[0m" 400 -
+207.151.52.218 - - [25/Mar/2024 14:25:33] "[31m[1mGET /readDB?hasStartKey=false&startKey=null&courseID=EE450&readLimit=100 HTTP/1.1[0m" 400 -
+207.151.52.218 - - [25/Mar/2024 14:25:37] "[31m[1mGET /readDB?hasStartKey=false&startKey=null&courseID=EE450&readLimit=100 HTTP/1.1[0m" 400 -
+207.151.52.218 - - [25/Mar/2024 14:25:37] "[31m[1mGET /readDB?hasStartKey=false&startKey=null&courseID=EE450&readLimit=100 HTTP/1.1[0m" 400 -
+207.151.52.218 - - [25/Mar/2024 14:25:48] "OPTIONS /readDB?hasStartKey=false&startKey=nul&courseID=EE450&readLimit=100 HTTP/1.1" 200 -
+207.151.52.218 - - [25/Mar/2024 14:25:48] "OPTIONS /readDB?hasStartKey=false&startKey=nul&courseID=EE450&readLimit=100 HTTP/1.1" 200 -
+207.151.52.218 - - [25/Mar/2024 14:25:48] "[31m[1mGET /readDB?hasStartKey=false&startKey=nul&courseID=EE450&readLimit=100 HTTP/1.1[0m" 400 -
+207.151.52.218 - - [25/Mar/2024 14:25:48] "[31m[1mGET /readDB?hasStartKey=false&startKey=nul&courseID=EE450&readLimit=100 HTTP/1.1[0m" 400 -
+207.151.52.218 - - [25/Mar/2024 14:26:12] "OPTIONS /readDB?hasStartKey=false&startKey=nulL&courseID=EE450&readLimit=100 HTTP/1.1" 200 -
+207.151.52.218 - - [25/Mar/2024 14:26:12] "OPTIONS /readDB?hasStartKey=false&startKey=nulL&courseID=EE450&readLimit=100 HTTP/1.1" 200 -
+207.151.52.218 - - [25/Mar/2024 14:26:12] "[31m[1mGET /readDB?hasStartKey=false&startKey=nulL&courseID=EE450&readLimit=100 HTTP/1.1[0m" 400 -
+207.151.52.218 - - [25/Mar/2024 14:26:12] "[31m[1mGET /readDB?hasStartKey=false&startKey=nulL&courseID=EE450&readLimit=100 HTTP/1.1[0m" 400 -
+207.151.52.218 - - [25/Mar/2024 14:27:11] "OPTIONS /readDB?hasStartKey=false&startKey=nulL&courseID=EE450&readLimit=5 HTTP/1.1" 200 -
+207.151.52.218 - - [25/Mar/2024 14:27:11] "OPTIONS /readDB?hasStartKey=false&startKey=nulL&courseID=EE450&readLimit=5 HTTP/1.1" 200 -
+207.151.52.218 - - [25/Mar/2024 14:27:11] "[31m[1mGET /readDB?hasStartKey=false&startKey=nulL&courseID=EE450&readLimit=5 HTTP/1.1[0m" 400 -
+207.151.52.218 - - [25/Mar/2024 14:27:11] "[31m[1mGET /readDB?hasStartKey=false&startKey=nulL&courseID=EE450&readLimit=5 HTTP/1.1[0m" 400 -
+207.151.52.218 - - [25/Mar/2024 14:27:44] "OPTIONS /readDB?hasStartKey=false&startKey=8085941781210758542&courseID=EE450&readLimit=5 HTTP/1.1" 200 -
+207.151.52.218 - - [25/Mar/2024 14:27:44] "OPTIONS /readDB?hasStartKey=false&startKey=8085941781210758542&courseID=EE450&readLimit=5 HTTP/1.1" 200 -
+207.151.52.218 - - [25/Mar/2024 14:27:44] "[31m[1mGET /readDB?hasStartKey=false&startKey=8085941781210758542&courseID=EE450&readLimit=5 HTTP/1.1[0m" 400 -
+207.151.52.218 - - [25/Mar/2024 14:27:44] "[31m[1mGET /readDB?hasStartKey=false&startKey=8085941781210758542&courseID=EE450&readLimit=5 HTTP/1.1[0m" 400 -
+207.151.52.218 - - [25/Mar/2024 14:28:12] "GET /readDB HTTP/1.1" 200 -
+207.151.52.218 - - [25/Mar/2024 14:28:23] "OPTIONS /readDB?hasStartKey=false&courseID=EE450&readLimit=5 HTTP/1.1" 200 -
+207.151.52.218 - - [25/Mar/2024 14:28:23] "OPTIONS /readDB?hasStartKey=false&courseID=EE450&readLimit=5 HTTP/1.1" 200 -
+207.151.52.218 - - [25/Mar/2024 14:28:23] "[31m[1mGET /readDB?hasStartKey=false&courseID=EE450&readLimit=5 HTTP/1.1[0m" 400 -
+207.151.52.218 - - [25/Mar/2024 14:28:24] "[31m[1mGET /readDB?hasStartKey=false&courseID=EE450&readLimit=5 HTTP/1.1[0m" 400 -
+207.151.52.218 - - [25/Mar/2024 14:28:29] "OPTIONS /readDB?hasStartKey=false&courseID=EE450&readLimit=5 HTTP/1.1" 200 -
+207.151.52.218 - - [25/Mar/2024 14:28:29] "OPTIONS /readDB?hasStartKey=false&courseID=EE450&readLimit=5 HTTP/1.1" 200 -
+207.151.52.218 - - [25/Mar/2024 14:28:29] "[31m[1mGET /readDB?hasStartKey=false&courseID=EE450&readLimit=5 HTTP/1.1[0m" 400 -
+207.151.52.218 - - [25/Mar/2024 14:28:29] "[31m[1mGET /readDB?hasStartKey=false&courseID=EE450&readLimit=5 HTTP/1.1[0m" 400 -
+207.151.52.218 - - [25/Mar/2024 14:30:24] "OPTIONS /readDB?hasStartKey=false&courseID=EE450&readLimit=5 HTTP/1.1" 200 -
+207.151.52.218 - - [25/Mar/2024 14:30:24] "OPTIONS /readDB?hasStartKey=false&courseID=EE450&readLimit=5 HTTP/1.1" 200 -
+207.151.52.218 - - [25/Mar/2024 14:30:24] "[31m[1mGET /readDB?hasStartKey=false&courseID=EE450&readLimit=5 HTTP/1.1[0m" 400 -
+207.151.52.218 - - [25/Mar/2024 14:30:24] "[31m[1mGET /readDB?hasStartKey=false&courseID=EE450&readLimit=5 HTTP/1.1[0m" 400 -
+207.151.52.218 - - [25/Mar/2024 14:30:32] "OPTIONS /readDB?hasStartKey=false&courseID=EE450&readLimit=5 HTTP/1.1" 200 -
+207.151.52.218 - - [25/Mar/2024 14:30:32] "OPTIONS /readDB?hasStartKey=false&courseID=EE450&readLimit=5 HTTP/1.1" 200 -
+207.151.52.218 - - [25/Mar/2024 14:30:32] "[31m[1mGET /readDB?hasStartKey=false&courseID=EE450&readLimit=5 HTTP/1.1[0m" 400 -
+207.151.52.218 - - [25/Mar/2024 14:30:32] "[31m[1mGET /readDB?hasStartKey=false&courseID=EE450&readLimit=5 HTTP/1.1[0m" 400 -
+207.151.52.218 - - [25/Mar/2024 14:31:04] "[31m[1mGET /readDB?hasStartKey=false&courseID=EE450&readLimit=5%20 HTTP/1.1[0m" 400 -
+ * Detected change in '/home/mario/DirectResearch/backend/eTA/app.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 171-744-172
+104.32.165.129 - - [25/Mar/2024 15:05:53] "POST /readDB HTTP/1.1" 200 -
+104.32.165.129 - - [25/Mar/2024 15:05:59] "POST /itemQuery HTTP/1.1" 200 -
+104.32.165.129 - - [25/Mar/2024 15:06:04] "POST /itemDelete HTTP/1.1" 200 -
+104.32.165.129 - - [25/Mar/2024 15:06:11] "[31m[1mPOST /readDB HTTP/1.1[0m" 400 -
+104.32.165.129 - - [25/Mar/2024 15:06:21] "POST /test HTTP/1.1" 200 -
+104.32.165.129 - - [25/Mar/2024 15:06:38] "POST /ask HTTP/1.1" 200 -
+104.32.165.129 - - [25/Mar/2024 15:06:52] "POST /itemQuery HTTP/1.1" 200 -
+104.32.165.129 - - [25/Mar/2024 15:06:54] "POST /itemDelete HTTP/1.1" 200 -
+207.151.52.218 - - [25/Mar/2024 15:07:56] "POST /readDB HTTP/1.1" 200 -

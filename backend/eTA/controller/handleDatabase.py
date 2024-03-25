@@ -1,7 +1,7 @@
 import json 
 from eTA.service.embedding.dynamoDB import (
     create_new_table, create_new_table, check_table_exists,
-    scan_items, get_and_print_item
+    scan_items, get_and_print_item, delete_item
 )
 from eTA.service.embedding.sBert import encode_text
 
@@ -25,3 +25,10 @@ def handleItemSearch(courseID, primary_key):
     
     return get_and_print_item(courseID, primary_key)
 
+def handleDelete(courseID, primary_key):
+    if not check_table_exists(courseID):
+        return jsonify({
+            'status': 500, 
+            'message': 'Table not exist'})
+    
+    return delete_item(courseID, primary_key)

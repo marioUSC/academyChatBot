@@ -16,7 +16,7 @@ You can use this API to pose questions to the e_TA bot, which will then provide 
 
 - The body of the request should be a JSON object containing the **question** and **courseID**.
 - courseID: ask for the specific course bot
-- Example: 
+- Example:
 
 ```sjson
 {
@@ -37,8 +37,6 @@ You can use this API to pose questions to the e_TA bot, which will then provide 
 }
 ```
 
-
-
 ### POST /upload-json
 
 You can use this API to upload new content to the e_TA bot, which will then store the embeddings of the new content in the database.
@@ -52,7 +50,7 @@ You can use this API to upload new content to the e_TA bot, which will then stor
 - The body of the request should be a JSON object containing the courseID, fileID, content(a list of QA pair).
 - courseID: table you want to upload to
 - fileID: source of this upload
-- Content: list of the knowledge 
+- Content: list of the knowledge
 
 ```
 {
@@ -76,9 +74,7 @@ You can use this API to upload new content to the e_TA bot, which will then stor
 }
 ```
 
-
-
-### GET /readDB
+### POST /readDB
 
 You can use this API to read from database.
 
@@ -89,7 +85,6 @@ You can use this API to read from database.
 **Request Body**
 
 - The body of the request should be a JSON object containing the hasStartKey, courseID, startKey, readLimit.
-
 - `hasStartKey`: Boolean to start reading from `startKey` (true) or the first item (false).
 - `startKey`: JSON key to begin reading from, required if `hasStartKey` is true.
 - `courseID`: Identifies the table to read from.
@@ -106,7 +101,7 @@ You can use this API to read from database.
 
 **Response**
 
-- The API returns a JSON object with the status, message, and list of items. 
+- The API returns a JSON object with the status, message, and list of items.
 - `message`: Status message of the scan, e.g., "scan successful".
 - `result`: Contains the scan output with the following fields:
   - `items`: Array of data items fetched, each with `CreatedTime`, `Embedding`, `ID`, `OriginalText`, and `UploadSource`.
@@ -140,9 +135,7 @@ You can use this API to read from database.
 }
 ```
 
-
-
-### GET /itemQuery
+### POST /itemQuery
 
 Read a specific item from the database
 
@@ -153,11 +146,10 @@ Read a specific item from the database
 **Request Body**
 
 - `courseID`: Specifies the table to target the request.
-
 - `primary_key`: JSON object representing the primary key to locate the item, including `ID` and `CreatedTime`.
 
 ```
-{    
+{  
     "courseID":"EE450",
     "primary_key": {"ID": "3290800591763312446", "CreatedTime":"2024-03-04T14:23:53.473560"}
 }
@@ -166,11 +158,11 @@ Read a specific item from the database
 **Response**
 
 - `data`: Contains the details of the retrieved item, including:
-    - `CreatedTime`: Timestamp of when the item was created.
-    - `Embedding`: The embedding vector associated with the item.
-    - `ID`: Unique identifier of the item.
-    - `OriginalText`: The text content of the item, such as a question and answer.
-    - `UploadSource`: Source identifier where the item was uploaded from.
+  - `CreatedTime`: Timestamp of when the item was created.
+  - `Embedding`: The embedding vector associated with the item.
+  - `ID`: Unique identifier of the item.
+  - `OriginalText`: The text content of the item, such as a question and answer.
+  - `UploadSource`: Source identifier where the item was uploaded from.
 - `message`: Describes the result of the operation, e.g., "Item found".
 - `status`: HTTP status code indicating the result, e.g., 200 for success.
 
@@ -187,4 +179,3 @@ Read a specific item from the database
     "status": 200
 }
 ```
-
