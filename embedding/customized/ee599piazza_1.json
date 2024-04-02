@@ -1,0 +1,2713 @@
+[
+    {
+        "detail": {
+            "content": "Students,Welcome to Piazza! We'll be conducting all class-related discussion here this term. The quicker you begin asking questions on Piazza (rather than via emails), the quicker you'll benefit from the collective knowledge of your classmates and instructors. We encourage you to ask questions when you're struggling to understand a concept—you can even do so anonymously.-Arash",
+            "subject": "Welcome to Piazza!"
+        },
+        "folders": [
+            "other"
+        ],
+        "id": "llcjh7r3q1y38k",
+        "id_c": 6,
+        "time": "2023-08-15T16:49:45Z",
+        "type": "note",
+        "vote": 0
+    },
+    {
+        "detail": {
+            "content": "Professor: Murali AnnavaramOffice: EEB 232Office Hours: Friday 11:00 AM-12:30 PMContact Info:annavara@usc.eduProfessor: Arash SaifhashemiVirtual: Wed and Thu 5 to 6pm. Send me an email if I was not in the Zoom meeting. In-person: Fridays please email to make an appointmentZoom Link-  Meeting ID: 916 8764 5697 Passcode: 980225Contact Info: saifhash@usc.eduTeaching Assistant 1:  Yongqin WangOffice: PHE320Office Hours: Friday 3:00 PM to 5:00 PMContact Info:yongqin@usc.eduTeaching Assistant 2:  Lei GaoOffice: PHE320Office Hours: Wednesday 1:00 PM to 3:00 PMContact Info:leig@usc.eduTeaching Assistant 3:  Chaoyi JiangOffice: PHE320Office Hours: Monday 4:00 PM to 6:00 PMContact Info:chaoyij@usc.edu",
+            "subject": "Office Hours"
+        },
+        "folders": [
+            "logistics"
+        ],
+        "id": "lle2rvrzagw5bx",
+        "id_c": 7,
+        "time": "2023-08-16T18:37:41Z",
+        "type": "note",
+        "vote": 0
+    },
+    {
+        "detail": {
+            "content": "Last update: Nov 28th, 2023",
+            "subject": "Lecture Calendar"
+        },
+        "folders": [
+            "logistics"
+        ],
+        "id": "lllaf5c057e7aa",
+        "id_c": 8,
+        "time": "2023-08-21T19:46:07Z",
+        "type": "note",
+        "vote": 0
+    },
+    {
+        "detail": {
+            "content": "Hi Class,Please use this Google Sheet to provide your GitHub related information.https://docs.google.com/spreadsheets/d/1030g1gDFKAz8OytyYz_XkFKgxpv72UICa1hp5QA88fw/edit#gid=0",
+            "subject": "GitHub related information collection"
+        },
+        "folders": [
+            "hw1"
+        ],
+        "id": "lllwhw7ter392",
+        "id_c": 9,
+        "time": "2023-08-22T06:04:07Z",
+        "type": "note",
+        "vote": 0
+    },
+    {
+        "detail": {
+            "content": "Discussion slides and a PyTorch example is posted under Piazza Resources.",
+            "subject": "Discussion Week1 Material Posted"
+        },
+        "folders": [
+            "logistics"
+        ],
+        "id": "llombrorl3z4tt",
+        "id_c": 10,
+        "time": "2023-08-24T03:42:43Z",
+        "type": "note",
+        "vote": 0
+    },
+    {
+        "detail": {
+            "content": "Hi Class,The SGD and Mini-Batch GD algorithms I covered in the class are not exactly the same as described in HW1. My previous definition of one iteration of SGD or Mini-Batch GD was going over the entire training set after computing gradients on every single sample or every batch of samples (which is a common practice). Instead, HW1 wants you to randomly pick a single sample or a batch of samples to compute gradients on it, then call it an iteration. I have updated the discussion slides for your reference. Let’s stick to HW1’s definition of SGD and Mini-Batch GD when you program and analyze the performance of those algorithms. Sorry for the confusion caused.Also, you can access HW link on Piazza under resources.-Lei",
+            "subject": "HW1 clarification"
+        },
+        "folders": [
+            "hw1"
+        ],
+        "id": "lloptzu8yo7105",
+        "id_c": 11,
+        "time": "2023-08-24T05:20:53Z",
+        "type": "note",
+        "vote": 0
+    },
+    {
+        "answers": [
+            {
+                "content": "https://web-app.usc.edu/soc/syllabus/20233/30693.pdf",
+                "type": "i_answer",
+                "vote": 0
+            },
+            {
+                "content": "\"Efficient Processing of DNNs\" is available in USC libraries online if you want to download it",
+                "type": "s_answer",
+                "vote": 0
+            }
+        ],
+        "detail": {
+            "content": "I have the 2 sources for required reading on the syllabus. Is there somewhere to see what sections to read before each class?Thank you",
+            "subject": "Required Reading"
+        },
+        "folders": [
+            "logistics"
+        ],
+        "id": "llqxx8178yh5rt",
+        "id_c": 12,
+        "time": "2023-08-25T18:42:53Z",
+        "type": "question",
+        "vote": 0
+    },
+    {
+        "detail": {
+            "content": "HW1 deadline is extended to September 4th. Please come to office hours or ask on piazza if you have any questions.For the last question of HW1, check the PyTorch example on piazza, which will help you understand the basic usage of PyTorch to implement the GD algorithm.We have also posted the video record for the first discussion section on piazza. Some slides in the discussion video were not updated, so please refer to the current one when doing your HW1.",
+            "subject": "HW1 ddl extension and discussion 1 video"
+        },
+        "folders": [
+            "hw1"
+        ],
+        "id": "llqyifa5jti6w0",
+        "id_c": 13,
+        "time": "2023-08-25T18:59:22Z",
+        "type": "note",
+        "vote": 0
+    },
+    {
+        "detail": {
+            "content": "Dear StudentsHere are the course video recordings for the first 2 lectures. We will update these links with additional video recordings as feasible.Lecture 1: Aug 23: Murali Annavaramhttps://usc.zoom.us/rec/share/jsK_jvIxw2x639IeBFzgh-_35a2ALMd-wzTd-sHv4a-V0dNiZNcsFbedMe9I_4Qi.2W6ZmCFnDuuxc3H4Lecture 2: Aug 25: Murali Annavaramhttps://usc.zoom.us/rec/share/q9Aq0Ox4AbWdTxoFjSc9E_BRp8toXkUxhl3HyjrM4HxxXLSoJMUaGd8iwJLQeP_h.551W_cV5yBvj4P2G",
+            "subject": "Course video links"
+        },
+        "folders": [
+            "optional-video"
+        ],
+        "id": "llqyy9np3xqvf",
+        "id_c": 14,
+        "time": "2023-08-25T19:11:41Z",
+        "type": "note",
+        "vote": 0
+    },
+    {
+        "detail": {
+            "content": "Midterm will be on Oct 11th and final will be on Dec 8th. Please check the lecture calendar.",
+            "subject": "Midterm and Final date"
+        },
+        "folders": [
+            "logistics"
+        ],
+        "id": "llvnageao0c52w",
+        "id_c": 16,
+        "time": "2023-08-29T01:44:05Z",
+        "type": "note",
+        "vote": 0
+    },
+    {
+        "answers": [
+            {
+                "content": "What is your definition of model residual? For this hw, we assume it is prediction - y, so the gradient will be 2/n * x^t * residual. If you define model residual as y - prediction, then gradient will be -2/n * x^t * residual. Those two gradient equations are identical but be careful with the sign when you code it.For SGD, you are supposed to run it directly. I can see the error is related to multiplying strings, but I am not sure what causes this error. Please check the functions you implement inside SGD.You can follow the plot function from other subsections to test your code. As long as you see a faster converging loss curve, you should be fine.",
+                "type": "i_answer",
+                "vote": 3
+            }
+        ],
+        "detail": {
+            "content": "## ~~Updating Parameter Problem~~ Because of wrong residual computation\n\n**Solution: Check $$\\frac{\\sigma J}{\\sigma \\hat{y_i}} = \\frac{2}{n}(\\hat{y_i} - y_i)$$. I reverse the order of $$\\hat{y_i} - y_i$$**\n\nI learned that in the logistic regression, we will update the parameter w and b with $$w' = w - \\alpha * dw$$. \n\nBut when I did this with the linear regression coding, I got the opposite result as follows: \n\nIncreasing cost as the iteration increases with  $$w' = w - \\alpha * dw$$.\n![image.png](/redirect/s3?bucket=uploads&prefix=paste%2Fky842rtdgkpg4%2Fab3fe2fac6f3e8a9a0db8166bf49e1b7ae21f2cdaae76e2f79cf3c2adab27fc9%2Fimage.png)\n\n![image.png](/redirect/s3?bucket=uploads&prefix=paste%2Fky842rtdgkpg4%2Ffafe7d4465490b5442fb45ae39490ab6af325a6d28682786fd491450f0a63744%2Fimage.png)\n\nA mono-decreasing function with  $$w' = w + \\alpha * dw$$. ![image.png](/redirect/s3?bucket=uploads&prefix=paste%2Fky842rtdgkpg4%2Fb1b9e7c82233c37d5fec19e6d855877f07d99602fb3494dc605644722238afe6%2Fimage.png)\n\n![image.png](/redirect/s3?bucket=uploads&prefix=paste%2Fky842rtdgkpg4%2F8d562b23d0d1db6c37d8bcaa8b651feb19ba0a7a5880d9f65c84560301b7efbf%2Fimage.png)\n\n## ~~Stochastic GD won't run~~Because difference on return value\n\n**Solution: I returned dictionary instead of tuple for all the functions. When I make it compatible with those functions inside SGD, it works.**\n\nI am not sure what we are going to do with SGD, because I think it may be completed in advanced. But when I tried to run it, it comes with the following error:\n```\nStart:\nTheta0:          1.000,\nTheta1:          1.000\n---------------------------------------------------------------------------\n\nUFuncTypeError                            Traceback (most recent call last)in()\n     10 )\n     11 X_b = np.c_[np.ones((len(X), 1)), X]\n---> 12 theta, cost_history = stochastic_gradient_descent_with_momentum(\n     13     X_b, y, theta, learning_rate, momentum, num_iterations\n     14 )\n* * *2 frames* * *\n/usr/local/lib/python3.10/dist-packages/numpy/core/overrides.py in dot(*args, **kwargs)\nUFuncTypeError: ufunc 'multiply' did not contain a loop with signature matching types (dtype('None\n```\n\nI have no clue what is wrong with this since no multiply is used in the function and I am not the one finishing this function.\n\nBTW, it seems that we are not using the SGD without momentom and velocity in the code. How are we going to verify that we are doing correct with all the code?",
+            "subject": "[Solved]Problem in updating parameters and running Stochastic GD"
+        },
+        "folders": [
+            "hw1"
+        ],
+        "id": "llvq63t7sut7ot",
+        "id_c": 17,
+        "time": "2023-08-29T03:04:41Z",
+        "type": "question",
+        "vote": 1
+    },
+    {
+        "detail": {
+            "content": "Dear Student,Today's lecture at6:30pmwill be on Zoom only. No need to come to the class in person.Note that this post is about today'slecture, not the discussion session.Zoom session info:Meeting id: 941 6772 0397Zoom LinkArash",
+            "subject": "Today&#39;s **Lecture** will be online only!"
+        },
+        "folders": [
+            "logistics"
+        ],
+        "id": "llxvjpplgqm4w5",
+        "id_c": 19,
+        "time": "2023-08-30T15:10:46Z",
+        "type": "note",
+        "vote": 0
+    },
+    {
+        "detail": {
+            "content": "We uploaded discussion 2 materials and an online tutorial about matrix differentiation under resources. Please check to enhance your understanding.",
+            "subject": "Discussion 2 materials and online tutorial"
+        },
+        "folders": [
+            "resources"
+        ],
+        "id": "llygoli1jss1r9",
+        "id_c": 20,
+        "time": "2023-08-31T01:02:26Z",
+        "type": "note",
+        "vote": 0
+    },
+    {
+        "answers": [
+            {
+                "content": "The first one is the complexity analysis, and the second one is to show the exact number of operations.",
+                "type": "i_answer",
+                "vote": 0
+            }
+        ],
+        "detail": {
+            "content": "For these algorithms: GD, SGD, SGD with momentum, MBGD, answer these questions:\n1. Assuming the learning rate is the same for all algorithms, what is the worst case runtime complexity of each algorithm.\n6. Assuming the same rating rate and number of iterations, how many operations does each method performs in total?\n\nLooks like this two question are very similar. Is there any difference I should notice to answer these questions?",
+            "subject": "Confuse about the question in HW1"
+        },
+        "folders": [
+            "hw1"
+        ],
+        "id": "llytl11a3jf7ck",
+        "id_c": 22,
+        "time": "2023-08-31T07:03:35Z",
+        "type": "question",
+        "vote": 0
+    },
+    {
+        "answers": [
+            {
+                "content": "They should be available on Blackboard.",
+                "type": "i_answer",
+                "vote": 0
+            }
+        ],
+        "detail": {
+            "content": "Where can I find the slides and the zoom recording of the class taken on 30th Aug 2023 by Prof. Arash?",
+            "subject": "Zoom recording for the Lecture on 30th Aug 2023"
+        },
+        "folders": [
+            "logistics"
+        ],
+        "id": "llzwhhhpdbg77j",
+        "id_c": 23,
+        "time": "2023-09-01T01:12:34Z",
+        "type": "question",
+        "vote": 1
+    },
+    {
+        "detail": {
+            "content": "The teaching staff has posted a new Lecture Notes resource.Title: Lecture2.pdf - Arashhttps://piazza.com/class_profile/get_resource/llcjbpznzvv7c5/lm0wcmre9774c9You can view it on the course page:/usc/fall2023/ee599/resources",
+            "subject": "Lecture2.pdf - Arash has been added to class resources page under Lecture Notes"
+        },
+        "folders": [
+            "resources"
+        ],
+        "id": "lm0wd8w0la54u",
+        "id_c": 25,
+        "time": "2023-09-01T17:57:03Z",
+        "type": "note",
+        "vote": 0
+    },
+    {
+        "answers": [
+            {
+                "content": "There will be no office hours on 9/4 Labor Day holiday.",
+                "type": "i_answer",
+                "vote": 0
+            }
+        ],
+        "detail": {
+            "content": "Will there still be office hours this Monday from 4-6 pm?",
+            "subject": "Monday Office Hours"
+        },
+        "folders": [
+            "logistics"
+        ],
+        "id": "lm4bzxtvagc6jx",
+        "id_c": 26,
+        "time": "2023-09-04T03:37:54Z",
+        "type": "question",
+        "vote": 0
+    },
+    {
+        "answers": [
+            {
+                "content": "Consider each mul and addition as an operation. You can also declare any reasonable assumptions before answering those questions, and then make sure your explanation aligns with your assumptions.",
+                "type": "i_answer",
+                "vote": 0
+            }
+        ],
+        "detail": {
+            "content": "For the question regarding the number of operations in each method, do we assume that matrix multiplication is one operation or multiple operations, as in we need to consider each multiplication and summation within matrix multiplication?",
+            "subject": "HW1 Q6"
+        },
+        "folders": [
+            "hw1"
+        ],
+        "id": "lm4fkhcqnqtbx",
+        "id_c": 27,
+        "time": "2023-09-04T05:17:51Z",
+        "type": "question",
+        "vote": 0
+    },
+    {
+        "detail": {
+            "content": "Hi all,Homework 2 has been posted. It is due September 14th, 2023. You can find the theinvitation linkin Resources -> Homework.Thanks,Yongqin Wang",
+            "subject": "Homework 2 Posted!"
+        },
+        "folders": [
+            "hw2"
+        ],
+        "id": "lm566gv9hfw6ii",
+        "id_c": 28,
+        "time": "2023-09-04T17:42:47Z",
+        "type": "note",
+        "vote": 0
+    },
+    {
+        "detail": {
+            "content": "Hi class,It seems like some people are confused about how to submit their homework. You don't need to upload your code to somewhere else. All you need to do is make sure your GitHub Repo is up to date. We will grade your latest version of the code.Thank you.",
+            "subject": "Homework submission"
+        },
+        "folders": [
+            "hw1"
+        ],
+        "id": "lm5l46gjzei6iz",
+        "id_c": 30,
+        "time": "2023-09-05T00:40:55Z",
+        "type": "note",
+        "vote": 2
+    },
+    {
+        "answers": [
+            {
+                "content": "Sorry for the confusion, the steps should be1. use the Laplacian filter to convolve the original image to obtain a filtered image2. scaled the filtered image into the range of the original image3. add the filtered image to the original image4. scale the sum to the range of the original image againAlso, by scale the a vector, whose range is [x, y] into a range [a, b], I mean to scale the vector such that the range of the vector is [x, y]",
+                "type": "i_answer",
+                "vote": 0
+            }
+        ],
+        "detail": {
+            "content": "1. For steps 2 and 4, what does it mean to scale into the range of the original image? My intuition is that, for the context of this problem, the scale of the filter is not exceeding the range of the original image.2. The size of the filter at step 3 does not match the size of the original image. Do we scale it back to a 10x10 before adding?",
+            "subject": "HW2 Laplacian Sharpening"
+        },
+        "folders": [
+            "hw2"
+        ],
+        "id": "lm72977uwfe3l7",
+        "id_c": 31,
+        "time": "2023-09-06T01:28:29Z",
+        "type": "question",
+        "vote": 0
+    },
+    {
+        "detail": {
+            "content": "The steps for applying sharpening is:1. use the Laplacian filter to convolve the original image to obtain a filtered image2. scale the filtered image into the range of the original image3. add the filtered image to the original image4. scale the sum to the range of the original image againAlso, by scale the a vector, whose range is [x, y] into a range [a, b], I mean to scale the vector such that the range of the vector is [x, y].Sorry for the confusion.-----To further clarify the second and fourth step, scale a matrix x means you need to apply min-max normalization following this equation:",
+            "subject": "HW2 Laplacian Filter clarification"
+        },
+        "folders": [
+            "hw2"
+        ],
+        "id": "lm752kl55zl56t",
+        "id_c": 32,
+        "time": "2023-09-06T02:47:18Z",
+        "type": "note",
+        "vote": 1
+    },
+    {
+        "detail": {
+            "content": "Dear Student,I have an unexpected meeting and won't be able to get to the campus on time.Today's lecture at6:30pmwill beon Zoom only. No need to come to the class in person.Note that this post is about today'slecture, not the discussion session.Also, Friday's lecture will be in person as usual.Zoom session info (Also accessible from Blackboard):Meeting id: 941 6772 0397Zoom LinkArash",
+            "subject": "Today&#39;s class will be online only!"
+        },
+        "folders": [
+            "logistics"
+        ],
+        "id": "lm800ulh7ys1u0",
+        "id_c": 33,
+        "time": "2023-09-06T17:13:46Z",
+        "type": "note",
+        "vote": 0
+    },
+    {
+        "answers": [
+            {
+                "content": "Faintly blurred should be okay. If you are uncertain, you are welcome to come to office hours to let us take a look.",
+                "type": "i_answer",
+                "vote": 0
+            }
+        ],
+        "detail": {
+            "content": "How much does the image need to be blurred. My new image seems faintly blurred so I'm not sure if that's the expected outcome or if there should be significant blurring.",
+            "subject": "Blurring the image with the Gaussian filter"
+        },
+        "folders": [
+            "hw2"
+        ],
+        "id": "lm8onlxmok6h7",
+        "id_c": 34,
+        "time": "2023-09-07T04:43:19Z",
+        "type": "question",
+        "vote": 0
+    },
+    {
+        "answers": [
+            {
+                "content": "List Linear and Conv2d should be fine",
+                "type": "i_answer",
+                "vote": 0
+            }
+        ],
+        "detail": {
+            "content": "Do you want the output dimensions before or after max pooling?",
+            "subject": "Question 2 Input/Ouput Dims"
+        },
+        "folders": [
+            "hw2"
+        ],
+        "id": "lm9gt92lb362sy",
+        "id_c": 35,
+        "time": "2023-09-07T17:51:31Z",
+        "type": "question",
+        "vote": 0
+    },
+    {
+        "answers": [
+            {
+                "content": "To be determined.",
+                "type": "i_answer",
+                "vote": 0
+            }
+        ],
+        "detail": {
+            "content": "On the syllabus it mentions that the midterm will be Oct 11 during the evening lecture. So would the duration of the midterm be the full 110 minutes from 6:30-8:20?Thank you",
+            "subject": "Question about Midterm Duration"
+        },
+        "folders": [
+            "midterm"
+        ],
+        "id": "lm9ie37034u49i",
+        "id_c": 36,
+        "time": "2023-09-07T18:35:43Z",
+        "type": "question",
+        "vote": 0
+    },
+    {
+        "answers": [
+            {
+                "content": "You are right. Since we ask you to apply Laplacian sharpening to the 10x10 sample image, you can also check the pattern of that image.",
+                "type": "i_answer",
+                "vote": 0
+            }
+        ],
+        "detail": {
+            "content": "When I do Laplacian sharpening with all the scaling, the final image looks grayed out. I think it is because the edges end up with a negative value and then when the image is rescaled, zero values become positive. I'm not sure if this is wrong. Thanks!",
+            "subject": "Laplacian sharpening final image is grayed out"
+        },
+        "folders": [
+            "hw2"
+        ],
+        "id": "lmca50z5d7i4k3",
+        "id_c": 40,
+        "time": "2023-09-09T17:08:02Z",
+        "type": "question",
+        "vote": 0
+    },
+    {
+        "answers": [
+            {
+                "content": "I believe plt.imshow() scales the input automatically. You can just give your filtered image to the plot function. For sharpenning you are asked to manually scale your result before you plot it.",
+                "type": "i_answer",
+                "vote": 0
+            }
+        ],
+        "detail": {
+            "content": "When performing edge detection, Laplacian sharpening, and Gaussian filtering on the car photo, if the input grayscale image has pixel values in the range (0, 255), should the resulting processed image also be transformed to have pixel values in the range (0, 255)?",
+            "subject": "Pixel values"
+        },
+        "folders": [
+            "hw2"
+        ],
+        "id": "lmcdacxk6424f",
+        "id_c": 41,
+        "time": "2023-09-09T18:36:09Z",
+        "type": "question",
+        "vote": 0
+    },
+    {
+        "answers": [
+            {
+                "content": "These recordings are available in Blackboard -> USC Zoom Pro Meeting -> Cloud Recordings",
+                "type": "s_answer",
+                "vote": 2
+            }
+        ],
+        "detail": {
+            "content": "Hi Professor,When will you be uploading the lecture videos for Week-2? I am unable to find it in the resources tab. It would be helpful to review the week-2 contents before the next lecture. Thank you!",
+            "subject": "Video recording for Week-2"
+        },
+        "folders": [
+            "resources"
+        ],
+        "id": "lmd2nwivyp51ab",
+        "id_c": 42,
+        "time": "2023-09-10T06:26:32Z",
+        "type": "question",
+        "vote": 1
+    },
+    {
+        "answers": [
+            {
+                "content": "@44",
+                "type": "i_answer",
+                "vote": 1
+            }
+        ],
+        "detail": {
+            "content": "Hi Professor,Please could you upload week 3 lecture slides.Thank you!",
+            "subject": "Lecture slides for week 3"
+        },
+        "folders": [
+            "resources"
+        ],
+        "id": "lmdwlc7kr844xn",
+        "id_c": 43,
+        "time": "2023-09-10T20:24:21Z",
+        "type": "question",
+        "vote": 1
+    },
+    {
+        "detail": {
+            "content": "The teaching staff has posted a new Lecture Notes resource.You can view it on the course page:/usc/fall2023/ee599/resources",
+            "subject": "Week 4 slides are added on the resources page"
+        },
+        "folders": [
+            "resources"
+        ],
+        "id": "lmdx44y89h33cp",
+        "id_c": 44,
+        "time": "2023-09-10T20:38:58Z",
+        "type": "note",
+        "vote": 0
+    },
+    {
+        "answers": [
+            {
+                "content": "You can use plt.matshow",
+                "type": "s_answer",
+                "vote": 2
+            },
+            {
+                "content": "You can use `plt.imshow(image, cmap='gray')` to plot your image instead of calling the `plot_image_with_values()` function, because the function will add pixel values to each cell and slow down your execution.",
+                "type": "i_answer",
+                "vote": 1
+            }
+        ],
+        "detail": {
+            "content": "After converting the image to grayscale np array the size of the array is (853,1280). I have scaled this to have values (0,1). Theplot_image_with_values() function is executing for a very long time. Is there a faster way to do it?",
+            "subject": "Plotting cars-1638594_1280.jpg"
+        },
+        "folders": [
+            "hw2"
+        ],
+        "id": "lmefy04as151mk",
+        "id_c": 46,
+        "time": "2023-09-11T05:26:04Z",
+        "type": "question",
+        "vote": 0
+    },
+    {
+        "answers": [
+            {
+                "content": "Does loss compuation involve calculating any gradients?",
+                "type": "i_answer",
+                "vote": 0
+            }
+        ],
+        "detail": {
+            "content": "Does calculating backward pass multiplications and summations include calculating loss, calculating gradients, and updating weights? Thanks!",
+            "subject": "Question 2: Model Dimensions"
+        },
+        "folders": [
+            "hw2"
+        ],
+        "id": "lmfm2zg4tm0619",
+        "id_c": 47,
+        "time": "2023-09-12T01:05:40Z",
+        "type": "question",
+        "vote": 1
+    },
+    {
+        "answers": [
+            {
+                "content": "The cross-entropy loss has a variation called weighted cross-entropy loss, where different classes have different weights. In the case of weighted cross-entropy loss, the weight of each class is determined by the entity that trains the model and thus not trainable. For example, an object detection model trained by Metro company will put more weight on the class of person because they want to catch people running around on trails.For HW2, consider all classes have equal weights. Also, by default, the cross-entropy function assigns the same weight to all classes; please see \"weight=None\".",
+                "type": "i_answer",
+                "vote": 1
+            }
+        ],
+        "detail": {
+            "content": "Hi Sir(s),I am confused about if there are more trainable weights from the cross-entropy loss or not. Can you tell which scenario is correct?Scenario 1: assumed that the output of final linear activation layer is passed used for calculating the loss. In this case, we don't have any more learnable parameters other than what is defined in the neural networkScenario 2: assumed that there are 10 more weights added for cross-entropy layerEdit: I interpreted that thedocumentationat pytorch indicates there are internal weights, so i asssume scenario 2maybecorrect",
+            "subject": "Does cross-entropy loss adds more weights (10) apart from (over and above) weights defined in CNN"
+        },
+        "folders": [
+            "hw2"
+        ],
+        "id": "lmh75atda6m2x6",
+        "id_c": 48,
+        "time": "2023-09-13T03:43:07Z",
+        "type": "question",
+        "vote": 0
+    },
+    {
+        "answers": [
+            {
+                "content": "Yes. But we want you to calculate RAM usage by yourself without looking at the machine status.",
+                "type": "i_answer",
+                "vote": 0
+            }
+        ],
+        "detail": {
+            "content": "Does memory requirements in question 2 refer to amount of RAM needed?",
+            "subject": "Memory requirements"
+        },
+        "folders": [
+            "hw2"
+        ],
+        "id": "lmi0tyyjmxj1qs",
+        "id_c": 49,
+        "time": "2023-09-13T17:34:06Z",
+        "type": "question",
+        "vote": 0
+    },
+    {
+        "answers": [
+            {
+                "content": "yes, the center 4x4 area in the whole image.",
+                "type": "i_answer",
+                "vote": 0
+            }
+        ],
+        "detail": {
+            "content": "Hi class,in the first question in HW2, we are asked to create a 10x10 image with \"(4,4)-center region\" set to 1.Does it mean setting one pixel (4,4) or a region, say image[3:7, 3:7] (the center 4x4 area in the whole image) to 1? Thanks.",
+            "subject": "Meaning of (4,4)-center region"
+        },
+        "folders": [
+            "hw2"
+        ],
+        "id": "lmicm44dsze25o",
+        "id_c": 50,
+        "time": "2023-09-13T23:03:55Z",
+        "type": "question",
+        "vote": 0
+    },
+    {
+        "detail": {
+            "content": "",
+            "subject": "Reminder: our lecture is in person today!"
+        },
+        "folders": [
+            "logistics"
+        ],
+        "id": "lmif4klivnd385",
+        "id_c": 51,
+        "time": "2023-09-14T00:14:16Z",
+        "type": "note",
+        "vote": 0
+    },
+    {
+        "detail": {
+            "content": "A trick you can use to figure out the # of operations in Conv2d backward is to convert them into Toeplitz matrice. Since you know the forward and backward operations for matmul, then you know the # of operations for conv2d forward and backward pass.",
+            "subject": "About Conv2d Backward # of operations"
+        },
+        "folders": [
+            "hw2"
+        ],
+        "id": "lmih54752rp16i",
+        "id_c": 52,
+        "time": "2023-09-14T01:10:40Z",
+        "type": "note",
+        "vote": 0
+    },
+    {
+        "detail": {
+            "content": "The teaching staff has posted a new Lecture Notes resource.Title: Lecture5.pdf (Week 5, 1, Arash)https://piazza.com/class_profile/get_resource/llcjbpznzvv7c5/lmjaxsybpjp3euYou can view it on the course page:/usc/fall2023/ee599/resources",
+            "subject": "Lecture5.pdf (Week 5, 1, Arash) has been added to class resources page under Lecture Notes"
+        },
+        "folders": [
+            "resources"
+        ],
+        "id": "lmjay9i1h0p4d9",
+        "id_c": 53,
+        "time": "2023-09-14T15:05:09Z",
+        "type": "note",
+        "vote": 0
+    },
+    {
+        "detail": {
+            "content": "Hi Everyone,There \"might\" be a pop quiz on Friday reviewing the material we have currently covered.Arash",
+            "subject": "Pop quiz"
+        },
+        "folders": [
+            "exam"
+        ],
+        "id": "lmjb0iqm2k2x3",
+        "id_c": 54,
+        "time": "2023-09-14T15:06:54Z",
+        "type": "note",
+        "vote": 0
+    },
+    {
+        "detail": {
+            "content": "Hi class, HW2 deadline has been extended to Sep 17th.",
+            "subject": "HW2 ddl extension"
+        },
+        "folders": [
+            "hw2"
+        ],
+        "id": "lmjxjt6fnll3yw",
+        "id_c": 56,
+        "time": "2023-09-15T01:37:46Z",
+        "type": "note",
+        "vote": 0
+    },
+    {
+        "answers": [
+            {
+                "content": "Randomness in weights and different model architectures will result in different accuracies.",
+                "type": "i_answer",
+                "vote": 1
+            }
+        ],
+        "detail": {
+            "content": "I am wondering whether there are many different solutions to removing MaxPooling2D so long as every layers' input and output can match. And each solution corresponds to a different model accuracy.  Cause through discussion, I find classmates got different model accuracy for removing max pooling. Or there is just one certain solution.",
+            "subject": "Question about removing Maxpooling2D"
+        },
+        "folders": [
+            "hw2"
+        ],
+        "id": "lml8l8wuivb6n",
+        "id_c": 57,
+        "time": "2023-09-15T23:34:35Z",
+        "type": "question",
+        "vote": 0
+    },
+    {
+        "detail": {
+            "content": "Hi Class,Reading Assignment 1 and Homework 3 have been released. Please check Piazza Resources -> Homework.Submit Reading Assignments on GitHub as well.",
+            "subject": "Reading Assignment 1 &amp; Homework 3 Assigned"
+        },
+        "folders": [
+            "ra1"
+        ],
+        "id": "lmo3uhkvjuo4zb",
+        "id_c": 58,
+        "time": "2023-09-17T23:45:06Z",
+        "type": "note",
+        "vote": 0
+    },
+    {
+        "detail": {
+            "content": "Hi Class,We have released HW1 grades and its solution. Grades are on Blackboard, and the solution is in Piazza-> Resources -> Homework Solutions.HW1 total points are 63.",
+            "subject": "Homework 1 Grades and Solution released."
+        },
+        "folders": [
+            "hw1"
+        ],
+        "id": "lmo3wgfnq6b1la",
+        "id_c": 59,
+        "time": "2023-09-17T23:46:38Z",
+        "type": "note",
+        "vote": 0
+    },
+    {
+        "answers": [
+            {
+                "content": "Please follow the ddl on piazza and github, which is 9.27",
+                "type": "i_answer",
+                "vote": 1
+            }
+        ],
+        "detail": {
+            "content": "I find that in Gradescope the ddl is 9.22, but in piazza it is 9.27.",
+            "subject": "Reading Assignment 1 ddl?"
+        },
+        "folders": [
+            "hw3"
+        ],
+        "id": "lmr2y3cjs617l2",
+        "id_c": 61,
+        "time": "2023-09-20T01:43:14Z",
+        "type": "question",
+        "vote": 1
+    },
+    {
+        "detail": {
+            "content": "The teaching staff has posted a new Lecture Notes resource.Title: Lecture6.pdf (Week 5, 2, Arash)https://piazza.com/class_profile/get_resource/llcjbpznzvv7c5/lmtcm3vjmeg2bsYou can view it on the course page:/usc/fall2023/ee599/resources",
+            "subject": "Lecture6.pdf (Week 5, 2, Arash) has been added to class resources page under Lecture Notes"
+        },
+        "folders": [
+            "resources"
+        ],
+        "id": "lmtcn2vx8sh467",
+        "id_c": 62,
+        "time": "2023-09-21T15:50:08Z",
+        "type": "note",
+        "vote": 0
+    },
+    {
+        "detail": {
+            "content": "Under resource-> homework solution",
+            "subject": "Quiz 1 Solution posted"
+        },
+        "folders": [
+            "other"
+        ],
+        "id": "lmtvh8fd9ss5pz",
+        "id_c": 63,
+        "time": "2023-09-22T00:37:28Z",
+        "type": "note",
+        "vote": 0
+    },
+    {
+        "answers": [
+            {
+                "content": "According to my understanding, TPU is a matmul accelerator that is not specifically designed for convolution operation like Eyeriss, so TPU can deal with more general models other than CNN. Depending on your purpose (inference or training), application (vision or nlp), platform (edge or cloud), etc., you have different design options and you choose the best one for your accelerator.",
+                "type": "i_answer",
+                "vote": 0
+            },
+            {
+                "content": "Like Lei said, TPU is a matmul accelerator and from my understanding of Transformers architecture, the bulk of computations are matmuls so a TPU will definitely be better than a CPU. Since you mentioned future models, the next generation of models will likely have more compute heavy activation and optimizer functions. Although there is research going into running optimizers on GEMMs, these will likely run on the vector processor which could become the bottleneck if they are not powerful enough.",
+                "type": "s_answer",
+                "vote": 2
+            }
+        ],
+        "detail": {
+            "content": "Hi Sir,is the TPU v2/v3 closely tied to CNN architecture? My meaning is that (maybe) in the future, we move towards better models for image tasks like transformers. Can the existing architecture be used efficiently (by efficiently I mean that we know that even CPU can be used to train ML models inefficiently)?Thank You",
+            "subject": "Are TPUs closely tied to specific DNN architecture or are DNN model-agnostic"
+        },
+        "folders": [
+            "other",
+            "resources"
+        ],
+        "id": "lmv6sjjm1e1ce",
+        "id_c": 64,
+        "time": "2023-09-22T22:41:58Z",
+        "type": "question",
+        "vote": 0
+    },
+    {
+        "answers": [
+            {
+                "content": "The current posted lecture 4 has 114 slides. Can you download again?https://piazza.com/class_profile/get_resource/llcjbpznzvv7c5/lmdx2oepsz37nz",
+                "type": "i_answer",
+                "vote": 1
+            }
+        ],
+        "detail": {
+            "content": "Hi Sir,the slide deck for the lecture dated 09/13 is not listed. I checked other slide decks and couldn't locate the slides.09/13 included how weight-stationary, nvdla, output-stationary are actually implemented.these slides were part of original lecture 4 slides, but may not have been posted. posted lecture 4 has 64 slides. (and not 114 slides)thank you",
+            "subject": "09/13 slide deck not uploaded"
+        },
+        "folders": [
+            "resources"
+        ],
+        "id": "lmy98c86bxs3ua",
+        "id_c": 66,
+        "time": "2023-09-25T02:13:33Z",
+        "type": "question",
+        "vote": 0
+    },
+    {
+        "detail": {
+            "content": "The teaching staff has posted a new Lecture Notes resource.Title: Lecture7.pdf (Week 6, Arash)https://piazza.com/class_profile/get_resource/llcjbpznzvv7c5/lmyyxqo4d8546iYou can view it on the course page:/usc/fall2023/ee599/resources",
+            "subject": "Lecture7.pdf (Week 6, Arash) has been added to class resources page under Lecture Notes"
+        },
+        "folders": [
+            "resources"
+        ],
+        "id": "lmyz1i4svm32mm",
+        "id_c": 67,
+        "time": "2023-09-25T14:16:04Z",
+        "type": "note",
+        "vote": 0
+    },
+    {
+        "answers": [
+            {
+                "content": "Please go to your homework repo and click the Code button to download the zip file.",
+                "type": "i_answer",
+                "vote": 1
+            }
+        ],
+        "detail": {
+            "content": "Hi all,Can anyone tell where to find the above folder ML_Systems_HW3 in GitHub?",
+            "subject": "Accessing the folder ML_Systems_HW3"
+        },
+        "folders": [
+            "hw3"
+        ],
+        "id": "lmz98pydfa12us",
+        "id_c": 68,
+        "time": "2023-09-25T19:01:36Z",
+        "type": "question",
+        "vote": 0
+    },
+    {
+        "answers": [
+            {
+                "content": "You can click OK and navigate to Colab. Manually paste your github homework repo link to the box:",
+                "type": "i_answer",
+                "vote": 1
+            }
+        ],
+        "detail": {
+            "content": "When trying to open colab to write the answers of Reading assignment 1. I am getting this message:",
+            "subject": "Reading Assignment 1 is not opening in colab"
+        },
+        "folders": [
+            "ra1"
+        ],
+        "id": "lmzglox4xld5ii",
+        "id_c": 69,
+        "time": "2023-09-25T22:27:39Z",
+        "type": "question",
+        "vote": 0
+    },
+    {
+        "detail": {
+            "content": "Hi Class,Reading Assignment 2 has been released. Please check Piazza Resources -> Homework.Submit Reading Assignments on GitHub as well.",
+            "subject": "Reading Assignment 2 released."
+        },
+        "folders": [
+            "ra2"
+        ],
+        "id": "ln0ndzyc3pz4xc",
+        "id_c": 70,
+        "time": "2023-09-26T18:25:24Z",
+        "type": "note",
+        "vote": 0
+    },
+    {
+        "answers": [
+            {
+                "content": "Did you use the exact compile command we provided in the script?\ng++ -std=c++20 \"$source\" -o build/\"$output_name\" -mavx -lblas -fopenmp \nChange \"$source\" to your source code filename and build/\"$output_name\" to your output filename\nWe need to set c++20 standard.",
+                "type": "i_answer",
+                "vote": 0
+            }
+        ],
+        "detail": {
+            "content": "When I want to test my code locally(VS Code + WSL + gcc)，it always reports: Namespace \\\"std\\\" has no member \\\"align_val_t\\\". How to solve the problem?",
+            "subject": "&#39;align_val_t&#39; in &#39;utils.h&#39;"
+        },
+        "folders": [
+            "hw3"
+        ],
+        "id": "ln1a41te3oa3dd",
+        "id_c": 71,
+        "time": "2023-09-27T05:01:31Z",
+        "type": "question",
+        "vote": 0
+    },
+    {
+        "detail": {
+            "content": "Dear StudentsToday I will be teaching the EE599 class starting at 4PM and the discussion session is swapped to 6+PM. We will meet in SOS B4 at 4PM. See you all in a few mins.Thank youMurali",
+            "subject": "Course start time at 4PM today"
+        },
+        "folders": [
+            "other",
+            "logistics"
+        ],
+        "id": "ln2c4uoihec7iq",
+        "id_c": 72,
+        "time": "2023-09-27T22:45:53Z",
+        "type": "note",
+        "vote": 0
+    },
+    {
+        "answers": [
+            {
+                "content": "If you apply matmul to your input toeplitz matrix and kernel toeplitz matrix, then your output matrix will be the toeplitz y. Think about the row and column dimensions of this \"toeplitz y\". Is this \"toeplitz y\" stored in row-major? (i.e., store the first row from the first channel, then the second row from the first channel, and so on. After going through the first channel, store the first row from the second channel, and so on). If not, we reformat it into row-major, as it will become the input for the next layer.",
+                "type": "i_answer",
+                "vote": 1
+            }
+        ],
+        "detail": {
+            "content": "I am not sure in question2  hw3, what is the meaning of \"reformat toeplitz y into row major\"? which matrices is toeplitz y ?",
+            "subject": "Not Sure question in HW3"
+        },
+        "folders": [
+            "hw3"
+        ],
+        "id": "ln2nnvnd9h23ey",
+        "id_c": 73,
+        "time": "2023-09-28T04:08:37Z",
+        "type": "question",
+        "vote": 0
+    },
+    {
+        "answers": [
+            {
+                "content": "You are welcome to discuss papers with your classmates. In terms of scheduling time for paper discussion, please do so on your own. You are also welcome to post \"looking for study mates/group\" on the piazza.",
+                "type": "i_answer",
+                "vote": 1
+            }
+        ],
+        "detail": {
+            "content": "Hi Sir(s),Can we have a group discussion (like 30 minutes) maybe after the discussion or during the discussion timings on the eyeriss paper..or do you suggest that we can discuss among ourselves post the deadline.thank you",
+            "subject": "Paper 1 discussion"
+        },
+        "folders": [
+            "ra1"
+        ],
+        "id": "ln2qvqehnzd55r",
+        "id_c": 74,
+        "time": "2023-09-28T05:38:42Z",
+        "type": "question",
+        "vote": 0
+    },
+    {
+        "answers": [
+            {
+                "content": "Usually, we will post discussion recordings 1 day after the actual discussion. Unfortunately, my recording file for week 4 is corrupted and no longer functioning.",
+                "type": "i_answer",
+                "vote": 0
+            }
+        ],
+        "detail": {
+            "content": "week 4 discussion recording missing on piazza. kindly upload as soon as possible.",
+            "subject": "week 4 discussion recording missing on piazza"
+        },
+        "folders": [
+            "logistics"
+        ],
+        "id": "ln3jeg70iz6ku",
+        "id_c": 75,
+        "time": "2023-09-28T18:57:05Z",
+        "type": "question",
+        "vote": 0
+    },
+    {
+        "detail": {
+            "content": "Hi all,We have extended the ddl for RA2 and HW3.Thank you,Yongqin Wang",
+            "subject": "Deadlines for RA2 and HW3 EXTENDED!"
+        },
+        "folders": [
+            "hw3"
+        ],
+        "id": "ln3nlffa4wo32n",
+        "id_c": 76,
+        "time": "2023-09-28T20:54:29Z",
+        "type": "note",
+        "vote": 4
+    },
+    {
+        "answers": [
+            {
+                "content": "Right, the sum of all outputs is meant for verifying the results. You should get the same sum for all questions.",
+                "type": "i_answer",
+                "vote": 0
+            }
+        ],
+        "detail": {
+            "content": "What is a good way to check out outputs to be correct for HW3? Does it have to do with the Sum of all outputs? I am assuming they should be the same.",
+            "subject": "Check Results for HW3"
+        },
+        "folders": [
+            "hw3"
+        ],
+        "id": "ln3xv6xl8x81r0",
+        "id_c": 77,
+        "time": "2023-09-29T01:42:00Z",
+        "type": "question",
+        "vote": 0
+    },
+    {
+        "detail": {
+            "content": "Dear StudentsI am going to be late tomorrow  getting to the class. Let us plan to meet at 9:30AM and I will make up the class time another day as needed. Sorry for the short notice.Murali",
+            "subject": "Late start for EE559 class tomorrow. Start time will be 9:30AM"
+        },
+        "folders": [
+            "logistics"
+        ],
+        "id": "ln464ti7j0p4om",
+        "id_c": 78,
+        "time": "2023-09-29T05:33:27Z",
+        "type": "note",
+        "vote": 0
+    },
+    {
+        "answers": [
+            {
+                "content": "Segfault usually results from you writing to a location you are not suppose to write. Sums from all questions should be the same",
+                "type": "i_answer",
+                "vote": 1
+            }
+        ],
+        "detail": {
+            "content": "Hi,May I know what could be the reason for segmentation fault?Secondly, my answers aren't matching to the naive implementation and I'm not sure which is correct?Thanks,",
+            "subject": "Segmentation Fault"
+        },
+        "folders": [
+            "hw3"
+        ],
+        "id": "ln5kja08uzo7gh",
+        "id_c": 80,
+        "time": "2023-09-30T05:04:22Z",
+        "type": "question",
+        "vote": 0
+    },
+    {
+        "answers": [
+            {
+                "content": "Yes, you need to change cache size to match your system.L3",
+                "type": "i_answer",
+                "vote": 1
+            }
+        ],
+        "detail": {
+            "content": "in the file titledq1_conv2d_naive.cc// modify the cachesize to match your system configuration in Google Colab\n\nconst unsigned int cacheSize = 72 * 1024 * 1024;do we need to update the cache size.. because, in the google colab,!lscpuingoogle colabrevealsCaches (sum of all):L1d: 32 KiB (1 instance)L1i: 32 KiB (1 instance)L2: 256 KiB (1 instance)L3: 55 MiB (1 instance)so should i update this cacheSize to 32*1024 same as L1d cache?",
+            "subject": "q1 do we need to change the cache size, if yes, we should update to the L1d cache only right?"
+        },
+        "folders": [
+            "hw3"
+        ],
+        "id": "ln6foiw577t2xn",
+        "id_c": 82,
+        "time": "2023-09-30T19:36:15Z",
+        "type": "question",
+        "vote": 0
+    },
+    {
+        "answers": [
+            {
+                "content": "In the coming discussion section, we will revisit model/data parallelism and coded computing for straggler mitigation.",
+                "type": "i_answer",
+                "vote": 0
+            }
+        ],
+        "detail": {
+            "content": "Seems that some content in the last two lecture（especially the lecture in Friday） I can't understand even after looking to the recording for many times. And I can't find any related information on the recommended book. I wonder is there any material recommended for me to understand better?",
+            "subject": "Question for the materials for the last two lectures"
+        },
+        "folders": [
+            "resources"
+        ],
+        "id": "ln6upnr5jg42ut",
+        "id_c": 83,
+        "time": "2023-10-01T02:37:02Z",
+        "type": "question",
+        "vote": 1
+    },
+    {
+        "detail": {
+            "content": "Dear StudentsI posted the slides on distributed ML I covered last week (and a few more slides that I will cover next week). I have also posted 6 research papers from which I extracted the materials for the presentation. Please review all of these materials.You can view all these files on the course page:/usc/fall2023/ee599/resourcesMurali",
+            "subject": "Distributed ML slides and reading list of papers posted"
+        },
+        "folders": [
+            "resources",
+            "other"
+        ],
+        "id": "ln7t1rwvk1k796",
+        "id_c": 84,
+        "time": "2023-10-01T18:38:14Z",
+        "type": "note",
+        "vote": 0
+    },
+    {
+        "answers": [
+            {
+                "content": "In the homework, we assume input toeplitz times kernel toeplitz, so for q3 and q4, we store kernel toeplitz in column major.",
+                "type": "i_answer",
+                "vote": 0
+            }
+        ],
+        "detail": {
+            "content": "For HW3 Q3 and Q4, it tell us to reorder the weights into column major and write a matmul to TransB. Since performing convolution with Toeplitz matrices is Filter_weight x Input, the input would be \"B\" so wouldn't we want to put the input in column major order and transpose it for the matmul? In turn, we would keep the weights in row major order.",
+            "subject": "HW3 Should we be transposing the input?"
+        },
+        "folders": [
+            "hw3"
+        ],
+        "id": "ln9fu09e1ws2fh",
+        "id_c": 86,
+        "time": "2023-10-02T22:03:49Z",
+        "type": "question",
+        "vote": 0
+    },
+    {
+        "answers": [
+            {
+                "content": "Please check this post @73",
+                "type": "i_answer",
+                "vote": 0
+            }
+        ],
+        "detail": {
+            "content": "For Q2-Q6, could you go into more detail in what you want us to do for the line 150 TODO from this screenshot? Do you want us to transform the output of the Toeplitz matmul back into the original convolution format?",
+            "subject": "HW3 Toeplitz into row major"
+        },
+        "folders": [
+            "hw3"
+        ],
+        "id": "ln9mxh42ifm4bk",
+        "id_c": 87,
+        "time": "2023-10-03T01:22:28Z",
+        "type": "question",
+        "vote": 0
+    },
+    {
+        "answers": [
+            {
+                "content": "Can you compile a simple \"hello world\" C++ code in WSL? What is your compile command?",
+                "type": "i_answer",
+                "vote": 0
+            }
+        ],
+        "detail": {
+            "content": "I am using VS Code + WSL as suggested. Have below error:I tried installing compiler gcc using the below command.sudo apt-get install g++Have below error:Kindly help resolve these logistics issue.",
+            "subject": "Unable to setup the C&#43;&#43; VS code environment"
+        },
+        "folders": [
+            "hw3"
+        ],
+        "id": "ln9o3chmpw01hx",
+        "id_c": 88,
+        "time": "2023-10-03T01:55:02Z",
+        "type": "question",
+        "vote": 0
+    },
+    {
+        "detail": {
+            "content": "Dear Students,Below are important information about the midterm exam:Midterm will be onOct 11th from 4 to 6pm.The exam is**in-person only**in our usual class, SOSB4.The exam is closed book, closed notes, using pen and papers.Students are not allowed to use, wear, or access any electronic devices during the exam. This includes:Cell phonesHeadphonesEarplugsSmart wearablesThe exam covers all concepts that were discussed in our lectures so farexcept for the distributed ML lectures. This includes:DNN taxonomyFamous CNN and DNN modelsConvolution and CNNsPerformance evaluation and roofline analysisMatrix operationsDataflow and stationarinessQuantizationTPUThe reading assignment papers (Eyeriss and TPU)There might be programming questions on the exam. In that case, you can write the answer either in Python or pseudo code. You do not have to remember the exact syntax of Python and PyTorch functions.Thanks,Arash",
+            "subject": "Important information about the midterm exam"
+        },
+        "folders": [
+            "midterm",
+            "logistics"
+        ],
+        "id": "lndsd2yhht77jo",
+        "id_c": 90,
+        "time": "2023-10-05T23:05:39Z",
+        "type": "note",
+        "vote": 0
+    },
+    {
+        "answers": [
+            {
+                "content": "I am not sure what the discrepancy you mentioned. I just reposted the slides. Please re-download.",
+                "type": "i_answer",
+                "vote": 0
+            }
+        ],
+        "detail": {
+            "content": "Hi Prof. Murali,GradiVeq slides presented in class, not found as part of Slides posted on the resources page of piazza.# of slides presented=94# of slides in the posted pptx = 69Also, I see some differences in a few of the slides, what was presented vs posted.Eg: MDS (4,2) coding slides, the linear combination was showed as equations on the slides presented in class (A1, A2, A1+A2, A1+2A2) but on the slides posted on piazza, it's shown pictorially (which is confusing).Please do the needful.",
+            "subject": "GradiVeq slides presented in class, not found as part of Slides posted"
+        },
+        "folders": [
+            "logistics"
+        ],
+        "id": "lndxt1jeda5372",
+        "id_c": 91,
+        "time": "2023-10-06T01:38:02Z",
+        "type": "question",
+        "vote": 1
+    },
+    {
+        "answers": [
+            {
+                "content": "Email me.",
+                "type": "i_answer",
+                "vote": 0
+            }
+        ],
+        "detail": {
+            "content": "Due to an unforeseen event, I am finding it challenging to complete the assignment by the scheduled deadline. Would it possible have grace periods or late policy for assignments? Thanks.",
+            "subject": "Grace period / late policy for homework"
+        },
+        "folders": [
+            "hw3",
+            "logistics"
+        ],
+        "id": "lnfd8y879dc5ml",
+        "id_c": 92,
+        "time": "2023-10-07T01:38:04Z",
+        "type": "question",
+        "vote": 0
+    },
+    {
+        "detail": {
+            "content": "Hi all,Quiz 1 has been graded. If you do not receive a grade, please contact TAs (Lei, Yongqin).Please pick up your answer sheet during office hours EEB 230.Total possible points: 50ptsThanks,Yongqin",
+            "subject": "Quiz 1 Grade Released"
+        },
+        "folders": [
+            "logistics"
+        ],
+        "id": "lngkfobh7zy6mo",
+        "id_c": 93,
+        "time": "2023-10-07T21:47:02Z",
+        "type": "note",
+        "vote": 0
+    },
+    {
+        "detail": {
+            "content": "Dear all,We are planning an extra review session on Oct 9th, 6 pm - 8 pm in EEB248. During this session, Chaoyi will go over some review questions for midterms. This session will be helpful for your mid-term. Please attend this session!Thanks,Yongqin Wang",
+            "subject": "Monday Oct 9th 6pm-8pm Extra Review Session"
+        },
+        "folders": [
+            "exam",
+            "midterm"
+        ],
+        "id": "lni0dsfe1p9154",
+        "id_c": 94,
+        "time": "2023-10-08T22:01:14Z",
+        "type": "note",
+        "vote": 3
+    },
+    {
+        "detail": {
+            "content": "Hi Everyone,I would like to invite you to this invited talk by Professor David Patterson.I made sure that we schedule it during our regular class time slots so that everyone can attend.Please save the date and I hope to see everyone.See theflyer here.Arashhttps://usc.zoom.us/j/98706499300passcode: 592504",
+            "subject": "Invited Speaker"
+        },
+        "folders": [
+            "logistics",
+            "other"
+        ],
+        "id": "lnj8jzakzd53q0",
+        "id_c": 95,
+        "time": "2023-10-09T18:37:46Z",
+        "type": "note",
+        "vote": 5
+    },
+    {
+        "answers": [
+            {
+                "content": "They do not provide the full context, so we can just make some guesses.Here are some examples where RAW dependencies can occur during neural network computations on a TPU:Matrix multiplication: when calculating Z=X x Y, we might have to wait for X and Y to be computed first, if they are not already calculated.Tiling: when a large operation is broken into tiles, calculating the final result has RAW dependency on the tile results.Backpropagation: if you're updating a weight based on gradient values, the weight's new value depends on its previous value.Also, given that CNN1 has shallow features depths, some other possible reasons are:Some MAC units might be waiting for data (reads) from previous operations (writes) that involve a small subset of channels. As a result, many units remain idle, leading to inefficiencies.Data Movement Overhead: With fewer feature maps, there might be more frequent switching between layers or operations in the CNN. This can lead to more frequent data movement between the TPU's memory and its processing units, exacerbating RAW dependencies. Waiting for data to be written (from a previous operation) before it can be read (for the next operation) can introduce stalls.Hope that helps.Arash",
+                "type": "i_answer",
+                "vote": 1
+            }
+        ],
+        "detail": {
+            "content": "Hi Teaching Staff, fellow students,In Table 3, Page 7, while discerning the reasons on why CNN1 didn't performed well on the TPU despite being computationally heavy, it was pointed out that that almost 23% of the cycles are spent on RAW dependency.I am unable to visualize/comprehend, what is the cause of RAW dependency in the TPU.my conjecture (that I want to be improved) is that may be accumulators are storing partial results, and next computations require those results are waiting for partial results from the accumulators to be read and again processed.The paper attempts to explain the data flow in Figure 4, but I didn't understand.Please share your reasons. Thanks in advance.",
+            "subject": "tpu paper: RAW dependency in the TPU. Can you explain?"
+        },
+        "folders": [
+            "ra2"
+        ],
+        "id": "lnjkxg3rxdo5ui",
+        "id_c": 96,
+        "time": "2023-10-10T00:24:09Z",
+        "type": "question",
+        "vote": 0
+    },
+    {
+        "answers": [
+            {
+                "content": "Peak Performance  is the maximum number of operations (like MACs) the TPU can perform per second. This can be calculated based on the hardware and the total number of MACS.Example: In a TPU with 256x256 MACs, assuming each MAC executes two operations per clock cycle, (ADD, MULT), you can write:65,536×2=131,072 operations per cycleAssuming a Clock frequency of 1GHz:131,072 OPS/cycle×1,000,000,000 cycles/second=131  (TOPS)Of course this is the max theoretical performance. In Fig 5, this value is around 100 TOPS.Memory bandwidth: This is the rate at which data can be read from or stored into the memory. Also depends on the memory type.Having these two values, you can calculate the operations per byte at the interception of the two lines (Fig 5).",
+                "type": "i_answer",
+                "vote": 1
+            }
+        ],
+        "detail": {
+            "content": "In the paper size of accumulator was pickedup as 4096 after noting that operations per byte needed to reach peak performance was 1350.I am unable to arrive upon at how did they deduced 1350 from the peak performance..any formulae or intuition or hint on how to arrive upon at the peak performance.. and then deduce this 1350?thank you a lot",
+            "subject": "tpu: operations per byte needed to reach peak performance is 1350.. how did they reached deduced"
+        },
+        "folders": [
+            "ra2"
+        ],
+        "id": "lnjlcxq3xe23up",
+        "id_c": 97,
+        "time": "2023-10-10T00:36:12Z",
+        "type": "question",
+        "vote": 0
+    },
+    {
+        "detail": {
+            "content": "Hi class,\n\nHomework 2 and 3 solutions are posted on Piazza. Please check. \n\nFor the input/weight stationary question. We will get back to you tomorrow. \n\nThank you,\nTAs",
+            "subject": "Homework 2 &amp; 3 solution posted"
+        },
+        "folders": [
+            "hw2",
+            "hw3"
+        ],
+        "id": "lnjrizvupy9kg",
+        "id_c": 98,
+        "time": "2023-10-10T03:28:53Z",
+        "type": "note",
+        "vote": 0
+    },
+    {
+        "detail": {
+            "content": "The recording of today's discussion session (Quiz 1 problems) has been uploaded in the Resources page.",
+            "subject": "Week 8 Discussion Recording Has Been Uploaded"
+        },
+        "folders": [
+            "midterm"
+        ],
+        "id": "lnjx6nfanxd25b",
+        "id_c": 99,
+        "time": "2023-10-10T06:07:14Z",
+        "type": "note",
+        "vote": 0
+    },
+    {
+        "detail": {
+            "content": "For 2D weight stationary, if we only use \"for loops\" (without parallelization), using the notation defined in class, we want f[m,c,r,s] to stay stationary as much as possible. So \"m, c, r, s\" should be at the outmost loops. Therefore, the implementation is likeSimilarly, for input stationary, we want \"c, h, w\" are at the outmost loops.",
+            "subject": "Comments on weight/input stationary"
+        },
+        "folders": [
+            "midterm",
+            "exam"
+        ],
+        "id": "lnkg2liwi7v10f",
+        "id_c": 100,
+        "time": "2023-10-10T14:55:58Z",
+        "type": "note",
+        "vote": 4
+    },
+    {
+        "detail": {
+            "content": "Hi all,\n\nDue to unforeseen equipment arrival, EEB230 can no longer be used as an office. ~~TA office hours will be held at Tables between EEB and RTH. If you did not find your TA there, please fetch your TA in EEB224.~~ TA office hours will be held at PHE320. \n\nThanks,\nTAs",
+            "subject": "TA office hour location changed to PHE320"
+        },
+        "folders": [
+            "logistics"
+        ],
+        "id": "lnm127dexfy515",
+        "id_c": 102,
+        "time": "2023-10-11T17:31:18Z",
+        "type": "note",
+        "vote": 0
+    },
+    {
+        "answers": [
+            {
+                "content": "Check the professors' responses below.",
+                "type": "i_answer",
+                "vote": 0
+            }
+        ],
+        "detail": {
+            "content": "not necessarily to be answered before today's exam..When we say that scratchpad is like a explicit scheme, then do the addresses (or address space) on the scratch pad looks to the programmer as part of the memory addresses itself and is just implemented as scratchpad or does scratchpad has a different space like in CPUs we had CPU I/O as Memory I/O?let me elaborate by what I mean by separate address space..suppose I have 16 elements with each element being a byte as scratchpad memory.. so as a programmer (since scratchpad is explicit coupled) how do i address aka read/write to these scratchpad address..Does iris or any other accelerator implementing the scratchpad provides address range to be used or some Base register so that we know the address to write into and read from?",
+            "subject": "explicit-decoupled data orchestration: address space"
+        },
+        "folders": [
+            "exam"
+        ],
+        "id": "lnm1w14mgx816r",
+        "id_c": 103,
+        "time": "2023-10-11T17:54:29Z",
+        "type": "question",
+        "vote": 1
+    },
+    {
+        "answers": [
+            {
+                "content": "You are right. Accelerators like TPUs are designed for high-throughput, parallel processing of tensor operations. To make the most of this capability, data must be marshaled or transferred in large chunks to the TPU. Loading data in bulk minimizes the overhead of frequent memory accesses and optimizes the bandwidth utilization.The ability to pipeline reads from memory is a critical feature for TPUs. This ensures that while one chunk of data is being processed, the next chunk can be read from memory, and thus the TPU is kept busy.For the TPU (or Eyeriss) to read data efficiently, the data needs to be appropriately aligned. Misaligned data can lead to inefficient memory access patterns, reducing the performance benefits of the specialized hardware.",
+                "type": "i_answer",
+                "vote": 1
+            }
+        ],
+        "detail": {
+            "content": "Sir(s),Can i say thatkey difference which I find between GPUs and iris is thatGPUs relies on multiple hardware warps (kinda of what Gandhi Sir says as fine-grained multi-warping) so that if one warp is stuck (say this warp required load word and 32 accesses from 32 individual threads don't align on the same cache line) then GPU can switch to a different warp..Whereas, iris requires (and for that matter even TPUs) alldata be marshelledat once to the accelerator so that we can pipeline the reads from the memory and it is the requirement of iris & TPU that data is aligned so that it can be read at once...It is thismarshelling of data, which leads to advantage at the time of inference (in TPU v1) and as a con, makes's TPU's (or iris's) deployment specific to a task like NN accelerator..whereas GPUs are more robust, (robustness comes from GPUs placing no such demand to marshalling data) allowing GPUs to be have wider use cases..However, both TPUs (and iris) do provide a potent alternative if my organizations need are well-thought-out and meeting what TPUs (and iris) are designed forSo, when comparing the GPU vs iris performance, unless this marshelling activity is hidden, otherwise, time required for marshelling may be added to the iris/TPU",
+            "subject": "GPUs vs iris/TPU architecture: is data marshelling a key difference"
+        },
+        "folders": [
+            "exam",
+            "resources",
+            "midterm"
+        ],
+        "id": "lnma66x9dov69r",
+        "id_c": 104,
+        "time": "2023-10-11T21:46:20Z",
+        "type": "question",
+        "vote": 2
+    },
+    {
+        "answers": [
+            {
+                "content": "Fall recess is a campus-wide holiday, so there will be no office hours.",
+                "type": "i_answer",
+                "vote": 0
+            }
+        ],
+        "detail": {
+            "content": "Will office hours remain the same during fall recess or will it be appointment-based?",
+            "subject": "Office Hours During Fall Recess"
+        },
+        "folders": [
+            "logistics"
+        ],
+        "id": "lnmrncholaf7ji",
+        "id_c": 105,
+        "time": "2023-10-12T05:55:34Z",
+        "type": "question",
+        "vote": 0
+    },
+    {
+        "detail": {
+            "content": "https://classroom.github.com/a/HRH7PkDu",
+            "subject": "Homework 4 Posted!"
+        },
+        "folders": [
+            "hw4"
+        ],
+        "id": "lnw30e7h4e32nr",
+        "id_c": 107,
+        "time": "2023-10-18T18:23:34Z",
+        "type": "note",
+        "vote": 0
+    },
+    {
+        "answers": [
+            {
+                "content": "And some updated DistributedML slides for review. Thanks!",
+                "type": "s_answer",
+                "vote": 0
+            }
+        ],
+        "detail": {
+            "content": "Hi Prof Murali, could you please upload the slides related to the federated ML lectures?",
+            "subject": "Federated ML Slides"
+        },
+        "folders": [
+            "resources"
+        ],
+        "id": "lnxhagpfsp43nq",
+        "id_c": 108,
+        "time": "2023-10-19T17:51:05Z",
+        "type": "question",
+        "vote": 0
+    },
+    {
+        "detail": {
+            "content": "The final project has been posted under Resources Homeworkhttps://classroom.github.com/a/s_BVjWCz.Please form your own group and start reading project descriptions as soon as possible.Register your group information here by the end of next Wednesday:https://docs.google.com/spreadsheets/d/1OTmIdBXRLQiy6hJHN1JMIM2xtoizB74Y8XdlzeRrwyA/edit#gid=0Thanks,Yongqin",
+            "subject": "Final Project Posted &amp; Form Your Group!"
+        },
+        "folders": [
+            "final"
+        ],
+        "id": "lnxi5jkpnzg319",
+        "id_c": 109,
+        "time": "2023-10-19T18:15:15Z",
+        "type": "note",
+        "vote": 0
+    },
+    {
+        "detail": {
+            "content": "Any buddy interested in project 1 and don’t have a teammate yet? please contact me if you are interested :)",
+            "subject": "Looking for a teammate for the LLM project"
+        },
+        "folders": [
+            "project"
+        ],
+        "id": "lnxigzbivh2r8",
+        "id_c": 110,
+        "time": "2023-10-19T18:24:08Z",
+        "type": "note",
+        "vote": 0
+    },
+    {
+        "detail": {
+            "content": "Dear Students,Yesterday we discussed the privacy concerns with federated learning. I mentioned that there exists techniques such as differential privacy, multi party computing and secure enclaves to protect against privacy leaks. I will cover multi party computing in class tomorrow and I *hope*  to cover enclaves in class after differential privacy (as time permits). But to understand secure enclaves a deeper understanding of virtual memory is a must. I hope you all are familiar with virtual memory in your prior course work. If not, you are welcome to attend the virtual memory lecture I plan to start today in my EE557 class at 4PM in OHE 132. It is just a coincidence that the timing worked out. You are welcome to attend 557 lecture so as to familiarize yourself with virtual memory. That way when I discuss secure enclaves it is a bit easier to comprehend that enclave notion later.Murali",
+            "subject": "Virtual memory concepts for secure enclaves"
+        },
+        "folders": [
+            "logistics"
+        ],
+        "id": "lnxljmo0t2f3dr",
+        "id_c": 111,
+        "time": "2023-10-19T19:50:11Z",
+        "type": "note",
+        "vote": 0
+    },
+    {
+        "answers": [
+            {
+                "content": "You will need to understand and write down the answer for each of the questions asked in the project.",
+                "type": "i_answer",
+                "vote": 1
+            }
+        ],
+        "detail": {
+            "content": "Do we need to submit the answer for the final project's pdf? Or just understanding is okay",
+            "subject": "Question about final project"
+        },
+        "folders": [
+            "project"
+        ],
+        "id": "lnxxfr8s8e7ie",
+        "id_c": 112,
+        "time": "2023-10-20T01:23:06Z",
+        "type": "question",
+        "vote": 0
+    },
+    {
+        "answers": [
+            {
+                "content": "We will collect the results and release the statistics tomorrow.",
+                "type": "i_answer",
+                "vote": 0
+            }
+        ],
+        "detail": {
+            "content": "Could I ask what the average for the midterm was?Thank you.",
+            "subject": "Midterm Average"
+        },
+        "folders": [
+            "midterm"
+        ],
+        "id": "lny1zbfc6pu44u",
+        "id_c": 113,
+        "time": "2023-10-20T03:30:17Z",
+        "type": "question",
+        "vote": 0
+    },
+    {
+        "answers": [
+            {
+                "content": "@Murali Annavaram@Arash",
+                "type": "i_answer",
+                "vote": 0
+            }
+        ],
+        "detail": {
+            "content": "Could we select second project if we finish the first one before the due to get bonus grades?",
+            "subject": "Selection of final project"
+        },
+        "folders": [
+            "project"
+        ],
+        "id": "lny3zdxozai671",
+        "id_c": 114,
+        "time": "2023-10-20T04:26:19Z",
+        "type": "question",
+        "vote": 0
+    },
+    {
+        "answers": [
+            {
+                "content": "Professor Murali has uploaded the material.",
+                "type": "i_answer",
+                "vote": 0
+            }
+        ],
+        "detail": {
+            "content": "Hello professor Murali,If you have free time, could you please upload PPTs of this week. I am afraid I have something not fully understand and need to see some details.Thanks!",
+            "subject": "Ask for PPTs of this week"
+        },
+        "folders": [
+            "other"
+        ],
+        "id": "lnyxkl8y8bi1m",
+        "id_c": 115,
+        "time": "2023-10-20T18:14:37Z",
+        "type": "question",
+        "vote": 0
+    },
+    {
+        "detail": {
+            "content": "Hi I'm Gaurav, I am looking for a teammate for the LLM project. Please contact me at gkudva@usc.edu .Thanks ,Gaurav",
+            "subject": "Looking for a teammate for the LLM project"
+        },
+        "folders": [
+            "project"
+        ],
+        "id": "lnyyasqlhxd26f",
+        "id_c": 116,
+        "time": "2023-10-20T18:35:00Z",
+        "type": "note",
+        "vote": 0
+    },
+    {
+        "detail": {
+            "content": "We have released your midterm grades on blackboard.Average is 78.8, median is 81, std is 9.7.We will give you all midterms in the end of Wednesday discussion. Regrading period is open till Nov 3rd in-person office hour only.Thanks,Yongqin",
+            "subject": "Midterm Grades Released!"
+        },
+        "folders": [
+            "midterm"
+        ],
+        "id": "lnyyv9wibkv6qm",
+        "id_c": 117,
+        "time": "2023-10-20T18:50:55Z",
+        "type": "note",
+        "vote": 0
+    },
+    {
+        "detail": {
+            "content": "Hi all,I'm Haochen Wu. I am looking for a teammate for the private ML project. You can reach me at wuhaoche@usc.edu if you are interested. Thanks!",
+            "subject": "Looking for a teammate for the private ML project"
+        },
+        "folders": [
+            "project"
+        ],
+        "id": "lo2l0vdterzwj",
+        "id_c": 118,
+        "time": "2023-10-23T07:34:27Z",
+        "type": "note",
+        "vote": 0
+    },
+    {
+        "answers": [
+            {
+                "content": "We are asking for the formula, which is then needed in your implementation. So first write the formula.",
+                "type": "i_answer",
+                "vote": 0
+            }
+        ],
+        "detail": {
+            "content": "For these questions on HW4, do you want the answer in code form implementation? or should we write out the formulas in text?",
+            "subject": "Clarification for Questions on HW4"
+        },
+        "folders": [
+            "hw4"
+        ],
+        "id": "lo3ezokvd74tz",
+        "id_c": 119,
+        "time": "2023-10-23T21:33:20Z",
+        "type": "question",
+        "vote": 0
+    },
+    {
+        "detail": {
+            "content": "Hi Class,\n\nPlease decide which project you want to work on by this week's discussion session on Wednesday, Oct 25th. We will go through each of the project descriptions.\n\nThank you,\n\nTAs",
+            "subject": "Final project decision before 10/25"
+        },
+        "folders": [
+            "final_project"
+        ],
+        "id": "lo3jkxsvad731q",
+        "id_c": 120,
+        "time": "2023-10-23T23:41:50Z",
+        "type": "note",
+        "vote": 0
+    },
+    {
+        "answers": [
+            {
+                "content": "This should become very clear as you go through the rest of the assignment. We store activation so that we can use them to find the scaling factors. Have you gone through the rest of the assignment yet?",
+                "type": "i_answer",
+                "vote": 1
+            }
+        ],
+        "detail": {
+            "content": "Hi,\nthere is a function (that we don't need to modify) with the name copy_model.\n\nI understand that we need to do deep_copy and also need to copy the scale..\n\nWhat's the purpose of copying input activations and output activations? and follow-up, why does the model saves input and output activations.\n\nmost likely, my understanding is not correct, about what we mean by input activation and output activation?\n\nMy meaning is that there can be 10,000 images (and thus 10,000) input and output activations..\n\nWhy do we need to save these?\n\nThank You",
+            "subject": "hw4: deepcopy what&#39;s the purpose of copying input and output activations"
+        },
+        "folders": [
+            "hw4"
+        ],
+        "id": "lo3pbq5y7eu28x",
+        "id_c": 121,
+        "time": "2023-10-24T02:22:38Z",
+        "type": "question",
+        "vote": 0
+    },
+    {
+        "answers": [
+            {
+                "content": "Check Professor Murali's response below.",
+                "type": "i_answer",
+                "vote": 0
+            }
+        ],
+        "detail": {
+            "content": "Hi Professor, could you please upload the Federated ML and updated distributed ML slides? It would help us while studying these topics.",
+            "subject": "Lecture slides for distributed and federated learning"
+        },
+        "folders": [
+            "resources"
+        ],
+        "id": "lo4m0h3uhek210",
+        "id_c": 122,
+        "time": "2023-10-24T17:37:40Z",
+        "type": "question",
+        "vote": 0
+    },
+    {
+        "answers": [
+            {
+                "content": "1. If the weights and activations are mostly centered around zero, it means most of the values are small, specially when standard dev is small. As a result, they can be represented with fewer bits without losing much information.2. Remember that after accumulating the partial sums, the result passes through an activation function.  For example, the sigmoid or the ReLU function. They potentially reduce the number of bits.",
+                "type": "i_answer",
+                "vote": 0
+            }
+        ],
+        "detail": {
+            "content": "The book while discussing reducing precision (Section 7.1, Page 149, search “Reducing the bit width of the fully… …possible partial sums”)makes following points:Reducing the bit width of the fully accumulated partial sum willnot have a significant impact on accuracy if the distribution of the weights and activations are centered near zero with a limited standard deviationThey reach this conclusion (reduced bit widths) by observing that near-zero centered distribution and limited standard deviation has lower range, so lesser widths can be used?Since the bit width of the final output activation will ultimately be less than the maximum possible partial sum,why they say that bit width of final output activation will ultimately be less than max. possible partial sumI know these questions are more theoretical (and my lack of mathematics background is a hindrance,) so, is it possible to give some intuition (no worries if not possible.)",
+            "subject": "(optional) theoretical question: request for intuition-based arguments"
+        },
+        "folders": [
+            "hw4"
+        ],
+        "id": "lo5axx2oae84vf",
+        "id_c": 123,
+        "time": "2023-10-25T05:15:31Z",
+        "type": "question",
+        "vote": 1
+    },
+    null,
+    {
+        "detail": {
+            "content": "Dear all,We have posted the midterm solution under resources. You can only request regrading during the in-person office hours. The regrading window is open til Nov 3rd.Thanks,Yongqin",
+            "subject": "Midterm Solution Posted"
+        },
+        "folders": [
+            "midterm"
+        ],
+        "id": "lo7jzfabuda6z1",
+        "id_c": 125,
+        "time": "2023-10-26T19:04:10Z",
+        "type": "note",
+        "vote": 0
+    },
+    {
+        "detail": {
+            "content": "Dear AllI posted the slides I covered yesterday on recommendation models, along with some additional slides that I did not cover but I thought it will be helpful if you want to read on your own. These slides are from the text book \"Recommender systems: an introduction\" textbook which I believe has e-book version. Most of the slides are from that textbook but some additional slides were added for comprehensive coverage. You are only responsible for learning what we discussed in the class: collaborative filtering schemes, content based filtering schemes and deep learning recommendation models which is yet to be covered.Title: Recommendation-Models-EE599.pptxhttps://piazza.com/class_profile/get_resource/llcjbpznzvv7c5/lo7q4q2ifuz2roYou can view it on the course page:/usc/fall2023/ee599/resourcesMurali",
+            "subject": "Recommendation-Models lecture notes"
+        },
+        "folders": [
+            "resources",
+            "other"
+        ],
+        "id": "lo7qaq8qik3g4",
+        "id_c": 127,
+        "time": "2023-10-26T22:00:55Z",
+        "type": "note",
+        "vote": 0
+    },
+    {
+        "detail": {
+            "content": "Hi Class,CARC tutorial slides and video are posted under Piazza Resources. Please remember to terminate your session when you are not running any work to save computation units.You can check how many units you have used so far from CARC user portal:https://hpcaccount.usc.edu/Thank you,TAs",
+            "subject": "CARC tutorial posted"
+        },
+        "folders": [
+            "final_project"
+        ],
+        "id": "lo90w6pmu8645u",
+        "id_c": 128,
+        "time": "2023-10-27T19:45:19Z",
+        "type": "note",
+        "vote": 0
+    },
+    {
+        "answers": [
+            {
+                "content": "Yes. Please report the accuracy for both weights and activations quantization in 4-bit.",
+                "type": "i_answer",
+                "vote": 0
+            }
+        ],
+        "detail": {
+            "content": "Instead of 8-bit integers, modify your code to use 4-bit integers. Recalculate the accuracy.In this, do we need to change the weights scale as well?",
+            "subject": "in problem 3 of hw4: 4-bits: do the weights also need to be updated to 4-bits"
+        },
+        "folders": [
+            "hw4"
+        ],
+        "id": "loairtgx1tz69q",
+        "id_c": 130,
+        "time": "2023-10-28T20:53:34Z",
+        "type": "question",
+        "vote": 0
+    },
+    {
+        "answers": [
+            {
+                "content": "Updated.",
+                "type": "i_answer",
+                "vote": 0
+            }
+        ],
+        "detail": {
+            "content": "I see the due time and find it is tomorrow morning. Should it be Oct 30, 2023,23:58 PDT? Or it is set by this time, thanks.",
+            "subject": "Due time for hw4"
+        },
+        "folders": [
+            "hw4"
+        ],
+        "id": "loc3nmgv2fy7k9",
+        "id_c": 132,
+        "time": "2023-10-29T23:25:57Z",
+        "type": "question",
+        "vote": 0
+    },
+    {
+        "detail": {
+            "content": "Title: Homework 5https://classroom.github.com/a/SszVi9TgDue: Nov 10th",
+            "subject": "Homework 5 posted"
+        },
+        "folders": [
+            "hw5"
+        ],
+        "id": "lodg3s9vmyv6ga",
+        "id_c": 133,
+        "time": "2023-10-30T22:02:12Z",
+        "type": "note",
+        "vote": 0
+    },
+    {
+        "detail": {
+            "content": "Hi all,After discussion with the whole teaching team, we decided if your solution to q4 is similar to the new posted additionalsolution. We will give you full credits.Please submit your regrade request during the TA office hour by the end of Nov 3rd.Thanks,Yongqin",
+            "subject": "Regrading Midterm Q4"
+        },
+        "folders": [
+            "exam"
+        ],
+        "id": "lodg9yre7go7jq",
+        "id_c": 134,
+        "time": "2023-10-30T22:07:01Z",
+        "type": "note",
+        "vote": 0
+    },
+    {
+        "answers": [
+            {
+                "content": "I think I have fixed the issue by change the default device",
+                "type": "s_answer",
+                "vote": 0
+            },
+            {
+                "content": "Try to increase the number of cores when you request resources. I am using 8 cores, and it takes 50 seconds to load the model and generate the results.\n\nHere is the command I am using:  \n```\npython -m torch.distributed.run --nproc_per_node 1 example_text_completion.py --ckpt_dir /project/saifhash_1190/llama2-7b --tokenizer_path /project/saifhash_1190/llama2-7b/tokenizer.model\n```\n\nCan I make your post visible to the class? I think that would be helpful to others.",
+                "type": "i_answer",
+                "vote": 1
+            }
+        ],
+        "detail": {
+            "content": "Hi, I have meet some issue when run the LLM by strictly follow the quickstart guide in LLaMA repo.\n\nEvery time the program stuck after this command:\nSingularity> torchrun --nproc_per_node 1 example_text_completion.py --ckpt_dir ./llama-2-7b --tokenizer_path . --max_seq_len 32 --max_batch_size 1\n\n> initializing model parallel with size 1\n> initializing ddp with size 1\n> initializing pipeline with size 1\n(stuck here, GPU usage is almost 0)\n\nI also try this command still met the same issue:\nSingularity> python -m torch.distributed.launch --nproc_per_node=1  example_text_completion.py --ckpt_dir ./llama-2-7b --tokenizer_path . --max_seq_len 32 --max_batch_size 1\n\nThank you for your help!",
+            "subject": "Cannot run LLM by following the quickstart"
+        },
+        "folders": [
+            "final_project"
+        ],
+        "id": "lodgfwn2frg3a2",
+        "id_c": 135,
+        "time": "2023-10-30T22:11:38Z",
+        "type": "question",
+        "vote": 0
+    },
+    {
+        "detail": {
+            "content": "https://d1qx31qr3h6wln.cloudfront.net/publications/ChipNeMo%20%2824%29.pdf\n\nfound this paper that tries to adapt LLM for chip design..\n\nin line with another paper this year ChatEDA (although only 2 citations): that showcases how synthesis constraints can be written in a chat interface and script be generated.\n\nPS: I haven't read any of these, just found the concept at the intersection of DNNs and Chip Design",
+            "subject": "ChipNeMo: Domain-Adapted LLMs for Chip Design"
+        },
+        "folders": [
+            "other"
+        ],
+        "id": "log4cdzsg62p7",
+        "id_c": 136,
+        "time": "2023-11-01T18:56:17Z",
+        "type": "note",
+        "vote": 1
+    },
+    {
+        "detail": {
+            "content": "Submit your milestone by Nov 5th.https://classroom.github.com/a/sCQbag3k",
+            "subject": "Project Milestone Submission is Open."
+        },
+        "folders": [
+            "project"
+        ],
+        "id": "logij0q3q9f51c",
+        "id_c": 137,
+        "time": "2023-11-02T01:33:21Z",
+        "type": "note",
+        "vote": 0
+    },
+    {
+        "detail": {
+            "content": "Dear Students.I posted slides relating to what I plan to cover tomorrow, which relates to fault tolerance in DNNs.Murali",
+            "subject": "Slides for tomorrow posted"
+        },
+        "folders": [
+            "other",
+            "resources"
+        ],
+        "id": "loi63om535j29v",
+        "id_c": 138,
+        "time": "2023-11-03T05:21:02Z",
+        "type": "note",
+        "vote": 0
+    },
+    {
+        "detail": {
+            "content": "Dear Students,Let us start the class tomorrow at 9:30AM (half hour later). Hope the later start will make it easier for all to show up in class on time.Murali",
+            "subject": "Class late start  at 9:30 AM on Nov 3rd"
+        },
+        "folders": [
+            "other",
+            "logistics"
+        ],
+        "id": "loi6j2wnde05rz",
+        "id_c": 139,
+        "time": "2023-11-03T05:33:01Z",
+        "type": "note",
+        "vote": 1
+    },
+    {
+        "answers": [
+            {
+                "content": "Anotheronline postin supplementary to Prof. Murali’s response.",
+                "type": "i_answer",
+                "vote": 1
+            }
+        ],
+        "detail": {
+            "content": "Hi Teaching Team,During the discussion related to why we haverandomimages (considering CNNs) form part of a batch and shuffling this each time we begin a new epoch.Can I say that this randomization (hand-waiving argument is that) allows robustness because these days networks employ batch normalization (BN) and at each layer (where BN is applied) activations are subtracted and divided by mean and std. dev.for that batch(during training)So, having different set of images, randomizes (kinda of noise) and helps makes the network more robust.In earlier networks (before BN in 2015, before resent and googlenet) we used to add dropout layers to make it robustness. (and achieve similar purpose as is being done by BN)Thank You",
+            "subject": "postulate: why we shuffle the sampels forming a batch at each epoch"
+        },
+        "folders": [
+            "other"
+        ],
+        "id": "lojamq4s6ut128",
+        "id_c": 140,
+        "time": "2023-11-04T00:15:35Z",
+        "type": "question",
+        "vote": 0
+    },
+    {
+        "detail": {
+            "content": "Hi Class,\n\nFrom q1, we know that function loss.backward() computes gradients for each of the parameters in the model based on forward propagation, optimizer.step() applies the gradients to update the parameters, and optimizer.zero\\_grad() clears the gradients.  \n  \nIn order to access gradients of the parameters in the model, please do this:  \n  \n```\nfor param in model.parameters():\n\n    print(param.grad)  \n```\nparam.grad is initially set as None and becomes a Tensor the first time a call to backward(). For q2 and q3, you need to manipulate the gradients based on the method shown above, and should get the same training results as q1.\n\nThank you,\n\nTAs",
+            "subject": "HW5 implementation tips"
+        },
+        "folders": [
+            "hw5"
+        ],
+        "id": "lokw6t0tywx20a",
+        "id_c": 143,
+        "time": "2023-11-05T03:06:50Z",
+        "type": "note",
+        "vote": 0
+    },
+    {
+        "detail": {
+            "content": "Found this article that shows how backprop can be mapped on systolic arrays.Backprop and systolic arrays.. I’ve had a serendipitous encounter on… | by Yaroslav Bulatov | MediumCompletes our discussion on Jacobian matrices during initial lectures",
+            "subject": "Backprop and Systolic Arrays"
+        },
+        "folders": [
+            "other"
+        ],
+        "id": "lonj953szr74o",
+        "id_c": 145,
+        "time": "2023-11-06T23:28:03Z",
+        "type": "note",
+        "vote": 1
+    },
+    {
+        "detail": {
+            "content": "Hi Class,\n\nWe found out that due to out of memory  (>12GB) issue on Colab, you would encounter the following error when you execute q3 and q4:\n\n```\nerror message: Primary job terminated normally, but 1 process returned a non-zero exit code. mpirun noticed that process rank 4 with PID 0 on node ...exited on signal 9 (killed)\n```\n\nTo fix this issue, let's reduce the number of ranks for each question.\n\nFor q2, set rank size = 2, such that: `mpirun -n 2 `\n\nFor q3/q4/q5, set rank size = 3, such that: `mpirun -n 3`",
+            "subject": "HW5 colab environment issue"
+        },
+        "folders": [
+            "hw5"
+        ],
+        "id": "lono38s2r972ye",
+        "id_c": 147,
+        "time": "2023-11-07T01:43:26Z",
+        "type": "note",
+        "vote": 3
+    },
+    {
+        "detail": {
+            "content": "Hi Everyone,As a reminder, Professor David Patterson will be on campus today:His main talk is at4:00pm - 5:00pminEEB 132.I would like to see everyone attending this session. There will be no lectures today.There is a Q&A session with him for our class today at2:30 to 3pminEEB 539. We have a very limited capacity, so please let me know under this post if you are attending. If so, please make sure you carefully select a technical question that benefits other students as well.There is a reception from3 to 3:45pm inEEB Courtyard.Arash",
+            "subject": "Q&amp;A with David Patterson and Distinguish Lecture"
+        },
+        "folders": [
+            "other",
+            "logistics"
+        ],
+        "id": "lopw66ar6mg3ax",
+        "id_c": 149,
+        "time": "2023-11-08T15:05:12Z",
+        "type": "note",
+        "vote": 1
+    },
+    {
+        "answers": [
+            {
+                "content": "In order to run the inference, you can refer to the github repo main page or this post: @135\n\nThen, you can track how the command arguments are processed by the code. For example, the argument `ckpt_dir` is eventually taken by this line of code: https://github.com/facebookresearch/llama/blob/dccf644213a2771a81fc4a754eed9623ea7f8444/llama/generation.py#L101C39-L101C39. It implies the `consolidated.00.pth` file is the model weights. The model is loaded by https://github.com/facebookresearch/llama/blob/dccf644213a2771a81fc4a754eed9623ea7f8444/llama/generation.py#L107C11-L107C11\n\nFor the other two files, as part of the learning process, please track and understand the code carefully before you make modifications accordingly.",
+                "type": "i_answer",
+                "vote": 1
+            }
+        ],
+        "detail": {
+            "content": "May I know what are the files 'consolidated.00.path' and 'tokenizer.model' ? Does the file 'tokenizer.model' contain 'model.py' and tokenizer.py'?  Is the file 'consolidated.00.path' a dataset? Because I didn't find any illustration of in LLaMA Github respository.",
+            "subject": "Question about files in CARC"
+        },
+        "folders": [
+            "final_project"
+        ],
+        "id": "loqmphg6ru93v7",
+        "id_c": 150,
+        "time": "2023-11-09T03:28:03Z",
+        "type": "question",
+        "vote": 0
+    },
+    {
+        "answers": [
+            {
+                "content": "I am not sure where to find the recording, but there is another similar speech onYouTubeand here is thepaperprof. David presented.",
+                "type": "i_answer",
+                "vote": 0
+            }
+        ],
+        "detail": {
+            "content": "Hi,I saw that the session was recorded on Zoom. Since a lot of ground was covered in a short span, I wanted to listen to it again. Where can we find this recording?",
+            "subject": "Recording of the Distinguished Guest Lecture"
+        },
+        "folders": [
+            "other"
+        ],
+        "id": "loru8d6bslip3",
+        "id_c": 151,
+        "time": "2023-11-09T23:46:27Z",
+        "type": "question",
+        "vote": 0
+    },
+    {
+        "detail": {
+            "content": "HW5 Extended to Monday.",
+            "subject": "HW5 Extended to Monday"
+        },
+        "folders": [
+            "hw5"
+        ],
+        "id": "lorzyg8hk8v3ua",
+        "id_c": 152,
+        "time": "2023-11-10T02:26:42Z",
+        "type": "note",
+        "vote": 4
+    },
+    {
+        "detail": {
+            "content": "Hello everyone,I recorded this lecture (An introduction to Transformers) for those of you who are working on the LLM project.I will be teaching Transformers next week in the class in more details, so you don't have to watch this video unless you are working on the LLM project and need to have a background knowledge on language models and transformers.Here is the link to the video:https://youtu.be/9gdZN1QXlW8You can view it on the course page:/usc/fall2023/ee599/resourcesArash",
+            "subject": "Introduction to Transformers (For students working on the LLM Project)"
+        },
+        "folders": [
+            "optional-video"
+        ],
+        "id": "lowh2o3i40d3sf",
+        "id_c": 153,
+        "time": "2023-11-13T05:36:57Z",
+        "type": "note",
+        "vote": 0
+    },
+    {
+        "answers": [
+            {
+                "content": "When replacing fairscale nn modules with pytorch nn modules, you don't need to initialize weights. (You will need to load the pretrained llama weights into it later)You can remove KV caching as it is meant for inference speedup, which is good to have but not a must. In addition, since we will use llama model for training later, this feature must be disabled.You can test your code again with the original command to run some inference because you are not supposed to change the model architecture, and you can still load the original weights.",
+                "type": "i_answer",
+                "vote": 0
+            }
+        ],
+        "detail": {
+            "content": "Hi Lie,I did the modifications and it's in comment form. Please could it be reviewed? I feel the cache_v and cache_k is necessary since it needs to store intermediate activations within the GPU.To test this, should I use the same command present in #135 post?",
+            "subject": "Code modulation doubt"
+        },
+        "folders": [
+            "project"
+        ],
+        "id": "loxpn8miunv6jn",
+        "id_c": 155,
+        "time": "2023-11-14T02:24:40Z",
+        "type": "question",
+        "vote": 1
+    },
+    {
+        "detail": {
+            "content": "Homework 6 posted.Due: Dec 1st, 2023",
+            "subject": "Homework 6 posted"
+        },
+        "folders": [
+            "hw6"
+        ],
+        "id": "loz7boks9u333v",
+        "id_c": 156,
+        "time": "2023-11-15T03:27:20Z",
+        "type": "note",
+        "vote": 0
+    },
+    {
+        "answers": [
+            {
+                "content": "I agree, we have another project to complete for EE-577B. It would be great if HW6 could be optional and be graded for extra credit.",
+                "type": "s_answer",
+                "vote": 0
+            }
+        ],
+        "detail": {
+            "content": "Hi Professor,We totally get that diving deep into the subject is crucial for us students.Lately, things have been pretty intense, especially with the final project taking up a substantial chunk of time. Balancing that alongside tasks from other classes feels like juggling, honestly.By any chance HW6 could be made optional? It might ease off a bit of pressure and give some breathing room to focus on the project and other coursework.I reckon a bunch of other students would support this idea. If you're on board or if others agree or have other suggestions, maybe drop a reply below to gauge the general sentiment?Appreciate your understanding!",
+            "subject": "Requesting to make HW6 Optional"
+        },
+        "folders": [
+            "hw6"
+        ],
+        "id": "lozaqxppya62yc",
+        "id_c": 157,
+        "time": "2023-11-15T05:03:11Z",
+        "type": "question",
+        "vote": 7
+    },
+    {
+        "detail": {
+            "content": "https://classroom.github.com/a/F7tEqGwV",
+            "subject": "Submit your milestone 2 by this sunday"
+        },
+        "folders": [
+            "final_project"
+        ],
+        "id": "lp0554qse5p2rs",
+        "id_c": 158,
+        "time": "2023-11-15T19:14:01Z",
+        "type": "note",
+        "vote": 0
+    },
+    {
+        "answers": [
+            {
+                "content": "KV cache explanation:https://medium.com/@joaolages/kv-caching-explained-276520203249Also there is a good video on this:https://www.youtube.com/watch?v=Mn_9W1nCFLo",
+                "type": "i_answer",
+                "vote": 1
+            }
+        ],
+        "detail": {
+            "content": "Hi Lei, Could you send the URL which showed before today's discussion? There is gif to show the compute process (attention).I delete the codes related KV and fairscale(distributed training), but it generate text with no sense. I want to check the compute process, especially about mask.Thank you!",
+            "subject": "Regarding LLM KV Cache"
+        },
+        "folders": [
+            "final_project"
+        ],
+        "id": "lp0iy5wb3bi68x",
+        "id_c": 159,
+        "time": "2023-11-16T01:40:31Z",
+        "type": "question",
+        "vote": 0
+    },
+    {
+        "detail": {
+            "content": "Dear all,Due to the final project's difficulties, we now make hw6 optional, and you will be able to earn extra credits for completing hw6.Thanks,Yongqin",
+            "subject": "HW6 is now for extra credit"
+        },
+        "folders": [
+            "hw6"
+        ],
+        "id": "lp1wcdl5kmfxb",
+        "id_c": 162,
+        "time": "2023-11-17T00:43:15Z",
+        "type": "note",
+        "vote": 2
+    },
+    {
+        "detail": {
+            "content": "Dear AllDue to a conflicting meeting I have to move my scheduled office hours to 12PM-1:30PM, instead of 11AM-12:30PM. Please make note. For anyone who needs to use Zoom here is the zoom linkhttps://usc.zoom.us/j/2324883543Murali",
+            "subject": "Office Hours today changed to at 12PM-1:30PM Pacific Time"
+        },
+        "folders": [
+            "logistics"
+        ],
+        "id": "lp2u5631zxpa6",
+        "id_c": 164,
+        "time": "2023-11-17T16:29:26Z",
+        "type": "note",
+        "vote": 0
+    },
+    {
+        "detail": {
+            "content": "The teaching staff has posted a new Lecture Notes resource.Title: IntroToNLP.pdfhttps://piazza.com/class_profile/get_resource/llcjbpznzvv7c5/lp2vfue83oq77wYou can view it on the course page:/usc/fall2023/ee599/resources",
+            "subject": "IntroToNLP.pdf has been added to class resources page under Lecture Notes"
+        },
+        "folders": [
+            "resources"
+        ],
+        "id": "lp2vg7oad176e",
+        "id_c": 165,
+        "time": "2023-11-17T17:06:01Z",
+        "type": "note",
+        "vote": 0
+    },
+    {
+        "detail": {
+            "content": "For those who are interested in HW6, we need to make a correction:For Q1: change sigma = 0.5For Q2: run DP-SGD with sigma = 0.8 again.Sorry about the confusion.",
+            "subject": "HW6 Correction"
+        },
+        "folders": [
+            "hw6"
+        ],
+        "id": "lp3c39rolro7io",
+        "id_c": 166,
+        "time": "2023-11-18T00:51:50Z",
+        "type": "note",
+        "vote": 1
+    },
+    {
+        "detail": {
+            "content": "LLaMA2-7B Parameter breakdownMaybe incorrect, but gives a general overviewI am wondering why so much weightage given to MLP Blocks, whereas in CNNs, we saw the we generally over the generations of CNNs shifted weights towards CNNs vis a vis Fully Connected Layers..There are 32 such transformer blocks in LLaMA2-7BInspired from https://medium.com/@saratbhargava/mastering-llama-math-part-1-a-step-by-step-guide-to-counting-parameters-in-llama-2-b3d73bc3ae31#:~:text=Llama%2D2%20uses%20the%20Bytepair,an%20embedding%20dimension%20of%205120.",
+            "subject": "LLaMA2-7B Parameter Breakdown by layers"
+        },
+        "folders": [
+            "project"
+        ],
+        "id": "lp4ua2njsnl69",
+        "id_c": 169,
+        "time": "2023-11-19T02:08:47Z",
+        "type": "note",
+        "vote": 1
+    },
+    {
+        "answers": [
+            {
+                "content": "You should first understand the functionality of kv cache.",
+                "type": "i_answer",
+                "vote": 0
+            }
+        ],
+        "detail": {
+            "content": "Hi Teaching Team,I remember that LLaMA also works on next token prediction. So, why we don't make use of KV Cache in training as well?Thank You",
+            "subject": "in LLM project, why we don&#39;t need KV Cache during the training"
+        },
+        "folders": [
+            "final_project"
+        ],
+        "id": "lp4yr9hr3247m8",
+        "id_c": 170,
+        "time": "2023-11-19T04:14:08Z",
+        "type": "question",
+        "vote": 0
+    },
+    {
+        "detail": {
+            "content": "Hi Class,I created arepoof simplified llama inference for your reference. In inference.py, I have removed fairscale (for distributed inference), fire (for command line arguments passing), KV-cache (for inference speedup), and distributed launch (required by fairscale).I also simplified the alpaca training code in finetune.py. You can run it to check the data pre-process results, and build on top of this code to implement the training loop. In terms of loss computation, please refer to the HF libraryhere.You can instantiate a llama model with only one decoder layer (without loading weights) to test your code when implementing. After it is bug free, you can expand the llama model to full size and load pre-trained weights to train it on A100/V100 GPU.Thank you,Lei",
+            "subject": "LLM Project Suggestions"
+        },
+        "folders": [
+            "final_project"
+        ],
+        "id": "lp78nrw47971vi",
+        "id_c": 172,
+        "time": "2023-11-20T18:26:53Z",
+        "type": "note",
+        "vote": 0
+    },
+    {
+        "detail": {
+            "content": "Hi Everyone,As we have announced earlier in the semester, the Final Exam is onDec 8 from 2pm to 4pm, and is an in-person exam.Important: If this time conflicts with exams from any other courses that you are taking,please let me know ASAP. If I don't receive any notes in this regardby this Friday, I will assume this time slot works for everyone.Note that we canonlyaddress other course examconflicts. No other reasons, such as traveling, etc, is acceptable.Thanks,Arash",
+            "subject": "[Important!]: Final Exam Date"
+        },
+        "folders": [
+            "final"
+        ],
+        "id": "lp7o2rg996224d",
+        "id_c": 173,
+        "time": "2023-11-21T01:38:27Z",
+        "type": "note",
+        "vote": 0
+    },
+    {
+        "detail": {
+            "content": "Hi Everyone,We need to make sure the announced final exam date works for everyone and does not overlap with final exams from any other course.Please fill out this form ASAP with your answer:https://forms.gle/qxjD689Cmbc5tqLz6Note: Answer \"No\" only if this time overlaps with another exam.Thanks,Arash",
+            "subject": "[Important!]: Final Exam Date Survey"
+        },
+        "folders": [
+            "final"
+        ],
+        "id": "lp8pc7rm5qd4ui",
+        "id_c": 175,
+        "time": "2023-11-21T19:01:34Z",
+        "type": "note",
+        "vote": 0
+    },
+    {
+        "detail": {
+            "content": "Please check your GitHub Classroom. We extended the ddl to Dec 8th.",
+            "subject": "Final Project Deadline Extended"
+        },
+        "folders": [
+            "final_project"
+        ],
+        "id": "lp8y4zf59v1ac",
+        "id_c": 179,
+        "time": "2023-11-21T23:07:53Z",
+        "type": "note",
+        "vote": 0
+    },
+    {
+        "detail": {
+            "content": "Hi Class,I have refactored therepo, and the naive training loop is provided in finetune.py. Please pull it again and take the current code base as a reference. (You don't have to design your code structure like this)For the rest of the project, please implement LoRA, Gradient Accumulation, Gradient Checkpointing, and Mixed Precision.I will be hosting office hours next week on Monday, Wednesday, and Friday, at the same time slot as before.Lei",
+            "subject": "LLM Project Update"
+        },
+        "folders": [
+            "final_project"
+        ],
+        "id": "lpd16d0mrzhhf",
+        "id_c": 183,
+        "time": "2023-11-24T19:44:01Z",
+        "type": "note",
+        "vote": 0
+    },
+    {
+        "detail": {
+            "content": "Hi Class,The last lecture will be on this Wednesday 6:30-8:20pm.There will be no discussion on Wednesday. Friday is also no lecture.Please come to office hours this Wednesday 1-3pm and Friday 3-5pm if you need help with the final project.",
+            "subject": "Lecture schedule this week"
+        },
+        "folders": [
+            "logistics"
+        ],
+        "id": "lpiqv6fa6e3up",
+        "id_c": 188,
+        "time": "2023-11-28T19:42:00Z",
+        "type": "note",
+        "vote": 0
+    },
+    {
+        "answers": [
+            {
+                "content": "Problem solved !",
+                "type": "s_answer",
+                "vote": 0
+            }
+        ],
+        "detail": {
+            "content": "Screenshot_2023-11-28_at_1.50.45_PM.pngConsidering the 'consolidated.00.pth' is more than 10G, is that normal when I run python finetune.py. And show 'Killed' on USC CARC?",
+            "subject": "Question about running finetune.py"
+        },
+        "folders": [
+            "final_project"
+        ],
+        "id": "lpivlyy1xa556",
+        "id_c": 189,
+        "time": "2023-11-28T21:54:48Z",
+        "type": "question",
+        "vote": 0
+    },
+    {
+        "detail": {
+            "content": "The teaching staff has posted a new Lecture Notes resource.Title: Transformers.pdfhttps://piazza.com/class_profile/get_resource/llcjbpznzvv7c5/lpk1e64giik1i3You can view it on the course page:/usc/fall2023/ee599/resources",
+            "subject": "Transformers.pdf has been added to class resources page under Lecture Notes"
+        },
+        "folders": [
+            "resources"
+        ],
+        "id": "lpk1ei4uj872pb",
+        "id_c": 190,
+        "time": "2023-11-29T17:24:44Z",
+        "type": "note",
+        "vote": 0
+    },
+    {
+        "detail": {
+            "content": "Dear Students,Today's class will be in-person. Please ignore my previous note.See everyone in the class today!Thanks,Arash",
+            "subject": "Today&#39;s class will be in-person"
+        },
+        "folders": [
+            "logistics"
+        ],
+        "id": "lpk5arce5qy4qe",
+        "id_c": 192,
+        "time": "2023-11-29T19:13:48Z",
+        "type": "note",
+        "vote": 0
+    },
+    {
+        "detail": {
+            "content": "https://docs.nvidia.com/deeplearning/performance/dl-performance-gpu-background/index.html#gpu-arch\n\nMay be useful for interviews",
+            "subject": "This article talks about the arithmetic intensity for various layers of DNNs"
+        },
+        "folders": [
+            "other"
+        ],
+        "id": "lplivoe17l01gq",
+        "id_c": 194,
+        "time": "2023-11-30T18:21:45Z",
+        "type": "note",
+        "vote": 3
+    },
+    {
+        "detail": {
+            "content": "Hi Everyone,As I mentioned in the last lecture, tomorrow will be our last lecture. Hopefully, I will see everyone in the class.Arash",
+            "subject": "Reminder: There will be an in-person lecture tomorrow"
+        },
+        "folders": [
+            "logistics"
+        ],
+        "id": "lpm1h6ud6n5yo",
+        "id_c": 196,
+        "time": "2023-12-01T03:02:21Z",
+        "type": "note",
+        "vote": 0
+    },
+    {
+        "detail": {
+            "content": "The teaching staff has posted a new Lecture Notes resource.Title: Transformers_Training.pdfhttps://piazza.com/class_profile/get_resource/llcjbpznzvv7c5/lpmzcjvegb45keYou can view it on the course page:/usc/fall2023/ee599/resources",
+            "subject": "Transformers_Training.pdf has been added to class resources page under Lecture Notes"
+        },
+        "folders": [
+            "resources"
+        ],
+        "id": "lpmzd9s8fbz73d",
+        "id_c": 197,
+        "time": "2023-12-01T18:51:06Z",
+        "type": "note",
+        "vote": 0
+    },
+    {
+        "answers": [],
+        "detail": {
+            "content": "Will we get some sample problems for final exam?",
+            "subject": "Will we get some sample problems for final exam?"
+        },
+        "folders": [
+            "final"
+        ],
+        "id": "lpnb1b0i1g3545",
+        "id_c": 198,
+        "time": "2023-12-02T00:17:43Z",
+        "type": "question",
+        "vote": 3
+    },
+    {
+        "answers": [
+            {
+                "content": "HW4-6 solutions are posted under resources. Please check.",
+                "type": "i_answer",
+                "vote": 0
+            }
+        ],
+        "detail": {
+            "content": "May I ask for the solutions for HW4, HW5 and HW6?",
+            "subject": "Question about HW4-6 solutions"
+        },
+        "folders": [
+            "hw4",
+            "hw5",
+            "hw6"
+        ],
+        "id": "lpomdvjwpz23it",
+        "id_c": 201,
+        "time": "2023-12-02T22:23:11Z",
+        "type": "question",
+        "vote": 0
+    },
+    {
+        "answers": [],
+        "detail": {
+            "content": "Hello Professor,In Model Parallel once we divide the layers of model into separate gpu's, there should be a connection between gpu, so that intermediate activations of first set of layers in first gpu is sent as input to next set of layers in the second gpu , but in the slides describing model Parallel it shows connection of  separate gpu's to master, isn't this data parallel. Can you please clarify on this?",
+            "subject": "Model Parallel Clarification"
+        },
+        "folders": [
+            "final"
+        ],
+        "id": "lpqfa09e5zozk",
+        "id_c": 205,
+        "time": "2023-12-04T04:39:46Z",
+        "type": "question",
+        "vote": 0
+    },
+    {
+        "detail": {
+            "content": "Hi class,There will be office hours today 4-6pm and Wednesday 1-3pm.",
+            "subject": "office hours this week"
+        },
+        "folders": [
+            "logistics"
+        ],
+        "id": "lpra89xpjhj4e9",
+        "id_c": 206,
+        "time": "2023-12-04T19:06:13Z",
+        "type": "note",
+        "vote": 0
+    },
+    {
+        "detail": {
+            "content": "Hi Class,Please fill out thisformto schedule your final project demo. Each group will have 10 minutes. During the demo, we will check the following:whether the code is executableask for explanations about the code structureask for understanding of the techniques and corresponding implementation details",
+            "subject": "Final project demo shedule"
+        },
+        "folders": [
+            "final_project"
+        ],
+        "id": "lprdi99q1dk609",
+        "id_c": 207,
+        "time": "2023-12-04T20:37:57Z",
+        "type": "note",
+        "vote": 0
+    },
+    {
+        "answers": [
+            {
+                "content": "It is possible because of the way you average or the way you print out the loss. As long as the loss is decreasing, you should be fine.",
+                "type": "i_answer",
+                "vote": 0
+            }
+        ],
+        "detail": {
+            "content": "I want to check if such loss change is right? The loss at every begin of the epoch will larger than the previous one, but the whole trend is decreasing.Is this a normal fluctuation caused by a limited number（total 200+ samples, print average loss for every 50 samples）of particularly special samples?",
+            "subject": "LLM Project Loss"
+        },
+        "folders": [
+            "final_project"
+        ],
+        "id": "lprfn947vq221t",
+        "id_c": 208,
+        "time": "2023-12-04T21:37:50Z",
+        "type": "question",
+        "vote": 0
+    },
+    {
+        "answers": [
+            {
+                "content": "Please use thislinkto submit your final project, the due date is Dec 8th.For the report, please do the following:show training loss of your code.show some examples of prompts and responses before and after fine-tuning (some prompts should be from the training set, and some prompts should be outside of training sets).report trainable parameter count and percentage after enabling PEFT, and report Lora rank, alpha, and drop-out values.report where you placed the gradient checkpoints.report memory usage after applying each of the techniques.comprehensive analysis of each of the techniques (follow the project description).",
+                "type": "i_answer",
+                "vote": 3
+            }
+        ],
+        "detail": {
+            "content": "Hi,When and how are we supposed to submit the project report? Also, are there any guidelines on how the report is supposed to be?Thank you",
+            "subject": "Final Project Report"
+        },
+        "folders": [
+            "final_project"
+        ],
+        "id": "lprqssjxwb7wf",
+        "id_c": 209,
+        "time": "2023-12-05T02:50:04Z",
+        "type": "question",
+        "vote": 0
+    },
+    {
+        "detail": {
+            "content": "Important Information About the Final ExamDear Students,Below are important information about the midterm exam:Midterm will be on Dec 8th from 2 to 4pm in EEB 132.The exam is **in-person only**. You must attend the exam.There will be no compensation exam.The exam is closed book, closed notes, using pen and papers.Students are not allowed to use, wear, or access any electronic devices during the exam. This includes:Cell phonesHeadphonesEarplugsSmart wearablesThe exam covers the following topics:Before the midterm (There will be less focus on this part):DNN taxonomyFamous CNN and DNN modelsConvolution and CNNsPerformance evaluation and roofline analysisMatrix operationsDataflow and stationarinessQuantizationTPUThe reading assignment papers (Eyeriss and TPU)After the midterm (The main focus of the exam):Distributed MLData/model parallelParameter server/Decentralized trainingCommunication primitivesCoded computingMulti-party computingFederated learningDifferential PrivacyDP-SGDFL with local DPFL with central DPRecommendation ModelsCollaborative filteringContent-Based filteringEmbedding tables and DLRMLanguage modelsDifferent models introduced in the classRNNLSTMSeq2Seq encoder/decoder architectureAttention mechanismEmbeddingsTransformersArchitecturePositional EncodingCosine SimilaritySelf-Attention mechanismMulti-head attentionTraining of TransformersEvaluationThere might be programming questions on the exam. In that case, you can write the answer either in Python or pseudo code. You do not have to remember the exact syntax of Python and PyTorch functions.",
+            "subject": "Important Information About the Final Exam"
+        },
+        "folders": [
+            "final"
+        ],
+        "id": "lpt95igq94h5cy",
+        "id_c": 211,
+        "time": "2023-12-06T04:11:37Z",
+        "type": "note",
+        "vote": 0
+    },
+    {
+        "answers": [
+            {
+                "content": "There are a few slides (around page 96 to 122) from the RM lecture that cover these two topics. For embedding tables and DLRM, you are only responsible for what appears on the slides.",
+                "type": "i_answer",
+                "vote": 0
+            }
+        ],
+        "detail": {
+            "content": "Hi Professor,Did we ever go over embedding tables and DLRM in class? If so, is there a lecture recording? I do not remember going over the slides.Thanks",
+            "subject": "Embedding Tables and DLRM"
+        },
+        "folders": [
+            "exam",
+            "final"
+        ],
+        "id": "lpuk78y3925pd",
+        "id_c": 213,
+        "time": "2023-12-07T02:08:40Z",
+        "type": "question",
+        "vote": 0
+    },
+    {
+        "detail": {
+            "content": "If a team has completed their demonstration or is in possession of multiple machines, kindly release them. Unfortunately, we are currently unable to secure a40, a100, or p100 machines for the demo.",
+            "subject": "Please release CARC machines for demo."
+        },
+        "folders": [
+            "logistics",
+            "resources",
+            "final_project",
+            "project"
+        ],
+        "id": "lq1judwnq5223i",
+        "id_c": 216,
+        "time": "2023-12-11T23:33:03Z",
+        "type": "note",
+        "vote": 1
+    },
+    {
+        "detail": {
+            "content": "Dear all,We have released your final exam grades. You can check them in Blackboard. Statistics of final exam is the following:Max: 94Min: 18Median: 68Standard deviation: 16.6Thanks,Yongqin Wang",
+            "subject": "Final exam grades have been released"
+        },
+        "folders": [
+            "final"
+        ],
+        "id": "lq5xpuc9oc5529",
+        "id_c": 219,
+        "time": "2023-12-15T01:12:30Z",
+        "type": "note",
+        "vote": 1
+    },
+    {
+        "detail": {
+            "content": "Hi Class,Please make sure that each of your assignments, homework, and exams has a grade assigned to it on blackboard.Thank you for your dedication and hard work throughout the semester. Have a good winter break!The Teaching Team",
+            "subject": "Grading has completed"
+        },
+        "folders": [
+            "logistics"
+        ],
+        "id": "lq7c0orgah62oq",
+        "id_c": 221,
+        "time": "2023-12-16T00:40:37Z",
+        "type": "note",
+        "vote": 0
+    },
+    {
+        "detail": {
+            "content": "Dear Students,Your final letter grades are now published on OASIS. Here are some explanations about your grades:We used the tables below (also published in the syllabus) for your grade calculation, however, we incorporated a very generous method for giving everyone up to 18% total extra credit as follows:5% for each reading assignment (total of 10%).8% for HW6.This means we first calculated your final grade using Table 1, (excluding reading assignments 1, 2 and HW6), then we added up to 18% based on your grades on the reading assignments 1, 2 and HW6.The extra credit on the final exam was applied to your final exam grade itself.Your final letter grade is calculated based on Table2.Please note that due to the rather generous extra credit points, there will be no curving or any other special considerations.If you have any questions or concerns about your grade, please contact us ASAP (by the end of today).Thanks and best of luck,Arash and Murali",
+            "subject": "Final letter grades are published"
+        },
+        "folders": [
+            "final"
+        ],
+        "id": "lqb98pjv31x3uo",
+        "id_c": 222,
+        "time": "2023-12-18T18:33:57Z",
+        "type": "note",
+        "vote": 3
+    }
+]

@@ -2,7 +2,8 @@ from flask import Flask, request, jsonify
 from flask_cors import CORS
 from eTA.controller.handleQuery import handleQuery, llamaQuery
 from eTA.controller.handleDatabase import (
-    handleUpload, handleScan, handleItemSearch, handleDelete
+    handleUpload, handleScan, handleItemSearch, handleDelete,
+    handleModifyItem
 )
 
 app = Flask(__name__)
@@ -119,6 +120,37 @@ def deleteSingleItem():
                 'status': query_item['status'],
                 'data': query_item['data']
             }), 200
+    else:
+        return jsonify({
+                'message': 'JSON request is needed',
+                'status': '400'
+            }), 400
+
+@app.route('/itemUpdate', methods=['POST'])
+def updateSingleItem():
+    if request.is_json:
+        data = request.get_json()
+        courseID = data.get('courseID')
+        primary_key = data.get('primary_key')
+        updateContent = data.get('updateContent')
+        # missing required field
+        if courseID is None or primary_key is None:
+            return jsonify({
+                "message": "Error: 'courseID' and 'primary_key' are required in JSON data."
+            }), 400
+        
+        update_result = handleModifyItem(updateContent, courseID, primary_key)
+        return jsonify({
+                'message': update_result['message'],
+                'status': update_result['status']
+            }), 200
+    else:
+        return jsonify({
+                'message': 'JSON request is needed',
+                'status': '400'
+            }), 400
+    
+
 
 if __name__ == '__main__':
     app.run(debug=True, host='0.0.0.0', port=5000)

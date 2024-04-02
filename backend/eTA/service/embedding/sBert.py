@@ -5,6 +5,8 @@ import json
 import boto3
 import datetime
 
+MODEL = 'msmarco-distilbert-base-v4'
+
 def store_items_to_cloud(table_name, texts, embeddings, file_name):
     if len(texts) != len(embeddings):
         err = "Error: The number of texts and embeddings must be the same."
@@ -37,7 +39,7 @@ def encode_text(data, courseID, fileID):
     - str: status message
     """
     # Initialize the model for asymmetric query encoding
-    model = SentenceTransformer('msmarco-distilbert-base-v4')
+    model = SentenceTransformer(MODEL)
 
     # Extract values (original texts) from the input data
     original_text = list(data.values())
@@ -56,3 +58,7 @@ def encode_text(data, courseID, fileID):
     # Store the encoded embeddings and original texts in DynamoDB and return the status
     return store_items_to_cloud(courseID, original_text, embeddings_str_list, fileID)
 
+def encode_single_text(data):
+    model = SentenceTransformer(MODEL)
+    qa_embeddings = model.encode(data)
+    return str(qa_embeddings.tolist())

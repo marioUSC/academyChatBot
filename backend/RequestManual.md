@@ -179,3 +179,36 @@ Read a specific item from the database
     "status": 200
 }
 ```
+
+### POST /itemUpdate
+
+Update a specific item from the database
+
+**Request Header**
+
+- Content-Type: application/json
+
+**Request Body**
+
+- `courseID`: Specifies the table to target the request.
+- `primary_key`: JSON object representing the primary key to locate the item, including `ID` and `CreatedTime`.
+- `updateContent`: Updated content
+
+```
+{  
+    "courseID":"EE450",
+    "primary_key": {"ID": "3290800591763312446", "CreatedTime":"2024-03-04T14:23:53.473560"},
+    "updateContent": "Question: how old is Mario Answer: 200"
+}
+```
+
+**Response**
+- `message`: Describes the result of the operation, e.g., "Item found".
+- `status`: HTTP status code indicating the result, e.g., 200 for success.
+
+```
+{
+    "message": "Item updated successfully",
+    "status": 200
+}
+```
