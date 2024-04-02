@@ -2,24 +2,928 @@ nohup: ignoring input
  * Serving Flask app 'app'
  * Debug mode: on
 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
  * Running on http://127.0.0.1:5000
+ * Running on http://108.181.45.21:5000
 [33mPress CTRL+C to quit[0m
  * Restarting with stat
  * Debugger is active!
- * Debugger PIN: 225-076-614
- * Detected change in '/home/mario/DirectResearch/backend/eTA/controller/handleQuery.py', reloading
+ * Debugger PIN: 171-744-172
+104.32.165.129 - - [24/Mar/2024 14:09:23] "GET /readDB HTTP/1.1" 200 -
+104.32.165.129 - - [24/Mar/2024 14:11:17] "GET /readDB HTTP/1.1" 200 -
+198.235.24.71 - - [24/Mar/2024 16:35:35] "[33mGET / HTTP/1.0[0m" 404 -
+71.6.134.232 - - [24/Mar/2024 16:48:41] code 400, message Bad request version ('À\x14À')
+71.6.134.232 - - [24/Mar/2024 16:48:41] "[31m[1m\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03Ä\x17\x19\x8cÕ-þ-\x83\x1fÝ\x80ïk\x1dê_Ú\x8ds\x96XQ\x8eóãkö*ó\x87> û\x16\x82\x06ö ¿\x192À\x95q3MdLõ Fº#÷jÈÃ\x06D\x8by³úu\x00&Ì¨Ì©À/À0À+À,À\x13À\x09À\x14À[0m" 400 -
+71.6.134.232 - - [24/Mar/2024 17:12:46] "[33mGET / HTTP/1.1[0m" 404 -
+71.6.134.232 - - [24/Mar/2024 17:13:16] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+80.66.88.204 - - [24/Mar/2024 22:25:36] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+80.66.88.204 - - [24/Mar/2024 22:25:36] "[31m[1m\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr[0m" 400 -
+205.210.31.24 - - [24/Mar/2024 22:54:47] "[33mGET / HTTP/1.1[0m" 404 -
+167.248.133.51 - - [25/Mar/2024 03:17:14] code 400, message Bad request version ('À\x14À')
+167.248.133.51 - - [25/Mar/2024 03:17:14] "[31m[1m\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03¨u\x14¥`Õ|]0I\x1amÐú\x08»Fçå\x9aðþX¶¢~jP1{»> \x05"é_\x02~¤\x11\x09ÝT\x92'Zzùê;±\x0bft®öà£5ôýSÌÚ\x00&Ì¨Ì©À/À0À+À,À\x13À\x09À\x14À[0m" 400 -
+167.248.133.51 - - [25/Mar/2024 03:17:18] "[33mGET / HTTP/1.1[0m" 404 -
+167.248.133.51 - - [25/Mar/2024 03:17:21] "[33mGET / HTTP/1.1[0m" 404 -
+167.248.133.51 - - [25/Mar/2024 03:17:21] code 505, message Invalid HTTP version (2.0)
+167.248.133.51 - - [25/Mar/2024 03:17:21] "[35m[1mPRI * HTTP/2.0[0m" 505 -
+185.224.128.17 - - [25/Mar/2024 03:29:25] "[33mCONNECT example.com:80 HTTP/1.1[0m" 404 -
+185.224.128.17 - - [25/Mar/2024 03:29:40] code 400, message Bad request syntax ('\x05\x01\x00')
+185.224.128.17 - - [25/Mar/2024 03:29:40] "[31m[1m\x05\x01\x00[0m" 400 -
+185.224.128.17 - - [25/Mar/2024 03:29:40] code 400, message Bad request syntax ('\x04\x01\x00P\x00\x00\x00\x01\x00example.com\x00')
+185.224.128.17 - - [25/Mar/2024 03:29:40] "[31m[1m\x04\x01\x00P\x00\x00\x00\x01\x00example.com\x00[0m" 400 -
+87.236.176.124 - - [25/Mar/2024 05:25:14] "[33mGET / HTTP/1.1[0m" 404 -
+91.92.245.67 - - [25/Mar/2024 06:43:55] "[33mCONNECT api.ipify.org:443 HTTP/1.1[0m" 404 -
+35.165.245.249 - - [25/Mar/2024 07:07:24] "[33mGET / HTTP/1.1[0m" 404 -
+162.243.136.51 - - [25/Mar/2024 11:25:45] "[33mGET /v2/ HTTP/1.1[0m" 404 -
+207.151.52.218 - - [25/Mar/2024 13:38:50] "GET /readDB HTTP/1.1" 200 -
+ * Detected change in '/home/mario/DirectResearch/backend/eTA/controller/handleDatabase.py', reloading
  * Restarting with stat
  * Debugger is active!
- * Debugger PIN: 225-076-614
-127.0.0.1 - - [26/Feb/2024 14:53:19] code 400, message Bad request version ('À\x14À')
-127.0.0.1 - - [26/Feb/2024 14:53:19] "[31m[1m\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03\x14\x11Ôlü\x89\x7f6\x10mdAW\x08çWú¥Ü<\x13CP§hÅ\x82\x10{¬\x1aÄ {ú^;òÍ\x00üPûºijî·\x1f\x9b\x8bÓ\x1aÎ-Éh\x8d=©\x94èï¥B\x00&Ì¨Ì©À/À0À+À,À\x13À\x09À\x14À[0m" 400 -
-127.0.0.1 - - [26/Feb/2024 14:53:22] "[33mGET / HTTP/1.1[0m" 404 -
-127.0.0.1 - - [26/Feb/2024 14:53:25] "[33mGET / HTTP/1.1[0m" 404 -
-127.0.0.1 - - [26/Feb/2024 14:53:26] code 505, message Invalid HTTP version (2.0)
-127.0.0.1 - - [26/Feb/2024 14:53:26] "[35m[1mPRI * HTTP/2.0[0m" 505 -
-127.0.0.1 - - [26/Feb/2024 15:11:43] "[31m[1mPOST /ask HTTP/1.1[0m" 400 -
-127.0.0.1 - - [26/Feb/2024 15:11:56] "POST /ask HTTP/1.1" 200 -
-127.0.0.1 - - [26/Feb/2024 15:14:16] "POST /ask HTTP/1.1" 200 -
-127.0.0.1 - - [26/Feb/2024 15:17:24] "POST /ask HTTP/1.1" 200 -
-127.0.0.1 - - [26/Feb/2024 15:18:40] "POST /ask HTTP/1.1" 200 -
-127.0.0.1 - - [26/Feb/2024 15:24:10] "POST /ask HTTP/1.1" 200 -
+ * Debugger PIN: 171-744-172
+ * Detected change in '/home/mario/DirectResearch/backend/eTA/app.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 171-744-172
+104.32.165.129 - - [25/Mar/2024 14:10:33] "GET /readDB HTTP/1.1" 200 -
+104.32.165.129 - - [25/Mar/2024 14:10:38] "GET /itemQuery HTTP/1.1" 200 -
+104.32.165.129 - - [25/Mar/2024 14:11:58] "GET /itemDelete HTTP/1.1" 200 -
+104.32.165.129 - - [25/Mar/2024 14:12:18] "GET /itemDelete HTTP/1.1" 200 -
+ * Detected change in '/home/mario/DirectResearch/backend/eTA/app.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 171-744-172
+104.32.165.129 - - [25/Mar/2024 14:13:17] "GET /itemDelete HTTP/1.1" 200 -
+207.151.52.218 - - [25/Mar/2024 14:13:37] "OPTIONS /readDB HTTP/1.1" 200 -
+207.151.52.218 - - [25/Mar/2024 14:13:37] "OPTIONS /readDB HTTP/1.1" 200 -
+207.151.52.218 - - [25/Mar/2024 14:13:37] "[31m[1mPOST /readDB HTTP/1.1[0m" 405 -
+207.151.52.218 - - [25/Mar/2024 14:13:37] "[31m[1mPOST /readDB HTTP/1.1[0m" 405 -
+104.32.165.129 - - [25/Mar/2024 14:13:37] "GET /itemQuery HTTP/1.1" 200 -
+207.151.52.218 - - [25/Mar/2024 14:14:14] "GET /readDB HTTP/1.1" 200 -
+207.151.52.218 - - [25/Mar/2024 14:14:18] "[31m[1mPOST /readDB HTTP/1.1[0m" 405 -
+207.151.52.218 - - [25/Mar/2024 14:22:03] "OPTIONS /readDB?${queryParam} HTTP/1.1" 200 -
+207.151.52.218 - - [25/Mar/2024 14:22:03] "OPTIONS /readDB?${queryParam} HTTP/1.1" 200 -
+207.151.52.218 - - [25/Mar/2024 14:22:03] "[31m[1mGET /readDB?${queryParam} HTTP/1.1[0m" 400 -
+207.151.52.218 - - [25/Mar/2024 14:22:03] "[31m[1mGET /readDB?${queryParam} HTTP/1.1[0m" 400 -
+207.151.52.218 - - [25/Mar/2024 14:22:44] "OPTIONS /readDB?${queryParam} HTTP/1.1" 200 -
+207.151.52.218 - - [25/Mar/2024 14:22:44] "OPTIONS /readDB?${queryParam} HTTP/1.1" 200 -
+207.151.52.218 - - [25/Mar/2024 14:22:44] "[31m[1mGET /readDB?${queryParam} HTTP/1.1[0m" 400 -
+207.151.52.218 - - [25/Mar/2024 14:22:44] "[31m[1mGET /readDB?${queryParam} HTTP/1.1[0m" 400 -
+207.151.52.218 - - [25/Mar/2024 14:23:26] "OPTIONS /readDB?[object%20Object] HTTP/1.1" 200 -
+207.151.52.218 - - [25/Mar/2024 14:23:26] "OPTIONS /readDB?[object%20Object] HTTP/1.1" 200 -
+207.151.52.218 - - [25/Mar/2024 14:23:26] "[31m[1mGET /readDB?[object%20Object] HTTP/1.1[0m" 400 -
+207.151.52.218 - - [25/Mar/2024 14:23:26] "[31m[1mGET /readDB?[object%20Object] HTTP/1.1[0m" 400 -
+207.151.52.218 - - [25/Mar/2024 14:23:28] "[31m[1mGET /readDB?[object%20Object] HTTP/1.1[0m" 400 -
+207.151.52.218 - - [25/Mar/2024 14:23:28] "[31m[1mGET /readDB?[object%20Object] HTTP/1.1[0m" 400 -
+207.151.52.218 - - [25/Mar/2024 14:25:03] "OPTIONS /readDB?hasStartKey=false&startKey=null&courseID=EE450&readLimit=100 HTTP/1.1" 200 -
+207.151.52.218 - - [25/Mar/2024 14:25:03] "OPTIONS /readDB?hasStartKey=false&startKey=null&courseID=EE450&readLimit=100 HTTP/1.1" 200 -
+207.151.52.218 - - [25/Mar/2024 14:25:03] "[31m[1mGET /readDB?hasStartKey=false&startKey=null&courseID=EE450&readLimit=100 HTTP/1.1[0m" 400 -
+207.151.52.218 - - [25/Mar/2024 14:25:03] "[31m[1mGET /readDB?hasStartKey=false&startKey=null&courseID=EE450&readLimit=100 HTTP/1.1[0m" 400 -
+207.151.52.218 - - [25/Mar/2024 14:25:33] "OPTIONS /readDB?hasStartKey=false&startKey=null&courseID=EE450&readLimit=100 HTTP/1.1" 200 -
+207.151.52.218 - - [25/Mar/2024 14:25:33] "OPTIONS /readDB?hasStartKey=false&startKey=null&courseID=EE450&readLimit=100 HTTP/1.1" 200 -
+207.151.52.218 - - [25/Mar/2024 14:25:33] "[31m[1mGET /readDB?hasStartKey=false&startKey=null&courseID=EE450&readLimit=100 HTTP/1.1[0m" 400 -
+207.151.52.218 - - [25/Mar/2024 14:25:33] "[31m[1mGET /readDB?hasStartKey=false&startKey=null&courseID=EE450&readLimit=100 HTTP/1.1[0m" 400 -
+207.151.52.218 - - [25/Mar/2024 14:25:37] "[31m[1mGET /readDB?hasStartKey=false&startKey=null&courseID=EE450&readLimit=100 HTTP/1.1[0m" 400 -
+207.151.52.218 - - [25/Mar/2024 14:25:37] "[31m[1mGET /readDB?hasStartKey=false&startKey=null&courseID=EE450&readLimit=100 HTTP/1.1[0m" 400 -
+207.151.52.218 - - [25/Mar/2024 14:25:48] "OPTIONS /readDB?hasStartKey=false&startKey=nul&courseID=EE450&readLimit=100 HTTP/1.1" 200 -
+207.151.52.218 - - [25/Mar/2024 14:25:48] "OPTIONS /readDB?hasStartKey=false&startKey=nul&courseID=EE450&readLimit=100 HTTP/1.1" 200 -
+207.151.52.218 - - [25/Mar/2024 14:25:48] "[31m[1mGET /readDB?hasStartKey=false&startKey=nul&courseID=EE450&readLimit=100 HTTP/1.1[0m" 400 -
+207.151.52.218 - - [25/Mar/2024 14:25:48] "[31m[1mGET /readDB?hasStartKey=false&startKey=nul&courseID=EE450&readLimit=100 HTTP/1.1[0m" 400 -
+207.151.52.218 - - [25/Mar/2024 14:26:12] "OPTIONS /readDB?hasStartKey=false&startKey=nulL&courseID=EE450&readLimit=100 HTTP/1.1" 200 -
+207.151.52.218 - - [25/Mar/2024 14:26:12] "OPTIONS /readDB?hasStartKey=false&startKey=nulL&courseID=EE450&readLimit=100 HTTP/1.1" 200 -
+207.151.52.218 - - [25/Mar/2024 14:26:12] "[31m[1mGET /readDB?hasStartKey=false&startKey=nulL&courseID=EE450&readLimit=100 HTTP/1.1[0m" 400 -
+207.151.52.218 - - [25/Mar/2024 14:26:12] "[31m[1mGET /readDB?hasStartKey=false&startKey=nulL&courseID=EE450&readLimit=100 HTTP/1.1[0m" 400 -
+207.151.52.218 - - [25/Mar/2024 14:27:11] "OPTIONS /readDB?hasStartKey=false&startKey=nulL&courseID=EE450&readLimit=5 HTTP/1.1" 200 -
+207.151.52.218 - - [25/Mar/2024 14:27:11] "OPTIONS /readDB?hasStartKey=false&startKey=nulL&courseID=EE450&readLimit=5 HTTP/1.1" 200 -
+207.151.52.218 - - [25/Mar/2024 14:27:11] "[31m[1mGET /readDB?hasStartKey=false&startKey=nulL&courseID=EE450&readLimit=5 HTTP/1.1[0m" 400 -
+207.151.52.218 - - [25/Mar/2024 14:27:11] "[31m[1mGET /readDB?hasStartKey=false&startKey=nulL&courseID=EE450&readLimit=5 HTTP/1.1[0m" 400 -
+207.151.52.218 - - [25/Mar/2024 14:27:44] "OPTIONS /readDB?hasStartKey=false&startKey=8085941781210758542&courseID=EE450&readLimit=5 HTTP/1.1" 200 -
+207.151.52.218 - - [25/Mar/2024 14:27:44] "OPTIONS /readDB?hasStartKey=false&startKey=8085941781210758542&courseID=EE450&readLimit=5 HTTP/1.1" 200 -
+207.151.52.218 - - [25/Mar/2024 14:27:44] "[31m[1mGET /readDB?hasStartKey=false&startKey=8085941781210758542&courseID=EE450&readLimit=5 HTTP/1.1[0m" 400 -
+207.151.52.218 - - [25/Mar/2024 14:27:44] "[31m[1mGET /readDB?hasStartKey=false&startKey=8085941781210758542&courseID=EE450&readLimit=5 HTTP/1.1[0m" 400 -
+207.151.52.218 - - [25/Mar/2024 14:28:12] "GET /readDB HTTP/1.1" 200 -
+207.151.52.218 - - [25/Mar/2024 14:28:23] "OPTIONS /readDB?hasStartKey=false&courseID=EE450&readLimit=5 HTTP/1.1" 200 -
+207.151.52.218 - - [25/Mar/2024 14:28:23] "OPTIONS /readDB?hasStartKey=false&courseID=EE450&readLimit=5 HTTP/1.1" 200 -
+207.151.52.218 - - [25/Mar/2024 14:28:23] "[31m[1mGET /readDB?hasStartKey=false&courseID=EE450&readLimit=5 HTTP/1.1[0m" 400 -
+207.151.52.218 - - [25/Mar/2024 14:28:24] "[31m[1mGET /readDB?hasStartKey=false&courseID=EE450&readLimit=5 HTTP/1.1[0m" 400 -
+207.151.52.218 - - [25/Mar/2024 14:28:29] "OPTIONS /readDB?hasStartKey=false&courseID=EE450&readLimit=5 HTTP/1.1" 200 -
+207.151.52.218 - - [25/Mar/2024 14:28:29] "OPTIONS /readDB?hasStartKey=false&courseID=EE450&readLimit=5 HTTP/1.1" 200 -
+207.151.52.218 - - [25/Mar/2024 14:28:29] "[31m[1mGET /readDB?hasStartKey=false&courseID=EE450&readLimit=5 HTTP/1.1[0m" 400 -
+207.151.52.218 - - [25/Mar/2024 14:28:29] "[31m[1mGET /readDB?hasStartKey=false&courseID=EE450&readLimit=5 HTTP/1.1[0m" 400 -
+207.151.52.218 - - [25/Mar/2024 14:30:24] "OPTIONS /readDB?hasStartKey=false&courseID=EE450&readLimit=5 HTTP/1.1" 200 -
+207.151.52.218 - - [25/Mar/2024 14:30:24] "OPTIONS /readDB?hasStartKey=false&courseID=EE450&readLimit=5 HTTP/1.1" 200 -
+207.151.52.218 - - [25/Mar/2024 14:30:24] "[31m[1mGET /readDB?hasStartKey=false&courseID=EE450&readLimit=5 HTTP/1.1[0m" 400 -
+207.151.52.218 - - [25/Mar/2024 14:30:24] "[31m[1mGET /readDB?hasStartKey=false&courseID=EE450&readLimit=5 HTTP/1.1[0m" 400 -
+207.151.52.218 - - [25/Mar/2024 14:30:32] "OPTIONS /readDB?hasStartKey=false&courseID=EE450&readLimit=5 HTTP/1.1" 200 -
+207.151.52.218 - - [25/Mar/2024 14:30:32] "OPTIONS /readDB?hasStartKey=false&courseID=EE450&readLimit=5 HTTP/1.1" 200 -
+207.151.52.218 - - [25/Mar/2024 14:30:32] "[31m[1mGET /readDB?hasStartKey=false&courseID=EE450&readLimit=5 HTTP/1.1[0m" 400 -
+207.151.52.218 - - [25/Mar/2024 14:30:32] "[31m[1mGET /readDB?hasStartKey=false&courseID=EE450&readLimit=5 HTTP/1.1[0m" 400 -
+207.151.52.218 - - [25/Mar/2024 14:31:04] "[31m[1mGET /readDB?hasStartKey=false&courseID=EE450&readLimit=5%20 HTTP/1.1[0m" 400 -
+ * Detected change in '/home/mario/DirectResearch/backend/eTA/app.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 171-744-172
+104.32.165.129 - - [25/Mar/2024 15:05:53] "POST /readDB HTTP/1.1" 200 -
+104.32.165.129 - - [25/Mar/2024 15:05:59] "POST /itemQuery HTTP/1.1" 200 -
+104.32.165.129 - - [25/Mar/2024 15:06:04] "POST /itemDelete HTTP/1.1" 200 -
+104.32.165.129 - - [25/Mar/2024 15:06:11] "[31m[1mPOST /readDB HTTP/1.1[0m" 400 -
+104.32.165.129 - - [25/Mar/2024 15:06:21] "POST /test HTTP/1.1" 200 -
+104.32.165.129 - - [25/Mar/2024 15:06:38] "POST /ask HTTP/1.1" 200 -
+104.32.165.129 - - [25/Mar/2024 15:06:52] "POST /itemQuery HTTP/1.1" 200 -
+104.32.165.129 - - [25/Mar/2024 15:06:54] "POST /itemDelete HTTP/1.1" 200 -
+207.151.52.218 - - [25/Mar/2024 15:07:56] "POST /readDB HTTP/1.1" 200 -
+207.151.52.218 - - [25/Mar/2024 15:08:47] "OPTIONS /readDB HTTP/1.1" 200 -
+207.151.52.218 - - [25/Mar/2024 15:08:47] "OPTIONS /readDB HTTP/1.1" 200 -
+207.151.52.218 - - [25/Mar/2024 15:08:47] "POST /readDB HTTP/1.1" 200 -
+207.151.52.218 - - [25/Mar/2024 15:08:47] "POST /readDB HTTP/1.1" 200 -
+207.151.52.218 - - [25/Mar/2024 15:09:09] "OPTIONS /readDB HTTP/1.1" 200 -
+207.151.52.218 - - [25/Mar/2024 15:09:09] "OPTIONS /readDB HTTP/1.1" 200 -
+207.151.52.218 - - [25/Mar/2024 15:09:09] "POST /readDB HTTP/1.1" 200 -
+207.151.52.218 - - [25/Mar/2024 15:09:09] "POST /readDB HTTP/1.1" 200 -
+207.151.52.218 - - [25/Mar/2024 15:10:55] "OPTIONS /readDB HTTP/1.1" 200 -
+207.151.52.218 - - [25/Mar/2024 15:10:55] "OPTIONS /readDB HTTP/1.1" 200 -
+207.151.52.218 - - [25/Mar/2024 15:10:56] "POST /readDB HTTP/1.1" 200 -
+207.151.52.218 - - [25/Mar/2024 15:10:56] "POST /readDB HTTP/1.1" 200 -
+207.151.52.218 - - [25/Mar/2024 16:18:19] "OPTIONS /readDB HTTP/1.1" 200 -
+207.151.52.218 - - [25/Mar/2024 16:18:19] "OPTIONS /readDB HTTP/1.1" 200 -
+207.151.52.218 - - [25/Mar/2024 16:18:20] "POST /readDB HTTP/1.1" 200 -
+207.151.52.218 - - [25/Mar/2024 16:18:20] "POST /readDB HTTP/1.1" 200 -
+207.151.52.218 - - [25/Mar/2024 16:21:17] "OPTIONS /readDB HTTP/1.1" 200 -
+207.151.52.218 - - [25/Mar/2024 16:21:17] "OPTIONS /readDB HTTP/1.1" 200 -
+207.151.52.218 - - [25/Mar/2024 16:21:18] "POST /readDB HTTP/1.1" 200 -
+207.151.52.218 - - [25/Mar/2024 16:21:18] "POST /readDB HTTP/1.1" 200 -
+198.235.24.72 - - [25/Mar/2024 16:22:19] "[33mGET / HTTP/1.1[0m" 404 -
+207.151.52.218 - - [25/Mar/2024 16:30:43] "OPTIONS /readDB HTTP/1.1" 200 -
+207.151.52.218 - - [25/Mar/2024 16:30:43] "OPTIONS /readDB HTTP/1.1" 200 -
+207.151.52.218 - - [25/Mar/2024 16:30:43] "POST /readDB HTTP/1.1" 200 -
+207.151.52.218 - - [25/Mar/2024 16:30:43] "POST /readDB HTTP/1.1" 200 -
+207.151.52.218 - - [25/Mar/2024 16:33:32] "OPTIONS /readDB HTTP/1.1" 200 -
+207.151.52.218 - - [25/Mar/2024 16:33:32] "OPTIONS /readDB HTTP/1.1" 200 -
+207.151.52.218 - - [25/Mar/2024 16:33:32] "POST /readDB HTTP/1.1" 200 -
+207.151.52.218 - - [25/Mar/2024 16:33:32] "POST /readDB HTTP/1.1" 200 -
+207.151.52.218 - - [25/Mar/2024 17:11:17] "OPTIONS /readDB HTTP/1.1" 200 -
+207.151.52.218 - - [25/Mar/2024 17:11:17] "OPTIONS /readDB HTTP/1.1" 200 -
+207.151.52.218 - - [25/Mar/2024 17:11:18] "POST /readDB HTTP/1.1" 200 -
+207.151.52.218 - - [25/Mar/2024 17:11:18] "POST /readDB HTTP/1.1" 200 -
+207.151.52.218 - - [25/Mar/2024 17:11:47] "OPTIONS /readDB HTTP/1.1" 200 -
+207.151.52.218 - - [25/Mar/2024 17:11:47] "OPTIONS /readDB HTTP/1.1" 200 -
+207.151.52.218 - - [25/Mar/2024 17:11:47] "POST /readDB HTTP/1.1" 200 -
+207.151.52.218 - - [25/Mar/2024 17:11:47] "POST /readDB HTTP/1.1" 200 -
+194.165.16.73 - - [25/Mar/2024 17:18:09] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+194.165.16.73 - - [25/Mar/2024 17:18:09] "[31m[1m\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr[0m" 400 -
+207.151.52.218 - - [25/Mar/2024 17:28:56] "OPTIONS /readDB HTTP/1.1" 200 -
+207.151.52.218 - - [25/Mar/2024 17:28:56] "OPTIONS /readDB HTTP/1.1" 200 -
+207.151.52.218 - - [25/Mar/2024 17:28:56] "POST /readDB HTTP/1.1" 200 -
+207.151.52.218 - - [25/Mar/2024 17:28:56] "POST /readDB HTTP/1.1" 200 -
+207.151.52.218 - - [25/Mar/2024 17:29:56] "OPTIONS /readDB HTTP/1.1" 200 -
+207.151.52.218 - - [25/Mar/2024 17:29:56] "OPTIONS /readDB HTTP/1.1" 200 -
+207.151.52.218 - - [25/Mar/2024 17:29:56] "POST /readDB HTTP/1.1" 200 -
+207.151.52.218 - - [25/Mar/2024 17:29:56] "POST /readDB HTTP/1.1" 200 -
+207.151.52.218 - - [25/Mar/2024 17:30:03] "OPTIONS /readDB HTTP/1.1" 200 -
+207.151.52.218 - - [25/Mar/2024 17:30:03] "OPTIONS /readDB HTTP/1.1" 200 -
+207.151.52.218 - - [25/Mar/2024 17:30:03] "POST /readDB HTTP/1.1" 200 -
+207.151.52.218 - - [25/Mar/2024 17:30:03] "POST /readDB HTTP/1.1" 200 -
+207.151.52.218 - - [25/Mar/2024 17:36:10] "OPTIONS /readDB HTTP/1.1" 200 -
+207.151.52.218 - - [25/Mar/2024 17:36:10] "OPTIONS /readDB HTTP/1.1" 200 -
+207.151.52.218 - - [25/Mar/2024 17:36:10] "POST /readDB HTTP/1.1" 200 -
+207.151.52.218 - - [25/Mar/2024 17:36:10] "POST /readDB HTTP/1.1" 200 -
+207.151.52.218 - - [25/Mar/2024 17:36:34] "OPTIONS /readDB HTTP/1.1" 200 -
+207.151.52.218 - - [25/Mar/2024 17:36:34] "OPTIONS /readDB HTTP/1.1" 200 -
+207.151.52.218 - - [25/Mar/2024 17:36:34] "POST /readDB HTTP/1.1" 200 -
+207.151.52.218 - - [25/Mar/2024 17:36:34] "POST /readDB HTTP/1.1" 200 -
+207.151.52.218 - - [25/Mar/2024 18:18:25] "OPTIONS /readDB HTTP/1.1" 200 -
+207.151.52.218 - - [25/Mar/2024 18:18:25] "OPTIONS /readDB HTTP/1.1" 200 -
+207.151.52.218 - - [25/Mar/2024 18:18:26] "POST /readDB HTTP/1.1" 200 -
+207.151.52.218 - - [25/Mar/2024 18:18:26] "POST /readDB HTTP/1.1" 200 -
+207.151.52.218 - - [25/Mar/2024 18:19:07] "OPTIONS /upload-json HTTP/1.1" 200 -
+207.151.52.218 - - [25/Mar/2024 18:19:08] "POST /upload-json HTTP/1.1" 200 -
+207.151.52.218 - - [25/Mar/2024 18:19:19] "OPTIONS /readDB HTTP/1.1" 200 -
+207.151.52.218 - - [25/Mar/2024 18:19:19] "OPTIONS /readDB HTTP/1.1" 200 -
+207.151.52.218 - - [25/Mar/2024 18:19:19] "POST /readDB HTTP/1.1" 200 -
+207.151.52.218 - - [25/Mar/2024 18:19:19] "POST /readDB HTTP/1.1" 200 -
+207.151.52.218 - - [25/Mar/2024 18:20:08] "POST /upload-json HTTP/1.1" 200 -
+207.151.52.218 - - [25/Mar/2024 18:21:16] "POST /readDB HTTP/1.1" 200 -
+207.151.52.218 - - [25/Mar/2024 18:22:00] "POST /readDB HTTP/1.1" 200 -
+207.151.52.218 - - [25/Mar/2024 18:22:28] "POST /upload-json HTTP/1.1" 200 -
+207.151.52.218 - - [25/Mar/2024 18:22:44] "POST /readDB HTTP/1.1" 200 -
+118.26.104.212 - - [25/Mar/2024 18:23:04] "[33mGET / HTTP/1.1[0m" 404 -
+118.26.104.212 - - [25/Mar/2024 18:23:05] code 400, message Bad request syntax ('\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03%×û')
+118.26.104.212 - - [25/Mar/2024 18:23:05] "[31m[1m\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03%×û[0m" 400 -
+118.26.104.212 - - [25/Mar/2024 18:23:06] code 400, message Bad HTTP/0.9 request type ('t3')
+118.26.104.212 - - [25/Mar/2024 18:23:06] "[31m[1mt3 12.1.2[0m" 400 -
+118.194.250.95 - - [25/Mar/2024 18:23:35] "[33mGET / HTTP/1.1[0m" 404 -
+118.194.250.95 - - [25/Mar/2024 18:23:36] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+118.194.250.95 - - [25/Mar/2024 18:23:36] "[33mGET /sitemap.xml HTTP/1.1[0m" 404 -
+118.194.250.95 - - [25/Mar/2024 18:23:36] "[33mGET /robots.txt HTTP/1.1[0m" 404 -
+205.210.31.111 - - [25/Mar/2024 18:34:41] "[33mGET / HTTP/1.0[0m" 404 -
+207.151.52.218 - - [25/Mar/2024 21:42:28] "OPTIONS /ask HTTP/1.1" 200 -
+207.151.52.218 - - [25/Mar/2024 21:42:33] "OPTIONS /ask HTTP/1.1" 200 -
+207.151.52.218 - - [25/Mar/2024 21:42:36] "POST /ask HTTP/1.1" 200 -
+207.151.52.218 - - [25/Mar/2024 21:42:41] "POST /ask HTTP/1.1" 200 -
+104.32.164.32 - - [25/Mar/2024 22:20:47] "OPTIONS /ask HTTP/1.1" 200 -
+104.32.164.32 - - [25/Mar/2024 22:20:54] "POST /ask HTTP/1.1" 200 -
+104.32.164.32 - - [25/Mar/2024 22:21:44] "OPTIONS /readDB HTTP/1.1" 200 -
+104.32.164.32 - - [25/Mar/2024 22:21:44] "OPTIONS /readDB HTTP/1.1" 200 -
+104.32.164.32 - - [25/Mar/2024 22:21:44] "POST /readDB HTTP/1.1" 200 -
+104.32.164.32 - - [25/Mar/2024 22:21:44] "POST /readDB HTTP/1.1" 200 -
+104.32.164.32 - - [25/Mar/2024 22:26:35] "OPTIONS /ask HTTP/1.1" 200 -
+104.32.164.32 - - [25/Mar/2024 22:26:45] "POST /ask HTTP/1.1" 200 -
+104.32.164.32 - - [25/Mar/2024 22:27:29] "OPTIONS /readDB HTTP/1.1" 200 -
+104.32.164.32 - - [25/Mar/2024 22:27:29] "OPTIONS /readDB HTTP/1.1" 200 -
+104.32.164.32 - - [25/Mar/2024 22:27:29] "POST /readDB HTTP/1.1" 200 -
+104.32.164.32 - - [25/Mar/2024 22:27:30] "POST /readDB HTTP/1.1" 200 -
+104.32.164.32 - - [25/Mar/2024 22:27:48] "OPTIONS /readDB HTTP/1.1" 200 -
+104.32.164.32 - - [25/Mar/2024 22:27:48] "OPTIONS /readDB HTTP/1.1" 200 -
+104.32.164.32 - - [25/Mar/2024 22:27:49] "POST /readDB HTTP/1.1" 200 -
+104.32.164.32 - - [25/Mar/2024 22:27:49] "POST /readDB HTTP/1.1" 200 -
+104.32.164.32 - - [25/Mar/2024 22:28:07] "OPTIONS /readDB HTTP/1.1" 200 -
+104.32.164.32 - - [25/Mar/2024 22:28:07] "OPTIONS /readDB HTTP/1.1" 200 -
+104.32.164.32 - - [25/Mar/2024 22:28:07] "POST /readDB HTTP/1.1" 200 -
+104.32.164.32 - - [25/Mar/2024 22:28:07] "POST /readDB HTTP/1.1" 200 -
+104.32.164.32 - - [25/Mar/2024 22:37:27] "OPTIONS /ask HTTP/1.1" 200 -
+104.32.164.32 - - [25/Mar/2024 22:37:35] "POST /ask HTTP/1.1" 200 -
+104.32.164.32 - - [25/Mar/2024 22:38:10] "OPTIONS /readDB HTTP/1.1" 200 -
+104.32.164.32 - - [25/Mar/2024 22:38:10] "OPTIONS /readDB HTTP/1.1" 200 -
+104.32.164.32 - - [25/Mar/2024 22:38:10] "POST /readDB HTTP/1.1" 200 -
+104.32.164.32 - - [25/Mar/2024 22:38:10] "POST /readDB HTTP/1.1" 200 -
+104.32.164.32 - - [25/Mar/2024 22:39:23] "OPTIONS /upload-json HTTP/1.1" 200 -
+104.32.164.32 - - [25/Mar/2024 22:39:24] "POST /upload-json HTTP/1.1" 200 -
+104.32.164.32 - - [25/Mar/2024 22:39:47] "OPTIONS /ask HTTP/1.1" 200 -
+104.32.164.32 - - [25/Mar/2024 22:39:52] "POST /ask HTTP/1.1" 200 -
+183.136.225.29 - - [25/Mar/2024 23:31:06] "[33mGET / HTTP/1.1[0m" 404 -
+183.136.225.29 - - [25/Mar/2024 23:31:07] "[33mGET / HTTP/1.1[0m" 404 -
+183.136.225.29 - - [25/Mar/2024 23:31:07] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+183.136.225.29 - - [25/Mar/2024 23:31:07] "[33mGET /robots.txt HTTP/1.1[0m" 404 -
+109.205.213.99 - - [26/Mar/2024 00:37:34] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+109.205.213.99 - - [26/Mar/2024 00:37:34] "[31m[1m\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr[0m" 400 -
+198.235.24.200 - - [26/Mar/2024 01:30:19] "[33mGET / HTTP/1.1[0m" 404 -
+205.210.31.134 - - [26/Mar/2024 08:18:34] "[33mGET / HTTP/1.1[0m" 404 -
+49.51.231.163 - - [26/Mar/2024 09:12:25] code 400, message Bad request version ('À\x13À')
+49.51.231.163 - - [26/Mar/2024 09:12:25] "[31m[1m\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03I\x06²ù¼\x99iÀYûøºe-\x83Ud]\x0e\x8d·b8´gÆÝ9dZ8f gÁ\x81i³öòË°©\x19NÖ½\x95g|püé<Z¡\x90T·é¥8'O;\x00&À+À/À,À0Ì©Ì¨À\x09À\x13À[0m" 400 -
+49.51.231.163 - - [26/Mar/2024 09:12:35] "[33mGET / HTTP/1.1[0m" 404 -
+68.181.16.166 - - [26/Mar/2024 10:27:37] "POST /itemQuery HTTP/1.1" 200 -
+3.145.222.185 - - [26/Mar/2024 10:44:35] "OPTIONS /ask HTTP/1.1" 200 -
+3.145.220.218 - - [26/Mar/2024 10:44:35] "[35m[1mPOST /ask HTTP/1.1[0m" 500 -
+Traceback (most recent call last):
+  File "/home/mario/miniconda3/envs/DirRes/lib/python3.12/site-packages/flask/app.py", line 2552, in __call__
+    return self.wsgi_app(environ, start_response)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mario/miniconda3/envs/DirRes/lib/python3.12/site-packages/flask/app.py", line 2532, in wsgi_app
+    response = self.handle_exception(e)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mario/miniconda3/envs/DirRes/lib/python3.12/site-packages/flask_cors/extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^^^
+  File "/home/mario/miniconda3/envs/DirRes/lib/python3.12/site-packages/flask/app.py", line 2529, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mario/miniconda3/envs/DirRes/lib/python3.12/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mario/miniconda3/envs/DirRes/lib/python3.12/site-packages/flask_cors/extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^^^
+  File "/home/mario/miniconda3/envs/DirRes/lib/python3.12/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mario/miniconda3/envs/DirRes/lib/python3.12/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mario/DirectResearch/backend/eTA/app.py", line 33, in answer_question
+    answer = handleQuery(question, courseID)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mario/DirectResearch/backend/eTA/controller/handleQuery.py", line 21, in handleQuery
+    knowledge = find_similar_questions(question, table_name, 5)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mario/DirectResearch/backend/eTA/service/embedding/getAnswer.py", line 47, in find_similar_questions
+    items = scan_all_items(table_name)  # Assuming scan_all_items is defined elsewhere
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mario/DirectResearch/backend/eTA/service/embedding/dynamoDB.py", line 182, in scan_all_items
+    table = dynamodb.Table(table_name)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mario/miniconda3/envs/DirRes/lib/python3.12/site-packages/boto3/resources/factory.py", line 527, in create_resource
+    return partial(
+           ^^^^^^^^
+  File "/home/mario/miniconda3/envs/DirRes/lib/python3.12/site-packages/boto3/dynamodb/transform.py", line 41, in __init__
+    super().__init__(*args, **kwargs)
+  File "/home/mario/miniconda3/envs/DirRes/lib/python3.12/site-packages/boto3/dynamodb/table.py", line 29, in __init__
+    super().__init__(*args, **kwargs)
+  File "/home/mario/miniconda3/envs/DirRes/lib/python3.12/site-packages/boto3/resources/base.py", line 125, in __init__
+    raise ValueError(f'Required parameter {identifier} not set')
+ValueError: Required parameter name not set
+3.145.222.255 - - [26/Mar/2024 10:44:43] "OPTIONS /ask HTTP/1.1" 200 -
+3.145.220.218 - - [26/Mar/2024 10:44:43] "[35m[1mPOST /ask HTTP/1.1[0m" 500 -
+Traceback (most recent call last):
+  File "/home/mario/miniconda3/envs/DirRes/lib/python3.12/site-packages/flask/app.py", line 2552, in __call__
+    return self.wsgi_app(environ, start_response)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mario/miniconda3/envs/DirRes/lib/python3.12/site-packages/flask/app.py", line 2532, in wsgi_app
+    response = self.handle_exception(e)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mario/miniconda3/envs/DirRes/lib/python3.12/site-packages/flask_cors/extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^^^
+  File "/home/mario/miniconda3/envs/DirRes/lib/python3.12/site-packages/flask/app.py", line 2529, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mario/miniconda3/envs/DirRes/lib/python3.12/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mario/miniconda3/envs/DirRes/lib/python3.12/site-packages/flask_cors/extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^^^
+  File "/home/mario/miniconda3/envs/DirRes/lib/python3.12/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mario/miniconda3/envs/DirRes/lib/python3.12/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mario/DirectResearch/backend/eTA/app.py", line 33, in answer_question
+    answer = handleQuery(question, courseID)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mario/DirectResearch/backend/eTA/controller/handleQuery.py", line 21, in handleQuery
+    knowledge = find_similar_questions(question, table_name, 5)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mario/DirectResearch/backend/eTA/service/embedding/getAnswer.py", line 47, in find_similar_questions
+    items = scan_all_items(table_name)  # Assuming scan_all_items is defined elsewhere
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mario/DirectResearch/backend/eTA/service/embedding/dynamoDB.py", line 182, in scan_all_items
+    table = dynamodb.Table(table_name)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mario/miniconda3/envs/DirRes/lib/python3.12/site-packages/boto3/resources/factory.py", line 527, in create_resource
+    return partial(
+           ^^^^^^^^
+  File "/home/mario/miniconda3/envs/DirRes/lib/python3.12/site-packages/boto3/dynamodb/transform.py", line 41, in __init__
+    super().__init__(*args, **kwargs)
+  File "/home/mario/miniconda3/envs/DirRes/lib/python3.12/site-packages/boto3/dynamodb/table.py", line 29, in __init__
+    super().__init__(*args, **kwargs)
+  File "/home/mario/miniconda3/envs/DirRes/lib/python3.12/site-packages/boto3/resources/base.py", line 125, in __init__
+    raise ValueError(f'Required parameter {identifier} not set')
+ValueError: Required parameter name not set
+198.235.24.109 - - [26/Mar/2024 12:31:29] "[33mGET / HTTP/1.1[0m" 404 -
+109.205.213.99 - - [26/Mar/2024 14:24:35] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+109.205.213.99 - - [26/Mar/2024 14:24:35] "[31m[1m\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr[0m" 400 -
+185.170.144.3 - - [26/Mar/2024 17:47:41] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+185.170.144.3 - - [26/Mar/2024 17:47:41] "[31m[1m\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr[0m" 400 -
+167.94.138.35 - - [26/Mar/2024 17:54:52] "[33mGET / HTTP/1.1[0m" 404 -
+167.94.138.35 - - [26/Mar/2024 17:54:53] code 505, message Invalid HTTP version (2.0)
+167.94.138.35 - - [26/Mar/2024 17:54:53] "[35m[1mPRI * HTTP/2.0[0m" 505 -
+68.181.16.67 - - [26/Mar/2024 17:58:34] "[35m[1mPOST /upload-json HTTP/1.1[0m" 500 -
+104.50.123.101 - - [26/Mar/2024 18:37:36] "[35m[1mPOST /ask HTTP/1.1[0m" 500 -
+Traceback (most recent call last):
+  File "/home/mario/miniconda3/envs/DirRes/lib/python3.12/site-packages/flask/app.py", line 2552, in __call__
+    return self.wsgi_app(environ, start_response)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mario/miniconda3/envs/DirRes/lib/python3.12/site-packages/flask/app.py", line 2532, in wsgi_app
+    response = self.handle_exception(e)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mario/miniconda3/envs/DirRes/lib/python3.12/site-packages/flask_cors/extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^^^
+  File "/home/mario/miniconda3/envs/DirRes/lib/python3.12/site-packages/flask/app.py", line 2529, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mario/miniconda3/envs/DirRes/lib/python3.12/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mario/miniconda3/envs/DirRes/lib/python3.12/site-packages/flask_cors/extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^^^
+  File "/home/mario/miniconda3/envs/DirRes/lib/python3.12/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mario/miniconda3/envs/DirRes/lib/python3.12/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mario/DirectResearch/backend/eTA/app.py", line 33, in answer_question
+    answer = handleQuery(question, courseID)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mario/DirectResearch/backend/eTA/controller/handleQuery.py", line 21, in handleQuery
+    knowledge = find_similar_questions(question, table_name, 5)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mario/DirectResearch/backend/eTA/service/embedding/getAnswer.py", line 47, in find_similar_questions
+    items = scan_all_items(table_name)  # Assuming scan_all_items is defined elsewhere
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mario/DirectResearch/backend/eTA/service/embedding/dynamoDB.py", line 182, in scan_all_items
+    table = dynamodb.Table(table_name)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mario/miniconda3/envs/DirRes/lib/python3.12/site-packages/boto3/resources/factory.py", line 527, in create_resource
+    return partial(
+           ^^^^^^^^
+  File "/home/mario/miniconda3/envs/DirRes/lib/python3.12/site-packages/boto3/dynamodb/transform.py", line 41, in __init__
+    super().__init__(*args, **kwargs)
+  File "/home/mario/miniconda3/envs/DirRes/lib/python3.12/site-packages/boto3/dynamodb/table.py", line 29, in __init__
+    super().__init__(*args, **kwargs)
+  File "/home/mario/miniconda3/envs/DirRes/lib/python3.12/site-packages/boto3/resources/base.py", line 125, in __init__
+    raise ValueError(f'Required parameter {identifier} not set')
+ValueError: Required parameter name not set
+104.50.123.101 - - [26/Mar/2024 18:39:20] "[33mGET / HTTP/1.1[0m" 404 -
+205.210.31.84 - - [26/Mar/2024 19:53:58] "[33mGET / HTTP/1.1[0m" 404 -
+68.183.47.145 - - [26/Mar/2024 22:10:38] code 400, message Bad request syntax ('\x16\x03\x01\x01ü\x01\x00\x01ø\x03\x03¥\x03²¬þ\x006íÂæ0ÊÇÀë\x98Â.\x9a\x01Ï\x18Ç\x9e©\x8a\x00\x8dÒ\x19k\x8c\x00\x01<Ì\x14Ì\x13Ì\x15À0À,À(À$À\x14À')
+68.183.47.145 - - [26/Mar/2024 22:10:38] "[31m[1m\x16\x03\x01\x01ü\x01\x00\x01ø\x03\x03¥\x03²¬þ\x006íÂæ0ÊÇÀë\x98Â.\x9a\x01Ï\x18Ç\x9e©\x8a\x00\x8dÒ\x19k\x8c\x00\x01<Ì\x14Ì\x13Ì\x15À0À,À(À$À\x14À[0m" 400 -
+205.210.31.99 - - [26/Mar/2024 22:21:16] "[33mGET / HTTP/1.0[0m" 404 -
+71.6.146.185 - - [26/Mar/2024 23:09:36] "[33mGET / HTTP/1.1[0m" 404 -
+71.6.146.185 - - [26/Mar/2024 23:09:36] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+205.210.31.21 - - [26/Mar/2024 23:51:07] "[33mGET / HTTP/1.1[0m" 404 -
+194.165.16.10 - - [27/Mar/2024 02:22:51] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+194.165.16.10 - - [27/Mar/2024 02:22:51] "[31m[1m\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr[0m" 400 -
+91.92.245.67 - - [27/Mar/2024 04:05:38] "[33mCONNECT api.ipify.org:443 HTTP/1.1[0m" 404 -
+45.153.166.80 - - [27/Mar/2024 06:12:39] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+45.153.166.80 - - [27/Mar/2024 06:12:39] "[31m[1m\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr[0m" 400 -
+185.161.248.148 - - [27/Mar/2024 06:49:20] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+185.161.248.148 - - [27/Mar/2024 06:49:20] "[31m[1m\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr[0m" 400 -
+185.233.19.157 - - [27/Mar/2024 09:15:09] "[33mGET / HTTP/1.1[0m" 404 -
+205.210.31.50 - - [27/Mar/2024 13:07:19] "[33mGET / HTTP/1.0[0m" 404 -
+31.43.185.3 - - [27/Mar/2024 13:18:19] code 400, message Bad HTTP/0.9 request type ("\x03\x00\x00,'à\x00\x00\x00\x00\x00Cookie:")
+31.43.185.3 - - [27/Mar/2024 13:18:19] "[31m[1m\x03\x00\x00,'à\x00\x00\x00\x00\x00Cookie: mstshash=Domain[0m" 400 -
+31.43.185.3 - - [27/Mar/2024 13:18:20] code 400, message Bad HTTP/0.9 request type ("\x03\x00\x00,'à\x00\x00\x00\x00\x00Cookie:")
+31.43.185.3 - - [27/Mar/2024 13:18:20] "[31m[1m\x03\x00\x00,'à\x00\x00\x00\x00\x00Cookie: mstshash=Domain[0m" 400 -
+31.43.185.3 - - [27/Mar/2024 13:18:20] code 400, message Bad HTTP/0.9 request type ("\x03\x00\x00,'à\x00\x00\x00\x00\x00Cookie:")
+31.43.185.3 - - [27/Mar/2024 13:18:20] "[31m[1m\x03\x00\x00,'à\x00\x00\x00\x00\x00Cookie: mstshash=Domain[0m" 400 -
+207.151.52.218 - - [27/Mar/2024 15:30:15] "OPTIONS /readDB HTTP/1.1" 200 -
+207.151.52.218 - - [27/Mar/2024 15:30:15] "OPTIONS /readDB HTTP/1.1" 200 -
+207.151.52.218 - - [27/Mar/2024 15:30:15] "POST /readDB HTTP/1.1" 200 -
+207.151.52.218 - - [27/Mar/2024 15:30:15] "POST /readDB HTTP/1.1" 200 -
+207.151.52.218 - - [27/Mar/2024 15:30:23] "OPTIONS /upload-json HTTP/1.1" 200 -
+Table EE450 write finished.
+Table EE450 write finished.
+Table EE450 write finished.
+Table EE450 write finished.
+model.safetensors:   0%|          | 0.00/265M [00:00<?, ?B/s]model.safetensors:   4%|▍         | 10.5M/265M [00:00<00:07, 36.3MB/s]model.safetensors:   8%|▊         | 21.0M/265M [00:00<00:05, 43.5MB/s]model.safetensors:  12%|█▏        | 31.5M/265M [00:00<00:04, 52.2MB/s]model.safetensors:  16%|█▌        | 41.9M/265M [00:00<00:03, 62.3MB/s]model.safetensors:  20%|█▉        | 52.4M/265M [00:00<00:02, 72.8MB/s]model.safetensors:  28%|██▊       | 73.4M/265M [00:01<00:02, 82.7MB/s]model.safetensors:  36%|███▌      | 94.4M/265M [00:01<00:01, 91.6MB/s]model.safetensors:  43%|████▎     | 115M/265M [00:01<00:01, 98.5MB/s] model.safetensors:  51%|█████▏    | 136M/265M [00:01<00:01, 104MB/s] model.safetensors:  59%|█████▉    | 157M/265M [00:01<00:01, 106MB/s]model.safetensors:  67%|██████▋   | 178M/265M [00:02<00:00, 106MB/s]model.safetensors:  75%|███████▌  | 199M/265M [00:02<00:00, 107MB/s]model.safetensors:  83%|████████▎ | 220M/265M [00:02<00:00, 109MB/s]model.safetensors:  91%|█████████ | 241M/265M [00:02<00:00, 110MB/s]model.safetensors:  99%|█████████▊| 262M/265M [00:02<00:00, 111MB/s]model.safetensors: 100%|██████████| 265M/265M [00:02<00:00, 94.2MB/s]
+207.151.52.218 - - [27/Mar/2024 15:30:28] "POST /upload-json HTTP/1.1" 200 -
+207.151.52.218 - - [27/Mar/2024 15:30:37] "OPTIONS /ask HTTP/1.1" 200 -
+207.151.52.218 - - [27/Mar/2024 15:30:44] "POST /ask HTTP/1.1" 200 -
+159.223.172.255 - - [27/Mar/2024 15:51:29] "[33mGET / HTTP/1.0[0m" 404 -
+159.223.172.255 - - [27/Mar/2024 15:51:29] code 400, message Bad request version ('RTSP/1.0')
+159.223.172.255 - - [27/Mar/2024 15:51:29] "[31m[1mOPTIONS / RTSP/1.0[0m" 400 -
+159.223.172.255 - - [27/Mar/2024 15:51:31] code 400, message Bad HTTP/0.9 request type ('\x00')
+159.223.172.255 - - [27/Mar/2024 15:51:31] "[31m[1m\x00\x1e\x00\x06\x01\x00\x00\x01\x00\x00\x00\x00\x00\x00\x07version\x04bind\x00\x00\x10\x00\x03[0m" 400 -
+159.223.172.255 - - [27/Mar/2024 15:51:32] code 400, message Bad request version ('0.12\x00')
+159.223.172.255 - - [27/Mar/2024 15:51:32] "[31m[1m\x00\x00\x00¤ÿSMBr\x00\x00\x00\x00\x08\x01@\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00@\x06\x00\x00\x01\x00\x00\x81\x00\x02PC NETWORK PROGRAM 1.0\x00\x02MICROSOFT NETWORKS 1.03\x00\x02MICROSOFT NETWORKS 3.0\x00\x02LANMAN1.0\x00\x02LM1.2X002\x00\x02Samba\x00\x02NT LANMAN 1.0\x00\x02NT LM 0.12\x00[0m" 400 -
+159.223.172.255 - - [27/Mar/2024 15:51:32] code 400, message Bad request syntax ('#ST')
+159.223.172.255 - - [27/Mar/2024 15:51:32] "[31m[1m#ST[0m" 400 -
+159.223.172.255 - - [27/Mar/2024 15:51:34] code 400, message Bad request version ('GetClassName\x00\x00\x00\x02\x04\x00\x00\x00\x00\x01\x00')
+159.223.172.255 - - [27/Mar/2024 15:51:34] "[31m[1m\x00\x00\x00\x1f\x00\x00\x00\x00\x00\x00\x00\x0cGetClassName\x00\x00\x00\x02\x04\x00\x00\x00\x00\x01\x00[0m" 400 -
+159.223.172.255 - - [27/Mar/2024 15:51:36] code 400, message Bad HTTP/0.9 request type ('\x00')
+159.223.172.255 - - [27/Mar/2024 15:51:36] "[31m[1m\x00\x0bn\x00\x00\x00\x00\x01\x04beio[0m" 400 -
+159.223.172.255 - - [27/Mar/2024 15:51:37] code 400, message Bad request syntax ('\x00\x00\x07\x00\x08\x00\x03\x00\x04\x00\x05\x00\x06')
+159.223.172.255 - - [27/Mar/2024 15:51:37] "[31m[1m\x00\x00\x07\x00\x08\x00\x03\x00\x04\x00\x05\x00\x06[0m" 400 -
+159.223.172.255 - - [27/Mar/2024 15:51:37] "[33mOPTIONS / HTTP/1.0[0m" 404 -
+159.223.172.255 - - [27/Mar/2024 15:51:39] code 400, message Bad request version ('\x00\x01\x97|\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00')
+159.223.172.255 - - [27/Mar/2024 15:51:39] "[31m[1m\x80\x00\x00(rþ\x1d\x13\x00\x00\x00\x00\x00\x00\x00\x02\x00\x01\x86 \x00\x01\x97|\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00[0m" 400 -
+159.223.172.255 - - [27/Mar/2024 15:51:41] code 400, message Bad HTTP/0.9 request type ('\x00')
+159.223.172.255 - - [27/Mar/2024 15:51:41] "[31m[1m\x00\x0c\x00\x00\x10\x00\x00\x00\x00\x00\x00\x00\x00\x00[0m" 400 -
+159.223.172.255 - - [27/Mar/2024 15:51:41] code 400, message Bad request syntax ('EHLO')
+159.223.172.255 - - [27/Mar/2024 15:51:41] "[31m[1mEHLO[0m" 400 -
+159.223.172.255 - - [27/Mar/2024 15:51:41] code 400, message Bad request syntax ('HELP')
+159.223.172.255 - - [27/Mar/2024 15:51:41] "[31m[1mHELP[0m" 400 -
+159.223.172.255 - - [27/Mar/2024 15:51:41] code 400, message Bad request syntax ('\x16\x03\x00\x00S\x01\x00\x00O\x03\x00?G×÷º,îê²`~ó\x00ý\x82{¹Õ\x96Èw\x9bæÄÛ<=Ûoï\x10n\x00\x00(\x00\x16\x00\x13\x00')
+159.223.172.255 - - [27/Mar/2024 15:51:41] "[31m[1m\x16\x03\x00\x00S\x01\x00\x00O\x03\x00?G×÷º,îê²`~ó\x00ý\x82{¹Õ\x96Èw\x9bæÄÛ<=Ûoï\x10n\x00\x00(\x00\x16\x00\x13\x00[0m" 400 -
+159.223.172.255 - - [27/Mar/2024 15:51:41] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00*%à\x00\x00\x00\x00\x00Cookie:')
+159.223.172.255 - - [27/Mar/2024 15:51:41] "[31m[1m\x03\x00\x00*%à\x00\x00\x00\x00\x00Cookie: mstshash=beio[0m" 400 -
+159.223.172.255 - - [27/Mar/2024 15:51:41] code 400, message Bad request version ('\x00/\x00')
+159.223.172.255 - - [27/Mar/2024 15:51:41] "[31m[1m\x16\x03\x00\x00i\x01\x00\x00e\x03\x03U\x1c§ärandom1random2random3random4\x00\x00\x0c\x00/\x00[0m" 400 -
+159.223.172.255 - - [27/Mar/2024 15:51:41] code 400, message Bad HTTP/0.9 request type ('\x80\x9e\x01\x03\x01\x00u\x00\x00\x00')
+159.223.172.255 - - [27/Mar/2024 15:51:41] "[31m[1m\x80\x9e\x01\x03\x01\x00u\x00\x00\x00 \x00\x00f\x00\x00e\x00\x00d\x00\x00c\x00\x00b\x00\x00:\x00\x009\x00\x008\x00\x005\x00\x004\x00\x003\x00\x002\x00\x00/\x00\x00\x1b\x00\x00\x1a\x00\x00\x19\x00\x00\x18\x00\x00\x17\x00\x00\x16\x00\x00\x15\x00\x00\x14\x00\x00\x13\x00\x00\x12\x00\x00\x11\x00\x00[0m" 400 -
+159.223.172.255 - - [27/Mar/2024 15:51:42] code 400, message Bad request syntax ('\x00\x00\x00qj\x81n0\x81k¡\x03\x02\x01\x05¢\x03\x02\x01')
+159.223.172.255 - - [27/Mar/2024 15:51:42] "[31m[1m\x00\x00\x00qj\x81n0\x81k¡\x03\x02\x01\x05¢\x03\x02\x01[0m" 400 -
+159.223.172.255 - - [27/Mar/2024 15:51:43] code 400, message Bad HTTP/0.9 request type ('l\x00')
+159.223.172.255 - - [27/Mar/2024 15:51:43] "[31m[1ml\x00\x0b\x00\x00\x00\x00\x00\x00\x00\x00\x00[0m" 400 -
+159.223.172.255 - - [27/Mar/2024 15:51:43] "[33mGET /nice%20ports,/Trinity.txt.bak HTTP/1.0[0m" 404 -
+159.223.172.255 - - [27/Mar/2024 15:51:43] code 400, message Bad request syntax ('\x01default')
+159.223.172.255 - - [27/Mar/2024 15:51:43] "[31m[1m\x01default[0m" 400 -
+159.223.172.255 - - [27/Mar/2024 15:51:44] code 400, message Bad request syntax ('0\x84\x00\x00\x00-\x02\x01\x07c\x84\x00\x00\x00$\x04\x00')
+159.223.172.255 - - [27/Mar/2024 15:51:44] "[31m[1m0\x84\x00\x00\x00-\x02\x01\x07c\x84\x00\x00\x00$\x04\x00[0m" 400 -
+159.223.172.255 - - [27/Mar/2024 15:51:45] code 400, message Bad HTTP/0.9 request type ('0')
+159.223.172.255 - - [27/Mar/2024 15:51:45] "[31m[1m0\x0c\x02\x01\x01`\x07\x02\x01\x02\x04\x00\x80\x00[0m" 400 -
+159.223.172.255 - - [27/Mar/2024 15:51:45] code 400, message Bad request version ('SIP/2.0')
+159.223.172.255 - - [27/Mar/2024 15:51:45] "[31m[1mOPTIONS sip:nm SIP/2.0[0m" 400 -
+159.223.172.255 - - [27/Mar/2024 15:51:47] code 400, message Bad request syntax ('TNMP\x04\x00\x00\x00TNME\x00\x00\x04\x00')
+159.223.172.255 - - [27/Mar/2024 15:51:47] "[31m[1mTNMP\x04\x00\x00\x00TNME\x00\x00\x04\x00[0m" 400 -
+159.223.172.255 - - [27/Mar/2024 15:51:49] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00')
+159.223.172.255 - - [27/Mar/2024 15:51:49] "[31m[1m\x03\x00\x00\x0b\x06à\x00\x00\x00\x00\x00[0m" 400 -
+159.223.172.255 - - [27/Mar/2024 15:51:50] code 400, message Bad request syntax ('DmdT\x00\x00\x00\x17\x00\x00\x00\x01\x00\x00\x00\x00\x11\x11\x00ÿ\x01ÿ\x13')
+159.223.172.255 - - [27/Mar/2024 15:51:50] "[31m[1mDmdT\x00\x00\x00\x17\x00\x00\x00\x01\x00\x00\x00\x00\x11\x11\x00ÿ\x01ÿ\x13[0m" 400 -
+159.223.172.255 - - [27/Mar/2024 15:51:52] code 400, message Bad HTTP/0.9 request type (':\x00\x00\x00/\x00\x00\x00\x02\x00\x00@\x02\x0f\x00\x01\x00=\x05\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00/\x00\x00\x00\x00\x00\x00\x00\x00\x00@')
+159.223.172.255 - - [27/Mar/2024 15:51:52] "[31m[1m:\x00\x00\x00/\x00\x00\x00\x02\x00\x00@\x02\x0f\x00\x01\x00=\x05\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00/\x00\x00\x00\x00\x00\x00\x00\x00\x00@\x1f\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00[0m" 400 -
+159.223.172.255 - - [27/Mar/2024 15:51:53] code 400, message Bad request syntax ('DIST00000001ARGC00000005ARGV00000002ccARGV00000002-cARGV00000006beio.cARGV00000002-oARGV00000006beio.oDOTI00000000')
+159.223.172.255 - - [27/Mar/2024 15:51:53] "[31m[1mDIST00000001ARGC00000005ARGV00000002ccARGV00000002-cARGV00000006beio.cARGV00000002-oARGV00000006beio.oDOTI00000000[0m" 400 -
+159.223.172.255 - - [27/Mar/2024 15:51:55] code 400, message Bad request syntax ('JRMI\x00\x02K')
+159.223.172.255 - - [27/Mar/2024 15:51:55] "[31m[1mJRMI\x00\x02K[0m" 400 -
+159.223.172.255 - - [27/Mar/2024 15:51:56] code 400, message Bad request syntax ('\x01\x00\x00\x00\x01\x00\x00\x00\x08\x08')
+159.223.172.255 - - [27/Mar/2024 15:51:56] "[31m[1m\x01\x00\x00\x00\x01\x00\x00\x00\x08\x08[0m" 400 -
+159.223.172.255 - - [27/Mar/2024 15:51:56] code 400, message Bad request version ('>')
+159.223.172.255 - - [27/Mar/2024 15:51:56] "[31m[1m< NTP/1.2 >[0m" 400 -
+159.223.172.255 - - [27/Mar/2024 15:51:57] code 400, message Bad request version ('>')
+159.223.172.255 - - [27/Mar/2024 15:51:57] "[31m[1m< NTP/1.1 >[0m" 400 -
+159.223.172.255 - - [27/Mar/2024 15:51:57] code 400, message Bad request version ('>')
+159.223.172.255 - - [27/Mar/2024 15:51:57] "[31m[1m< NTP/1.0 >[0m" 400 -
+159.223.172.255 - - [27/Mar/2024 15:51:58] code 400, message Bad request version ('\x00{\x00\x00\x00\x00\x00A\x00A\x00\x00\x00-\x00\x00A\x00\x00\x00-\x00\x00\x00a\x00\x00-\x00A\x00A\x00\x00A\x00-\x00\x00\x00\x00\x00A\x00\x00A\x00A\x00\x00A\x00A\x00\x00}\x00\x00\x00àmß_')
+159.223.172.255 - - [27/Mar/2024 15:51:58] "[31m[1m\x01\x00\x00ýÎú\x0b° \x00\x00\x00MMS\x14\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x12\x00\x00\x00\x01\x00\x03\x00ðððð\x0b\x00\x04\x00\x1c\x00\x03\x00N\x00S\x00P\x00l\x00a\x00y\x00e\x00r\x00/\x009\x00.\x00\x00.\x00\x00.\x02\x009\x008\x00\x00;\x00 \x00{\x00\x00\x00\x00\x00A\x00A\x00\x00\x00-\x00\x00A\x00\x00\x00-\x00\x00\x00a\x00\x00-\x00A\x00A\x00\x00A\x00-\x00\x00\x00\x00\x00A\x00\x00A\x00A\x00\x00A\x00A\x00\x00}\x00\x00\x00àmß_[0m" 400 -
+159.223.172.255 - - [27/Mar/2024 15:52:00] code 400, message Bad HTTP/0.9 request type ('\x00Z\x00\x00\x01\x00\x00\x00\x016\x01,\x00\x00\x08\x00\x7fÿ\x7f\x08\x00\x00\x00\x01\x00')
+159.223.172.255 - - [27/Mar/2024 15:52:00] "[31m[1m\x00Z\x00\x00\x01\x00\x00\x00\x016\x01,\x00\x00\x08\x00\x7fÿ\x7f\x08\x00\x00\x00\x01\x00 \x00:\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x04æ\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00(CONNECT_DATA=(COMMAND=version))[0m" 400 -
+159.223.172.255 - - [27/Mar/2024 15:52:02] code 400, message Bad HTTP/0.9 request type ('WWWOFFLE')
+159.223.172.255 - - [27/Mar/2024 15:52:02] "[31m[1mWWWOFFLE STATUS[0m" 400 -
+159.223.172.255 - - [27/Mar/2024 15:52:02] code 400, message Bad request syntax ('Subscribe')
+159.223.172.255 - - [27/Mar/2024 15:52:02] "[31m[1mSubscribe[0m" 400 -
+159.223.172.255 - - [27/Mar/2024 15:52:02] code 400, message Bad request syntax ('Query')
+159.223.172.255 - - [27/Mar/2024 15:52:02] "[31m[1mQuery[0m" 400 -
+159.223.172.255 - - [27/Mar/2024 15:52:02] code 400, message Bad request syntax ('\x05\x04\x00\x01\x02\x80\x05\x01\x00\x03')
+159.223.172.255 - - [27/Mar/2024 15:52:02] "[31m[1m\x05\x04\x00\x01\x02\x80\x05\x01\x00\x03[0m" 400 -
+159.223.172.255 - - [27/Mar/2024 15:52:04] code 400, message Bad request syntax ('\x04\x01\x00\x16\x7f\x00\x00\x01root\x00')
+159.223.172.255 - - [27/Mar/2024 15:52:04] "[31m[1m\x04\x01\x00\x16\x7f\x00\x00\x01root\x00[0m" 400 -
+159.223.172.255 - - [27/Mar/2024 15:52:04] "[33mGET /?CAVIT HTTP/1.1[0m" 404 -
+159.223.172.255 - - [27/Mar/2024 15:52:05] code 400, message Bad request version ('\x03\x00(\x00\x04ÿ\x08\x00\x01U\x00\x00\x00MSSQLServer\x00H\x0f\x00\x00')
+159.223.172.255 - - [27/Mar/2024 15:52:05] "[31m[1m\x12\x01\x004\x00\x00\x00\x00\x00\x00\x15\x00\x06\x01\x00\x1b\x00\x01\x02\x00\x1c\x00\x0c\x03\x00(\x00\x04ÿ\x08\x00\x01U\x00\x00\x00MSSQLServer\x00H\x0f\x00\x00[0m" 400 -
+159.223.172.255 - - [27/Mar/2024 15:52:06] code 400, message Bad request syntax ('HELP')
+159.223.172.255 - - [27/Mar/2024 15:52:06] "[31m[1mHELP[0m" 400 -
+159.223.172.255 - - [27/Mar/2024 15:52:06] code 400, message Bad request syntax ('stats')
+159.223.172.255 - - [27/Mar/2024 15:52:06] "[31m[1mstats[0m" 400 -
+159.223.172.255 - - [27/Mar/2024 15:52:07] code 400, message Bad request syntax ('666')
+159.223.172.255 - - [27/Mar/2024 15:52:07] "[31m[1m666[0m" 400 -
+159.223.172.255 - - [27/Mar/2024 15:52:07] code 400, message Bad request version ('\x06\x00\x00\x00\x00\x00\x08\x00\x00\x00\x01\x00\x00\x00\x02\x00\x00\x00\x03\x00\x00\x00\x02\x00\x00\x00')
+159.223.172.255 - - [27/Mar/2024 15:52:07] "[31m[1m\x00\x00\x00\x01\x00\x00\x00\x13\x00\x00\x00\x02\x00\x00\x00$\x00\x00\x00\x0bservice_mgr\x00\x00\x00\x00\x02\x00\x00\x00\x13\x01\x08scanner \x04\x05beio \x06\x00\x00\x00\x00\x00\x08\x00\x00\x00\x01\x00\x00\x00\x02\x00\x00\x00\x03\x00\x00\x00\x02\x00\x00\x00[0m" 400 -
+159.223.172.255 - - [27/Mar/2024 15:52:09] code 400, message Bad request version ('\x00\x00\x00\x04')
+159.223.172.255 - - [27/Mar/2024 15:52:09] "[31m[1m\x00\x00\x00\x00DB2DAS      \x01\x04\x00\x00\x00\x109z\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x0c\x00\x00\x00\x00\x00\x00\x0c\x00\x00\x00\x0c\x00\x00\x00\x04[0m" 400 -
+159.223.172.255 - - [27/Mar/2024 15:52:11] code 400, message Bad request version ('\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00ÿ\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00ä\x04\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x7f')
+159.223.172.255 - - [27/Mar/2024 15:52:11] "[31m[1m\x01Â\x00\x00\x00\x04\x00\x00¶\x01\x00\x00SQLDB2RA\x00\x01\x00\x00\x04\x01\x01\x00\x05\x00\x1d\x00\x88\x00\x00\x00\x01\x00\x00\x80\x00\x00\x00\x01\x09\x00\x00\x00\x01\x00\x00@\x00\x00\x00\x01\x09\x00\x00\x00\x01\x00\x00@\x00\x00\x00\x01\x08\x00\x00\x00\x04\x00\x00@\x00\x00\x00\x01\x04\x00\x00\x00\x01\x00\x00@\x00\x00\x00@\x04\x00\x00\x00\x04\x00\x00@\x00\x00\x00\x01\x04\x00\x00\x00\x04\x00\x00@\x00\x00\x00\x01\x04\x00\x00\x00\x04\x00\x00@\x00\x00\x00\x01\x04\x00\x00\x00\x02\x00\x00@\x00\x00\x00\x01\x04\x00\x00\x00\x04\x00\x00@\x00\x00\x00\x01\x00\x00\x00\x00\x01\x00\x00@\x00\x00\x00\x00\x04\x00\x00\x00\x04\x00\x00\x80\x00\x00\x00\x01\x04\x00\x00\x00\x04\x00\x00\x80\x00\x00\x00\x01\x04\x00\x00\x00\x03\x00\x00\x80\x00\x00\x00\x01\x04\x00\x00\x00\x04\x00\x00\x80\x00\x00\x00\x01\x08\x00\x00\x00\x01\x00\x00@\x00\x00\x00\x01\x04\x00\x00\x00\x04\x00\x00@\x00\x00\x00\x01\x10\x00\x00\x00\x01\x00\x00\x80\x00\x00\x00\x01\x10\x00\x00\x00\x01\x00\x00\x80\x00\x00\x00\x01\x04\x00\x00\x00\x04\x00\x00@\x00\x00\x00\x01\x09\x00\x00\x00\x01\x00\x00@\x00\x00\x00\x01\x09\x00\x00\x00\x01\x00\x00\x80\x00\x00\x00\x01\x04\x00\x00\x00\x03\x00\x00\x80\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x04\x00\x00\x01\x00\x00\x80\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00@\x00\x00\x00\x01\x00\x00\x00\x00\x01\x00\x00@\x00\x00\x00\x00        \x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00ÿ\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00ä\x04\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x7f[0m" 400 -
+159.223.172.255 - - [27/Mar/2024 15:52:12] code 400, message Bad request version ('1\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00')
+159.223.172.255 - - [27/Mar/2024 15:52:12] "[31m[1mClient string for PARC version 1 Wire Encryption version 1\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00[0m" 400 -
+159.223.172.255 - - [27/Mar/2024 15:52:12] code 400, message Bad HTTP/0.9 request type ('<\x00K\x00\x00\x00')
+159.223.172.255 - - [27/Mar/2024 15:52:12] "[31m[1m<\x00K\x00\x00\x00 \x00\x00\x00\x00\x00\x00\x00\x00\x00ÿÿÿÿ\x00\x00[0m" 400 -
+159.223.172.255 - - [27/Mar/2024 15:52:12] code 400, message Bad request syntax ('\x124\x00\x01')
+159.223.172.255 - - [27/Mar/2024 15:52:12] "[31m[1m\x124\x00\x01[0m" 400 -
+159.223.172.255 - - [27/Mar/2024 15:52:14] code 400, message Bad request version ('\x00\x01')
+159.223.172.255 - - [27/Mar/2024 15:52:14] "[31m[1m\x00.\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x09_services\x07_dns-sd\x04_udp\x05local\x00\x00\x0c\x00\x01[0m" 400 -
+159.223.172.255 - - [27/Mar/2024 15:52:14] code 400, message Bad request version ('ID')
+159.223.172.255 - - [27/Mar/2024 15:52:14] "[31m[1m\x1b%-12345X@PJL INFO ID[0m" 400 -
+159.223.172.255 - - [27/Mar/2024 15:52:16] code 400, message Bad request syntax ('\x00\x03\x00\x01\x00\x00\x00\x00\x00\x00\x00\x02\x00\x00\x00\x00\x0f\x00')
+159.223.172.255 - - [27/Mar/2024 15:52:16] "[31m[1m\x00\x03\x00\x01\x00\x00\x00\x00\x00\x00\x00\x02\x00\x00\x00\x00\x0f\x00[0m" 400 -
+159.223.172.255 - - [27/Mar/2024 15:52:16] code 400, message Bad request syntax ('serverstatus')
+159.223.172.255 - - [27/Mar/2024 15:52:16] "[31m[1mserverstatus[0m" 400 -
+159.223.172.255 - - [27/Mar/2024 15:52:18] code 400, message Bad HTTP/0.9 request type ('Âååå\x9e')
+159.223.172.255 - - [27/Mar/2024 15:52:18] "[31m[1mÂååå\x9e ×¤¦ÐÕÝÜÈÖÝ×ÕÈÑÖ\x83\x80ÈÝ¤Ñ¡È¤ÒÕ×Ý£¤¡Ý¦×Ý\x98å[0m" 400 -
+159.223.172.255 - - [27/Mar/2024 15:52:19] code 400, message Bad request version ('\x00\x00\x00\x03\x00\x05beio\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00j\x00\x00\x00\x7f')
+159.223.172.255 - - [27/Mar/2024 15:52:19] "[31m[1m\x00\x94\x01<\x00\x00\x00d\x00e\x00\x00\x00=\x00\x06IEEEM\x00\x00lsqlexec\x00\x00\x00\x00\x00\x00\x069.280\x00\x00\x0cRDS#R000000\x00\x00\x05sqli\x00\x00\x00\x013\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x05beio\x00\x00\x05beio\x00ol\x00\x00\x00\x00\x00\x00\x00\x00\x00=tlitcp\x00\x00\x00\x00\x00\x01\x00h\x00\x0b\x00\x00\x00\x03\x00\x05beio\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00j\x00\x00\x00\x7f[0m" 400 -
+159.223.172.255 - - [27/Mar/2024 15:52:21] code 400, message Bad request syntax ('\x002Ð\x01\x00\x01\x00,\x10A\x00\x04\x11^\x00\x04\x11m\x00\x04\x11Z\x00\x18\x14\x04\x14\x03\x00\x07$\x07\x00\x08$\x0f\x00\x08\x14@\x00\x08\x14t\x00\x08\x00\x04\x11G')
+159.223.172.255 - - [27/Mar/2024 15:52:21] "[31m[1m\x002Ð\x01\x00\x01\x00,\x10A\x00\x04\x11^\x00\x04\x11m\x00\x04\x11Z\x00\x18\x14\x04\x14\x03\x00\x07$\x07\x00\x08$\x0f\x00\x08\x14@\x00\x08\x14t\x00\x08\x00\x04\x11G[0m" 400 -
+159.223.172.255 - - [27/Mar/2024 15:52:21] code 400, message Bad HTTP/0.9 request type ('TSH')
+159.223.172.255 - - [27/Mar/2024 15:52:21] "[31m[1mTSH \x00\x00\x00ì\x01\x011\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x11\x04¸\x00\x00ID  [0m" 400 -
+159.223.172.255 - - [27/Mar/2024 15:52:21] "[33mGET /server-info HTTP/1.1[0m" 404 -
+159.223.172.255 - - [27/Mar/2024 15:52:23] code 400, message Bad HTTP/0.9 request type ('gkrellm')
+159.223.172.255 - - [27/Mar/2024 15:52:23] "[31m[1mgkrellm 0.0.0[0m" 400 -
+159.223.172.255 - - [27/Mar/2024 15:52:23] code 400, message Bad request version ('?><methodCall><methodName>beio.probe</methodName></methodCall>')
+159.223.172.255 - - [27/Mar/2024 15:52:23] "[31m[1m<?xml version="1.0" ?><methodCall><methodName>beio.probe</methodName></methodCall>[0m" 400 -
+159.223.172.255 - - [27/Mar/2024 15:52:24] code 400, message Bad request syntax ('A\x00\x00\x00:0\x00\x00ÿÿÿÿÔ\x07\x00\x00\x00\x00\x00\x00test.$cmd\x00\x00\x00\x00\x00ÿÿÿÿ\x1b\x00\x00\x00\x01serverStatus\x00\x00\x00\x00\x00\x00\x00ð?\x00')
+159.223.172.255 - - [27/Mar/2024 15:52:24] "[31m[1mA\x00\x00\x00:0\x00\x00ÿÿÿÿÔ\x07\x00\x00\x00\x00\x00\x00test.$cmd\x00\x00\x00\x00\x00ÿÿÿÿ\x1b\x00\x00\x00\x01serverStatus\x00\x00\x00\x00\x00\x00\x00ð?\x00[0m" 400 -
+159.223.172.255 - - [27/Mar/2024 15:52:24] code 400, message Bad request syntax ('*1')
+159.223.172.255 - - [27/Mar/2024 15:52:24] "[31m[1m*1[0m" 400 -
+159.223.172.255 - - [27/Mar/2024 15:52:26] code 400, message Bad request syntax ('\x00\x00\x00\x01\x07')
+159.223.172.255 - - [27/Mar/2024 15:52:26] "[31m[1m\x00\x00\x00\x01\x07[0m" 400 -
+159.223.172.255 - - [27/Mar/2024 15:52:26] code 400, message Bad HTTP/0.9 request type ('show')
+159.223.172.255 - - [27/Mar/2024 15:52:26] "[31m[1mshow info[0m" 400 -
+159.223.172.255 - - [27/Mar/2024 15:52:28] code 400, message Bad request syntax ('\x80\x10\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x15ðÑb\x00\x00\x00\x00\x00\x00\x00\x00')
+159.223.172.255 - - [27/Mar/2024 15:52:28] "[31m[1m\x80\x10\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x15ðÑb\x00\x00\x00\x00\x00\x00\x00\x00[0m" 400 -
+159.223.172.255 - - [27/Mar/2024 15:52:29] code 400, message Bad request syntax ('\x00\x01n')
+159.223.172.255 - - [27/Mar/2024 15:52:29] "[31m[1m\x00\x01n[0m" 400 -
+159.223.172.255 - - [27/Mar/2024 15:52:31] code 400, message Bad request syntax ('vp3')
+159.223.172.255 - - [27/Mar/2024 15:52:31] "[31m[1mvp3[0m" 400 -
+159.223.172.255 - - [27/Mar/2024 15:52:33] code 400, message Bad request syntax ('\x94\x00ÍïÑa\x91\x03')
+159.223.172.255 - - [27/Mar/2024 15:52:33] "[31m[1m\x94\x00ÍïÑa\x91\x03[0m" 400 -
+159.223.172.255 - - [27/Mar/2024 15:52:33] "[33mGET /api HTTP/1.0[0m" 404 -
+159.223.172.255 - - [27/Mar/2024 15:52:33] "[33mGET /hazelcast/rest/cluster HTTP/1.0[0m" 404 -
+159.223.172.255 - - [27/Mar/2024 15:52:34] code 400, message Bad request syntax ('þ\x01')
+159.223.172.255 - - [27/Mar/2024 15:52:34] "[31m[1mþ\x01[0m" 400 -
+159.223.172.255 - - [27/Mar/2024 15:52:35] code 400, message Bad request syntax ('ver')
+159.223.172.255 - - [27/Mar/2024 15:52:35] "[31m[1mver[0m" 400 -
+159.223.172.255 - - [27/Mar/2024 15:52:35] code 400, message Bad request syntax ('init')
+159.223.172.255 - - [27/Mar/2024 15:52:35] "[31m[1minit[0m" 400 -
+159.223.172.255 - - [27/Mar/2024 15:52:35] "[33mGET /version HTTP/1.1[0m" 404 -
+159.223.172.255 - - [27/Mar/2024 15:52:37] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x00\x00u\x01\x00\x00q\x03\x03U8*bETXSJDSZNHMDFAONDKJXXZYZHWHR\x00\x000\x00\x8a\x00\x8b\x00\x8c\x00\x8d\x00\x8e\x00\x8f\x00\x90\x00\x91\x00\x92\x00\x93\x00\x94\x00\x95\x00¨\x00©\x00ª\x00«\x00¬\x00\xad\x00®\x00¯\x00²\x00³\x00¶\x00·\x01\x00\x00\x18\x00')
+159.223.172.255 - - [27/Mar/2024 15:52:37] "[31m[1m\x16\x03\x00\x00u\x01\x00\x00q\x03\x03U8*bETXSJDSZNHMDFAONDKJXXZYZHWHR\x00\x000\x00\x8a\x00\x8b\x00\x8c\x00\x8d\x00\x8e\x00\x8f\x00\x90\x00\x91\x00\x92\x00\x93\x00\x94\x00\x95\x00¨\x00©\x00ª\x00«\x00¬\x00­\x00®\x00¯\x00²\x00³\x00¶\x00·\x01\x00\x00\x18\x00\x0d\x00\x14\x00\x12\x00\x01\x00\x02\x00\x03\x01\x01\x01\x02\x01\x03\x02\x01\x02\x02\x02\x03[0m" 400 -
+159.223.172.255 - - [27/Mar/2024 15:52:38] code 400, message Bad request syntax ('Ö×ÅÕ@@@@ÆÁÒÅ@@@@\x00\x00\x00\x00ÆÁÒÅ@@@@\x00\x00\x00\x00\x00')
+159.223.172.255 - - [27/Mar/2024 15:52:38] "[31m[1mÖ×ÅÕ@@@@ÆÁÒÅ@@@@\x00\x00\x00\x00ÆÁÒÅ@@@@\x00\x00\x00\x00\x00[0m" 400 -
+159.223.172.255 - - [27/Mar/2024 15:52:40] code 400, message Bad request syntax ('ÿû\x18ÿú\x18\x00IBM-3279-4-Eÿðÿû\x19ÿý\x19ÿû\x00ÿý\x00')
+159.223.172.255 - - [27/Mar/2024 15:52:40] "[31m[1mÿû\x18ÿú\x18\x00IBM-3279-4-Eÿðÿû\x19ÿý\x19ÿû\x00ÿý\x00[0m" 400 -
+159.223.172.255 - - [27/Mar/2024 15:52:41] code 400, message Bad request syntax ('GIOP\x01\x00\x01\x00$\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x01\x00\x00\x00\x06\x00\x00\x00abcdef\x00\x00\x04\x00\x00\x00get\x00\x00\x00\x00\x00')
+159.223.172.255 - - [27/Mar/2024 15:52:41] "[31m[1mGIOP\x01\x00\x01\x00$\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x01\x00\x00\x00\x06\x00\x00\x00abcdef\x00\x00\x04\x00\x00\x00get\x00\x00\x00\x00\x00[0m" 400 -
+159.223.172.255 - - [27/Mar/2024 15:52:43] code 400, message Bad HTTP/0.9 request type ('\x00\x0e87¥&\x08¢\x1b')
+159.223.172.255 - - [27/Mar/2024 15:52:43] "[31m[1m\x00\x0e87¥&\x08¢\x1b ±\x00\x00\x00\x00\x00[0m" 400 -
+159.223.172.255 - - [27/Mar/2024 15:52:44] code 400, message Bad HTTP/0.9 request type ('\x01\x01\x00\x1a\x00\x00\x00\x00x\x80\x00\x03\x00')
+159.223.172.255 - - [27/Mar/2024 15:52:44] "[31m[1m\x01\x01\x00\x1a\x00\x00\x00\x00x\x80\x00\x03\x00\x0cIBETH01N0_M\x00[0m" 400 -
+159.223.172.255 - - [27/Mar/2024 15:52:46] code 400, message Bad HTTP/0.9 request type ('Ì\x01\x00')
+159.223.172.255 - - [27/Mar/2024 15:52:46] "[31m[1mÌ\x01\x00\x0b@\x02\x00\x00Gî[0m" 400 -
+159.223.172.255 - - [27/Mar/2024 15:52:46] code 400, message Bad request version ('hello')
+159.223.172.255 - - [27/Mar/2024 15:52:46] "[31m[1mfox a 1 -1 fox hello[0m" 400 -
+159.223.172.255 - - [27/Mar/2024 15:52:48] code 400, message Bad HTTP/0.9 request type ('\x10\x10\x00\x04MQTT\x04\x02\x00')
+159.223.172.255 - - [27/Mar/2024 15:52:48] "[31m[1m\x10\x10\x00\x04MQTT\x04\x02\x00\x1e\x00\x04beio[0m" 400 -
+159.223.172.255 - - [27/Mar/2024 15:52:49] code 400, message Bad request syntax ('0000000000000000000000000000000000000\x00\x00\x00\x00')
+159.223.172.255 - - [27/Mar/2024 15:52:49] "[31m[1m0000000000000000000000000000000000000\x00\x00\x00\x00[0m" 400 -
+159.223.172.255 - - [27/Mar/2024 15:52:51] code 400, message Bad request syntax ('VERSION')
+159.223.172.255 - - [27/Mar/2024 15:52:51] "[31m[1mVERSION[0m" 400 -
+159.223.172.255 - - [27/Mar/2024 15:52:51] code 400, message Bad request syntax ('NXSH-5.6.7')
+159.223.172.255 - - [27/Mar/2024 15:52:51] "[31m[1mNXSH-5.6.7[0m" 400 -
+159.223.172.255 - - [27/Mar/2024 15:52:51] code 400, message Bad HTTP/0.9 request type ('CONNECT01')
+159.223.172.255 - - [27/Mar/2024 15:52:51] "[31m[1mCONNECT01 v09[0m" 400 -
+159.223.172.255 - - [27/Mar/2024 15:52:51] code 400, message Bad request syntax ('LO_SERVER_CLIENT_PAIR')
+159.223.172.255 - - [27/Mar/2024 15:52:51] "[31m[1mLO_SERVER_CLIENT_PAIR[0m" 400 -
+159.223.172.255 - - [27/Mar/2024 15:52:51] code 400, message Bad request version ('INFO')
+159.223.172.255 - - [27/Mar/2024 15:52:51] "[31m[1mGET SERVER INFO[0m" 400 -
+159.223.172.255 - - [27/Mar/2024 15:52:51] code 400, message Bad request syntax ('get_info')
+159.223.172.255 - - [27/Mar/2024 15:52:51] "[31m[1mget_info[0m" 400 -
+159.223.172.255 - - [27/Mar/2024 15:52:53] code 400, message Bad request version ('IPPV1')
+159.223.172.255 - - [27/Mar/2024 15:52:53] "[31m[1mTVNM1   \x0dMNRD1   \x0dSWVN1   \x0dIPPV1   [0m" 400 -
+159.223.172.255 - - [27/Mar/2024 15:52:55] code 400, message Bad request syntax ('CNXN\x00\x00\x00\x01\x00\x10\x00\x00\x07\x00\x00\x002\x02\x00\x00¼±§±host::\x00')
+159.223.172.255 - - [27/Mar/2024 15:52:55] "[31m[1mCNXN\x00\x00\x00\x01\x00\x10\x00\x00\x07\x00\x00\x002\x02\x00\x00¼±§±host::\x00[0m" 400 -
+159.223.172.255 - - [27/Mar/2024 15:52:55] code 400, message Bad request syntax ('>version')
+159.223.172.255 - - [27/Mar/2024 15:52:55] "[31m[1m>version[0m" 400 -
+159.223.172.255 - - [27/Mar/2024 15:52:55] code 400, message Bad request syntax ('login')
+159.223.172.255 - - [27/Mar/2024 15:52:55] "[31m[1mlogin[0m" 400 -
+159.223.172.255 - - [27/Mar/2024 15:52:57] code 400, message Bad request syntax ('\x02`')
+159.223.172.255 - - [27/Mar/2024 15:52:57] "[31m[1m\x02`[0m" 400 -
+159.223.172.255 - - [27/Mar/2024 15:52:58] code 400, message Bad HTTP/0.9 request type ('\x10\x10\x00\x04MQTT\x05\x02\x00')
+159.223.172.255 - - [27/Mar/2024 15:52:58] "[31m[1m\x10\x10\x00\x04MQTT\x05\x02\x00\x1e\x00\x04beio[0m" 400 -
+159.223.172.255 - - [27/Mar/2024 15:53:00] code 400, message Bad request syntax ('\x00\x9c\x00\x01\x1a+<M\x00\x01\x00\x00\x01\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x01ÿÿ\x00\x01none\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00beio\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00')
+159.223.172.255 - - [27/Mar/2024 15:53:00] "[31m[1m\x00\x9c\x00\x01\x1a+<M\x00\x01\x00\x00\x01\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x01ÿÿ\x00\x01none\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00beio\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00[0m" 400 -
+159.223.172.255 - - [27/Mar/2024 15:53:01] code 400, message Bad request syntax ('\x00\x00\x00\x01\x00\x00\x00\x01\x00\x00\x00\x04\x00\x00\x00\x08\x00\x00\x00\x01\x00\x00\x00\x00')
+159.223.172.255 - - [27/Mar/2024 15:53:01] "[31m[1m\x00\x00\x00\x01\x00\x00\x00\x01\x00\x00\x00\x04\x00\x00\x00\x08\x00\x00\x00\x01\x00\x00\x00\x00[0m" 400 -
+159.223.172.255 - - [27/Mar/2024 15:53:03] code 400, message Bad request syntax ('\x03\x81\x00\x00\x00\x00\x00_@\x00\x017\x00\x00\x00\x00\x00\x00\x00\x01\x00\x01\x00\x00\x00\x00\x00\x01\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00InitiatorName=iqn.1991-05.com.microsoft:beio-iscsi-probe\x00SessionType=Discovery\x00AuthMethod=None\x00\x00')
+159.223.172.255 - - [27/Mar/2024 15:53:03] "[31m[1m\x03\x81\x00\x00\x00\x00\x00_@\x00\x017\x00\x00\x00\x00\x00\x00\x00\x01\x00\x01\x00\x00\x00\x00\x00\x01\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00InitiatorName=iqn.1991-05.com.microsoft:beio-iscsi-probe\x00SessionType=Discovery\x00AuthMethod=None\x00\x00[0m" 400 -
+159.223.172.255 - - [27/Mar/2024 15:53:04] code 400, message Bad request version ('CharruaVista')
+159.223.172.255 - - [27/Mar/2024 15:53:04] "[31m[1m\x01\x00\x00\x00\x00Í\x00\x01\x00\x00ANY-SCP\x00\x00\x00\x00\x00\x00\x00\x00\x00FINDSCU\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x10\x00\x00\x151.2.840.10008.3.1.1.1 \x00\x00.\x01\x00\x00\x000\x00\x00\x111.2.840.10008.1.1@\x00\x00\x111.2.840.10008.1.2P\x00\x00:Q\x00\x00\x04\x00\x00@\x00R\x00\x00\x1e1.2.826.0.1.3680043.2.1396.999U\x00\x00\x0cCharruaVista[0m" 400 -
+159.223.172.255 - - [27/Mar/2024 15:53:04] code 400, message Bad HTTP/0.9 request type ("\x03\x00\x00,'à\x00\x00\x00\x00\x00Cookie:")
+159.223.172.255 - - [27/Mar/2024 15:53:04] "[31m[1m\x03\x00\x00,'à\x00\x00\x00\x00\x00Cookie: mstshash=Administrator[0m" 400 -
+159.223.172.255 - - [27/Mar/2024 15:53:06] code 400, message Bad request syntax ('\x00\x00\x00\x00\x00')
+159.223.172.255 - - [27/Mar/2024 15:53:06] "[31m[1m\x00\x00\x00\x00\x00[0m" 400 -
+159.223.172.255 - - [27/Mar/2024 15:53:06] code 400, message Bad request syntax ('\x01I20100')
+159.223.172.255 - - [27/Mar/2024 15:53:06] "[31m[1m\x01I20100[0m" 400 -
+ * Detected change in '/home/mario/DirectResearch/backend/eTA/service/embedding/dynamoDB.py', reloading
+Table EE450 write finished.
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 171-744-172
+104.32.165.129 - - [27/Mar/2024 16:50:55] "POST /upload-json HTTP/1.1" 200 -
+23.92.25.204 - - [27/Mar/2024 19:20:24] "[33mGET / HTTP/1.1[0m" 404 -
+34.78.68.58 - - [27/Mar/2024 23:19:20] "[33mGET / HTTP/1.1[0m" 404 -
+167.94.138.33 - - [27/Mar/2024 23:48:52] code 400, message Bad request version ('Û\x19')
+167.94.138.33 - - [27/Mar/2024 23:48:52] "[31m[1m\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03Ã²+t¦s\x93àMi\x14ïªó\x8c 4îØ¬{þª6./ÔÊt<Ñé §Oj\x81>©e­\x1f^\x96F\x8c\x0c6MgJlçBqù\x1fÛ\x19[0m" 400 -
+167.94.138.33 - - [27/Mar/2024 23:48:55] "[33mGET / HTTP/1.1[0m" 404 -
+167.94.138.33 - - [27/Mar/2024 23:48:59] "[33mGET / HTTP/1.1[0m" 404 -
+167.94.138.33 - - [27/Mar/2024 23:49:00] code 505, message Invalid HTTP version (2.0)
+167.94.138.33 - - [27/Mar/2024 23:49:00] "[35m[1mPRI * HTTP/2.0[0m" 505 -
+198.235.24.255 - - [27/Mar/2024 23:50:14] "[33mGET / HTTP/1.1[0m" 404 -
+87.236.176.70 - - [28/Mar/2024 00:47:02] "[33mGET / HTTP/1.1[0m" 404 -
+80.66.88.204 - - [28/Mar/2024 07:04:18] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+80.66.88.204 - - [28/Mar/2024 07:04:18] "[31m[1m\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr[0m" 400 -
+46.101.7.189 - - [28/Mar/2024 11:37:41] code 400, message Bad request version ('À\x14À')
+46.101.7.189 - - [28/Mar/2024 11:37:41] "[31m[1m\x16\x03\x01\x00{\x01\x00\x00w\x03\x03¶\x14ÄÚê\x00\x8fd©\x1dà\x15¸"Då}\x1eÈ\x81èFåW\x0d\x1f[\x02Lñ¹6\x00\x00\x1aÀ/À+À\x11À\x07À\x13À\x09À\x14À[0m" 400 -
+46.101.7.189 - - [28/Mar/2024 11:37:42] code 400, message Bad request version ('À\x14À')
+46.101.7.189 - - [28/Mar/2024 11:37:42] "[31m[1m\x16\x03\x01\x00{\x01\x00\x00w\x03\x03Ï\x08sÓÜ3\x92Å¶¡m>Îí²bªýõé\x07\x15ùÚ\x0c\x9a¿\x13éUMm\x00\x00\x1aÀ/À+À\x11À\x07À\x13À\x09À\x14À[0m" 400 -
+46.101.7.189 - - [28/Mar/2024 11:37:42] "[33mGET / HTTP/1.1[0m" 404 -
+198.235.24.208 - - [28/Mar/2024 12:48:39] "[33mGET / HTTP/1.1[0m" 404 -
+205.210.31.103 - - [28/Mar/2024 13:14:26] "[33mGET / HTTP/1.0[0m" 404 -
+198.235.24.102 - - [28/Mar/2024 18:28:38] "[33mGET / HTTP/1.1[0m" 404 -
+185.122.204.179 - - [28/Mar/2024 18:45:22] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+185.122.204.179 - - [28/Mar/2024 18:45:22] "[31m[1m\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr[0m" 400 -
+198.235.24.232 - - [28/Mar/2024 19:05:09] "[33mGET / HTTP/1.1[0m" 404 -
+205.210.31.111 - - [28/Mar/2024 23:01:39] "[33mGET / HTTP/1.1[0m" 404 -
+205.210.31.168 - - [29/Mar/2024 00:50:19] "[33mGET / HTTP/1.1[0m" 404 -
+167.94.146.55 - - [29/Mar/2024 03:23:29] code 400, message Bad request version ('À\x14À')
+167.94.146.55 - - [29/Mar/2024 03:23:29] "[31m[1m\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03\x87üú\x85\x07Ù\x14raAí\x04òé:U+\x00\x9bÓó­gõ/\x9fHÂ\x11\\7\x80 d»Â4\x8dYóq´?JJN8\x0bô´\x8eø\x0cH^1\x9eÿ¹U|8>~ë\x00&Ì¨Ì©À/À0À+À,À\x13À\x09À\x14À[0m" 400 -
+167.94.146.55 - - [29/Mar/2024 03:23:32] "[33mGET / HTTP/1.1[0m" 404 -
+167.94.146.55 - - [29/Mar/2024 03:23:36] "[33mGET / HTTP/1.1[0m" 404 -
+167.94.146.55 - - [29/Mar/2024 03:23:36] code 505, message Invalid HTTP version (2.0)
+167.94.146.55 - - [29/Mar/2024 03:23:36] "[35m[1mPRI * HTTP/2.0[0m" 505 -
+91.92.245.67 - - [29/Mar/2024 05:03:16] "[33mCONNECT api.ipify.org:443 HTTP/1.1[0m" 404 -
+156.146.62.52 - - [29/Mar/2024 06:17:21] "[33mGET / HTTP/1.1[0m" 404 -
+36.99.136.129 - - [29/Mar/2024 06:28:28] "[33mGET / HTTP/1.1[0m" 404 -
+36.99.136.137 - - [29/Mar/2024 06:28:29] "[33mGET / HTTP/1.1[0m" 404 -
+185.166.84.146 - - [29/Mar/2024 06:28:34] "[33mGET / HTTP/1.1[0m" 404 -
+36.99.136.129 - - [29/Mar/2024 06:32:04] "[33mGET / HTTP/1.1[0m" 404 -
+36.99.136.136 - - [29/Mar/2024 06:32:05] "[33mGET / HTTP/1.1[0m" 404 -
+111.7.96.163 - - [29/Mar/2024 06:32:22] "[33mGET / HTTP/1.1[0m" 404 -
+156.146.62.52 - - [29/Mar/2024 06:32:24] "[33mGET / HTTP/1.1[0m" 404 -
+205.210.31.8 - - [29/Mar/2024 06:40:07] "[33mGET / HTTP/1.1[0m" 404 -
+71.6.134.230 - - [29/Mar/2024 07:59:06] code 400, message Bad request version ('À\x14À')
+71.6.134.230 - - [29/Mar/2024 07:59:06] "[31m[1m\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03\x10\x8c\x9dFéÖ4ãEfg\x92§è2U[ÿ\x90\x04d\x11óö~:M®h\x86åa I\x1bòÎi¯\x8f\x9b\x9b\x1e\x80\x187\x99Î¸}l,î[N´»ª¹{!\x81Ç\x8ak\x00&Ì¨Ì©À/À0À+À,À\x13À\x09À\x14À[0m" 400 -
+45.153.166.80 - - [29/Mar/2024 08:01:43] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+45.153.166.80 - - [29/Mar/2024 08:01:43] "[31m[1m\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr[0m" 400 -
+71.6.134.230 - - [29/Mar/2024 08:09:40] "[33mGET / HTTP/1.1[0m" 404 -
+71.6.134.230 - - [29/Mar/2024 08:10:10] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+45.153.166.80 - - [29/Mar/2024 08:20:02] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+45.153.166.80 - - [29/Mar/2024 08:20:02] "[31m[1m\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr[0m" 400 -
+167.94.145.57 - - [29/Mar/2024 09:29:44] code 400, message Bad request version ('À\x14À')
+167.94.145.57 - - [29/Mar/2024 09:29:44] "[31m[1m\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03*ºû\x16©\x87\x17èG`\x87\x05\x18×äg\x1f7\x14õX\x9f\x9cqÑå\x16I§åÈþ \x9c\x12àgW\x89\x96V>Í;`7Ä\x1fÕ\x9c\x0eÝÁ¦DìB×t\x98·7ÖÙ=\x00&Ì¨Ì©À/À0À+À,À\x13À\x09À\x14À[0m" 400 -
+167.94.145.57 - - [29/Mar/2024 09:29:47] "[33mGET / HTTP/1.1[0m" 404 -
+167.94.145.57 - - [29/Mar/2024 09:29:51] "[33mGET / HTTP/1.1[0m" 404 -
+167.94.145.57 - - [29/Mar/2024 09:29:51] code 505, message Invalid HTTP version (2.0)
+167.94.145.57 - - [29/Mar/2024 09:29:51] "[35m[1mPRI * HTTP/2.0[0m" 505 -
+205.210.31.211 - - [29/Mar/2024 12:40:39] "[33mGET / HTTP/1.0[0m" 404 -
+45.227.254.119 - - [29/Mar/2024 15:37:11] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+45.227.254.119 - - [29/Mar/2024 15:37:11] "[31m[1m\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr[0m" 400 -
+205.210.31.68 - - [29/Mar/2024 19:21:28] "[33mGET / HTTP/1.1[0m" 404 -
+162.216.149.54 - - [30/Mar/2024 00:00:19] code 400, message Bad request version ('À\x13À')
+162.216.149.54 - - [30/Mar/2024 00:00:19] "[31m[1m\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03\x14\x87Îf\x17 nöÔÖX\x8dÉè·\x876gu\x1dw\x01ËØ,\x01-À¼\x12}. é\x10\x9c\x8fý\x11C\x13*\x8f2+ÖR\x8f`GU¯³<3µßAó°&P¸nÜ\x00&À+À/À,À0Ì©Ì¨À\x09À\x13À[0m" 400 -
+162.216.149.54 - - [30/Mar/2024 00:00:19] code 400, message Bad request version ('û*à÷\x88ïu06ôº\x00y\x00')
+162.216.149.54 - - [30/Mar/2024 00:00:19] "[31m[1m\x16\x03\x01\x00Ê\x01\x00\x00Æ\x03\x03¯Ò\x05 | \x1eû*à÷\x88ïu06ôº\x00y\x00[0m" 400 -
+162.62.209.135 - - [30/Mar/2024 05:08:47] code 400, message Bad request version ('À\x13À')
+162.62.209.135 - - [30/Mar/2024 05:08:47] "[31m[1m\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03I\x06²ù¼\x99iÀYûøºe-\x83Ud]\x0e\x8d·b8´gÆÝ9dZ8f gÁ\x81i³öòË°©\x19NÖ½\x95g|püé<Z¡\x90T·é¥8'O;\x00&À+À/À,À0Ì©Ì¨À\x09À\x13À[0m" 400 -
+162.62.209.135 - - [30/Mar/2024 05:08:57] "[33mGET / HTTP/1.1[0m" 404 -
+192.34.128.73 - - [30/Mar/2024 09:36:39] code 400, message Bad request syntax ('JDWP-Handshake')
+192.34.128.73 - - [30/Mar/2024 09:36:39] "[31m[1mJDWP-Handshake[0m" 400 -
+192.34.128.73 - - [30/Mar/2024 09:36:50] code 400, message Bad request syntax ('JDWP-Handshake')
+192.34.128.73 - - [30/Mar/2024 09:36:50] "[31m[1mJDWP-Handshake[0m" 400 -
+45.79.181.104 - - [30/Mar/2024 09:37:07] code 400, message Bad request version ('À\x14À')
+45.79.181.104 - - [30/Mar/2024 09:37:07] "[31m[1m\x16\x03\x01\x00\x85\x01\x00\x00\x81\x03\x03ô¥Á|6d\x14\x92ÔÈ·\x94ÆÕ\x94_Q\x80lóäþ\x05)ÉL:ÞhfWä\x00\x00 À/À0À+À,Ì¨Ì©À\x13À\x09À\x14À[0m" 400 -
+192.34.128.73 - - [30/Mar/2024 09:37:10] code 400, message Bad request syntax ('JDWP-Handshake')
+192.34.128.73 - - [30/Mar/2024 09:37:10] "[31m[1mJDWP-Handshake[0m" 400 -
+192.34.128.73 - - [30/Mar/2024 09:37:52] code 400, message Bad request syntax ('JDWP-Handshake')
+192.34.128.73 - - [30/Mar/2024 09:37:52] "[31m[1mJDWP-Handshake[0m" 400 -
+192.34.128.73 - - [30/Mar/2024 09:39:15] code 400, message Bad request syntax ('JDWP-Handshake')
+192.34.128.73 - - [30/Mar/2024 09:39:15] "[31m[1mJDWP-Handshake[0m" 400 -
+192.34.128.73 - - [30/Mar/2024 09:41:59] code 400, message Bad request syntax ('JDWP-Handshake')
+192.34.128.73 - - [30/Mar/2024 09:41:59] "[31m[1mJDWP-Handshake[0m" 400 -
+87.236.176.174 - - [30/Mar/2024 09:52:17] "[33mGET / HTTP/1.1[0m" 404 -
+45.153.166.80 - - [30/Mar/2024 13:27:25] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+45.153.166.80 - - [30/Mar/2024 13:27:25] "[31m[1m\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr[0m" 400 -
+87.236.176.84 - - [30/Mar/2024 14:58:31] "[33mGET / HTTP/1.1[0m" 404 -
+198.235.24.15 - - [30/Mar/2024 16:23:43] "[33mGET / HTTP/1.0[0m" 404 -
+205.210.31.105 - - [30/Mar/2024 17:54:06] "[33mGET / HTTP/1.1[0m" 404 -
+165.232.33.21 - - [30/Mar/2024 19:56:30] code 400, message Bad request syntax ('\x16\x03\x01\x01ü\x01\x00\x01ø\x03\x03\xadOV¢ZJ¥}f*-¸Uß#¦Û¨\x14J\x91lcÅý¨\x91¢âÇ=í\x00\x01<Ì\x14Ì\x13Ì\x15À0À,À(À$À\x14À')
+165.232.33.21 - - [30/Mar/2024 19:56:30] "[31m[1m\x16\x03\x01\x01ü\x01\x00\x01ø\x03\x03­OV¢ZJ¥}f*-¸Uß#¦Û¨\x14J\x91lcÅý¨\x91¢âÇ=í\x00\x01<Ì\x14Ì\x13Ì\x15À0À,À(À$À\x14À[0m" 400 -
+172.104.210.105 - - [30/Mar/2024 22:57:49] "[33mGET / HTTP/1.1[0m" 404 -
+45.79.163.53 - - [30/Mar/2024 23:02:32] "[33mGET / HTTP/1.1[0m" 404 -
+172.104.11.46 - - [30/Mar/2024 23:02:48] "[33mGET / HTTP/1.1[0m" 404 -
+45.79.181.251 - - [30/Mar/2024 23:03:31] "[33mGET / HTTP/1.1[0m" 404 -
+199.45.154.53 - - [30/Mar/2024 23:33:26] code 400, message Bad request version ('À\x14À')
+199.45.154.53 - - [30/Mar/2024 23:33:26] "[31m[1m\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03/\x18ç@kð(gæRÇ\x0fÇ\x1bÔ}j\x9a\x033¨-ª\x87Ä#\x0e\x1cpÂ\x82\x1b \x8d¾\x1f ;î0l/\x0d4ÞÎ_\x15bê{\x1eÙ\x15É\x0876\x1aì\x93Z\x0fe\x15\x00&Ì¨Ì©À/À0À+À,À\x13À\x09À\x14À[0m" 400 -
+199.45.154.53 - - [30/Mar/2024 23:33:29] "[33mGET / HTTP/1.1[0m" 404 -
+199.45.154.53 - - [30/Mar/2024 23:33:33] "[33mGET / HTTP/1.1[0m" 404 -
+199.45.154.53 - - [30/Mar/2024 23:33:33] code 505, message Invalid HTTP version (2.0)
+199.45.154.53 - - [30/Mar/2024 23:33:33] "[35m[1mPRI * HTTP/2.0[0m" 505 -
+198.199.92.98 - - [31/Mar/2024 01:28:24] "[33mGET /v2/ HTTP/1.1[0m" 404 -
+206.168.34.34 - - [31/Mar/2024 04:12:39] code 400, message Bad request version ('À\x14À')
+206.168.34.34 - - [31/Mar/2024 04:12:39] "[31m[1m\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03\x9eü\x0e\x82\x08»o\x0eYüHÎDH¿nûÚ<ê d\x95¹\x03Áß\x95}öÖ° þüïÓÏ\x88\x18Ö½nb\x09l\x17\x1e\x7f\x1f\x9dX\x19\x1dÿq\x9d¸k\x8eóÕV\x12 \x00&Ì¨Ì©À/À0À+À,À\x13À\x09À\x14À[0m" 400 -
+206.168.34.34 - - [31/Mar/2024 04:12:42] "[33mGET / HTTP/1.1[0m" 404 -
+206.168.34.34 - - [31/Mar/2024 04:12:45] "[33mGET / HTTP/1.1[0m" 404 -
+206.168.34.34 - - [31/Mar/2024 04:12:46] code 505, message Invalid HTTP version (2.0)
+206.168.34.34 - - [31/Mar/2024 04:12:46] "[35m[1mPRI * HTTP/2.0[0m" 505 -
+91.92.245.67 - - [31/Mar/2024 05:04:09] "[33mCONNECT api.ipify.org:443 HTTP/1.1[0m" 404 -
+167.94.138.50 - - [31/Mar/2024 12:02:13] code 400, message Bad request version ('À\x14À')
+167.94.138.50 - - [31/Mar/2024 12:02:13] "[31m[1m\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03\x94\x13ysÎÃ<×\x0f\\´2Øýcÿ~\x11\x17ò\x18Gb\x1a&\x81ªª\x89÷7\x0e ÂLéû^Õ\x09~\x95ÐÏ]ÿÃ#©<\x9cù\x9cÑ>JÚ6ßhp¨\x8f¿w\x00&Ì¨Ì©À/À0À+À,À\x13À\x09À\x14À[0m" 400 -
+167.94.138.50 - - [31/Mar/2024 12:02:17] "[33mGET / HTTP/1.1[0m" 404 -
+167.94.138.50 - - [31/Mar/2024 12:02:22] "[33mGET / HTTP/1.1[0m" 404 -
+167.94.138.50 - - [31/Mar/2024 12:02:23] code 505, message Invalid HTTP version (2.0)
+167.94.138.50 - - [31/Mar/2024 12:02:23] "[35m[1mPRI * HTTP/2.0[0m" 505 -
+198.235.24.88 - - [31/Mar/2024 12:31:56] "[33mGET / HTTP/1.0[0m" 404 -
+167.94.145.59 - - [31/Mar/2024 15:36:52] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03\x97C\x9f\x91\x8d¦\x19}µ\x8b:\x8fºr\x0f\x9a')
+167.94.145.59 - - [31/Mar/2024 15:36:52] "[31m[1m\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03\x97C\x9f\x91\x8d¦\x19}µ\x8b:\x8fºr\x0f\x9a\x0dg[0m" 400 -
+167.94.145.59 - - [31/Mar/2024 15:36:56] "[33mGET / HTTP/1.1[0m" 404 -
+167.94.145.59 - - [31/Mar/2024 15:36:59] "[33mGET / HTTP/1.1[0m" 404 -
+167.94.145.59 - - [31/Mar/2024 15:37:00] code 505, message Invalid HTTP version (2.0)
+167.94.145.59 - - [31/Mar/2024 15:37:00] "[35m[1mPRI * HTTP/2.0[0m" 505 -
+185.73.125.86 - - [31/Mar/2024 16:45:13] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00&!à\x00\x00\x00\x00\x00Cookie:')
+185.73.125.86 - - [31/Mar/2024 16:45:13] "[31m[1m\x03\x00\x00&!à\x00\x00\x00\x00\x00Cookie: mstshash=[0m" 400 -
+162.142.125.213 - - [31/Mar/2024 20:25:16] code 400, message Bad request version ('À\x14À')
+162.142.125.213 - - [31/Mar/2024 20:25:16] "[31m[1m\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03%S\x7fø£\x8f¥ÎYuUû¿Í2êNË\x859ùÖg;Ðw1³1ÅØ\x1d ¾h\x97_\x9cÎÍ'i\x87ª\x00åÅ`\x0cË\x9e·«N\x1cCZXU#ÖÒÂ=í\x00&Ì¨Ì©À/À0À+À,À\x13À\x09À\x14À[0m" 400 -
+162.142.125.213 - - [31/Mar/2024 20:25:19] "[33mGET / HTTP/1.1[0m" 404 -
+162.142.125.213 - - [31/Mar/2024 20:25:24] "[33mGET / HTTP/1.1[0m" 404 -
+162.142.125.213 - - [31/Mar/2024 20:25:25] code 505, message Invalid HTTP version (2.0)
+162.142.125.213 - - [31/Mar/2024 20:25:25] "[35m[1mPRI * HTTP/2.0[0m" 505 -
+185.122.204.179 - - [31/Mar/2024 21:08:25] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+185.122.204.179 - - [31/Mar/2024 21:08:25] "[31m[1m\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr[0m" 400 -
+205.210.31.178 - - [01/Apr/2024 02:05:21] "[33mGET / HTTP/1.1[0m" 404 -
+194.165.16.76 - - [01/Apr/2024 03:43:34] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+194.165.16.76 - - [01/Apr/2024 03:43:34] "[31m[1m\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr[0m" 400 -
+185.122.204.179 - - [01/Apr/2024 10:45:35] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+185.122.204.179 - - [01/Apr/2024 10:45:35] "[31m[1m\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr[0m" 400 -
+111.7.96.162 - - [01/Apr/2024 10:59:58] "[33mGET / HTTP/1.1[0m" 404 -
+62.197.150.19 - - [01/Apr/2024 11:00:06] "[33mGET / HTTP/1.1[0m" 404 -
+185.161.248.148 - - [01/Apr/2024 11:18:00] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+185.161.248.148 - - [01/Apr/2024 11:18:00] "[31m[1m\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr[0m" 400 -
+36.99.136.137 - - [01/Apr/2024 12:20:26] "[33mGET / HTTP/1.1[0m" 404 -
+198.235.24.55 - - [01/Apr/2024 13:06:07] "[33mGET / HTTP/1.0[0m" 404 -
+36.99.136.137 - - [01/Apr/2024 14:24:09] "[33mGET / HTTP/1.1[0m" 404 -
+111.7.96.168 - - [01/Apr/2024 14:24:12] "[33mGET / HTTP/1.1[0m" 404 -
+36.99.136.137 - - [01/Apr/2024 14:24:15] "[33mGET / HTTP/1.1[0m" 404 -
+111.7.96.165 - - [01/Apr/2024 14:24:15] "[33mGET / HTTP/1.1[0m" 404 -
+156.146.62.52 - - [01/Apr/2024 14:24:17] "[33mGET / HTTP/1.1[0m" 404 -
+ * Detected change in '/home/mario/DirectResearch/backend/eTA/service/embedding/dynamoDB.py', reloading
+Table EE452 created successfully in On-Demand mode.
+Table EE452 write finished.
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 171-744-172
+167.94.138.52 - - [01/Apr/2024 15:52:49] code 400, message Bad request version ('À\x14À')
+167.94.138.52 - - [01/Apr/2024 15:52:49] "[31m[1m\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03o\x0bEÜxZfz\x99¹HE}Âª\x96\x02Oôïj\x7faú\x17¡¦ï½*Áó ¬Ñ\x11\x86\x0b¬\x1b\x80\x88î¿M}£ÖáìÒOb\x05Ö\x03RYo,ô\x82\x0fó)\x00&Ì¨Ì©À/À0À+À,À\x13À\x09À\x14À[0m" 400 -
+167.94.138.52 - - [01/Apr/2024 15:52:55] "[33mGET / HTTP/1.1[0m" 404 -
+167.94.138.52 - - [01/Apr/2024 15:52:59] "[33mGET / HTTP/1.1[0m" 404 -
+167.94.138.52 - - [01/Apr/2024 15:53:00] code 505, message Invalid HTTP version (2.0)
+167.94.138.52 - - [01/Apr/2024 15:53:00] "[35m[1mPRI * HTTP/2.0[0m" 505 -
+104.32.165.129 - - [01/Apr/2024 17:12:58] "POST /itemQuery HTTP/1.1" 200 -
+104.32.165.129 - - [01/Apr/2024 17:13:03] "POST /readDB HTTP/1.1" 200 -
+104.32.165.129 - - [01/Apr/2024 17:14:11] "POST /itemQuery HTTP/1.1" 200 -
+ * Detected change in '/home/mario/DirectResearch/backend/eTA/service/embedding/dynamoDB.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 171-744-172
+104.32.165.129 - - [01/Apr/2024 17:22:51] "POST /itemQuery HTTP/1.1" 200 -
+ * Detected change in '/home/mario/DirectResearch/backend/eTA/service/embedding/dynamoDB.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 171-744-172
+ * Detected change in '/home/mario/DirectResearch/backend/eTA/service/embedding/dynamoDB.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 171-744-172
+104.32.165.129 - - [01/Apr/2024 17:25:41] "POST /itemQuery HTTP/1.1" 200 -
+ * Detected change in '/home/mario/DirectResearch/backend/eTA/service/embedding/dynamoDB.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 171-744-172
+ * Detected change in '/home/mario/DirectResearch/backend/eTA/service/embedding/dynamoDB.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 171-744-172
+ * Detected change in '/home/mario/DirectResearch/backend/eTA/service/embedding/dynamoDB.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 171-744-172
+ * Detected change in '/home/mario/DirectResearch/backend/eTA/service/embedding/sBert.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 171-744-172
+ * Detected change in '/home/mario/DirectResearch/backend/eTA/service/embedding/sBert.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 171-744-172
+ * Detected change in '/home/mario/DirectResearch/backend/eTA/controller/handleDatabase.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 171-744-172
+104.32.165.129 - - [01/Apr/2024 17:42:04] "POST /itemQuery HTTP/1.1" 200 -
+ * Detected change in '/home/mario/DirectResearch/backend/eTA/service/embedding/sBert.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 171-744-172
+104.32.165.129 - - [01/Apr/2024 17:42:49] "POST /itemQuery HTTP/1.1" 200 -
+ * Detected change in '/home/mario/DirectResearch/backend/eTA/controller/handleDatabase.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 171-744-172
+104.32.165.129 - - [01/Apr/2024 17:43:28] "POST /itemQuery HTTP/1.1" 200 -
+104.32.165.129 - - [01/Apr/2024 17:44:03] "POST /ask HTTP/1.1" 200 -
+ * Detected change in '/home/mario/DirectResearch/backend/eTA/app.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 171-744-172
+104.32.165.129 - - [01/Apr/2024 17:50:52] "[35m[1mPOST /itemUpdate HTTP/1.1[0m" 500 -
+Traceback (most recent call last):
+  File "/home/mario/miniconda3/envs/DirRes/lib/python3.12/site-packages/flask/app.py", line 2552, in __call__
+    return self.wsgi_app(environ, start_response)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mario/miniconda3/envs/DirRes/lib/python3.12/site-packages/flask/app.py", line 2532, in wsgi_app
+    response = self.handle_exception(e)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mario/miniconda3/envs/DirRes/lib/python3.12/site-packages/flask_cors/extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^^^
+  File "/home/mario/miniconda3/envs/DirRes/lib/python3.12/site-packages/flask/app.py", line 2529, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mario/miniconda3/envs/DirRes/lib/python3.12/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mario/miniconda3/envs/DirRes/lib/python3.12/site-packages/flask_cors/extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^^^
+  File "/home/mario/miniconda3/envs/DirRes/lib/python3.12/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mario/miniconda3/envs/DirRes/lib/python3.12/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mario/DirectResearch/backend/eTA/app.py", line 145, in updateSingleItem
+    'status': update_result['status']
+              ^^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'status'
+ * Detected change in '/home/mario/DirectResearch/backend/eTA/service/embedding/dynamoDB.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 171-744-172
+104.32.165.129 - - [01/Apr/2024 17:51:57] "POST /itemUpdate HTTP/1.1" 200 -
+104.32.165.129 - - [01/Apr/2024 17:52:04] "POST /itemQuery HTTP/1.1" 200 -
+104.32.165.129 - - [01/Apr/2024 17:52:06] "POST /itemQuery HTTP/1.1" 200 -
+104.32.165.129 - - [01/Apr/2024 17:52:40] "POST /itemQuery HTTP/1.1" 200 -
+104.32.165.129 - - [01/Apr/2024 17:52:54] "[31m[1mPOST /itemDelete HTTP/1.1[0m" 400 -
+104.32.165.129 - - [01/Apr/2024 17:53:10] "POST /itemDelete HTTP/1.1" 200 -
+104.32.165.129 - - [01/Apr/2024 17:53:14] "POST /itemQuery HTTP/1.1" 200 -
+104.32.165.129 - - [01/Apr/2024 17:53:19] "POST /itemQuery HTTP/1.1" 200 -
+104.32.165.129 - - [01/Apr/2024 17:53:39] "POST /itemUpdate HTTP/1.1" 200 -
+104.32.165.129 - - [01/Apr/2024 17:53:46] "POST /itemQuery HTTP/1.1" 200 -
+104.32.165.129 - - [01/Apr/2024 17:53:55] "POST /itemUpdate HTTP/1.1" 200 -
+104.32.165.129 - - [01/Apr/2024 17:54:00] "POST /itemQuery HTTP/1.1" 200 -
+104.32.165.129 - - [01/Apr/2024 17:54:12] "POST /ask HTTP/1.1" 200 -
+ * Detected change in '/home/mario/DirectResearch/backend/eTA/app.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 171-744-172
+205.210.31.71 - - [01/Apr/2024 18:40:37] "[33mGET / HTTP/1.1[0m" 404 -
