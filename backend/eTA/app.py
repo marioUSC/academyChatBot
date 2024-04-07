@@ -3,7 +3,7 @@ from flask_cors import CORS
 from eTA.controller.handleQuery import handleQuery, llamaQuery
 from eTA.controller.handleDatabase import (
     handleUpload, handleScan, handleItemSearch, handleDelete,
-    handleModifyItem
+    handleModifyItem, handleVedioUpload
 )
 
 app = Flask(__name__)
@@ -51,6 +51,27 @@ def upload_json():
             return jsonify({"error": "Request must be contain content to upload"}), 404
 
         message = handleUpload(content, courseID, fileID)  
+        
+        return jsonify({
+            "message": message
+        }), 200
+
+    else:
+        return jsonify({"error": "Request must be JSON"}), 400
+
+# Handle new upload from user
+@app.route('/upload-video', methods=['POST'])
+def upload_video():
+    if request.is_json:
+        data = request.get_json()
+        courseID = data.get('courseID')
+        fileID = data.get('fileID', 'default')
+        content = data.get('content')
+
+        if content is None or courseID is None:
+            return jsonify({"error": "Request must be contain content to upload"}), 404
+
+        message = handleVedioUpload(content, courseID, fileID)  
         
         return jsonify({
             "message": message

@@ -212,3 +212,80 @@ Update a specific item from the database
     "status": 200
 }
 ```
+
+### POST /itemDelete
+
+Delete a specific item from the database
+
+**Request Header**
+
+- Content-Type: application/json
+
+**Request Body**
+
+- `courseID`: Specifies the table to target the request.
+- `primary_key`: JSON object representing the primary key to locate the item, including `ID` and `CreatedTime`.
+
+```
+{  
+    "courseID":"EE450",
+    "primary_key": {"ID": "3290800591763312446", "CreatedTime":"2024-03-04T14:23:53.473560"},
+}
+```
+
+**Response**
+- `message`: Describes the result of the operation, e.g., "Deleted successfully".
+- `status`: HTTP status code indicating the result, e.g., 200 for success.
+
+```
+{
+    "message": "Deleted successfully",
+    "status": 200
+}
+```
+
+### POST /upload-video
+
+Upload transcript to the database
+
+**Request Header**
+
+- Content-Type: application/json
+
+**Request Body**
+
+- `courseID`: table you want to upload to
+- `fileID`: source of this upload
+- `Content`: list of the knowledge
+    - Each item in content list shoudl contain:
+        - 'timestamp'
+        - 'content'
+        - 'keyframe URL'
+
+```
+{
+    "courseID": "EE599",
+    "fileID": "lecture video",
+    "content": [
+        {
+            "timestamp": "0:11- 1:11",
+            "content": "Hi this is Mario, I'm the TA of EE599, and I'll help you anything about EE599",
+            "keyframe URL": "None"
+        },
+        {
+            "timestamp": "1:11- 2:11",
+            "content": "EE599 is the Electrical Engineering class, maninly about VLSI design.",
+            "keyframe URL": "None"
+        }
+    ]
+}
+```
+
+**Response**
+- `message`: Describes the result of the operation, e.g., "Deleted successfully".
+
+```
+{
+    "message": "Table EE599 write finished."
+}
+```

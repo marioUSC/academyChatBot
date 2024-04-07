@@ -57,7 +57,7 @@ def preprocess_qa_pairs(input_file, output_file):
     with open(output_file, 'w', encoding='utf-8') as file:
         json.dump(preprocessed_data, file, ensure_ascii=False, indent=4)
 
-input_file = 'ee599piazza_1.json'  
-output_file = 'preprocessed_ee599.json'  
+input_file = 'raw_post_450.json'  
+output_file = 'preprocessed_ee5450.json'  
 
 preprocess_qa_pairs(input_file, output_file)
