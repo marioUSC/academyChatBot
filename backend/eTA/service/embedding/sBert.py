@@ -1,5 +1,5 @@
 from sentence_transformers import SentenceTransformer
-from eTA.service.embedding.dynamoDB import create_new_table, put_new_items
+# from eTA.service.embedding.dynamoDB import create_new_table, put_new_items
 import numpy as np
 import json
 import boto3
@@ -7,7 +7,7 @@ import datetime
 
 MODEL = 'msmarco-distilbert-base-v4'
 
-def store_items_to_cloud(table_name, texts, embeddings, file_name):
+def store_items_to_cloud(table_name, texts, embeddings, file_name, item_type = 'Q&A'):
     if len(texts) != len(embeddings):
         err = "Error: The number of texts and embeddings must be the same."
         print(err)
@@ -22,12 +22,32 @@ def store_items_to_cloud(table_name, texts, embeddings, file_name):
             'OriginalText': text,
             'Embedding': embedding_list,
             'UploadSource': file_name,
-            'CreatedTime': timestamp
+            'CreatedTime': timestamp,
+            'itemType': item_type
         }
         items.append(item)
-    return put_new_items(table_name, items)
-    
-def encode_text(data, courseID, fileID):
+    return items
+    # return put_new_items(table_name, items)
+
+def store_vedio_to_cloud(table_name, timestamps, texts, embeddings, frameURLs, file_name, item_type = 'vedio'):
+    items = []
+    for timestamp, text, embedding, frameURL in zip(timestamps, texts, embeddings, frameURLs):
+        timestamp = datetime.datetime.now().isoformat()
+        item = {
+            'ID': str(hash(text)), 
+            'timeInterval': timestamp,
+            'OriginalText': text,
+            'Embedding': embedding,
+            'frameURL': frameURL,
+            'UploadSource': file_name,
+            'CreatedTime': timestamp,
+            'itemType': item_type
+        }
+        items.append(item)
+    return items
+
+# def encode_text(data, courseID, fileID):
+def encode_text(text_list):
     """
     Encodes text data to embeddings using sBert and saves to DynamoDB.
     
@@ -41,11 +61,8 @@ def encode_text(data, courseID, fileID):
     # Initialize the model for asymmetric query encoding
     model = SentenceTransformer(MODEL)
 
-    # Extract values (original texts) from the input data
-    original_text = list(data.values())
-
     # Encode the original texts to embeddings
-    qa_embeddings = model.encode(original_text)
+    qa_embeddings = model.encode(text_list)
     
     # Initialize a list to hold the string representation of each embedding
     embeddings_str_list = []
@@ -56,7 +73,7 @@ def encode_text(data, courseID, fileID):
         embeddings_str_list.append(embedding_str)
 
     # Store the encoded embeddings and original texts in DynamoDB and return the status
-    return store_items_to_cloud(courseID, original_text, embeddings_str_list, fileID)
+    return embeddings_str_list
 
 def encode_single_text(data):
     model = SentenceTransformer(MODEL)

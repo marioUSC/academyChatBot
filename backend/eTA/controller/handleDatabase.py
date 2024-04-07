@@ -1,15 +1,38 @@
 import json 
 from eTA.service.embedding.dynamoDB import (
     create_new_table, create_new_table, check_table_exists,
-    scan_items, get_and_print_item, delete_item, update_single_item
+    scan_items, get_and_print_item, delete_item, update_single_item,
+    put_new_items
 )
-from eTA.service.embedding.sBert import encode_text, encode_single_text
-
+from eTA.service.embedding.sBert import (
+    encode_text, encode_single_text, store_items_to_cloud, store_vedio_to_cloud
+)
 
 def handleUpload(data, courseID, fileID):
     if not check_table_exists(courseID):
         create_new_table(courseID)
-    return encode_text(data, courseID, fileID)
+    text_list = list(data.values())
+    embedding_list = encode_text(text_list)
+    upload_items = store_items_to_cloud(courseID, text_list, embedding_list, fileID)
+    return put_new_items(courseID, upload_items) 
+
+def handleVedioUpload(data, courseID, fileID):
+    if not check_table_exists(courseID):
+        create_new_table(courseID)
+    timestamp_list = []
+    text_list = []
+    keyframeURL_list = []
+    
+    for item in data:
+        # Append the values to the respective lists
+        timestamp_list.append(item['timestamp'])
+        text_list.append(item['content'])
+        keyframeURL_list.append(item['keyframe URL'])
+    embedding_list = encode_text(text_list)
+    upload_items = store_vedio_to_cloud(courseID, timestamp_list, text_list, 
+        embedding_list, keyframeURL_list, fileID)
+
+    return put_new_items(courseID, upload_items) 
 
 def handleScan(courseID, start_key=None, limit=2):
     if not check_table_exists(courseID):
