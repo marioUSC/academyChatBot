@@ -8,6 +8,4 @@ nohup: ignoring input
 [33mPress CTRL+C to quit[0m
  * Restarting with stat
  * Debugger is active!
- * Debugger PIN: 226-923-555
-104.32.165.129 - - [06/Apr/2024 17:42:30] "POST /ask HTTP/1.1" 200 -
-104.32.165.129 - - [06/Apr/2024 17:42:40] "POST /ask HTTP/1.1" 200 -
+ * Debugger PIN: 128-389-916

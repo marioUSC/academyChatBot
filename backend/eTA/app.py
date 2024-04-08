@@ -5,7 +5,7 @@ from eTA.controller.handleDatabase import (
     handleUpload, handleScan, handleItemSearch, handleDelete,
     handleModifyItem, handleVedioUpload
 )
-
+from eTA.controller.handleVideo import transcribe_to_file
 app = Flask(__name__)
 CORS(app)
 
@@ -171,7 +171,36 @@ def updateSingleItem():
                 'status': '400'
             }), 400
     
+@app.route('/upload-rawVideo', methods=['POST'])
+def upload_rawVideo():
 
+    courseID = request.form.get('courseID')
+    fileID = request.form.get('fileID', 'video upload')
+
+    # Validate courseID
+    if not courseID:
+        return jsonify({'error': 'Missing courseID'}), 400
+
+    if 'video' not in request.files:
+        return jsonify({'error': 'No file part'}), 400
+
+    video = request.files['video']
+
+    if video.filename == '':
+        return jsonify({'error': 'No selected file'}), 400
+
+    if video:
+        video_path = f'./uploads/{video.filename}'
+        video.save(video_path)
+        transcript_json = transcribe_to_file(video_path)
+        message = handleVedioUpload(transcript_json, courseID, fileID)  
+        
+        return jsonify({
+            "message": message
+        }), 200
+
+
+    return jsonify({'error': 'Upload failed'}), 500
 
 if __name__ == '__main__':
     app.run(debug=True, host='0.0.0.0', port=5000)
