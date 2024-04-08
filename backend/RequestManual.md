@@ -289,3 +289,31 @@ Upload transcript to the database
     "message": "Table EE599 write finished."
 }
 ```
+
+### POST /upload-rawVideo
+
+Upload a video file for a specific course, and add its transcript to database
+
+**Request Header**
+
+- Content-Type: multipart/form-data
+
+**Request Body**
+
+- `video`: The video file to be uploaded.
+- `courseID`: Identifier of the course to which the video belongs.
+- `fileID` (optional): Unique identifier for the upload; a UUID will be generated if not provided.
+
+**Form-data Example**
+
+- `courseID`: "EE599"
+- `fileID`: "lecture video" (optional)
+- `video`: (binary file content)
+
+**Response Example**
+
+```json
+{
+    "message": "Table EE599 write finished",
+}
+```
