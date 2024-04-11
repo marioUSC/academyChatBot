@@ -317,3 +317,30 @@ Upload a video file for a specific course, and add its transcript to database
     "message": "Table EE599 write finished",
 }
 ```
+
+### GET /list-tables
+
+Retrieve a list of DynamoDB table names for a specified AWS region.
+
+**Request Parameters**
+
+- `region-name` (optional): The AWS region for which to list the DynamoDB tables. If not specified, it defaults to `us-west-1`.
+
+**URL Query Example**
+
+- `/list-tables?region-name=us-west-2`
+
+**Response Example**
+
+Success response:
+
+```json
+{
+    "region": "us-west-2",
+    "tables": [
+        "Table1",
+        "Table2",
+        "Table3"
+    ]
+}
+```

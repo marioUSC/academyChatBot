@@ -3,7 +3,7 @@ from flask_cors import CORS
 from eTA.controller.handleQuery import handleQuery, llamaQuery
 from eTA.controller.handleDatabase import (
     handleUpload, handleScan, handleItemSearch, handleDelete,
-    handleModifyItem, handleVedioUpload
+    handleModifyItem, handleVedioUpload, handleReadTables
 )
 from eTA.controller.handleVideo import transcribe_to_file
 app = Flask(__name__)
@@ -201,6 +201,15 @@ def upload_rawVideo():
 
 
     return jsonify({'error': 'Upload failed'}), 500
+
+@app.route('/list-tables', methods=['GET'])
+def get_tables():
+    region_name = request.args.get('region-name', default='us-west-1')
+    try:
+        json_result = handleReadTables(region_name)
+        return json_result
+    except Exception as e:
+        return jsonify({'error': str(e)})
 
 if __name__ == '__main__':
     app.run(debug=True, host='0.0.0.0', port=5000)

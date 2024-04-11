@@ -2,12 +2,12 @@ import json
 from eTA.service.embedding.dynamoDB import (
     create_new_table, create_new_table, check_table_exists,
     scan_items, get_and_print_item, delete_item, update_single_item,
-    put_new_items
+    put_new_items, list_dynamodb_tables
 )
 from eTA.service.embedding.sBert import (
     encode_text, encode_single_text, store_items_to_cloud, store_vedio_to_cloud
 )
-
+from flask import Flask, request, jsonify
 def handleUpload(data, courseID, fileID):
     if not check_table_exists(courseID):
         create_new_table(courseID)
@@ -63,6 +63,12 @@ def handleModifyItem(updatedText, courseID, primary_key):
             'message': 'Table not exist'})
     newEmbedding = encode_single_text(updatedText)
     return update_single_item(courseID, primary_key, updatedText, newEmbedding)
+
+def handleReadTables(region_name='us-west-1'):
+    all_tables = list_dynamodb_tables(region_name)
+    return jsonify({
+        'status': 200, 
+        'Tables': all_tables})
 
 def main():
     print(handleModifyItem("Question: how old is Mario Answer: 23", 'EE450',{"ID": "-3985936073442209917", "CreatedTime":"2024-03-04T14:23:53.473395"}))

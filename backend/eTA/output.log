@@ -9,3 +9,415 @@ nohup: ignoring input
  * Restarting with stat
  * Debugger is active!
  * Debugger PIN: 128-389-916
+87.236.176.201 - - [07/Apr/2024 17:45:49] "[33mGET / HTTP/1.1[0m" 404 -
+87.251.67.195 - - [07/Apr/2024 17:49:28] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+87.251.67.195 - - [07/Apr/2024 17:49:28] "[31m[1m\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr[0m" 400 -
+87.251.67.195 - - [07/Apr/2024 18:23:41] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+87.251.67.195 - - [07/Apr/2024 18:23:41] "[31m[1m\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr[0m" 400 -
+207.151.52.142 - - [07/Apr/2024 18:55:24] "POST /readDB HTTP/1.1" 200 -
+207.151.52.142 - - [07/Apr/2024 18:57:00] "[33mPOST /users/sitinglu@usc.edu/courses/llqyd5tpdcq34o/posts/73 HTTP/1.1[0m" 404 -
+207.151.52.142 - - [07/Apr/2024 18:58:32] "POST /upload-rawVideo HTTP/1.1" 200 -
+207.151.52.142 - - [07/Apr/2024 19:00:20] "POST /ask HTTP/1.1" 200 -
+207.151.52.142 - - [07/Apr/2024 19:02:55] "POST /ask HTTP/1.1" 200 -
+207.151.52.142 - - [07/Apr/2024 19:03:33] "POST /ask HTTP/1.1" 200 -
+207.151.52.142 - - [07/Apr/2024 19:03:41] "POST /ask HTTP/1.1" 200 -
+207.151.52.142 - - [07/Apr/2024 19:06:50] "POST /upload-rawVideo HTTP/1.1" 200 -
+104.50.123.101 - - [07/Apr/2024 19:24:08] "POST /upload-json HTTP/1.1" 200 -
+104.50.123.101 - - [07/Apr/2024 19:25:17] "POST /ask HTTP/1.1" 200 -
+207.151.52.142 - - [07/Apr/2024 19:37:30] "OPTIONS /readDB HTTP/1.1" 200 -
+207.151.52.142 - - [07/Apr/2024 19:37:30] "OPTIONS /readDB HTTP/1.1" 200 -
+207.151.52.142 - - [07/Apr/2024 19:37:31] "POST /readDB HTTP/1.1" 200 -
+207.151.52.142 - - [07/Apr/2024 19:37:31] "POST /readDB HTTP/1.1" 200 -
+207.151.52.142 - - [07/Apr/2024 19:48:27] "OPTIONS /readDB HTTP/1.1" 200 -
+207.151.52.142 - - [07/Apr/2024 19:48:27] "OPTIONS /readDB HTTP/1.1" 200 -
+207.151.52.142 - - [07/Apr/2024 19:48:28] "POST /readDB HTTP/1.1" 200 -
+207.151.52.142 - - [07/Apr/2024 19:48:28] "POST /readDB HTTP/1.1" 200 -
+207.151.52.142 - - [07/Apr/2024 19:50:49] "[31m[1mPOST /upload-rawVideo HTTP/1.1[0m" 400 -
+207.151.52.142 - - [07/Apr/2024 19:55:23] "OPTIONS /readDB HTTP/1.1" 200 -
+207.151.52.142 - - [07/Apr/2024 19:55:23] "OPTIONS /readDB HTTP/1.1" 200 -
+207.151.52.142 - - [07/Apr/2024 19:55:23] "POST /readDB HTTP/1.1" 200 -
+207.151.52.142 - - [07/Apr/2024 19:55:23] "POST /readDB HTTP/1.1" 200 -
+207.151.52.142 - - [07/Apr/2024 19:56:27] "OPTIONS /readDB HTTP/1.1" 200 -
+207.151.52.142 - - [07/Apr/2024 19:56:27] "OPTIONS /readDB HTTP/1.1" 200 -
+207.151.52.142 - - [07/Apr/2024 19:56:27] "POST /readDB HTTP/1.1" 200 -
+207.151.52.142 - - [07/Apr/2024 19:56:28] "POST /readDB HTTP/1.1" 200 -
+207.151.52.142 - - [07/Apr/2024 19:57:11] "OPTIONS /readDB HTTP/1.1" 200 -
+207.151.52.142 - - [07/Apr/2024 19:57:11] "OPTIONS /readDB HTTP/1.1" 200 -
+207.151.52.142 - - [07/Apr/2024 19:57:11] "POST /readDB HTTP/1.1" 200 -
+207.151.52.142 - - [07/Apr/2024 19:57:11] "POST /readDB HTTP/1.1" 200 -
+87.251.67.195 - - [07/Apr/2024 19:57:31] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00*%à\x00\x00\x00\x00\x00Cookie:')
+87.251.67.195 - - [07/Apr/2024 19:57:31] "[31m[1m\x03\x00\x00*%à\x00\x00\x00\x00\x00Cookie: mstshash=Test[0m" 400 -
+207.151.52.142 - - [07/Apr/2024 19:57:33] "[31m[1mPOST /upload-rawVideo HTTP/1.1[0m" 400 -
+207.151.52.142 - - [07/Apr/2024 19:57:38] "[31m[1mPOST /upload-rawVideo HTTP/1.1[0m" 400 -
+207.151.52.142 - - [07/Apr/2024 20:00:05] "[31m[1mPOST /upload-rawVideo HTTP/1.1[0m" 400 -
+207.151.52.142 - - [07/Apr/2024 20:00:05] "OPTIONS /readDB HTTP/1.1" 200 -
+207.151.52.142 - - [07/Apr/2024 20:00:05] "OPTIONS /readDB HTTP/1.1" 200 -
+207.151.52.142 - - [07/Apr/2024 20:00:06] "POST /readDB HTTP/1.1" 200 -
+207.151.52.142 - - [07/Apr/2024 20:00:06] "POST /readDB HTTP/1.1" 200 -
+207.151.52.142 - - [07/Apr/2024 20:00:25] "[31m[1mPOST /upload-rawVideo HTTP/1.1[0m" 400 -
+207.151.52.142 - - [07/Apr/2024 20:03:38] "OPTIONS /readDB HTTP/1.1" 200 -
+207.151.52.142 - - [07/Apr/2024 20:03:38] "OPTIONS /readDB HTTP/1.1" 200 -
+207.151.52.142 - - [07/Apr/2024 20:03:39] "POST /readDB HTTP/1.1" 200 -
+207.151.52.142 - - [07/Apr/2024 20:03:39] "POST /readDB HTTP/1.1" 200 -
+207.151.52.142 - - [07/Apr/2024 20:04:16] "OPTIONS /readDB HTTP/1.1" 200 -
+207.151.52.142 - - [07/Apr/2024 20:04:16] "OPTIONS /readDB HTTP/1.1" 200 -
+207.151.52.142 - - [07/Apr/2024 20:04:16] "POST /readDB HTTP/1.1" 200 -
+207.151.52.142 - - [07/Apr/2024 20:04:16] "POST /readDB HTTP/1.1" 200 -
+207.151.52.142 - - [07/Apr/2024 20:04:31] "OPTIONS /readDB HTTP/1.1" 200 -
+207.151.52.142 - - [07/Apr/2024 20:04:31] "OPTIONS /readDB HTTP/1.1" 200 -
+207.151.52.142 - - [07/Apr/2024 20:04:31] "POST /readDB HTTP/1.1" 200 -
+207.151.52.142 - - [07/Apr/2024 20:04:31] "POST /readDB HTTP/1.1" 200 -
+207.151.52.142 - - [07/Apr/2024 20:04:42] "OPTIONS /readDB HTTP/1.1" 200 -
+207.151.52.142 - - [07/Apr/2024 20:04:42] "OPTIONS /readDB HTTP/1.1" 200 -
+207.151.52.142 - - [07/Apr/2024 20:04:42] "POST /readDB HTTP/1.1" 200 -
+207.151.52.142 - - [07/Apr/2024 20:04:42] "POST /readDB HTTP/1.1" 200 -
+207.151.52.142 - - [07/Apr/2024 20:04:54] "[31m[1mPOST /upload-rawVideo HTTP/1.1[0m" 400 -
+207.151.52.142 - - [07/Apr/2024 20:06:04] "OPTIONS /readDB HTTP/1.1" 200 -
+207.151.52.142 - - [07/Apr/2024 20:06:04] "OPTIONS /readDB HTTP/1.1" 200 -
+207.151.52.142 - - [07/Apr/2024 20:06:04] "POST /readDB HTTP/1.1" 200 -
+207.151.52.142 - - [07/Apr/2024 20:06:04] "POST /readDB HTTP/1.1" 200 -
+207.151.52.142 - - [07/Apr/2024 20:06:18] "[31m[1mPOST /upload-rawVideo HTTP/1.1[0m" 400 -
+207.151.52.142 - - [07/Apr/2024 20:06:56] "POST /upload-rawVideo HTTP/1.1" 200 -
+207.151.52.142 - - [07/Apr/2024 20:07:13] "OPTIONS /readDB HTTP/1.1" 200 -
+207.151.52.142 - - [07/Apr/2024 20:07:13] "OPTIONS /readDB HTTP/1.1" 200 -
+207.151.52.142 - - [07/Apr/2024 20:07:13] "POST /readDB HTTP/1.1" 200 -
+207.151.52.142 - - [07/Apr/2024 20:07:13] "POST /readDB HTTP/1.1" 200 -
+207.151.52.142 - - [07/Apr/2024 20:07:43] "POST /upload-rawVideo HTTP/1.1" 200 -
+207.151.52.142 - - [07/Apr/2024 20:13:16] "OPTIONS /readDB HTTP/1.1" 200 -
+207.151.52.142 - - [07/Apr/2024 20:13:16] "OPTIONS /readDB HTTP/1.1" 200 -
+207.151.52.142 - - [07/Apr/2024 20:13:17] "POST /readDB HTTP/1.1" 200 -
+207.151.52.142 - - [07/Apr/2024 20:13:17] "POST /readDB HTTP/1.1" 200 -
+207.151.52.142 - - [07/Apr/2024 20:13:20] "POST /readDB HTTP/1.1" 200 -
+207.151.52.142 - - [07/Apr/2024 20:13:20] "POST /readDB HTTP/1.1" 200 -
+207.151.52.142 - - [07/Apr/2024 20:13:53] "POST /upload-rawVideo HTTP/1.1" 200 -
+207.151.52.142 - - [07/Apr/2024 20:14:10] "POST /upload-rawVideo HTTP/1.1" 200 -
+207.151.52.142 - - [07/Apr/2024 20:14:23] "OPTIONS /readDB HTTP/1.1" 200 -
+207.151.52.142 - - [07/Apr/2024 20:14:23] "OPTIONS /readDB HTTP/1.1" 200 -
+207.151.52.142 - - [07/Apr/2024 20:14:23] "POST /readDB HTTP/1.1" 200 -
+207.151.52.142 - - [07/Apr/2024 20:14:23] "POST /readDB HTTP/1.1" 200 -
+207.151.52.142 - - [07/Apr/2024 20:14:27] "POST /readDB HTTP/1.1" 200 -
+207.151.52.142 - - [07/Apr/2024 20:14:27] "POST /readDB HTTP/1.1" 200 -
+207.151.52.142 - - [07/Apr/2024 20:15:17] "POST /upload-rawVideo HTTP/1.1" 200 -
+207.151.52.142 - - [07/Apr/2024 20:21:07] "OPTIONS /readDB HTTP/1.1" 200 -
+207.151.52.142 - - [07/Apr/2024 20:21:07] "OPTIONS /readDB HTTP/1.1" 200 -
+207.151.52.142 - - [07/Apr/2024 20:21:07] "POST /readDB HTTP/1.1" 200 -
+207.151.52.142 - - [07/Apr/2024 20:21:07] "POST /readDB HTTP/1.1" 200 -
+207.151.52.142 - - [07/Apr/2024 20:22:22] "OPTIONS /readDB HTTP/1.1" 200 -
+207.151.52.142 - - [07/Apr/2024 20:22:22] "OPTIONS /readDB HTTP/1.1" 200 -
+207.151.52.142 - - [07/Apr/2024 20:22:22] "POST /readDB HTTP/1.1" 200 -
+207.151.52.142 - - [07/Apr/2024 20:22:22] "POST /readDB HTTP/1.1" 200 -
+207.151.52.142 - - [07/Apr/2024 20:22:55] "POST /upload-rawVideo HTTP/1.1" 200 -
+205.210.31.250 - - [07/Apr/2024 20:31:27] "[33mGET / HTTP/1.1[0m" 404 -
+108.181.45.21 - - [07/Apr/2024 20:33:33] "POST /upload-json HTTP/1.1" 200 -
+108.181.45.21 - - [07/Apr/2024 20:47:31] "POST /ask HTTP/1.1" 200 -
+167.94.146.59 - - [08/Apr/2024 00:55:41] code 400, message Bad request version ('À\x14À')
+167.94.146.59 - - [08/Apr/2024 00:55:41] "[31m[1m\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03Ü\x94}Ô*D.\x0f\x0c\x92\x16\x9a>FO\x89ÎbC³\x04\x1c;[R\x91dèw\x14\x0fi \x12ïn/J\x94\x03~©.\x0bâ\x10gygËØ\x97\x85¬\x0e}\x87(i\x99\x176§#¢\x00&Ì¨Ì©À/À0À+À,À\x13À\x09À\x14À[0m" 400 -
+167.94.146.59 - - [08/Apr/2024 00:55:44] "[33mGET / HTTP/1.1[0m" 404 -
+167.94.146.59 - - [08/Apr/2024 00:55:48] "[33mGET / HTTP/1.1[0m" 404 -
+167.94.146.59 - - [08/Apr/2024 00:55:48] code 505, message Invalid HTTP version (2.0)
+167.94.146.59 - - [08/Apr/2024 00:55:48] "[35m[1mPRI * HTTP/2.0[0m" 505 -
+179.60.150.59 - - [08/Apr/2024 01:22:28] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+179.60.150.59 - - [08/Apr/2024 01:22:28] "[31m[1m\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr[0m" 400 -
+87.236.176.15 - - [08/Apr/2024 02:30:03] "[33mGET / HTTP/1.1[0m" 404 -
+152.32.206.64 - - [08/Apr/2024 11:25:41] code 400, message Bad request version ('\x01K\x95T\x00H\x92à\x03èµ')
+152.32.206.64 - - [08/Apr/2024 11:25:41] "[31m[1m\x16\x03\x01\x01\x17\x01\x00\x01\x13\x03\x03\x9eó\x09óÜ)\x9fÖ\x17XO¡_Å\x89ÏÅÝ|ö:\x0c§Å\x84\x9cÅ\x84]£­F ÝH\x1fä\x00\x91p¿e¬\x8bpC\x9d"'Ëº\x09\x0b\x01K\x95T\x00H\x92à\x03èµ[0m" 400 -
+152.32.206.64 - - [08/Apr/2024 11:25:52] "[33mGET / HTTP/1.1[0m" 404 -
+152.32.206.64 - - [08/Apr/2024 11:25:52] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+152.32.206.64 - - [08/Apr/2024 11:25:52] "[33mGET /robots.txt HTTP/1.1[0m" 404 -
+152.32.206.64 - - [08/Apr/2024 11:25:52] "[33mGET /sitemap.xml HTTP/1.1[0m" 404 -
+194.165.16.10 - - [08/Apr/2024 11:38:59] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+194.165.16.10 - - [08/Apr/2024 11:38:59] "[31m[1m\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr[0m" 400 -
+179.60.150.59 - - [08/Apr/2024 13:06:32] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+179.60.150.59 - - [08/Apr/2024 13:06:32] "[31m[1m\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr[0m" 400 -
+207.151.52.142 - - [08/Apr/2024 13:43:55] "OPTIONS /readDB HTTP/1.1" 200 -
+207.151.52.142 - - [08/Apr/2024 13:43:55] "OPTIONS /readDB HTTP/1.1" 200 -
+207.151.52.142 - - [08/Apr/2024 13:43:55] "POST /readDB HTTP/1.1" 200 -
+207.151.52.142 - - [08/Apr/2024 13:43:55] "POST /readDB HTTP/1.1" 200 -
+207.151.52.142 - - [08/Apr/2024 13:57:31] "OPTIONS /readDB HTTP/1.1" 200 -
+207.151.52.142 - - [08/Apr/2024 13:57:31] "OPTIONS /readDB HTTP/1.1" 200 -
+207.151.52.142 - - [08/Apr/2024 13:57:31] "POST /readDB HTTP/1.1" 200 -
+207.151.52.142 - - [08/Apr/2024 13:57:31] "POST /readDB HTTP/1.1" 200 -
+207.151.52.142 - - [08/Apr/2024 13:57:45] "[31m[1mPOST /upload-rawVideo HTTP/1.1[0m" 400 -
+207.151.52.142 - - [08/Apr/2024 13:58:35] "OPTIONS /ask HTTP/1.1" 200 -
+207.151.52.142 - - [08/Apr/2024 13:58:42] "POST /ask HTTP/1.1" 200 -
+207.151.52.142 - - [08/Apr/2024 14:09:35] "OPTIONS /readDB HTTP/1.1" 200 -
+207.151.52.142 - - [08/Apr/2024 14:09:35] "OPTIONS /readDB HTTP/1.1" 200 -
+207.151.52.142 - - [08/Apr/2024 14:09:36] "POST /readDB HTTP/1.1" 200 -
+207.151.52.142 - - [08/Apr/2024 14:09:36] "POST /readDB HTTP/1.1" 200 -
+207.151.52.142 - - [08/Apr/2024 14:17:54] "OPTIONS /readDB HTTP/1.1" 200 -
+207.151.52.142 - - [08/Apr/2024 14:17:54] "OPTIONS /readDB HTTP/1.1" 200 -
+207.151.52.142 - - [08/Apr/2024 14:17:54] "POST /readDB HTTP/1.1" 200 -
+207.151.52.142 - - [08/Apr/2024 14:17:54] "POST /readDB HTTP/1.1" 200 -
+207.151.52.142 - - [08/Apr/2024 14:19:15] "OPTIONS /readDB HTTP/1.1" 200 -
+207.151.52.142 - - [08/Apr/2024 14:19:15] "OPTIONS /readDB HTTP/1.1" 200 -
+207.151.52.142 - - [08/Apr/2024 14:19:15] "POST /readDB HTTP/1.1" 200 -
+207.151.52.142 - - [08/Apr/2024 14:19:15] "POST /readDB HTTP/1.1" 200 -
+108.181.45.21 - - [08/Apr/2024 14:31:58] "POST /upload-json HTTP/1.1" 200 -
+84.54.51.241 - - [08/Apr/2024 14:32:58] code 400, message Bad request syntax ('JDWP-Handshake')
+84.54.51.241 - - [08/Apr/2024 14:32:58] "[31m[1mJDWP-Handshake[0m" 400 -
+108.181.45.21 - - [08/Apr/2024 14:35:29] "POST /upload-json HTTP/1.1" 200 -
+205.210.31.228 - - [08/Apr/2024 14:35:54] "[33mGET / HTTP/1.1[0m" 404 -
+108.181.45.21 - - [08/Apr/2024 14:37:27] "POST /upload-json HTTP/1.1" 200 -
+108.181.45.21 - - [08/Apr/2024 14:37:28] "POST /upload-json HTTP/1.1" 200 -
+108.181.45.21 - - [08/Apr/2024 14:37:28] "POST /upload-json HTTP/1.1" 200 -
+108.181.45.21 - - [08/Apr/2024 14:37:29] "POST /upload-json HTTP/1.1" 200 -
+108.181.45.21 - - [08/Apr/2024 14:52:58] "POST /upload-json HTTP/1.1" 200 -
+108.181.45.21 - - [08/Apr/2024 15:00:50] "POST /upload-json HTTP/1.1" 200 -
+80.66.83.114 - - [08/Apr/2024 17:33:24] code 400, message Bad request syntax ('\x04\x01\x00\x19h/\x12á\x00')
+80.66.83.114 - - [08/Apr/2024 17:33:24] "[31m[1m\x04\x01\x00\x19h/\x12á\x00[0m" 400 -
+80.66.83.114 - - [08/Apr/2024 17:34:25] code 400, message Bad request syntax ('\x05\x01\x00')
+80.66.83.114 - - [08/Apr/2024 17:34:25] "[31m[1m\x05\x01\x00[0m" 400 -
+80.66.83.114 - - [08/Apr/2024 17:34:25] "[33mCONNECT hotmail-com.olc.protection.outlook.com:25 HTTP/1.1[0m" 404 -
+80.66.83.114 - - [08/Apr/2024 17:40:09] code 400, message Bad request syntax ('\x04\x01\x00\x194eÂ\x05\x00')
+80.66.83.114 - - [08/Apr/2024 17:40:09] "[31m[1m\x04\x01\x00\x194eÂ\x05\x00[0m" 400 -
+80.66.83.114 - - [08/Apr/2024 17:41:09] code 400, message Bad request syntax ('\x05\x01\x00')
+80.66.83.114 - - [08/Apr/2024 17:41:09] "[31m[1m\x05\x01\x00[0m" 400 -
+80.66.83.114 - - [08/Apr/2024 17:41:09] "[33mCONNECT hotmail-com.olc.protection.outlook.com:25 HTTP/1.1[0m" 404 -
+54.187.172.92 - - [08/Apr/2024 19:00:35] "[33mGET / HTTP/1.1[0m" 404 -
+207.151.52.142 - - [08/Apr/2024 19:49:20] "OPTIONS /readDB HTTP/1.1" 200 -
+207.151.52.142 - - [08/Apr/2024 19:49:20] "OPTIONS /readDB HTTP/1.1" 200 -
+207.151.52.142 - - [08/Apr/2024 19:49:20] "POST /readDB HTTP/1.1" 200 -
+207.151.52.142 - - [08/Apr/2024 19:49:20] "POST /readDB HTTP/1.1" 200 -
+138.68.164.249 - - [08/Apr/2024 20:03:34] code 400, message Bad request version ('ìY\x95\x088\x00\x01<Ì\x14Ì\x13Ì\x15À0À,À(À$À\x14À')
+138.68.164.249 - - [08/Apr/2024 20:03:34] "[31m[1m\x16\x03\x01\x01ü\x01\x00\x01ø\x03\x03ýÔdtû:¦x\x1eþIëý>\x7fþµ\x00»Óà¤C"5U\x85ìY\x95\x088\x00\x01<Ì\x14Ì\x13Ì\x15À0À,À(À$À\x14À[0m" 400 -
+108.181.45.21 - - [08/Apr/2024 20:32:50] "POST /upload-json HTTP/1.1" 200 -
+108.181.45.21 - - [08/Apr/2024 20:32:51] "POST /upload-json HTTP/1.1" 200 -
+80.66.83.114 - - [08/Apr/2024 20:41:07] code 400, message Bad HTTP/0.9 request type ('\x04\x01\x00PUÎ')
+80.66.83.114 - - [08/Apr/2024 20:41:07] "[31m[1m\x04\x01\x00PUÎ s\x00[0m" 400 -
+80.66.83.114 - - [08/Apr/2024 20:42:07] code 400, message Bad request syntax ('\x05\x01\x00')
+80.66.83.114 - - [08/Apr/2024 20:42:07] "[31m[1m\x05\x01\x00[0m" 400 -
+80.66.83.114 - - [08/Apr/2024 20:42:07] "[33mCONNECT 85.206.160.115:80 HTTP/1.1[0m" 404 -
+207.151.52.142 - - [08/Apr/2024 20:44:40] "OPTIONS /readDB HTTP/1.1" 200 -
+207.151.52.142 - - [08/Apr/2024 20:44:40] "OPTIONS /readDB HTTP/1.1" 200 -
+207.151.52.142 - - [08/Apr/2024 20:44:40] "POST /readDB HTTP/1.1" 200 -
+207.151.52.142 - - [08/Apr/2024 20:44:40] "POST /readDB HTTP/1.1" 200 -
+207.151.52.142 - - [08/Apr/2024 21:02:42] "OPTIONS /readDB HTTP/1.1" 200 -
+207.151.52.142 - - [08/Apr/2024 21:02:42] "OPTIONS /readDB HTTP/1.1" 200 -
+207.151.52.142 - - [08/Apr/2024 21:02:43] "POST /readDB HTTP/1.1" 200 -
+207.151.52.142 - - [08/Apr/2024 21:02:43] "POST /readDB HTTP/1.1" 200 -
+207.151.52.142 - - [08/Apr/2024 21:03:07] "OPTIONS /readDB HTTP/1.1" 200 -
+207.151.52.142 - - [08/Apr/2024 21:03:07] "OPTIONS /readDB HTTP/1.1" 200 -
+207.151.52.142 - - [08/Apr/2024 21:03:07] "POST /readDB HTTP/1.1" 200 -
+207.151.52.142 - - [08/Apr/2024 21:03:07] "POST /readDB HTTP/1.1" 200 -
+207.151.52.142 - - [08/Apr/2024 21:04:14] "OPTIONS /readDB HTTP/1.1" 200 -
+207.151.52.142 - - [08/Apr/2024 21:04:14] "OPTIONS /readDB HTTP/1.1" 200 -
+207.151.52.142 - - [08/Apr/2024 21:04:14] "POST /readDB HTTP/1.1" 200 -
+207.151.52.142 - - [08/Apr/2024 21:04:14] "POST /readDB HTTP/1.1" 200 -
+207.151.52.142 - - [08/Apr/2024 21:04:21] "OPTIONS /readDB HTTP/1.1" 200 -
+207.151.52.142 - - [08/Apr/2024 21:04:21] "OPTIONS /readDB HTTP/1.1" 200 -
+207.151.52.142 - - [08/Apr/2024 21:04:21] "POST /readDB HTTP/1.1" 200 -
+207.151.52.142 - - [08/Apr/2024 21:04:21] "POST /readDB HTTP/1.1" 200 -
+207.151.52.142 - - [08/Apr/2024 21:08:56] "OPTIONS /readDB HTTP/1.1" 200 -
+207.151.52.142 - - [08/Apr/2024 21:08:56] "OPTIONS /readDB HTTP/1.1" 200 -
+207.151.52.142 - - [08/Apr/2024 21:08:56] "POST /readDB HTTP/1.1" 200 -
+207.151.52.142 - - [08/Apr/2024 21:08:56] "POST /readDB HTTP/1.1" 200 -
+198.235.24.132 - - [08/Apr/2024 22:46:09] "[33mGET / HTTP/1.1[0m" 404 -
+198.235.24.47 - - [09/Apr/2024 01:16:18] "[33mGET / HTTP/1.0[0m" 404 -
+45.128.232.98 - - [09/Apr/2024 04:26:15] code 400, message Bad request syntax ('JDWP-Handshake')
+45.128.232.98 - - [09/Apr/2024 04:26:15] "[31m[1mJDWP-Handshake[0m" 400 -
+104.32.164.32 - - [09/Apr/2024 09:13:45] "OPTIONS /readDB HTTP/1.1" 200 -
+104.32.164.32 - - [09/Apr/2024 09:13:45] "OPTIONS /readDB HTTP/1.1" 200 -
+104.32.164.32 - - [09/Apr/2024 09:13:45] "POST /readDB HTTP/1.1" 200 -
+104.32.164.32 - - [09/Apr/2024 09:13:45] "POST /readDB HTTP/1.1" 200 -
+108.181.45.21 - - [09/Apr/2024 10:02:40] "POST /upload-json HTTP/1.1" 200 -
+108.181.45.21 - - [09/Apr/2024 10:09:49] "POST /upload-json HTTP/1.1" 200 -
+68.181.17.130 - - [09/Apr/2024 10:32:26] "OPTIONS /readDB HTTP/1.1" 200 -
+68.181.17.130 - - [09/Apr/2024 10:32:26] "OPTIONS /readDB HTTP/1.1" 200 -
+68.181.17.130 - - [09/Apr/2024 10:32:27] "POST /readDB HTTP/1.1" 200 -
+68.181.17.130 - - [09/Apr/2024 10:32:27] "POST /readDB HTTP/1.1" 200 -
+68.181.17.130 - - [09/Apr/2024 10:35:52] "OPTIONS /readDB HTTP/1.1" 200 -
+68.181.17.130 - - [09/Apr/2024 10:35:52] "OPTIONS /readDB HTTP/1.1" 200 -
+68.181.17.130 - - [09/Apr/2024 10:35:52] "POST /readDB HTTP/1.1" 200 -
+68.181.17.130 - - [09/Apr/2024 10:35:52] "POST /readDB HTTP/1.1" 200 -
+68.181.17.130 - - [09/Apr/2024 10:36:43] "OPTIONS /readDB HTTP/1.1" 200 -
+68.181.17.130 - - [09/Apr/2024 10:36:43] "OPTIONS /readDB HTTP/1.1" 200 -
+68.181.17.130 - - [09/Apr/2024 10:36:43] "POST /readDB HTTP/1.1" 200 -
+68.181.17.130 - - [09/Apr/2024 10:36:43] "POST /readDB HTTP/1.1" 200 -
+108.181.45.21 - - [09/Apr/2024 10:40:16] "POST /upload-json HTTP/1.1" 200 -
+68.181.17.130 - - [09/Apr/2024 10:41:59] "OPTIONS /readDB HTTP/1.1" 200 -
+68.181.17.130 - - [09/Apr/2024 10:41:59] "OPTIONS /readDB HTTP/1.1" 200 -
+68.181.17.130 - - [09/Apr/2024 10:42:00] "POST /readDB HTTP/1.1" 200 -
+68.181.17.130 - - [09/Apr/2024 10:42:00] "POST /readDB HTTP/1.1" 200 -
+68.181.17.130 - - [09/Apr/2024 10:42:02] "POST /readDB HTTP/1.1" 200 -
+68.181.17.130 - - [09/Apr/2024 10:42:02] "POST /readDB HTTP/1.1" 200 -
+108.181.45.21 - - [09/Apr/2024 10:50:18] "POST /upload-json HTTP/1.1" 200 -
+108.181.45.21 - - [09/Apr/2024 10:54:01] "POST /upload-json HTTP/1.1" 200 -
+108.181.45.21 - - [09/Apr/2024 10:54:12] "POST /upload-json HTTP/1.1" 200 -
+68.181.17.130 - - [09/Apr/2024 10:57:52] "POST /upload-rawVideo HTTP/1.1" 200 -
+108.181.45.21 - - [09/Apr/2024 11:08:18] "POST /upload-json HTTP/1.1" 200 -
+68.181.17.130 - - [09/Apr/2024 11:12:15] "OPTIONS /ask HTTP/1.1" 200 -
+68.181.17.130 - - [09/Apr/2024 11:12:19] "POST /ask HTTP/1.1" 200 -
+108.181.45.21 - - [09/Apr/2024 11:24:57] "POST /upload-json HTTP/1.1" 200 -
+68.181.17.130 - - [09/Apr/2024 11:42:17] "[31m[1mPOST /upload-rawVideo HTTP/1.1[0m" 400 -
+185.170.144.3 - - [09/Apr/2024 11:44:37] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+185.170.144.3 - - [09/Apr/2024 11:44:37] "[31m[1m\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr[0m" 400 -
+68.181.17.130 - - [09/Apr/2024 11:49:20] "POST /upload-json HTTP/1.1" 200 -
+68.181.17.130 - - [09/Apr/2024 11:49:37] "POST /ask HTTP/1.1" 200 -
+68.181.17.130 - - [09/Apr/2024 11:57:47] "POST /upload-json HTTP/1.1" 200 -
+68.181.17.130 - - [09/Apr/2024 12:03:09] "[31m[1mPOST /upload-rawVideo HTTP/1.1[0m" 400 -
+198.235.24.220 - - [09/Apr/2024 14:39:43] "[33mGET / HTTP/1.1[0m" 404 -
+198.235.24.164 - - [09/Apr/2024 16:26:24] "[33mGET / HTTP/1.1[0m" 404 -
+206.168.34.186 - - [09/Apr/2024 17:19:52] "[33mGET / HTTP/1.1[0m" 404 -
+206.168.34.186 - - [09/Apr/2024 17:19:53] code 505, message Invalid HTTP version (2.0)
+206.168.34.186 - - [09/Apr/2024 17:19:53] "[35m[1mPRI * HTTP/2.0[0m" 505 -
+205.210.31.217 - - [09/Apr/2024 18:46:50] "[33mGET / HTTP/1.0[0m" 404 -
+2.57.149.186 - - [09/Apr/2024 19:15:19] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+2.57.149.186 - - [09/Apr/2024 19:15:19] "[31m[1m\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr[0m" 400 -
+205.210.31.215 - - [09/Apr/2024 19:27:17] "[33mGET / HTTP/1.1[0m" 404 -
+87.251.67.195 - - [09/Apr/2024 22:37:21] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+87.251.67.195 - - [09/Apr/2024 22:37:21] "[31m[1m\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr[0m" 400 -
+80.82.77.139 - - [09/Apr/2024 22:54:47] "[33mGET / HTTP/1.1[0m" 404 -
+80.82.77.139 - - [09/Apr/2024 22:54:48] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+138.68.180.151 - - [09/Apr/2024 23:02:20] code 400, message Bad request version ('NÙEùi\x171J@æë°QË\x00\x01<Ì\x14Ì\x13Ì\x15À0À,À(À$À\x14À')
+138.68.180.151 - - [09/Apr/2024 23:02:20] "[31m[1m\x16\x03\x01\x01ü\x01\x00\x01ø\x03\x03©Wãq\x09\x8b¸§aO´\x94©%\x18N\x95\x1dNÙEùi\x171J@æë°QË\x00\x01<Ì\x14Ì\x13Ì\x15À0À,À(À$À\x14À[0m" 400 -
+167.94.138.52 - - [09/Apr/2024 23:53:35] code 400, message Bad request version ('À\x14À')
+167.94.138.52 - - [09/Apr/2024 23:53:35] "[31m[1m\x16\x03\x01\x00î\x01\x00\x00ê\x03\x039u´¹D\x86Þ\x9f3Ri\x81[e äy«c#\x0e\x91Þ\x11\x16aØ@þ½_\x87 \x00\x0e¬±9{·\x82®ËBeÔ\x09ôo\x82h\x95eD`(4ö³·\x0d`Ì\x09\x08\x00&Ì¨Ì©À/À0À+À,À\x13À\x09À\x14À[0m" 400 -
+167.94.138.52 - - [09/Apr/2024 23:53:38] "[33mGET / HTTP/1.1[0m" 404 -
+167.94.138.52 - - [09/Apr/2024 23:53:43] "[33mGET / HTTP/1.1[0m" 404 -
+167.94.138.52 - - [09/Apr/2024 23:53:43] code 505, message Invalid HTTP version (2.0)
+167.94.138.52 - - [09/Apr/2024 23:53:43] "[35m[1mPRI * HTTP/2.0[0m" 505 -
+162.142.125.217 - - [09/Apr/2024 23:56:39] code 400, message Bad request version ('À\x14À')
+162.142.125.217 - - [09/Apr/2024 23:56:39] "[31m[1m\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03\x97ç\x8bEo\x0eÖÅ\x01óSø£ÏBn¤\\\x95\x12KÞû°EäSJ_Ù\x11ç \x1cøext´îüåEõ\x89\x88tF×Ñ­°\x18\x14\x96,äéØ}\x83£~¼\x13\x00&Ì¨Ì©À/À0À+À,À\x13À\x09À\x14À[0m" 400 -
+162.142.125.217 - - [09/Apr/2024 23:56:42] "[33mGET / HTTP/1.1[0m" 404 -
+162.142.125.217 - - [09/Apr/2024 23:56:47] "[33mGET / HTTP/1.1[0m" 404 -
+162.142.125.217 - - [09/Apr/2024 23:56:47] code 505, message Invalid HTTP version (2.0)
+162.142.125.217 - - [09/Apr/2024 23:56:47] "[35m[1mPRI * HTTP/2.0[0m" 505 -
+198.235.24.48 - - [10/Apr/2024 00:21:34] "[33mGET / HTTP/1.1[0m" 404 -
+198.235.24.217 - - [10/Apr/2024 00:24:29] "[33mGET / HTTP/1.1[0m" 404 -
+107.170.229.62 - - [10/Apr/2024 00:29:24] "[33mGET /v2/ HTTP/1.1[0m" 404 -
+198.235.24.179 - - [10/Apr/2024 01:20:54] "[33mGET / HTTP/1.1[0m" 404 -
+2.57.149.186 - - [10/Apr/2024 01:58:57] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+2.57.149.186 - - [10/Apr/2024 01:58:57] "[31m[1m\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr[0m" 400 -
+205.210.31.19 - - [10/Apr/2024 04:54:45] "[33mGET / HTTP/1.1[0m" 404 -
+91.92.245.67 - - [10/Apr/2024 10:11:35] "[33mCONNECT api.ipify.org:443 HTTP/1.1[0m" 404 -
+87.236.176.233 - - [10/Apr/2024 11:13:14] "[33mGET / HTTP/1.1[0m" 404 -
+198.235.24.167 - - [10/Apr/2024 11:35:39] "[33mGET / HTTP/1.1[0m" 404 -
+87.236.176.178 - - [10/Apr/2024 13:20:23] "[33mGET / HTTP/1.1[0m" 404 -
+198.235.24.167 - - [10/Apr/2024 15:37:37] "[33mGET / HTTP/1.0[0m" 404 -
+167.94.145.57 - - [10/Apr/2024 15:59:17] code 400, message Bad request version ('À\x14À')
+167.94.145.57 - - [10/Apr/2024 15:59:17] "[31m[1m\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03%¾\x14\x1cï7¼\x89Téèu\x95¼í\x1fß=\x01K¼eäZ7q5úX{ìI =Èõ\x7f¤\x83¨3\x9c3\x9fz@=ôòý\x18N¸\x15@Ls&ÀåvÈÄ\x03ä\x00&Ì¨Ì©À/À0À+À,À\x13À\x09À\x14À[0m" 400 -
+167.94.145.57 - - [10/Apr/2024 15:59:20] "[33mGET / HTTP/1.1[0m" 404 -
+167.94.145.57 - - [10/Apr/2024 15:59:23] "[33mGET / HTTP/1.1[0m" 404 -
+167.94.145.57 - - [10/Apr/2024 15:59:24] code 505, message Invalid HTTP version (2.0)
+167.94.145.57 - - [10/Apr/2024 15:59:24] "[35m[1mPRI * HTTP/2.0[0m" 505 -
+45.140.17.52 - - [10/Apr/2024 19:43:03] code 400, message Bad request version ("©W\x00\x000À(\x00\x9f\x00\x9e\x00\x9d\x00\x9cÀ+À#À'À\x14À\x13\x00=\x00<\x005\x00/À,À$À")
+45.140.17.52 - - [10/Apr/2024 19:43:03] "[31m[1m\x16\x03\x03\x00\x8e\x01\x00\x00\x8a\x03\x03f\x17N4%\x84AøF\x9a\x0b-\x01\x06Ê«ìã0ä©\x88\x1cj\x15GÕ\x01¡\x09©W\x00\x000À(\x00\x9f\x00\x9e\x00\x9d\x00\x9cÀ+À#À'À\x14À\x13\x00=\x00<\x005\x00/À,À$À[0m" 400 -
+45.140.17.52 - - [10/Apr/2024 19:43:03] code 400, message Bad request version ("\x8fÁEîÆ\x06ÇüúQçè\x00\x000À(\x00\x9f\x00\x9e\x00\x9d\x00\x9cÀ+À#À'À\x14À\x13\x00=\x00<\x005\x00/À,À$À")
+45.140.17.52 - - [10/Apr/2024 19:43:03] "[31m[1m\x16\x03\x03\x00\x8e\x01\x00\x00\x8a\x03\x03f\x17N52HÂX\x85£\x94òúéOM\x9aæ\x87\x1d\x8fÁEîÆ\x06ÇüúQçè\x00\x000À(\x00\x9f\x00\x9e\x00\x9d\x00\x9cÀ+À#À'À\x14À\x13\x00=\x00<\x005\x00/À,À$À[0m" 400 -
+130.211.54.158 - - [11/Apr/2024 00:15:28] "[33mGET / HTTP/1.1[0m" 404 -
+162.243.139.15 - - [11/Apr/2024 05:46:34] "[33mGET /v2/ HTTP/1.1[0m" 404 -
+87.236.176.59 - - [11/Apr/2024 09:42:02] "[33mGET / HTTP/1.1[0m" 404 -
+205.210.31.59 - - [11/Apr/2024 13:41:27] "[33mGET / HTTP/1.1[0m" 404 -
+ * Detected change in '/home/mario/DirectResearch/backend/eTA/service/embedding/dynamoDB.py', reloading
+Transcribing chunk 1...
+Transcribing chunk 2...
+Transcribing chunk 3...
+Transcribing chunk 4...
+Table EE450 write finished.
+Transcribing chunk 1...
+Transcribing chunk 2...
+Transcribing chunk 3...
+Transcribing chunk 4...
+Table EE450 write finished.
+Table llqyd5tpdcq34o created successfully in On-Demand mode.
+Table llqyd5tpdcq34o write finished.
+Transcribing chunk 1...
+Transcribing chunk 2...
+Transcribing chunk 3...
+Transcribing chunk 4...
+Table EE450 write finished.
+Transcribing chunk 1...
+Transcribing chunk 2...
+Transcribing chunk 3...
+Transcribing chunk 4...
+Table EE450 write finished.
+Transcribing chunk 1...
+Transcribing chunk 2...
+Transcribing chunk 3...
+Transcribing chunk 4...
+Table EE450 write finished.
+Transcribing chunk 1...
+Transcribing chunk 2...
+Transcribing chunk 3...
+Transcribing chunk 4...
+Table EE450 write finished.
+Transcribing chunk 1...
+Transcribing chunk 2...
+Transcribing chunk 3...
+Transcribing chunk 4...
+Table EE450 write finished.
+Transcribing chunk 1...
+Transcribing chunk 2...
+Transcribing chunk 3...
+Transcribing chunk 4...
+Table EE450 write finished.
+Table llqyd5tpdcq34o write finished.
+Table llqyd5tpdcq34o write finished.
+Table llqyd5tpdcq34o write finished.
+Table llqyd5tpdcq34o write finished.
+Table llqyd5tpdcq34o write finished.
+Table llqyd5tpdcq34o write finished.
+Table llqyd5tpdcq34o write finished.
+Table llqyd5tpdcq34o write finished.
+Table llqyd5tpdcq34o write finished.
+Table llqyd5tpdcq34o write finished.
+Table llqyd5tpdcq34o write finished.
+Table l7dlij7ko7v4bv created successfully in On-Demand mode.
+Table l7dlij7ko7v4bv write finished.
+Table l7dlij7ko7v4bv write finished.
+Table llqyd5tpdcq34o write finished.
+Table l7dlij7ko7v4bv write finished.
+Table llqyd5tpdcq34o write finished.
+Table l7dlij7ko7v4bv write finished.
+Transcribing chunk 1...
+Transcribing chunk 2...
+Transcribing chunk 3...
+Transcribing chunk 4...
+Table EE542 write finished.
+Table llqyd5tpdcq34o write finished.
+Table llqyd5tpdcq34o write finished.
+Table llqyd5tpdcq34o write finished.
+Table llqyd5tpdcq34o write finished.
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 128-389-916
+ * Detected change in '/home/mario/DirectResearch/backend/eTA/service/embedding/dynamoDB.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 128-389-916
+ * Detected change in '/home/mario/DirectResearch/backend/eTA/controller/handleDatabase.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 128-389-916
+ * Detected change in '/home/mario/DirectResearch/backend/eTA/app.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 128-389-916
+69.75.173.230 - - [11/Apr/2024 16:31:56] "GET /list-tables HTTP/1.1" 200 -
+ * Detected change in '/home/mario/DirectResearch/backend/eTA/app.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 128-389-916
+69.75.173.230 - - [11/Apr/2024 16:32:36] "GET /list-tables HTTP/1.1" 200 -
+ * Detected change in '/home/mario/DirectResearch/backend/eTA/service/embedding/dynamoDB.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 128-389-916
+ * Detected change in '/home/mario/DirectResearch/backend/eTA/controller/handleDatabase.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 128-389-916
+69.75.173.230 - - [11/Apr/2024 16:34:12] "GET /list-tables HTTP/1.1" 200 -
+ * Detected change in '/home/mario/DirectResearch/backend/eTA/service/embedding/dynamoDB.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 128-389-916
+ * Detected change in '/home/mario/DirectResearch/backend/eTA/service/embedding/dynamoDB.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 128-389-916
+ * Detected change in '/home/mario/DirectResearch/backend/eTA/app.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 128-389-916
+69.75.173.230 - - [11/Apr/2024 16:37:06] "GET /list-tables HTTP/1.1" 200 -
