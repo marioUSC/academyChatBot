@@ -33,7 +33,8 @@ You can use this API to pose questions to the e_TA bot, which will then provide 
 {
   "answer": "Answer from sBert",
   "llamaIndexAnswer": "Answer from llamaIndex",
-  "question": "Your Question Here"
+  "question": "Your Question Here",
+  "hasAnswer": true, // true for has answer, false for there is no relevant knowledge to answer it
 }
 ```
 
@@ -203,6 +204,7 @@ Update a specific item from the database
 ```
 
 **Response**
+
 - `message`: Describes the result of the operation, e.g., "Item found".
 - `status`: HTTP status code indicating the result, e.g., 200 for success.
 
@@ -234,6 +236,7 @@ Delete a specific item from the database
 ```
 
 **Response**
+
 - `message`: Describes the result of the operation, e.g., "Deleted successfully".
 - `status`: HTTP status code indicating the result, e.g., 200 for success.
 
@@ -257,10 +260,10 @@ Upload transcript to the database
 - `courseID`: table you want to upload to
 - `fileID`: source of this upload
 - `Content`: list of the knowledge
-    - Each item in content list shoudl contain:
-        - 'timestamp'
-        - 'content'
-        - 'keyframe URL'
+  - Each item in content list shoudl contain:
+    - 'timestamp'
+    - 'content'
+    - 'keyframe URL'
 
 ```
 {
@@ -282,6 +285,7 @@ Upload transcript to the database
 ```
 
 **Response**
+
 - `message`: Describes the result of the operation, e.g., "Deleted successfully".
 
 ```

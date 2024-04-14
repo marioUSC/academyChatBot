@@ -7,7 +7,7 @@ import os
 # This function calls the embedding model to retrieve the most similar QA pairs.
 # It then forwards these pairs to the LLM (Large Language Model) for summarization.
 # After receiving the summarized response, it returns the reply to the user.
-def handleQuery(question, table_name):
+def handleQuery(question, table_name, llama_Answer = "default, ignore me"):
     
     # Base prompt with instructions for the model
     base_prompt = """Please carefully review the provided Q&A pairs to identify and extract \
@@ -15,20 +15,29 @@ def handleQuery(question, table_name):
                 details that directly address the new question, while completely ignoring any \
                 information or pairs that are unrelated. Your response should be a single, \
                 human-like answer that precisely addresses the new question based on \
-                the most relevant information found within the provided Q&A pairs. \n"""
+                the most relevant information found within the provided Q&A pairs. \
+                This is very important: If you think there is no enough info to answer this question, simply reply me with no, don't reply anything else!!!!\n"""
 
     # Get the most silimar QA pairs from embedding model
     knowledge = find_similar_questions(question, table_name, 5)
 
     # Concatenate the base prompt with the specific question and the context
-    knowledge_prompt = f" Q&A pairs knowledge base:  : {knowledge}"
+    knowledge_prompt = f" Q&A pairs knowledge base 1:  : {knowledge}"
     question_prompt = f"Question: {question}"
 
+    llama_prompt = f" Another reference:  : {llama_Answer}"
+
     # Aks LLM to summerize the result
-    final_prompt = base_prompt + question_prompt + knowledge_prompt 
+    final_prompt = base_prompt + question_prompt + knowledge_prompt + llama_prompt
     result = query_GPT(final_prompt)
-    # print('update111:' + result)
     return result
+
+def handleAnswerValidation(answer, question):
+    check_answer_prompt = f" if the following statment is a answer to the specific question, reply me with 'yes', else is it states not enough info or cannot get the answer, reply me with 'no'. \
+                            don't reply anything else except 'yes' or 'no', all should be lower case: Answer: {answer} Question: {question}"
+    check_result = query_GPT(check_answer_prompt)
+    print('If current answer has result:' + check_result)
+    return check_result
 
 # Embedding model using Llama Index
 def llamaQuery(user_question):
