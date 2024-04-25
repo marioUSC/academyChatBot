@@ -3,6 +3,7 @@ from eTA.service.LLM.llama2 import query_llama2
 from eTA.service.embedding.getAnswer import find_similar_questions
 from llama_index.core import StorageContext, load_index_from_storage, set_global_service_context, ServiceContext, VectorStoreIndex
 import os
+import re
 
 # This function calls the embedding model to retrieve the most similar QA pairs.
 # It then forwards these pairs to the LLM (Large Language Model) for summarization.
@@ -16,7 +17,7 @@ def handleQuery(question, table_name, llama_Answer = "default, ignore me"):
                 information or pairs that are unrelated. Your response should be a single, \
                 human-like answer that precisely addresses the new question based on \
                 the most relevant information found within the provided Q&A pairs. \
-                This is very important: If you think there is no enough info to answer this question, simply reply me with no, don't reply anything else!!!!\n"""
+                If the QA pair you picked has the link, also return all link in format(replace real_linkx as real link, and LLIINNKK as an indicator): LLIINNKK: real_link1, real_link2}\n"""
 
     # Get the most silimar QA pairs from embedding model
     knowledge = find_similar_questions(question, table_name, 5)
@@ -29,9 +30,58 @@ def handleQuery(question, table_name, llama_Answer = "default, ignore me"):
 
     # Aks LLM to summerize the result
     final_prompt = base_prompt + question_prompt + knowledge_prompt + llama_prompt
+    # print(final_prompt)
     result = query_GPT(final_prompt)
     return result
 
+# check if link exist, return link or none
+def extractLinks(input_string):
+    # Initialize an empty list to hold the extracted links
+    links = []
+    
+    # Use a regular expression to search for the specified format
+    # "LLIINNKK:" followed by one or more non-whitespace characters, separated by commas, possibly surrounded by whitespace
+    match = re.search(r'LLIINNKK:\s*((?:\S+,?\s*)+)', input_string)
+    
+    # If a match is found, extract the links
+    if match:
+        # Get the matched group of links as a single string
+        links_str = match.group(1)
+        # Split the string on commas to get individual links, and strip any surrounding whitespace from each link
+        links = [link.strip() for link in links_str.split(',')]
+    
+    # Return the list of links; this will be empty if no links were found
+    return links
+
+# remove link part of answer
+def extractAnswer(input_string):
+    cleaned_string = re.sub(r'LLIINNKK:.*', '', input_string)
+    
+    # Return the modified string which is the original string with "LLIINNKK:" and the following part removed
+    return cleaned_string
+
+def extract_links_and_answer(input_string):
+    # Initialize an empty list to hold the extracted links
+    links = []
+    
+    # Use a regular expression to find "LLIINNKK:" and everything after it
+    match = re.search(r'LLIINNKK:\s*((?:\S+,?\s*)+)', input_string)
+    
+    # If a match is found, extract the links
+    if match:
+        # Extract and split the links, stripping any surrounding whitespace
+        links_str = match.group(1)
+        links = [link.strip() for link in links_str.split(',')]
+        # Remove the matched part from the input string
+        cleaned_string = re.sub(r'LLIINNKK:.*', '', input_string)
+    else:
+        # If no links are found, return the original string as is
+        cleaned_string = input_string
+    
+    # Return a tuple containing the list of links and the modified input string
+    return links, cleaned_string
+
+# check if the answer can be answered
 def handleAnswerValidation(answer, question):
     check_answer_prompt = f" if the following statment is a answer to the specific question, reply me with 'yes', else is it states not enough info or cannot get the answer, reply me with 'no'. \
                             don't reply anything else except 'yes' or 'no', all should be lower case: Answer: {answer} Question: {question}"
@@ -67,5 +117,6 @@ def llamaQuery(user_question):
     return response
 
 if __name__ == '__main__':
-    # handleQuery('where should I return the gateway?')
-    print(llamaQuery('test'))
+    input_example = "Here is an example of "
+    output_links = extractLinks(input_example)
+    print(output_links)  # Output: ['https://example.com', 'https://test.com']

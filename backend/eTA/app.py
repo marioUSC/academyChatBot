@@ -1,6 +1,6 @@
 from flask import Flask, request, jsonify
 from flask_cors import CORS
-from eTA.controller.handleQuery import handleQuery, llamaQuery, handleAnswerValidation
+from eTA.controller.handleQuery import handleQuery, llamaQuery, handleAnswerValidation, extractLinks, extractAnswer, extract_links_and_answer
 from eTA.controller.handleDatabase import (
     handleUpload, handleScan, handleItemSearch, handleDelete,
     handleModifyItem, handleVedioUpload, handleReadTables
@@ -36,7 +36,10 @@ def answer_question():
         answer_llamaIndex = "deprecated"
 
         has_answer = False if handleAnswerValidation(answer, question) == "no" else True
-        return jsonify({"question": question, "answer": answer, "llamaIndexAnswer": answer_llamaIndex, "hasAnswer": has_answer})
+
+        output_links, output_answer = extract_links_and_answer(answer)
+        return jsonify({"question": question, "answer": output_answer, "llamaIndexAnswer": answer_llamaIndex, "hasAnswer": has_answer, 'link': output_links})
+ 
     else:
         return jsonify({"error": "Request must be JSON"}), 400
 
